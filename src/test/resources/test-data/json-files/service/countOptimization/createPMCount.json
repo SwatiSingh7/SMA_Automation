@@ -1,0 +1,12 @@
+{
+  "type": "Counts",
+  "name": "PM List Store 2 Dept 265 12:00 TO 03:00",
+  "items": ["${items1}","${items2}"],
+  "departmentList": null,
+  "startTime": "${currentDate_strtTime_PM}",
+  "endTime": "${currentDate_endTime_PM}",
+  "date": "${currentDate_Time}",
+  "scheduleRef": "Count Schedule Reference",
+  "isIgnoreRange": "yes",
+  "mode": "list"
+}

@@ -1,0 +1,289 @@
+{
+    "gtins": [
+        {
+            "id": "5000205034546",
+            "type": "EAN13",
+            "additionalProperties": {
+                "isPrimaryBarcode": true
+            }
+        }
+    ],
+    "itemNumber": "100001605",
+    "orderType": null,
+    "isCatchWeight": false,
+    "vatRate": 0,
+    "certifiedForExport": "Yes",
+    "catchWeight": false,
+    "nonAlcoholLinesInBws": "No",
+    "cafeSelfServe": {
+        "kitchenPrinterFlag": null,
+        "modifierFlag": null
+    },
+    "standardUnitOfMeasure": "EA",
+    "forceEnterPrice": false,
+    "commercialHierarchy": {
+        "division": 2,
+        "divisionName": "Ambient & Dairy",
+        "group": 1,
+        "groupName": "Frozen",
+        "department": 1,
+        "departmentName": "006 Frozen Fish",
+        "className": "Frozen Kids Fish",
+        "subclass": 8,
+        "subclassName": "Frozen Fish Shapes",
+        "additionalProperties": {},
+        "class_": 3
+    },
+    "packComponents": [],
+    "productLife": {
+        "productLifeAtTimeOfManufacture": "998",
+        "minimumAcceptableProductLifedays": "270",
+        "productExpirationDays": "1"
+    },
+    "netContent": null,
+    "itemDescription": "YOUNGS FLIPPER DIPPERS 250G",
+    "brand": "Young's",
+    "vatCode": "Z",
+    "productDescription": {
+        "shelfEdgeLabelLine3": " £250G",
+        "shelfEdgeLabelLine1": "YOUNGS",
+        "shelfEdgeLabelLine2": "FLIPPER DIPPERS"
+    },
+    "smsPermanent": "No",
+    "marketStreet": {
+        "cookingInstructions": null,
+        "shelfLife": null,
+        "dayAdditional": null,
+        "sourceAndMethod": null
+    },
+    "packedMins": false,
+    "gda": [],
+    "stockAccountingMethod": {
+        "value": 1,
+        "description": "RMS - Standard"
+    },
+    "nutritionalHeading": "100g grilled contains,3 flipper dippers grilled contains,% RI*,RI* for an average adult",
+    "sellingUnitOfMeasure": "EA",
+    "legacyItemNumbers": [
+        "0067271"
+    ],
+    "packs": [
+        {
+            "packNumber": "100003804",
+            "packQuantity": 12,
+            "additionalProperties": {}
+        }
+    ],
+    "storeLiveDate": "13-OCT-08",
+    "sellBy": "BB",
+    "pharmacyOnly": "N",
+    "clothing": null,
+    "tillDescription": "FLIPPER DIPPERS",
+    "catchWeightType": null,
+    "status": "A",
+    "foodTechnical": false,
+    "supplySource": "W",
+    "components": null,
+    "saleType": null,
+    "storage": [
+        "Keep Frozen"
+    ],
+    "productFlags": {
+        "packInd": false,
+        "perishableInd": true,
+        "constDimenInd": true,
+        "packType": null,
+        "simplePackInd": false,
+        "catchWeightUom": null,
+        "orderableInd": true,
+        "inventoryInd": true,
+        "merchandiseInd": true,
+        "sellableInd": true
+    },
+    "uepItem": true,
+    "ctcTrialFlag": "1",
+    "productPurpose": "Selling",
+    "unitEquivalentPrice": {
+        "unitOfMeasureCode": "G",
+        "netContent": 250.0
+    },
+    "imageUrl": [
+        {
+            "url": "https://s3-eu-west-1.amazonaws.com/mprod.xxwmm.retail.brandbank.zzzzzzzzzz/images/brandbank/5000205034546_0.jpg",
+            "shotType": "ID Shot",
+            "height": 1500,
+            "width": 1500,
+            "additionalProperties": {}
+        }
+    ],
+    "productUOM": {
+        "uomConversionFactor": null
+    },
+    "ingredients": [
+        "Minced White Fish (44%) (Fish)",
+        "Wheat Flour [Wheat Flour, Calcium Carbonate, Iron, Niacin (B3), Thiamin (B1)]",
+        "Water",
+        "Dried Potato",
+        "Sunflower Oil",
+        "Rapeseed Oil",
+        "Palm Oil",
+        "Salt",
+        "Yeast"
+    ],
+    "magazines": {
+        "dayIssued": null,
+        "frequency": null
+    },
+    "seo": null,
+    "productType": "ITEM",
+    "productRestrictions": {
+        "fuelCardRestrictions": "Goods Zero Rate VAT",
+        "allowQuantityMultiplier": "Yes",
+        "refundable": "Yes",
+        "wetStock": "No",
+        "operatorAgeCheck": "No"
+    },
+    "nutritionalInfo": [
+        {
+            "name": "Energy",
+            "perComp": "875kJ,623kJ,,8400kJ",
+            "perServing": null,
+            "additionalProperties": {}
+        },
+        {
+            "name": "",
+            "perComp": "208kcal,148kcal,7%,2000kcal",
+            "perServing": null,
+            "additionalProperties": {}
+        },
+        {
+            "name": "Fat",
+            "perComp": "8.1g,5.8g,8%,70g",
+            "perServing": null,
+            "additionalProperties": {}
+        },
+        {
+            "name": "(of which saturates)",
+            "perComp": "1.4g,1.0g,5%,20g",
+            "perServing": null,
+            "additionalProperties": {}
+        },
+        {
+            "name": "Carbohydrate",
+            "perComp": "24.2g,17.3g,,",
+            "perServing": null,
+            "additionalProperties": {}
+        },
+        {
+            "name": "(of which sugars)",
+            "perComp": "1.4g,1.0g,1%,90g",
+            "perServing": null,
+            "additionalProperties": {}
+        },
+        {
+            "name": "Fibre",
+            "perComp": "1.4g,1.0g,,",
+            "perServing": null,
+            "additionalProperties": {}
+        },
+        {
+            "name": "Protein",
+            "perComp": "8.9g,6.4g,,",
+            "perServing": null,
+            "additionalProperties": {}
+        },
+        {
+            "name": "Salt",
+            "perComp": "0.9g,0.6g,11%,6g",
+            "perServing": null,
+            "additionalProperties": {}
+        },
+        {
+            "name": "Omega 3 (EPA/DHA)",
+            "perComp": "91mg,67mg,,",
+            "perServing": null,
+            "additionalProperties": {}
+        },
+        {
+            "name": "Pack contains 3 servings",
+            "perComp": ",,,",
+            "perServing": null,
+            "additionalProperties": {}
+        },
+        {
+            "name": "*Reference intake of an average adult (8400kJ / 2000kcal)",
+            "perComp": ",,,",
+            "perServing": null,
+            "additionalProperties": {}
+        }
+    ],
+    "storeToBarcode": "No",
+    "reportingHierarchy": {
+        "departmentName": "Frozen Fish",
+        "divisionName": "Ambient",
+        "class_": "1-3",
+        "className": "Frozen Kids Fish",
+        "categoryName": "Frozen Food",
+        "division": "2",
+        "groupName": "Frozen",
+        "subclass": "1-3-8",
+        "subclassName": "Frozen Fish Shapes",
+        "additionalProperties": {},
+        "category": "2",
+        "department": "1",
+        "group": "1"
+    },
+    "productMarketing": null,
+    "allergenInfo": [
+        {
+            "name": "Fish",
+            "value": "Contains",
+            "additionalProperties": {}
+        },
+        {
+            "name": "Wheat",
+            "value": "Contains",
+            "additionalProperties": {}
+        }
+    ],
+    "priceType": "Regular Item",
+    "parentItemNumber": "100001475",
+    "commodityProduceOnly": "No",
+    "customerFriendlyDescription": "Youngs Flipper Dippers 250g",
+    "brandType": "B",
+    "productComplianceInfo": {
+        "proteinContentPer100g": 8.9,
+        "saturatedfatContentPer100g": 1.4,
+        "asSoldorAsConsumed": "As Consumed",
+        "sodiumContentPer100g": 360.0,
+        "fibreContentPer100g": 1.4,
+        "foodDrink": "Food",
+        "vegan": false,
+        "vegPercentage": 0.0,
+        "nutrientProfilingScore": 1,
+        "saltContentPer100g": 0.9,
+        "hfssLessHealthy": false,
+        "vegetarian": false,
+        "vegetableFruitNutPercentage": 0.0,
+        "sugarContentPer100g": 1.4,
+        "hfssInScope": 1,
+        "energyPer100g": 869,
+        "hfssCategory": 13
+    },
+    "priceMarked": false,
+    "countryOfOrigin": null,
+    "beersWinesSpirits": {
+        "strengthNumberAndWord": null,
+        "alcoholByVolume": null,
+        "tastingNotes": null,
+        "additionalTastingNote": null,
+        "volumeInLitres": null
+    },
+    "dimensions": {
+        "length": 0.0,
+        "height": 0.0,
+        "width": 0.0,
+        "weight": 0.0,
+        "additionalProperties": {}
+    }
+}

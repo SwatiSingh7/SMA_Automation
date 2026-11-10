@@ -1,0 +1,253 @@
+{
+	"gtins": [
+		{
+			"id": "19066",
+			"additionalProperties": {
+				"isPrimaryBarcode": true
+			},
+			"type": "VPLU"
+		},
+		{
+			"id": "2319066000000",
+			"additionalProperties": {
+				"isPrimaryBarcode": false
+			},
+			"type": "VPLUBC"
+		}
+	],
+	"itemNumber": "102381713",
+	"orderType": "V",
+	"isCatchWeight": true,
+	"vatRate": 0,
+	"certifiedForExport": "Yes",
+	"nonAlcoholLinesInBws": "No",
+	"cafeSelfServe": {
+		"modifierFlag": null,
+		"kitchenPrinterFlag": null
+	},
+	"standardUnitOfMeasure": "EA",
+	"forceEnterPrice": false,
+	"commercialHierarchy": {
+		"division": 9,
+		"departmentName": "Whole Chicken (Fresh)",
+		"groupName": "Poultry (Fresh)",
+		"divisionName": "Fresh",
+		"class_": 109,
+		"subclass": 187,
+		"className": "Free Range Whole Chicken (Fresh)",
+		"subclassName": "Med Free Rang Whole Chicken (Fresh)",
+		"additionalProperties": {},
+		"department": 285,
+		"group": 54
+	},
+	"packComponents": [],
+	"productLife": {
+		"productLifeAtTimeOfManufacture": "08",
+		"minimumAcceptableProductLifedays": "4",
+		"productExpirationDays": "1"
+	},
+	"netContent": null,
+	"itemDescription": "MORRISONS BRITISH WHOLE CHICKEN FREE RANGE 0.9 - 2.2KG",
+	"brand": "M MARKET STREET",
+	"vatCode": "Z",
+	"productDescription": {
+		"shelfEdgeLabelLine3": "RANGE",
+		"shelfEdgeLabelLine1": "MORRISONS BRITISH",
+		"shelfEdgeLabelLine2": "WHOLE CHICKEN FREE"
+	},
+	"smsPermanent": "Yes",
+	"marketStreet": {
+		"sourceAndMethod": null,
+		"cookingInstructions": null,
+		"dayAdditional": null,
+		"shelfLife": null
+	},
+	"packedMins": false,
+	"temperatureCheckRequired": "Yes",
+	"gda": [],
+	"stockAccountingMethod": {
+		"description": "RMS - Standard",
+		"value": 1
+	},
+	"nutritionalHeading": "(as consumed) per 100g,%RI,your RI*",
+	"posItemMessage": " Not Applicable",
+	"metricFlag": "Equiv to Pound (Z Flag)",
+	"sellingUnitOfMeasure": "EA",
+	"legacyItemNumbers": [
+		"0683013",
+		"0683070",
+		"0683073",
+		"0683074",
+		"0683078"
+	],
+	"packs": [
+		{
+			"packQuantity": 6,
+			"additionalProperties": {},
+			"packNumber": "102437748"
+		},
+		{
+			"packQuantity": 4,
+			"additionalProperties": {},
+			"packNumber": "107517165"
+		}
+	],
+	"storeLiveDate": "01-FEB-10",
+	"sellBy": "",
+	"commerciallyActive": "No",
+	"salesUnit": "PER KG",
+	"clothing": null,
+	"tillDescription": "M BRIT WHOLE CHICKEN",
+	"catchWeightType": "4",
+	"status": "A",
+	"foodTechnical": true,
+	"supplySource": "X",
+	"components": null,
+	"saleType": "V",
+	"storage": [
+		"Suitable for Home Freezing",
+		"Keep Refrigerated"
+	],
+	"productFlags": {
+		"packInd": false,
+		"perishableInd": true,
+		"constDimenInd": false,
+		"packType": null,
+		"simplePackInd": false,
+		"catchWeightUom": "KG",
+		"orderableInd": true,
+		"inventoryInd": true,
+		"merchandiseInd": true,
+		"sellableInd": true
+	},
+	"uepItem": false,
+	"ctcTrialFlag": "1",
+	"productPurpose": "Selling",
+	"unitEquivalentPrice": {
+		"netContent": 0,
+		"unitOfMeasureCode": ""
+	},
+	"imageUrl": [
+		{
+			"url": "https://s3-eu-west-1.amazonaws.com/mprod.xxwmm.retail.brandbank.zzzzzzzzzz/images/brandbank/2319066000000_0.jpg",
+			"shotType": "ID Shot",
+			"height": 1500,
+			"width": 1500,
+			"additionalProperties": {}
+		}
+	],
+	"productUOM": {
+		"uomConversionFactor": null
+	},
+	"ingredients": [],
+	"magazines": {
+		"dayIssued": null,
+		"frequency": null
+	},
+	"seo": null,
+	"productType": "ITEM",
+	"productRestrictions": {
+		"deaGroup": " Not Applicable",
+		"fuelCardRestrictions": "Goods Zero Rate VAT",
+		"allowQuantityMultiplier": "Yes",
+		"refundable": "Yes",
+		"wetStock": "No",
+		"operatorAgeCheck": "No"
+	},
+	"nutritionalInfo": [
+		{
+			"name": "Energy ",
+			"perComp": "742kJ/177kcal,9%,8400kJ/2000kcal",
+			"perServing": null,
+			"additionalProperties": {}
+		},
+		{
+			"name": "Fat ",
+			"perComp": "7.5g,11%,70g",
+			"perServing": null,
+			"additionalProperties": {}
+		},
+		{
+			"name": " of which saturates ",
+			"perComp": "2.1g,11%,20g",
+			"perServing": null,
+			"additionalProperties": {}
+		},
+		{
+			"name": "Carbohydrate ",
+			"perComp": "nil,,",
+			"perServing": null,
+			"additionalProperties": {}
+		},
+		{
+			"name": " of which sugars ",
+			"perComp": "nil,0%,90g",
+			"perServing": null,
+			"additionalProperties": {}
+		},
+		{
+			"name": "Fibre",
+			"perComp": "nil,,",
+			"perServing": null,
+			"additionalProperties": {}
+		},
+		{
+			"name": "Protein",
+			"perComp": "27.3g,,",
+			"perServing": null,
+			"additionalProperties": {}
+		},
+		{
+			"name": "Salt",
+			"perComp": "0.2g,3%,6g",
+			"perServing": null,
+			"additionalProperties": {}
+		},
+		{
+			"name": "*Reference intake of an average adult (8400kJ/2000kcal) (RI)",
+			"perComp": ",,",
+			"perServing": null,
+			"additionalProperties": {}
+		}
+	],
+	"storeToBarcode": "No",
+	"reportingHierarchy": {
+		"departmentName": "Whole Chicken (Fresh)",
+		"divisionName": "Fresh",
+		"class_": "285-109",
+		"className": "Free Range Whole Chicken (Fresh)",
+		"categoryName": "Poultry",
+		"division": "9",
+		"groupName": "Meat",
+		"subclass": "285-109-187",
+		"subclassName": "Med Free Rang Whole Chicken (Fresh)",
+		"additionalProperties": {},
+		"category": "104",
+		"department": "285",
+		"group": "8625"
+	},
+	"productMarketing": null,
+	"allergenInfo": [],
+	"scaleWeigh": "No",
+	"priceType": "Price Related Item",
+	"parentItemNumber": "102351709",
+	"commodityProduceOnly": "No",
+	"customerFriendlyDescription": "British Free Range Whole Chicken 0.9-2.2Kg",
+	"brandType": "O",
+	"priceMarked": false,
+	"countryOfOrigin": null,
+	"beersWinesSpirits": {
+		"volumeInLitres": null,
+		"additionalTastingNote": null,
+		"strengthNumberAndWord": null,
+		"alcoholByVolume": null,
+		"tastingNotes": null
+	},
+	"dimensions": {
+		"length": 20,
+		"width": 60,
+		"weight": 9.8,
+		"additionalProperties": {},
+		"height": 40
+	}
+}

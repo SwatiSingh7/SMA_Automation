@@ -1,0 +1,3926 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title></title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa bdd-report standard">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary"></span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Jun 5, 2024 03:52:55 PM</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('exception-view')">
+<a id="nav-exception" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bug"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('category-view')">
+<a id="nav-category" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-tag"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-tag"></i></a>
+<ul id="tag-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" href="#">@sma</a><a class="dropdown-item" href="#">@VerfGroupsandSectiondisp</a><a class="dropdown-item" href="#">@timeChange</a><a class="dropdown-item" href="#">@VerfNegWalkItemsCr</a><a class="dropdown-item" href="#">@Newglh_negative_prompt</a><a class="dropdown-item" href="#">@NPonOffShelf</a><a class="dropdown-item" href="#">@wwq</a><a class="dropdown-item" href="#">@MultipleWalkitemscreated</a><a class="dropdown-item" href="#">@VerfUserAbleToCompleteWrhse</a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="fail" test-id="1"
+          author=""
+          tag="@Newglh_negative_prompt"
+          device="">
+          <div class="test-detail">
+            <p class="name">GLH Negative prompt scenarios</p>
+            <p class="text-sm">
+              <span>3:53:02 PM</span> / <span>01:10:44:089</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">GLH Negative prompt scenarios</h5>
+<span class='badge badge-success'>06.05.2024 3:53:02 PM</span>
+<span class='badge badge-danger'>06.05.2024 5:03:46 PM</span>
+<span class='badge badge-default'>01:10:44:089</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">@Newglh_negative_prompt</span></div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="2"><span class="badge log pass-bg mr-2">Pass</span>Create SOH for items</div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="3"><span class="badge log pass-bg mr-2">Pass</span>Create SOH for items</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given I create SOH for the Negative Prompt "xxwmm.supplychain.freshcounts.eeeeeeeeee" "promptednegatives/pending/" "Input" "nb_prompted_count_getRunTime.dat"</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="10"><span class="badge log pass-bg mr-2">Pass</span>Generate Google Access Token. This is a Pre-requisite for all Counts modules</div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="11"><span class="badge log pass-bg mr-2">Pass</span>Generate Google Access Token. This is a Pre-requisite for all Counts modules</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given request is made to capture access token and post endpoint for user v2 for "1"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I Verify the Response Code for the following "432435" is 200</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I get the field value for the field "access_token"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Get the generated Access Tocken for SMA app Login Service</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="24"><span class="badge log pass-bg mr-2">Pass</span>Delete GLH Storewalk from Service</div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="25"><span class="badge log pass-bg mr-2">Pass</span>Delete GLH Storewalk from Service</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>And Get the generated Access Tocken for SMA app Login Service</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given Get request is made to Get storewalks service for current date</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Get Operation perform on service request</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Verify Get storewalks service response for current date</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Delete request is made to Delete GLH storewalk for store id "1"</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="40"><span class="badge log pass-bg mr-2">Pass</span>TO CHANGE THE DEVICE TIMINGS AS REQUIRED</div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="41"><span class="badge log pass-bg mr-2">Pass</span>TO CHANGE THE DEVICE TIMINGS AS REQUIRED</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given I send the time "07" and mins "00" and meridiem "am" and current date in list</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I Change time</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I Change date</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="52"><span class="badge log pass-bg mr-2">Pass</span>SMA-22779_To verify API response is 201 Created in Create Walkitem API when multiple product id is passed in request body asynchronously.</div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="53"><span class="badge log pass-bg mr-2">Pass</span>SMA-22779_To verify API response is 201 Created in Create Walkitem API when multiple product id is passed in request body asynchronously.</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>And Get the generated Access Tocken for SMA app Login Service</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given Post request is made to Create storewalk for negative prompt for store id "1" and type "GapsHighsLows"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Post Operation perform on service request</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Verify Create storewalk service response</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given Post request is made to Create walkitem service for store id "1" and multiple product ids "108305906","108317675"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Post Operation perform on service request</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Verify Create walkitem service response is 201</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="72"><span class="badge log pass-bg mr-2">Pass</span>SMA-22779_To verify multiple walkitems are created successfully in walkitem table through Create Walkitem API when 10 product is are passed at the given time for one walk_id.</div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="73"><span class="badge log pass-bg mr-2">Pass</span>SMA-22779_To verify multiple walkitems are created successfully in walkitem table through Create Walkitem API when 10 product is are passed at the given time for one walk_id.</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>And Get the generated Access Tocken for SMA app Login Service</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given Post request is made to Create storewalk for negative prompt for store id "1" and type "GapsHighsLows"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Post Operation perform on service request</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Verify Create storewalk service response</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given Post request is made to Multiple product Create walkitem service for store id "1" and 10 product ids "108305906","108317675","111203273","111392158","<productId5>","<productId6>","<productId7>","<productId8>","<productId9>","<productId10>"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Post Operation perform on service request</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Verify Create walkitem service response is 201</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="92"><span class="badge log pass-bg mr-2">Pass</span>SMA-22779_To verify Create walkitem API through exceeded limit exception when we pass more than 10 product ids in the request body.</div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="93"><span class="badge log pass-bg mr-2">Pass</span>SMA-22779_To verify Create walkitem API through exceeded limit exception when we pass more than 10 product ids in the request body.</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>And Get the generated Access Tocken for SMA app Login Service</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given Post request is made to Create storewalk for negative prompt for store id "1" and type "GapsHighsLows"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Post Operation perform on service request</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Verify Create storewalk service response</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given Post request is made to Multiple product Create walkitem service for store id "1" and more than product ids "108305906","108317675","111203273","111392158","<productId5>","<productId6>","<productId7>","<productId8>","<productId9>","<productId10>","<productId11>"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Post Operation perform on service request</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Verify Error message in Create walkitem service response</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="112"><span class="badge log pass-bg mr-2">Pass</span>SMA-22779_To verify section is created when multiple walkitems are created using Create Walkitem API by passing multiple product id in request body.</div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="113"><span class="badge log pass-bg mr-2">Pass</span>SMA-22779_To verify section is created when multiple walkitems are created using Create Walkitem API by passing multiple product id in request body.</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>And Get the generated Access Tocken for SMA app Login Service</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given Post request is made to Create storewalk for negative prompt for store id "1" and type "GapsHighsLows"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Post Operation perform on service request</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Verify Create storewalk service response</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given Post request is made to Multiple product Create walkitem service for store id "1" and 10 product ids "108305906","108317675","111203273","111392158","<productId5>","<productId6>","<productId7>","<productId8>","<productId9>","<productId10>"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Post Operation perform on service request</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Verify Create walkitem service response is 201</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Get request is made to Get storewalk service for store id "1"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Get Operation perform on service request</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Verify Get storewalk service response</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Get request is made to Get section service for store id "1"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Get Operation perform on service request</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Verify Get section service response</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="144"><span class="badge log pass-bg mr-2">Pass</span>SMA-22779_To verify whether it allows to create walkitem for different store locations if same products are already processed for other store location</div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="145"><span class="badge log pass-bg mr-2">Pass</span>SMA-22779_To verify whether it allows to create walkitem for different store locations if same products are already processed for other store location</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>And Get the generated Access Tocken for SMA app Login Service</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given Post request is made to Create storewalk for negative prompt for store id "1" and type "GapsHighsLows"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Post Operation perform on service request</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Verify Create storewalk service response</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given Post request is made to Multiple product Create walkitem service for store id "1" and 10 product ids "108305906","108317675","111203273","111392158","<productId5>","<productId6>","<productId7>","<productId8>","<productId9>","<productId10>"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Post Operation perform on service request</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Verify Create walkitem service response is 201</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Get the generated Access Tocken for SMA app Login Service</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given Post request is made to Create storewalk for negative prompt for store id "77" and type "GapsHighsLows"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Post Operation perform on service request</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Verify Create storewalk service response</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given Post request is made to Multiple product Create walkitem service for store id "77" and 10 product ids "108305906","108317675","111203273","111392158","<productId5>","<productId6>","<productId7>","<productId8>","<productId9>","<productId10>"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Post Operation perform on service request</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Verify Create walkitem service response is 201</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="178"><span class="badge log pass-bg mr-2">Pass</span>SMA-22779_To verify create walkitem response code:400,401 with incorrect header</div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="179"><span class="badge log pass-bg mr-2">Pass</span>SMA-22779_To verify create walkitem response code:400,401 with incorrect header</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>And Get the generated Access Tocken for SMA app Login Service</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given Post request is made to Create storewalk for negative prompt for store id "1" and type "GapsHighsLows"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Post Operation perform on service request</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Verify Create storewalk service response</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given Post request is made to Create walkitem service for store id "1" and product id "108305906"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Post Operation perform on service request with Incorrect header</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Verify service response code is 400,401</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="198"><span class="badge log pass-bg mr-2">Pass</span>SMA-22779_To verify create walkitem response code:400,401 with incorrect access token</div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="199"><span class="badge log pass-bg mr-2">Pass</span>SMA-22779_To verify create walkitem response code:400,401 with incorrect access token</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>And Get the generated Access Tocken for SMA app Login Service</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given Post request is made to Create storewalk for negative prompt for store id "1" and type "GapsHighsLows"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Post Operation perform on service request</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Verify Create storewalk service response</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Get Incorrect access token</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given Post request is made to Create walkitem service for store id "1" and product id "108305906"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Post Operation perform on service request</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Verify service response code is 400,401</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="220"><span class="badge log pass-bg mr-2">Pass</span>SMA-22779_To verify create walkitem response code:401 with blank store id</div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="221"><span class="badge log pass-bg mr-2">Pass</span>SMA-22779_To verify create walkitem response code:401 with blank store id</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>And Get the generated Access Tocken for SMA app Login Service</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given Post request is made to Create storewalk for negative prompt for store id "1" and type "GapsHighsLows"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Post Operation perform on service request</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Verify Create storewalk service response</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Get Incorrect access token</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given Post request is made to Create walkitem service for store id "77" and product id "108305906"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Post Operation perform on service request</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Verify service response code is 401</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="242"><span class="badge log pass-bg mr-2">Pass</span>SMA-22779_To verify create walkitem response code:400 with blank request payload</div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="243"><span class="badge log pass-bg mr-2">Pass</span>SMA-22779_To verify create walkitem response code:400 with blank request payload</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>And Get the generated Access Tocken for SMA app Login Service</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given Post request is made to Create storewalk for negative prompt for store id "1" and type "GapsHighsLows"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Post Operation perform on service request</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Verify Create storewalk service response</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given Post request is made to Create walkitem service without payload for store id "1"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Post Operation perform on service request</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Verify service response code is 400</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="262"><span class="badge log pass-bg mr-2">Pass</span>SMA-22779_To verify create walkitem response code:400,401 with incorect request payload</div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="263"><span class="badge log pass-bg mr-2">Pass</span>SMA-22779_To verify create walkitem response code:400,401 with incorect request payload</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>And Get the generated Access Tocken for SMA app Login Service</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given Post request is made to Create storewalk for negative prompt for store id "1" and type "GapsHighsLows"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Post Operation perform on service request</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Verify Create storewalk service response</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given Post request is made to Create walkitem service with invalid payload for store id "1" and product id "108305906"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Post Operation perform on service request</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Verify service response code is 400</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="282"><span class="badge log pass-bg mr-2">Pass</span>SMA-22771_To verify the list of "Prompted Negative Products" are visible on offshelf location in AM GLH across store mobile app without any captures.</div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="283"><span class="badge log pass-bg mr-2">Pass</span>SMA-22771_To verify the list of "Prompted Negative Products" are visible on offshelf location in AM GLH across store mobile app without any captures.</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>When I enter Username and Password for SMA Manager user</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I click on login button for SMA</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on 'stockMngmtText' on page 'HomePagePO_New'</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on "Shop Floor - Gap Scan"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on Fixture Scan</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I verify products list is not displayed in fixture location</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on Back button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on OffShelf</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I verify Prompted Negative products are displayed in Offshelf location</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="306"><span class="badge log fail-bg mr-2">Fail</span>SMA-22771_To verify For GLH create Items with reason as ‘NegativeStock’ to appear the records in offshelf in GLH.</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
+      </div>
+    </div>
+        <div class="scenario_outline ">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="307"><span class="badge log fail-bg mr-2">Fail</span>SMA-22771_To verify For GLH create Items with reason as ‘NegativeStock’ to appear the records in offshelf in GLH.</div>
+                    <div class="status-avatar float-right">
+                      <i class="fa fa-paperclip"></i>
+                    </div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step pass-bg">
+                    <span>When I enter Username and Password for SMA Manager user</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I click on login button for SMA</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on 'stockMngmtText' on page 'HomePagePO_New'</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on "Shop Floor - Gap Scan"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on OffShelf</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I verify Prompted Negative products are displayed in Offshelf location</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Get the generated Access Tocken for SMA app Login Service</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given Get request is made to Get storewalks service for current date</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Get Operation perform on service request</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Verify Get storewalks service response for current date for store id "1"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given Get request is made to Get storewalk service for Negative prompt product and store id "1"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Get Operation perform on service request</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step fail-bg">
+                    <span>Then Verify Get storewalks service response for Negative prompt and store id "1"</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.NullPointerException
+	at com.morrisons.sma.page_objects.service.StorewalkServicePage.getstorewalkNegativePromptResponse(StorewalkServicePage.java:1359)
+	at com.morrisons.sma.step_definitions.service.old.StorewalkStepDefService.getstorewalkNegativePromptResponse(StorewalkStepDefService.java:206)
+	at ✽.Verify Get storewalks service response for Negative prompt and store id "1"(classpath:sma_features_new/GapsLowsHighs/GLH_CO/GlhNegativePromptNew.feature:306)
+</textarea>
+      
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.morrisons.common.action.Hook.afterScenario(io.cucumber.java.Scenario)</span>
+      <div>
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded1.png' src="../Screenshots/embedded1.png">
+    
+    </div></div>
+</div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And I verify GLH create Items with reason as ‘NegativeStock’ in GetStorewalks service response</span>
+      <div>Step skipped
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="340"><span class="badge log pass-bg mr-2">Pass</span>SMA-22771_To verify if "Prompted Negative Products" are not captured by store colleague, then status across warehouse location for respective department > section is Offshelf pending.</div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="341"><span class="badge log pass-bg mr-2">Pass</span>SMA-22771_To verify if "Prompted Negative Products" are not captured by store colleague, then status across warehouse location for respective department > section is Offshelf pending.</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>When I enter Username and Password for SMA Manager user</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I click on login button for SMA</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on 'stockMngmtText' on page 'HomePagePO_New'</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on "Shop Floor - Gap Scan"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on OffShelf</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I verify Prompted Negative products are displayed in Offshelf location</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on Back button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on WareHouse</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I verify department section status is Offshelf pending</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I click on Back Button</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="366"><span class="badge log fail-bg mr-2">Fail</span>SMA-22771_To verify once negative walkitems are created and displayed at offshelf location then the respective departments are also visible followed by section across Warehouse location.</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
+      </div>
+    </div>
+        <div class="scenario_outline ">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="367"><span class="badge log fail-bg mr-2">Fail</span>SMA-22771_To verify once negative walkitems are created and displayed at offshelf location then the respective departments are also visible followed by section across Warehouse location.</div>
+                    <div class="status-avatar float-right">
+                      <i class="fa fa-paperclip"></i>
+                    </div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step pass-bg">
+                    <span>When I enter Username and Password for SMA Manager user</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I click on login button for SMA</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on 'stockMngmtText' on page 'HomePagePO_New'</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on "Shop Floor - Gap Scan"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on OffShelf</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I verify Prompted Negative products are displayed in Offshelf location</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I get Category name from Offshelf location</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on Back button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on Petrol</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step fail-bg">
+                    <span>And I verify products are displayed in Petrol location</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.AssertionError: Negative prompted product list is not present in petrol location expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:305)
+	at com.morrisons.sma.page_objects.mobile.old.GlhNegativePromptPO.verifyNegativePromptListPetrol(GlhNegativePromptPO.java:132)
+	at com.morrisons.sma.step_definitions.mobile.old.GlhNegativePromptStepDef.verifyNegativePromptListPetrol(GlhNegativePromptStepDef.java:119)
+	at ✽.I verify products are displayed in Petrol location(classpath:sma_features_new/GapsLowsHighs/GLH_CO/GlhNegativePromptNew.feature:341)
+</textarea>
+      
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.morrisons.common.action.Hook.afterScenario(io.cucumber.java.Scenario)</span>
+      <div>
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded2.png' src="../Screenshots/embedded2.png">
+    
+    </div></div>
+</div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then I get Category name from Petrol location</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then I click on Back button</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then I click on WareHouse</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And I verify products are displayed in Warehouse location</span>
+      <div>Step skipped
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="400"><span class="badge log fail-bg mr-2">Fail</span>SMA-22771_To verify Groups and section displayed at Warehouse location on UI matches with Get storewalk Service response.</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
+      </div>
+    </div>
+        <div class="scenario_outline ">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="401"><span class="badge log fail-bg mr-2">Fail</span>SMA-22771_To verify Groups and section displayed at Warehouse location on UI matches with Get storewalk Service response.</div>
+                    <div class="status-avatar float-right">
+                      <i class="fa fa-paperclip"></i>
+                    </div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step pass-bg">
+                    <span>When I enter Username and Password for SMA Manager user</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I click on login button for SMA</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on 'stockMngmtText' on page 'HomePagePO_New'</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on "Shop Floor - Gap Scan"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on OffShelf</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I verify Prompted Negative products are displayed in Offshelf location</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on Back button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on WareHouse</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I verify products are displayed in Warehouse location</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I get Department name from Warehouse location</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Get the generated Access Tocken for SMA app Login Service</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given Get request is made to Get storewalks service for current date</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Get Operation perform on service request</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Verify Get storewalks service response for current date for store id "1"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given Get request is made to Get storewalk service for store id "1"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Get Operation perform on service request</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step fail-bg">
+                    <span>Then Verify Get storewalks service response for store id "1"</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.NullPointerException
+	at com.morrisons.sma.page_objects.service.StorewalkServicePage.verifyGetStorewalkResponse(StorewalkServicePage.java:1178)
+	at com.morrisons.sma.step_definitions.service.old.StorewalkStepDefService.verifyGetStorewalkResponse(StorewalkStepDefService.java:211)
+	at ✽.Verify Get storewalks service response for store id "1"(classpath:sma_features_new/GapsLowsHighs/GLH_CO/GlhNegativePromptNew.feature:371)
+</textarea>
+      
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.morrisons.common.action.Hook.afterScenario(io.cucumber.java.Scenario)</span>
+      <div>
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded3.png' src="../Screenshots/embedded3.png">
+    
+    </div></div>
+</div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And I verify Warehouse Group dept and section on UI and service matches</span>
+      <div>Step skipped
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="442"><span class="badge log fail-bg mr-2">Fail</span>SMA-22771_To verify user is able to capture "Prompted Negative Products" as GAP in on-shelf location then respective product is getting removed from Off shelf location.</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
+      </div>
+    </div>
+        <div class="scenario_outline ">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="443"><span class="badge log fail-bg mr-2">Fail</span>SMA-22771_To verify user is able to capture "Prompted Negative Products" as GAP in on-shelf location then respective product is getting removed from Off shelf location.</div>
+                    <div class="status-avatar float-right">
+                      <i class="fa fa-paperclip"></i>
+                    </div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step pass-bg">
+                    <span>When I enter Username and Password for SMA Manager user</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I click on login button for SMA</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on 'stockMngmtText' on page 'HomePagePO_New'</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on "Shop Floor - Gap Scan"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on OffShelf</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I verify Prompted Negative products are displayed in Offshelf location</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I get Category name and Min values from Offshelf location</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on Back button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on Fixture Scan</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I click on barcode entry Button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I Enter barcode number in fixture scan</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I click on GAP button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I choose the plan from popup if multiple records present</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I will capture the product name from view list</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I verify the if it is GAP</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on Back button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on OffShelf</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step fail-bg">
+                    <span>And I verify Scan product in fixture is removed from offshelf location</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.AssertionError: Product min is not removed expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:305)
+	at com.morrisons.sma.page_objects.mobile.old.GlhNegativePromptPO.verifyMinIsRemovedInOffshelf(GlhNegativePromptPO.java:734)
+	at com.morrisons.sma.step_definitions.mobile.old.GlhNegativePromptStepDef.verifyMinIsRemovedInOffshelf(GlhNegativePromptStepDef.java:196)
+	at ✽.I verify Scan product in fixture is removed from offshelf location(classpath:sma_features_new/GapsLowsHighs/GLH_CO/GlhNegativePromptNew.feature:397)
+</textarea>
+      
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.morrisons.common.action.Hook.afterScenario(io.cucumber.java.Scenario)</span>
+      <div>
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded4.png' src="../Screenshots/embedded4.png">
+    
+    </div></div>
+</div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="484"><span class="badge log fail-bg mr-2">Fail</span>SMA-22771_To verify user is able to capture "Prompted Negative Products" as LOW in on-shelf location then respective product is getting removed from Off shelf location.</div>
+      </div>
+    </div>
+        <div class="scenario_outline ">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="485"><span class="badge log fail-bg mr-2">Fail</span>SMA-22771_To verify user is able to capture "Prompted Negative Products" as LOW in on-shelf location then respective product is getting removed from Off shelf location.</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step pass-bg">
+                    <span>When I enter Username and Password for SMA Manager user</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I click on login button for SMA</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on 'stockMngmtText' on page 'HomePagePO_New'</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on "Shop Floor - Gap Scan"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on OffShelf</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I verify Prompted Negative products are displayed in Offshelf location</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I get Category name and Min values from Offshelf location</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on Back button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on Fixture Scan</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I click on barcode entry Button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I Enter barcode number in fixture scan</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step fail-bg">
+                    <span>And I click on COUNT button</span>
+      <div>
+        <textarea disabled class="code-block">org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: 'POST /element' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IN-MH1LPW113919', ip: '192.168.29.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_352-352'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {AUTOMATION_NAME: uiautomator2, BROWSER_NAME: Android, VERSION: 9.0, acceptSslCerts: true, appActivity: com.morrisons.instore.modul..., appPackage: com.morrisons.instore.sit, autoGrantPermissions: true, automationName: UIAutomator2, databaseEnabled: false, desired: {AUTOMATION_NAME: uiautomator2, BROWSER_NAME: Android, VERSION: 9.0, acceptSslCerts: true, appActivity: com.morrisons.instore.modul..., appPackage: com.morrisons.instore.sit, autoGrantPermissions: true, automationName: UIAutomator2, deviceName: Pixel2API19, noReset: false, platformName: android, –session-override: true}, deviceApiLevel: 28, deviceManufacturer: Google, deviceModel: AOSP on IA Emulator, deviceName: emulator-5554, deviceScreenDensity: 560, deviceScreenSize: 1440x2560, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: false, pixelRatio: 3.5, platform: LINUX, platformName: Android, platformVersion: 9, statBarHeight: 84, takesScreenshot: true, viewportRect: {height: 2308, left: 0, top: 84, width: 1440}, warnings: {}, webStorageEnabled: false, –session-override: true}
+Session ID: 8c146c0b-85d5-4743-8598-3ef9661b5292
+*** Element info: {Using=xpath, value=//android.widget.Button[@text='COUNT']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:231)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:152)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at com.morrisons.sma.page_objects.mobile.old.GLHPageObject.clickCountButton(GLHPageObject.java:185)
+	at com.morrisons.sma.step_definitions.mobile.old.GLHStepDef.iClickOnCOUNTButton(GLHStepDef.java:99)
+	at ✽.I click on COUNT button(classpath:sma_features_new/GapsLowsHighs/GLH_CO/GlhNegativePromptNew.feature:416)
+</textarea>
+      
+      </div>
+                  </div>
+                  <div class="step fail-bg">
+                    <span>com.morrisons.common.action.Hook.afterScenario(io.cucumber.java.Scenario)</span>
+      <div>
+        <textarea disabled class="code-block">org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: 'GET /screenshot' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IN-MH1LPW113919', ip: '192.168.29.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_352-352'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {AUTOMATION_NAME: uiautomator2, BROWSER_NAME: Android, VERSION: 9.0, acceptSslCerts: true, appActivity: com.morrisons.instore.modul..., appPackage: com.morrisons.instore.sit, autoGrantPermissions: true, automationName: UIAutomator2, databaseEnabled: false, desired: {AUTOMATION_NAME: uiautomator2, BROWSER_NAME: Android, VERSION: 9.0, acceptSslCerts: true, appActivity: com.morrisons.instore.modul..., appPackage: com.morrisons.instore.sit, autoGrantPermissions: true, automationName: UIAutomator2, deviceName: Pixel2API19, noReset: false, platformName: android, –session-override: true}, deviceApiLevel: 28, deviceManufacturer: Google, deviceModel: AOSP on IA Emulator, deviceName: emulator-5554, deviceScreenDensity: 560, deviceScreenSize: 1440x2560, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: false, pixelRatio: 3.5, platform: LINUX, platformName: Android, platformVersion: 9, statBarHeight: 84, takesScreenshot: true, viewportRect: {height: 2308, left: 0, top: 84, width: 1440}, warnings: {}, webStorageEnabled: false, –session-override: true}
+Session ID: 8c146c0b-85d5-4743-8598-3ef9661b5292
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:231)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:46)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+	at com.morrisons.common.action.Hook.afterScenario(Hook.java:304)
+</textarea>
+      
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And I enter quantity "<Quantity>" for fixture and warehouse</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And I choose the plan from popup if multiple records present</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And I will capture the product name from view list</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then I verify the if it is COUNT</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then I click on Back button</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then I click on OffShelf</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And I verify Scan product in fixture is removed from offshelf location</span>
+      <div>Step skipped
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="528"><span class="badge log fail-bg mr-2">Fail</span>SMA-22771_To verify user is able to capture "Prompted Negative Products" as HIGH in on-shelf location then respective product is getting removed from Off shelf location.</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
+      </div>
+    </div>
+        <div class="scenario_outline ">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="529"><span class="badge log fail-bg mr-2">Fail</span>SMA-22771_To verify user is able to capture "Prompted Negative Products" as HIGH in on-shelf location then respective product is getting removed from Off shelf location.</div>
+                    <div class="status-avatar float-right">
+                      <i class="fa fa-paperclip"></i>
+                    </div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step pass-bg">
+                    <span>When I enter Username and Password for SMA Manager user</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I click on login button for SMA</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on 'stockMngmtText' on page 'HomePagePO_New'</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on "Shop Floor - Gap Scan"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on OffShelf</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I verify Prompted Negative products are displayed in Offshelf location</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I get Category name and Min values from Offshelf location</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on Back button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on Fixture Scan</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I click on barcode entry Button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I Enter barcode number in fixture scan</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I click on COUNT button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I enter quantity "<Quantity>" for fixture and warehouse</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I choose the plan from popup if multiple records present</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I will capture the product name from view list</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step fail-bg">
+                    <span>Then I verify the if it is COUNT</span>
+      <div>
+        <textarea disabled class="code-block">org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IN-MH1LPW113919', ip: '192.168.29.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_352-352'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {AUTOMATION_NAME: uiautomator2, BROWSER_NAME: Android, VERSION: 9.0, acceptSslCerts: true, appActivity: com.morrisons.instore.modul..., appPackage: com.morrisons.instore.sit, autoGrantPermissions: true, automationName: UIAutomator2, databaseEnabled: false, desired: {AUTOMATION_NAME: uiautomator2, BROWSER_NAME: Android, VERSION: 9.0, acceptSslCerts: true, appActivity: com.morrisons.instore.modul..., appPackage: com.morrisons.instore.sit, autoGrantPermissions: true, automationName: UIAutomator2, deviceName: Pixel2API19, noReset: false, platformName: android, –session-override: true}, deviceApiLevel: 28, deviceManufacturer: Google, deviceModel: AOSP on IA Emulator, deviceName: emulator-5554, deviceScreenDensity: 560, deviceScreenSize: 1440x2560, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: false, pixelRatio: 3.5, platform: LINUX, platformName: Android, platformVersion: 9, statBarHeight: 84, takesScreenshot: true, viewportRect: {height: 2308, left: 0, top: 84, width: 1440}, warnings: {}, webStorageEnabled: false, –session-override: true}
+Session ID: d1885a47-529e-413a-9b60-3a621d295be4
+*** Element info: {Using=xpath, value=//android.widget.TextView[@resource-id='com.morrisons.instore.sit:id/storewalk_list_item_type']}
+	at sun.reflect.GeneratedConstructorAccessor57.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:231)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:152)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at com.morrisons.sma.page_objects.mobile.old.GLHPageObject.CountIsDisplayed(GLHPageObject.java:441)
+	at com.morrisons.sma.step_definitions.mobile.old.GLHStepDef.i_verify_the_if_it_is_count(GLHStepDef.java:168)
+	at ✽.I verify the if it is COUNT(classpath:sma_features_new/GapsLowsHighs/GLH_CO/GlhNegativePromptNew.feature:450)
+</textarea>
+      
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.morrisons.common.action.Hook.afterScenario(io.cucumber.java.Scenario)</span>
+      <div>
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded5.png' src="../Screenshots/embedded5.png">
+    
+    </div></div>
+</div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then I click on Back button</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then I click on OffShelf</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And I verify Scan product in fixture is removed from offshelf location</span>
+      <div>Step skipped
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="572"><span class="badge log fail-bg mr-2">Fail</span>SMA-22771_To verify when user scans "Prompted Negative Products" in fixture location as HIGH then respective products are excluded from the Warehouse location but empty item list should be displayed.</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
+      </div>
+    </div>
+        <div class="scenario_outline ">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="573"><span class="badge log fail-bg mr-2">Fail</span>SMA-22771_To verify when user scans "Prompted Negative Products" in fixture location as HIGH then respective products are excluded from the Warehouse location but empty item list should be displayed.</div>
+                    <div class="status-avatar float-right">
+                      <i class="fa fa-paperclip"></i>
+                    </div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step pass-bg">
+                    <span>When I enter Username and Password for SMA Manager user</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I click on login button for SMA</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on 'stockMngmtText' on page 'HomePagePO_New'</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on "Shop Floor - Gap Scan"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Get the generated Access Tocken for SMA app Login Service</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on OffShelf</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I verify Prompted Negative products are displayed in Offshelf location</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I get Category name and Min values from Offshelf location</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on Back button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on Fixture Scan</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I click on barcode entry Button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I Enter barcode number in fixture scan</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I click on COUNT button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I enter quantity "<Quantity>" for fixture and warehouse</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I choose the plan from popup if multiple records present</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I will capture the product name from view list</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step fail-bg">
+                    <span>Then I verify the if it is COUNT</span>
+      <div>
+        <textarea disabled class="code-block">org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IN-MH1LPW113919', ip: '192.168.29.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_352-352'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {AUTOMATION_NAME: uiautomator2, BROWSER_NAME: Android, VERSION: 9.0, acceptSslCerts: true, appActivity: com.morrisons.instore.modul..., appPackage: com.morrisons.instore.sit, autoGrantPermissions: true, automationName: UIAutomator2, databaseEnabled: false, desired: {AUTOMATION_NAME: uiautomator2, BROWSER_NAME: Android, VERSION: 9.0, acceptSslCerts: true, appActivity: com.morrisons.instore.modul..., appPackage: com.morrisons.instore.sit, autoGrantPermissions: true, automationName: UIAutomator2, deviceName: Pixel2API19, noReset: false, platformName: android, –session-override: true}, deviceApiLevel: 28, deviceManufacturer: Google, deviceModel: AOSP on IA Emulator, deviceName: emulator-5554, deviceScreenDensity: 560, deviceScreenSize: 1440x2560, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: false, pixelRatio: 3.5, platform: LINUX, platformName: Android, platformVersion: 9, statBarHeight: 84, takesScreenshot: true, viewportRect: {height: 2308, left: 0, top: 84, width: 1440}, warnings: {}, webStorageEnabled: false, –session-override: true}
+Session ID: 90230f23-df73-4b72-a269-ab77a81b4120
+*** Element info: {Using=xpath, value=//android.widget.TextView[@resource-id='com.morrisons.instore.sit:id/storewalk_list_item_type']}
+	at sun.reflect.GeneratedConstructorAccessor57.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:231)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:152)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at com.morrisons.sma.page_objects.mobile.old.GLHPageObject.CountIsDisplayed(GLHPageObject.java:441)
+	at com.morrisons.sma.step_definitions.mobile.old.GLHStepDef.i_verify_the_if_it_is_count(GLHStepDef.java:168)
+	at ✽.I verify the if it is COUNT(classpath:sma_features_new/GapsLowsHighs/GLH_CO/GlhNegativePromptNew.feature:482)
+</textarea>
+      
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.morrisons.common.action.Hook.afterScenario(io.cucumber.java.Scenario)</span>
+      <div>
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded6.png' src="../Screenshots/embedded6.png">
+    
+    </div></div>
+</div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then I click on Back button</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then I click on OffShelf</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And I verify Scan product in fixture is removed from offshelf location</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Given Get request is made to Get storewalks service for current date</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And Get Operation perform on service request</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then Verify Get storewalks service response for current date for store id "1"</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Given Get request is made to Get storewalk service for store id "1"</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And Get Operation perform on service request</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then Verify Get storewalks service response for store id "1"</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And I Get Group name and product id from GetStorewalk Service</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then I click on Back button</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then I click on WareHouse</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then I Select the Group section in warehouse</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then I Verify Empty product list is displayed</span>
+      <div>Step skipped
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="640"><span class="badge log pass-bg mr-2">Pass</span>SMA-22771_To verify user is able to set '0' quantity for prompted negative counts at Off-Shelf location.</div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="641"><span class="badge log pass-bg mr-2">Pass</span>SMA-22771_To verify user is able to set '0' quantity for prompted negative counts at Off-Shelf location.</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>When I enter Username and Password for SMA Manager user</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I click on login button for SMA</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on 'stockMngmtText' on page 'HomePagePO_New'</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on "Shop Floor - Gap Scan"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on OffShelf</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I select section in offshelf location</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I enter quantity as "0" in offshelf location</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I verify "0" quantity set for prompted negative counts at offshelf location</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="662"><span class="badge log pass-bg mr-2">Pass</span>SMA-22771_To verify user should not be able to delete negative "Prompted Negative Products" from Offshelf Location.</div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="663"><span class="badge log pass-bg mr-2">Pass</span>SMA-22771_To verify user should not be able to delete negative "Prompted Negative Products" from Offshelf Location.</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>When I enter Username and Password for SMA Manager user</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I click on login button for SMA</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on 'stockMngmtText' on page 'HomePagePO_New'</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on "Shop Floor - Gap Scan"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on OffShelf</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I verify Prompted Negative products are displayed in Offshelf location</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I select section in offshelf location</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I left swipe the product description</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I verify product is not able to delete from Offshelf Location</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="686"><span class="badge log fail-bg mr-2">Fail</span>SMA-22771_To verify user is able to complete warehouse location for the "Prompted Negative Products".</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
+      </div>
+    </div>
+        <div class="scenario_outline ">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="687"><span class="badge log fail-bg mr-2">Fail</span>SMA-22771_To verify user is able to complete warehouse location for the "Prompted Negative Products".</div>
+                    <div class="status-avatar float-right">
+                      <i class="fa fa-paperclip"></i>
+                    </div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step pass-bg">
+                    <span>When I enter Username and Password for SMA Manager user</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I click on login button for SMA</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on 'stockMngmtText' on page 'HomePagePO_New'</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on "Shop Floor - Gap Scan"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on OffShelf</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I verify Prompted Negative products are displayed in Offshelf location</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I Complete the section</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I verify status as Completed</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I click on Back Button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on Petrol</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step fail-bg">
+                    <span>And I verify Prompted Negative products are displayed in Offshelf location</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.AssertionError: Negative prompted product list is not present in offshelf location expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:305)
+	at com.morrisons.sma.page_objects.mobile.old.GlhNegativePromptPO.verifyNegativePromptListOffshelf(GlhNegativePromptPO.java:118)
+	at com.morrisons.sma.step_definitions.mobile.old.GlhNegativePromptStepDef.verifyNegativePromptListOffshelf(GlhNegativePromptStepDef.java:109)
+	at ✽.I verify Prompted Negative products are displayed in Offshelf location(classpath:sma_features_new/GapsLowsHighs/GLH_CO/GlhNegativePromptNew.feature:545)
+</textarea>
+      
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.morrisons.common.action.Hook.afterScenario(io.cucumber.java.Scenario)</span>
+      <div>
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded7.png' src="../Screenshots/embedded7.png">
+    
+    </div></div>
+</div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And I Complete the section</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And I verify status as Completed</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And I click on Back Button</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then I click on WareHouse</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And I Complete the warehouse section</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And I verify status as Completed</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And I click on Back Button</span>
+      <div>Step skipped
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="test-wrapper row view exception-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Exception</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">4</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>2</span>
+</span>
+<p class="name">java.lang.NullPointerException</p>
+<p class="duration text-sm">2 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>java.lang.NullPointerException</h4>
+<span status="fail" class='badge log badge-danger'>2 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>16:19:06 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='335'>Then Verify Get storewalks service response for Negative prompt and store id "1"</a>
+<div class="">
+<span class="badge badge-default">GLH Negative prompt scenarios.SMA-22771_To verify For GLH create Items with reason as ‘NegativeStock’ to appear the records in offshelf in GLH..Then Verify Get storewalks service response for Negative prompt and store id "1"</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>16:30:15 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='437'>Then Verify Get storewalks service response for store id "1"</a>
+<div class="">
+<span class="badge badge-default">GLH Negative prompt scenarios.SMA-22771_To verify Groups and section displayed at Warehouse location on UI matches with Get storewalk Service response..Then Verify Get storewalks service response for store id "1"</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>3</span>
+</span>
+<p class="name">java.lang.AssertionError</p>
+<p class="duration text-sm">3 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>java.lang.AssertionError</h4>
+<span status="fail" class='badge log badge-danger'>3 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>16:25:32 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='389'>And I verify products are displayed in Petrol location</a>
+<div class="">
+<span class="badge badge-default">GLH Negative prompt scenarios.SMA-22771_To verify once negative walkitems are created and displayed at offshelf location then the respective departments are also visible followed by section across Warehouse location..And I verify products are displayed in Petrol location</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>16:34:45 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='481'>And I verify Scan product in fixture is removed from offshelf location</a>
+<div class="">
+<span class="badge badge-default">GLH Negative prompt scenarios.SMA-22771_To verify user is able to capture "Prompted Negative Products" as GAP in on-shelf location then respective product is getting removed from Off shelf location..And I verify Scan product in fixture is removed from offshelf location</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>17:03:19 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='711'>And I verify Prompted Negative products are displayed in Offshelf location</a>
+<div class="">
+<span class="badge badge-default">GLH Negative prompt scenarios.SMA-22771_To verify user is able to complete warehouse location for the "Prompted Negative Products"..And I verify Prompted Negative products are displayed in Offshelf location</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>2</span>
+</span>
+<p class="name">org.openqa.selenium.WebDriverException</p>
+<p class="duration text-sm">2 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>org.openqa.selenium.WebDriverException</h4>
+<span status="fail" class='badge log badge-danger'>2 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>16:38:51 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='511'>And I click on COUNT button</a>
+<div class="">
+<span class="badge badge-default">GLH Negative prompt scenarios.SMA-22771_To verify user is able to capture "Prompted Negative Products" as LOW in on-shelf location then respective product is getting removed from Off shelf location..And I click on COUNT button</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>16:38:58 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='512'>com.morrisons.common.action.Hook.afterScenario(io.cucumber.java.Scenario)</a>
+<div class="">
+<span class="badge badge-default">GLH Negative prompt scenarios.SMA-22771_To verify user is able to capture "Prompted Negative Products" as LOW in on-shelf location then respective product is getting removed from Off shelf location..com.morrisons.common.action.Hook.afterScenario(io.cucumber.java.Scenario)</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>2</span>
+</span>
+<p class="name">org.openqa.selenium.NoSuchElementException</p>
+<p class="duration text-sm">2 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>org.openqa.selenium.NoSuchElementException</h4>
+<span status="fail" class='badge log badge-danger'>2 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>16:49:18 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='563'>Then I verify the if it is COUNT</a>
+<div class="">
+<span class="badge badge-default">GLH Negative prompt scenarios.SMA-22771_To verify user is able to capture "Prompted Negative Products" as HIGH in on-shelf location then respective product is getting removed from Off shelf location..Then I verify the if it is COUNT</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>16:56:53 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='609'>Then I verify the if it is COUNT</a>
+<div class="">
+<span class="badge badge-default">GLH Negative prompt scenarios.SMA-22771_To verify when user scans "Prompted Negative Products" in fixture location as HIGH then respective products are excluded from the Warehouse location but empty item list should be displayed..Then I verify the if it is COUNT</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="test-wrapper row view category-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Category</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">9</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>34</span>
+<span class='badge log badge-danger'>16</span>
+</span>
+<p class="name">@sma</p>
+<p class="duration text-sm">50 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@sma</h4>
+<span status="pass" class='badge log pass-bg'>34 passed</span>
+<span status="fail" class='badge log badge-danger'>16 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>15:53:02 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='2'>Create SOH for items</a>
+<div class="">
+<span class="badge badge-default">GLH Negative prompt scenarios.Create SOH for items</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>15:53:02 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='3'>Create SOH for items</a>
+<div class="">
+<span class="badge badge-default">GLH Negative prompt scenarios.Create SOH for items</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>15:54:34 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='10'>Generate Google Access Token. This is a Pre-requisite for all Counts modules</a>
+<div class="">
+<span class="badge badge-default">GLH Negative prompt scenarios.Generate Google Access Token. This is a Pre-requisite for all Counts modules</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>15:54:34 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='11'>Generate Google Access Token. This is a Pre-requisite for all Counts modules</a>
+<div class="">
+<span class="badge badge-default">GLH Negative prompt scenarios.Generate Google Access Token. This is a Pre-requisite for all Counts modules</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>15:56:16 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='24'>Delete GLH Storewalk from Service</a>
+<div class="">
+<span class="badge badge-default">GLH Negative prompt scenarios.Delete GLH Storewalk from Service</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>15:56:16 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='25'>Delete GLH Storewalk from Service</a>
+<div class="">
+<span class="badge badge-default">GLH Negative prompt scenarios.Delete GLH Storewalk from Service</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:00:53 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='52'>SMA-22779_To verify API response is 201 Created in Create Walkitem API when multiple product id is passed in request body asynchronously.</a>
+<div class="">
+<span class="badge badge-default">GLH Negative prompt scenarios.SMA-22779_To verify API response is 201 Created in Create Walkitem API when multiple product id is passed in request body asynchronously.</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:00:53 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='53'>SMA-22779_To verify API response is 201 Created in Create Walkitem API when multiple product id is passed in request body asynchronously.</a>
+<div class="">
+<span class="badge badge-default">GLH Negative prompt scenarios.SMA-22779_To verify API response is 201 Created in Create Walkitem API when multiple product id is passed in request body asynchronously.</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:05:12 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='72'>SMA-22779_To verify multiple walkitems are created successfully in walkitem table through Create Walkitem API when 10 product is are passed at the given time for one walk_id.</a>
+<div class="">
+<span class="badge badge-default">GLH Negative prompt scenarios.SMA-22779_To verify multiple walkitems are created successfully in walkitem table through Create Walkitem API when 10 product is are passed at the given time for one walk_id.</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:05:12 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='73'>SMA-22779_To verify multiple walkitems are created successfully in walkitem table through Create Walkitem API when 10 product is are passed at the given time for one walk_id.</a>
+<div class="">
+<span class="badge badge-default">GLH Negative prompt scenarios.SMA-22779_To verify multiple walkitems are created successfully in walkitem table through Create Walkitem API when 10 product is are passed at the given time for one walk_id.</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:06:17 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='92'>SMA-22779_To verify Create walkitem API through exceeded limit exception when we pass more than 10 product ids in the request body.</a>
+<div class="">
+<span class="badge badge-default">GLH Negative prompt scenarios.SMA-22779_To verify Create walkitem API through exceeded limit exception when we pass more than 10 product ids in the request body.</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:06:17 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='93'>SMA-22779_To verify Create walkitem API through exceeded limit exception when we pass more than 10 product ids in the request body.</a>
+<div class="">
+<span class="badge badge-default">GLH Negative prompt scenarios.SMA-22779_To verify Create walkitem API through exceeded limit exception when we pass more than 10 product ids in the request body.</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:07:26 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='112'>SMA-22779_To verify section is created when multiple walkitems are created using Create Walkitem API by passing multiple product id in request body.</a>
+<div class="">
+<span class="badge badge-default">GLH Negative prompt scenarios.SMA-22779_To verify section is created when multiple walkitems are created using Create Walkitem API by passing multiple product id in request body.</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:07:26 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='113'>SMA-22779_To verify section is created when multiple walkitems are created using Create Walkitem API by passing multiple product id in request body.</a>
+<div class="">
+<span class="badge badge-default">GLH Negative prompt scenarios.SMA-22779_To verify section is created when multiple walkitems are created using Create Walkitem API by passing multiple product id in request body.</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:08:05 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='144'>SMA-22779_To verify whether it allows to create walkitem for different store locations if same products are already processed for other store location</a>
+<div class="">
+<span class="badge badge-default">GLH Negative prompt scenarios.SMA-22779_To verify whether it allows to create walkitem for different store locations if same products are already processed for other store location</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:08:05 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='145'>SMA-22779_To verify whether it allows to create walkitem for different store locations if same products are already processed for other store location</a>
+<div class="">
+<span class="badge badge-default">GLH Negative prompt scenarios.SMA-22779_To verify whether it allows to create walkitem for different store locations if same products are already processed for other store location</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:08:51 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='178'>SMA-22779_To verify create walkitem response code:400,401 with incorrect header</a>
+<div class="">
+<span class="badge badge-default">GLH Negative prompt scenarios.SMA-22779_To verify create walkitem response code:400,401 with incorrect header</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:08:51 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='179'>SMA-22779_To verify create walkitem response code:400,401 with incorrect header</a>
+<div class="">
+<span class="badge badge-default">GLH Negative prompt scenarios.SMA-22779_To verify create walkitem response code:400,401 with incorrect header</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:10:00 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='198'>SMA-22779_To verify create walkitem response code:400,401 with incorrect access token</a>
+<div class="">
+<span class="badge badge-default">GLH Negative prompt scenarios.SMA-22779_To verify create walkitem response code:400,401 with incorrect access token</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:10:00 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='199'>SMA-22779_To verify create walkitem response code:400,401 with incorrect access token</a>
+<div class="">
+<span class="badge badge-default">GLH Negative prompt scenarios.SMA-22779_To verify create walkitem response code:400,401 with incorrect access token</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:10:52 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='220'>SMA-22779_To verify create walkitem response code:401 with blank store id</a>
+<div class="">
+<span class="badge badge-default">GLH Negative prompt scenarios.SMA-22779_To verify create walkitem response code:401 with blank store id</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:10:52 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='221'>SMA-22779_To verify create walkitem response code:401 with blank store id</a>
+<div class="">
+<span class="badge badge-default">GLH Negative prompt scenarios.SMA-22779_To verify create walkitem response code:401 with blank store id</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:11:55 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='242'>SMA-22779_To verify create walkitem response code:400 with blank request payload</a>
+<div class="">
+<span class="badge badge-default">GLH Negative prompt scenarios.SMA-22779_To verify create walkitem response code:400 with blank request payload</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:11:55 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='243'>SMA-22779_To verify create walkitem response code:400 with blank request payload</a>
+<div class="">
+<span class="badge badge-default">GLH Negative prompt scenarios.SMA-22779_To verify create walkitem response code:400 with blank request payload</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:12:51 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='262'>SMA-22779_To verify create walkitem response code:400,401 with incorect request payload</a>
+<div class="">
+<span class="badge badge-default">GLH Negative prompt scenarios.SMA-22779_To verify create walkitem response code:400,401 with incorect request payload</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:12:51 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='263'>SMA-22779_To verify create walkitem response code:400,401 with incorect request payload</a>
+<div class="">
+<span class="badge badge-default">GLH Negative prompt scenarios.SMA-22779_To verify create walkitem response code:400,401 with incorect request payload</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:13:44 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='282'>SMA-22771_To verify the list of "Prompted Negative Products" are visible on offshelf location in AM GLH across store mobile app without any captures.</a>
+<div class="">
+<span class="badge badge-default">GLH Negative prompt scenarios.SMA-22771_To verify the list of "Prompted Negative Products" are visible on offshelf location in AM GLH across store mobile app without any captures.</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:13:44 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='283'>SMA-22771_To verify the list of "Prompted Negative Products" are visible on offshelf location in AM GLH across store mobile app without any captures.</a>
+<div class="">
+<span class="badge badge-default">GLH Negative prompt scenarios.SMA-22771_To verify the list of "Prompted Negative Products" are visible on offshelf location in AM GLH across store mobile app without any captures.</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>16:17:08 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='306'>SMA-22771_To verify For GLH create Items with reason as ‘NegativeStock’ to appear the records in offshelf in GLH.</a>
+<div class="">
+<span class="badge badge-default">GLH Negative prompt scenarios.SMA-22771_To verify For GLH create Items with reason as ‘NegativeStock’ to appear the records in offshelf in GLH.</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>16:17:08 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='307'>SMA-22771_To verify For GLH create Items with reason as ‘NegativeStock’ to appear the records in offshelf in GLH.</a>
+<div class="">
+<span class="badge badge-default">GLH Negative prompt scenarios.SMA-22771_To verify For GLH create Items with reason as ‘NegativeStock’ to appear the records in offshelf in GLH.</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:19:21 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='340'>SMA-22771_To verify if "Prompted Negative Products" are not captured by store colleague, then status across warehouse location for respective department > section is Offshelf pending.</a>
+<div class="">
+<span class="badge badge-default">GLH Negative prompt scenarios.SMA-22771_To verify if "Prompted Negative Products" are not captured by store colleague, then status across warehouse location for respective department > section is Offshelf pending.</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:19:21 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='341'>SMA-22771_To verify if "Prompted Negative Products" are not captured by store colleague, then status across warehouse location for respective department > section is Offshelf pending.</a>
+<div class="">
+<span class="badge badge-default">GLH Negative prompt scenarios.SMA-22771_To verify if "Prompted Negative Products" are not captured by store colleague, then status across warehouse location for respective department > section is Offshelf pending.</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>16:23:29 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='366'>SMA-22771_To verify once negative walkitems are created and displayed at offshelf location then the respective departments are also visible followed by section across Warehouse location.</a>
+<div class="">
+<span class="badge badge-default">GLH Negative prompt scenarios.SMA-22771_To verify once negative walkitems are created and displayed at offshelf location then the respective departments are also visible followed by section across Warehouse location.</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>16:23:29 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='367'>SMA-22771_To verify once negative walkitems are created and displayed at offshelf location then the respective departments are also visible followed by section across Warehouse location.</a>
+<div class="">
+<span class="badge badge-default">GLH Negative prompt scenarios.SMA-22771_To verify once negative walkitems are created and displayed at offshelf location then the respective departments are also visible followed by section across Warehouse location.</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>16:26:12 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='400'>SMA-22771_To verify Groups and section displayed at Warehouse location on UI matches with Get storewalk Service response.</a>
+<div class="">
+<span class="badge badge-default">GLH Negative prompt scenarios.SMA-22771_To verify Groups and section displayed at Warehouse location on UI matches with Get storewalk Service response.</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>16:26:12 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='401'>SMA-22771_To verify Groups and section displayed at Warehouse location on UI matches with Get storewalk Service response.</a>
+<div class="">
+<span class="badge badge-default">GLH Negative prompt scenarios.SMA-22771_To verify Groups and section displayed at Warehouse location on UI matches with Get storewalk Service response.</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>16:30:32 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='442'>SMA-22771_To verify user is able to capture "Prompted Negative Products" as GAP in on-shelf location then respective product is getting removed from Off shelf location.</a>
+<div class="">
+<span class="badge badge-default">GLH Negative prompt scenarios.SMA-22771_To verify user is able to capture "Prompted Negative Products" as GAP in on-shelf location then respective product is getting removed from Off shelf location.</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>16:30:32 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='443'>SMA-22771_To verify user is able to capture "Prompted Negative Products" as GAP in on-shelf location then respective product is getting removed from Off shelf location.</a>
+<div class="">
+<span class="badge badge-default">GLH Negative prompt scenarios.SMA-22771_To verify user is able to capture "Prompted Negative Products" as GAP in on-shelf location then respective product is getting removed from Off shelf location.</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>16:35:05 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='484'>SMA-22771_To verify user is able to capture "Prompted Negative Products" as LOW in on-shelf location then respective product is getting removed from Off shelf location.</a>
+<div class="">
+<span class="badge badge-default">GLH Negative prompt scenarios.SMA-22771_To verify user is able to capture "Prompted Negative Products" as LOW in on-shelf location then respective product is getting removed from Off shelf location.</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>16:35:05 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='485'>SMA-22771_To verify user is able to capture "Prompted Negative Products" as LOW in on-shelf location then respective product is getting removed from Off shelf location.</a>
+<div class="">
+<span class="badge badge-default">GLH Negative prompt scenarios.SMA-22771_To verify user is able to capture "Prompted Negative Products" as LOW in on-shelf location then respective product is getting removed from Off shelf location.</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>16:38:58 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='528'>SMA-22771_To verify user is able to capture "Prompted Negative Products" as HIGH in on-shelf location then respective product is getting removed from Off shelf location.</a>
+<div class="">
+<span class="badge badge-default">GLH Negative prompt scenarios.SMA-22771_To verify user is able to capture "Prompted Negative Products" as HIGH in on-shelf location then respective product is getting removed from Off shelf location.</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>16:38:58 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='529'>SMA-22771_To verify user is able to capture "Prompted Negative Products" as HIGH in on-shelf location then respective product is getting removed from Off shelf location.</a>
+<div class="">
+<span class="badge badge-default">GLH Negative prompt scenarios.SMA-22771_To verify user is able to capture "Prompted Negative Products" as HIGH in on-shelf location then respective product is getting removed from Off shelf location.</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>16:50:11 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='572'>SMA-22771_To verify when user scans "Prompted Negative Products" in fixture location as HIGH then respective products are excluded from the Warehouse location but empty item list should be displayed.</a>
+<div class="">
+<span class="badge badge-default">GLH Negative prompt scenarios.SMA-22771_To verify when user scans "Prompted Negative Products" in fixture location as HIGH then respective products are excluded from the Warehouse location but empty item list should be displayed.</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>16:50:11 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='573'>SMA-22771_To verify when user scans "Prompted Negative Products" in fixture location as HIGH then respective products are excluded from the Warehouse location but empty item list should be displayed.</a>
+<div class="">
+<span class="badge badge-default">GLH Negative prompt scenarios.SMA-22771_To verify when user scans "Prompted Negative Products" in fixture location as HIGH then respective products are excluded from the Warehouse location but empty item list should be displayed.</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:57:52 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='640'>SMA-22771_To verify user is able to set '0' quantity for prompted negative counts at Off-Shelf location.</a>
+<div class="">
+<span class="badge badge-default">GLH Negative prompt scenarios.SMA-22771_To verify user is able to set '0' quantity for prompted negative counts at Off-Shelf location.</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:57:52 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='641'>SMA-22771_To verify user is able to set '0' quantity for prompted negative counts at Off-Shelf location.</a>
+<div class="">
+<span class="badge badge-default">GLH Negative prompt scenarios.SMA-22771_To verify user is able to set '0' quantity for prompted negative counts at Off-Shelf location.</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:59:33 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='662'>SMA-22771_To verify user should not be able to delete negative "Prompted Negative Products" from Offshelf Location.</a>
+<div class="">
+<span class="badge badge-default">GLH Negative prompt scenarios.SMA-22771_To verify user should not be able to delete negative "Prompted Negative Products" from Offshelf Location.</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:59:33 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='663'>SMA-22771_To verify user should not be able to delete negative "Prompted Negative Products" from Offshelf Location.</a>
+<div class="">
+<span class="badge badge-default">GLH Negative prompt scenarios.SMA-22771_To verify user should not be able to delete negative "Prompted Negative Products" from Offshelf Location.</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>17:01:19 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='686'>SMA-22771_To verify user is able to complete warehouse location for the "Prompted Negative Products".</a>
+<div class="">
+<span class="badge badge-default">GLH Negative prompt scenarios.SMA-22771_To verify user is able to complete warehouse location for the "Prompted Negative Products".</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>17:01:19 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='687'>SMA-22771_To verify user is able to complete warehouse location for the "Prompted Negative Products".</a>
+<div class="">
+<span class="badge badge-default">GLH Negative prompt scenarios.SMA-22771_To verify user is able to complete warehouse location for the "Prompted Negative Products".</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>2</span>
+<span class='badge log badge-danger'>2</span>
+</span>
+<p class="name">@VerfGroupsandSectiondisp</p>
+<p class="duration text-sm">4 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@VerfGroupsandSectiondisp</h4>
+<span status="pass" class='badge log pass-bg'>2 passed</span>
+<span status="fail" class='badge log badge-danger'>2 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>15:54:34 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='10'>Generate Google Access Token. This is a Pre-requisite for all Counts modules</a>
+<div class="">
+<span class="badge badge-default">GLH Negative prompt scenarios.Generate Google Access Token. This is a Pre-requisite for all Counts modules</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>15:54:34 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='11'>Generate Google Access Token. This is a Pre-requisite for all Counts modules</a>
+<div class="">
+<span class="badge badge-default">GLH Negative prompt scenarios.Generate Google Access Token. This is a Pre-requisite for all Counts modules</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>16:26:12 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='400'>SMA-22771_To verify Groups and section displayed at Warehouse location on UI matches with Get storewalk Service response.</a>
+<div class="">
+<span class="badge badge-default">GLH Negative prompt scenarios.SMA-22771_To verify Groups and section displayed at Warehouse location on UI matches with Get storewalk Service response.</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>16:26:12 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='401'>SMA-22771_To verify Groups and section displayed at Warehouse location on UI matches with Get storewalk Service response.</a>
+<div class="">
+<span class="badge badge-default">GLH Negative prompt scenarios.SMA-22771_To verify Groups and section displayed at Warehouse location on UI matches with Get storewalk Service response.</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>2</span>
+</span>
+<p class="name">@timeChange</p>
+<p class="duration text-sm">2 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@timeChange</h4>
+<span status="pass" class='badge log pass-bg'>2 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>15:56:57 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='40'>TO CHANGE THE DEVICE TIMINGS AS REQUIRED</a>
+<div class="">
+<span class="badge badge-default">GLH Negative prompt scenarios.TO CHANGE THE DEVICE TIMINGS AS REQUIRED</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>15:56:57 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='41'>TO CHANGE THE DEVICE TIMINGS AS REQUIRED</a>
+<div class="">
+<span class="badge badge-default">GLH Negative prompt scenarios.TO CHANGE THE DEVICE TIMINGS AS REQUIRED</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>2</span>
+</span>
+<p class="name">@VerfNegWalkItemsCr</p>
+<p class="duration text-sm">2 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@VerfNegWalkItemsCr</h4>
+<span status="fail" class='badge log badge-danger'>2 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>16:23:29 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='366'>SMA-22771_To verify once negative walkitems are created and displayed at offshelf location then the respective departments are also visible followed by section across Warehouse location.</a>
+<div class="">
+<span class="badge badge-default">GLH Negative prompt scenarios.SMA-22771_To verify once negative walkitems are created and displayed at offshelf location then the respective departments are also visible followed by section across Warehouse location.</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>16:23:29 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='367'>SMA-22771_To verify once negative walkitems are created and displayed at offshelf location then the respective departments are also visible followed by section across Warehouse location.</a>
+<div class="">
+<span class="badge badge-default">GLH Negative prompt scenarios.SMA-22771_To verify once negative walkitems are created and displayed at offshelf location then the respective departments are also visible followed by section across Warehouse location.</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>18</span>
+<span class='badge log badge-danger'>9</span>
+</span>
+<p class="name">@Newglh_negative_prompt</p>
+<p class="duration text-sm">27 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@Newglh_negative_prompt</h4>
+<span status="pass" class='badge log pass-bg'>18 passed</span>
+<span status="fail" class='badge log badge-danger'>9 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>15:53:02 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='1'>GLH Negative prompt scenarios</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>15:53:02 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='3'>Create SOH for items</a>
+<div class="">
+<span class="badge badge-default">GLH Negative prompt scenarios.Create SOH for items</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>15:54:34 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='11'>Generate Google Access Token. This is a Pre-requisite for all Counts modules</a>
+<div class="">
+<span class="badge badge-default">GLH Negative prompt scenarios.Generate Google Access Token. This is a Pre-requisite for all Counts modules</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>15:56:16 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='25'>Delete GLH Storewalk from Service</a>
+<div class="">
+<span class="badge badge-default">GLH Negative prompt scenarios.Delete GLH Storewalk from Service</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>15:56:57 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='41'>TO CHANGE THE DEVICE TIMINGS AS REQUIRED</a>
+<div class="">
+<span class="badge badge-default">GLH Negative prompt scenarios.TO CHANGE THE DEVICE TIMINGS AS REQUIRED</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:00:53 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='53'>SMA-22779_To verify API response is 201 Created in Create Walkitem API when multiple product id is passed in request body asynchronously.</a>
+<div class="">
+<span class="badge badge-default">GLH Negative prompt scenarios.SMA-22779_To verify API response is 201 Created in Create Walkitem API when multiple product id is passed in request body asynchronously.</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:05:12 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='73'>SMA-22779_To verify multiple walkitems are created successfully in walkitem table through Create Walkitem API when 10 product is are passed at the given time for one walk_id.</a>
+<div class="">
+<span class="badge badge-default">GLH Negative prompt scenarios.SMA-22779_To verify multiple walkitems are created successfully in walkitem table through Create Walkitem API when 10 product is are passed at the given time for one walk_id.</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:06:17 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='93'>SMA-22779_To verify Create walkitem API through exceeded limit exception when we pass more than 10 product ids in the request body.</a>
+<div class="">
+<span class="badge badge-default">GLH Negative prompt scenarios.SMA-22779_To verify Create walkitem API through exceeded limit exception when we pass more than 10 product ids in the request body.</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:07:26 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='113'>SMA-22779_To verify section is created when multiple walkitems are created using Create Walkitem API by passing multiple product id in request body.</a>
+<div class="">
+<span class="badge badge-default">GLH Negative prompt scenarios.SMA-22779_To verify section is created when multiple walkitems are created using Create Walkitem API by passing multiple product id in request body.</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:08:05 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='145'>SMA-22779_To verify whether it allows to create walkitem for different store locations if same products are already processed for other store location</a>
+<div class="">
+<span class="badge badge-default">GLH Negative prompt scenarios.SMA-22779_To verify whether it allows to create walkitem for different store locations if same products are already processed for other store location</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:08:51 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='179'>SMA-22779_To verify create walkitem response code:400,401 with incorrect header</a>
+<div class="">
+<span class="badge badge-default">GLH Negative prompt scenarios.SMA-22779_To verify create walkitem response code:400,401 with incorrect header</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:10:00 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='199'>SMA-22779_To verify create walkitem response code:400,401 with incorrect access token</a>
+<div class="">
+<span class="badge badge-default">GLH Negative prompt scenarios.SMA-22779_To verify create walkitem response code:400,401 with incorrect access token</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:10:52 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='221'>SMA-22779_To verify create walkitem response code:401 with blank store id</a>
+<div class="">
+<span class="badge badge-default">GLH Negative prompt scenarios.SMA-22779_To verify create walkitem response code:401 with blank store id</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:11:55 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='243'>SMA-22779_To verify create walkitem response code:400 with blank request payload</a>
+<div class="">
+<span class="badge badge-default">GLH Negative prompt scenarios.SMA-22779_To verify create walkitem response code:400 with blank request payload</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:12:51 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='263'>SMA-22779_To verify create walkitem response code:400,401 with incorect request payload</a>
+<div class="">
+<span class="badge badge-default">GLH Negative prompt scenarios.SMA-22779_To verify create walkitem response code:400,401 with incorect request payload</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:13:44 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='283'>SMA-22771_To verify the list of "Prompted Negative Products" are visible on offshelf location in AM GLH across store mobile app without any captures.</a>
+<div class="">
+<span class="badge badge-default">GLH Negative prompt scenarios.SMA-22771_To verify the list of "Prompted Negative Products" are visible on offshelf location in AM GLH across store mobile app without any captures.</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>16:17:08 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='307'>SMA-22771_To verify For GLH create Items with reason as ‘NegativeStock’ to appear the records in offshelf in GLH.</a>
+<div class="">
+<span class="badge badge-default">GLH Negative prompt scenarios.SMA-22771_To verify For GLH create Items with reason as ‘NegativeStock’ to appear the records in offshelf in GLH.</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:19:21 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='341'>SMA-22771_To verify if "Prompted Negative Products" are not captured by store colleague, then status across warehouse location for respective department > section is Offshelf pending.</a>
+<div class="">
+<span class="badge badge-default">GLH Negative prompt scenarios.SMA-22771_To verify if "Prompted Negative Products" are not captured by store colleague, then status across warehouse location for respective department > section is Offshelf pending.</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>16:23:29 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='367'>SMA-22771_To verify once negative walkitems are created and displayed at offshelf location then the respective departments are also visible followed by section across Warehouse location.</a>
+<div class="">
+<span class="badge badge-default">GLH Negative prompt scenarios.SMA-22771_To verify once negative walkitems are created and displayed at offshelf location then the respective departments are also visible followed by section across Warehouse location.</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>16:26:12 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='401'>SMA-22771_To verify Groups and section displayed at Warehouse location on UI matches with Get storewalk Service response.</a>
+<div class="">
+<span class="badge badge-default">GLH Negative prompt scenarios.SMA-22771_To verify Groups and section displayed at Warehouse location on UI matches with Get storewalk Service response.</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>16:30:32 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='443'>SMA-22771_To verify user is able to capture "Prompted Negative Products" as GAP in on-shelf location then respective product is getting removed from Off shelf location.</a>
+<div class="">
+<span class="badge badge-default">GLH Negative prompt scenarios.SMA-22771_To verify user is able to capture "Prompted Negative Products" as GAP in on-shelf location then respective product is getting removed from Off shelf location.</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>16:35:05 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='485'>SMA-22771_To verify user is able to capture "Prompted Negative Products" as LOW in on-shelf location then respective product is getting removed from Off shelf location.</a>
+<div class="">
+<span class="badge badge-default">GLH Negative prompt scenarios.SMA-22771_To verify user is able to capture "Prompted Negative Products" as LOW in on-shelf location then respective product is getting removed from Off shelf location.</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>16:38:58 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='529'>SMA-22771_To verify user is able to capture "Prompted Negative Products" as HIGH in on-shelf location then respective product is getting removed from Off shelf location.</a>
+<div class="">
+<span class="badge badge-default">GLH Negative prompt scenarios.SMA-22771_To verify user is able to capture "Prompted Negative Products" as HIGH in on-shelf location then respective product is getting removed from Off shelf location.</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>16:50:11 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='573'>SMA-22771_To verify when user scans "Prompted Negative Products" in fixture location as HIGH then respective products are excluded from the Warehouse location but empty item list should be displayed.</a>
+<div class="">
+<span class="badge badge-default">GLH Negative prompt scenarios.SMA-22771_To verify when user scans "Prompted Negative Products" in fixture location as HIGH then respective products are excluded from the Warehouse location but empty item list should be displayed.</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:57:52 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='641'>SMA-22771_To verify user is able to set '0' quantity for prompted negative counts at Off-Shelf location.</a>
+<div class="">
+<span class="badge badge-default">GLH Negative prompt scenarios.SMA-22771_To verify user is able to set '0' quantity for prompted negative counts at Off-Shelf location.</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:59:33 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='663'>SMA-22771_To verify user should not be able to delete negative "Prompted Negative Products" from Offshelf Location.</a>
+<div class="">
+<span class="badge badge-default">GLH Negative prompt scenarios.SMA-22771_To verify user should not be able to delete negative "Prompted Negative Products" from Offshelf Location.</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>17:01:19 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='687'>SMA-22771_To verify user is able to complete warehouse location for the "Prompted Negative Products".</a>
+<div class="">
+<span class="badge badge-default">GLH Negative prompt scenarios.SMA-22771_To verify user is able to complete warehouse location for the "Prompted Negative Products".</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>2</span>
+</span>
+<p class="name">@NPonOffShelf</p>
+<p class="duration text-sm">2 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@NPonOffShelf</h4>
+<span status="pass" class='badge log pass-bg'>2 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:13:44 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='282'>SMA-22771_To verify the list of "Prompted Negative Products" are visible on offshelf location in AM GLH across store mobile app without any captures.</a>
+<div class="">
+<span class="badge badge-default">GLH Negative prompt scenarios.SMA-22771_To verify the list of "Prompted Negative Products" are visible on offshelf location in AM GLH across store mobile app without any captures.</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:13:44 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='283'>SMA-22771_To verify the list of "Prompted Negative Products" are visible on offshelf location in AM GLH across store mobile app without any captures.</a>
+<div class="">
+<span class="badge badge-default">GLH Negative prompt scenarios.SMA-22771_To verify the list of "Prompted Negative Products" are visible on offshelf location in AM GLH across store mobile app without any captures.</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>2</span>
+</span>
+<p class="name">@wwq</p>
+<p class="duration text-sm">2 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@wwq</h4>
+<span status="pass" class='badge log pass-bg'>2 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>15:53:02 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='2'>Create SOH for items</a>
+<div class="">
+<span class="badge badge-default">GLH Negative prompt scenarios.Create SOH for items</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>15:53:02 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='3'>Create SOH for items</a>
+<div class="">
+<span class="badge badge-default">GLH Negative prompt scenarios.Create SOH for items</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>2</span>
+</span>
+<p class="name">@MultipleWalkitemscreated</p>
+<p class="duration text-sm">2 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@MultipleWalkitemscreated</h4>
+<span status="pass" class='badge log pass-bg'>2 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:07:26 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='112'>SMA-22779_To verify section is created when multiple walkitems are created using Create Walkitem API by passing multiple product id in request body.</a>
+<div class="">
+<span class="badge badge-default">GLH Negative prompt scenarios.SMA-22779_To verify section is created when multiple walkitems are created using Create Walkitem API by passing multiple product id in request body.</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:07:26 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='113'>SMA-22779_To verify section is created when multiple walkitems are created using Create Walkitem API by passing multiple product id in request body.</a>
+<div class="">
+<span class="badge badge-default">GLH Negative prompt scenarios.SMA-22779_To verify section is created when multiple walkitems are created using Create Walkitem API by passing multiple product id in request body.</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>2</span>
+</span>
+<p class="name">@VerfUserAbleToCompleteWrhse</p>
+<p class="duration text-sm">2 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@VerfUserAbleToCompleteWrhse</h4>
+<span status="fail" class='badge log badge-danger'>2 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>17:01:19 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='686'>SMA-22771_To verify user is able to complete warehouse location for the "Prompted Negative Products".</a>
+<div class="">
+<span class="badge badge-default">GLH Negative prompt scenarios.SMA-22771_To verify user is able to complete warehouse location for the "Prompted Negative Products".</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>17:01:19 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='687'>SMA-22771_To verify user is able to complete warehouse location for the "Prompted Negative Products".</a>
+<div class="">
+<span class="badge badge-default">GLH Negative prompt scenarios.SMA-22771_To verify user is able to complete warehouse location for the "Prompted Negative Products".</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>Jun 5, 2024 03:52:55 PM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>Jun 5, 2024 05:04:03 PM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Features Passed</p>
+<h3>0</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Features Failed</p>
+<h3>1</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Features</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='0%'>
+<b>0</b> features passed
+</small>
+</div>
+<div>
+<small data-tooltip='100%'><b>1</b> features failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Scenarios</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='child-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='69%'><b>18</b> scenarios passed</small></div>
+<div>
+<small data-tooltip='30%'><b>8</b> scenarios failed,
+<b>0</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Steps</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='grandchild-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='84%'><b>247</b> steps passed</small></div>
+<div>
+<small data-tooltip='3%'><b>9</b> steps failed,
+<b>37</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"GLH Negative prompt scenarios":4244.089
+};
+</script>
+<div class="row">
+<div class="col-lg-6 col-md-12 category-container">
+<div class="card">
+<div class="card-header"><p>Tags</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead><tbody>
+<tr>
+<td>@sma</td>
+<td>34</td>
+<td>16</td>
+<td>0</td>
+<td>0</td>
+<td>68%</td>
+</tr>
+<tr>
+<td>@VerfGroupsandSectiondisp</td>
+<td>2</td>
+<td>2</td>
+<td>0</td>
+<td>0</td>
+<td>50%</td>
+</tr>
+<tr>
+<td>@timeChange</td>
+<td>2</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@VerfNegWalkItemsCr</td>
+<td>0</td>
+<td>2</td>
+<td>0</td>
+<td>0</td>
+<td>0%</td>
+</tr>
+<tr>
+<td>@Newglh_negative_prompt</td>
+<td>18</td>
+<td>9</td>
+<td>0</td>
+<td>0</td>
+<td>66.667%</td>
+</tr>
+<tr>
+<td>@NPonOffShelf</td>
+<td>2</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@wwq</td>
+<td>2</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@MultipleWalkitemscreated</td>
+<td>2</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@VerfUserAbleToCompleteWrhse</td>
+<td>0</td>
+<td>2</td>
+<td>0</td>
+<td>0</td>
+<td>0%</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 0,
+failParent: 1,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 18,
+failChild: 8,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 247,
+failGrandChild: 9,
+warningGrandChild: 0,
+skipGrandChild: 37,
+infoGrandChild: 0,
+eventsCount: 5,
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>

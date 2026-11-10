@@ -1,0 +1,265 @@
+{
+    "gtins": [
+        {
+            "id": "5010228012506",
+            "type": "EAN13",
+            "additionalProperties": {
+                "isPrimaryBarcode": true
+            }
+        }
+    ],
+    "itemNumber": "100001499",
+    "orderType": null,
+    "isCatchWeight": false,
+    "vatRate": 0,
+    "catchWeight": false,
+    "nonAlcoholLinesInBws": "No",
+    "cafeSelfServe": {
+        "kitchenPrinterFlag": null,
+        "modifierFlag": null
+    },
+    "standardUnitOfMeasure": "EA",
+    "forceEnterPrice": false,
+    "commercialHierarchy": {
+        "division": 2,
+        "divisionName": "Ambient & Dairy",
+        "group": 1,
+        "groupName": "Frozen",
+        "department": 6,
+        "departmentName": "006 Frozen Foods Potatoes, Chips & Vegetables",
+        "className": "Frozen Chips",
+        "subclass": 300,
+        "subclassName": "Frozen Micro Chips",
+        "additionalProperties": {},
+        "class_": 100
+    },
+    "packComponents": [],
+    "productLife": {
+        "productLifeAtTimeOfManufacture": "998",
+        "minimumAcceptableProductLifedays": "180",
+        "productExpirationDays": "1"
+    },
+    "netContent": null,
+    "itemDescription": "MCCAIN QUICK CHIPS CRINKLE CUT 4PK 400G",
+    "brand": "McCain",
+    "vatCode": "Z",
+    "productDescription": {
+        "shelfEdgeLabelLine3": "4PK £400G",
+        "shelfEdgeLabelLine1": "MCCAIN QUICK",
+        "shelfEdgeLabelLine2": "CHIPS CRINKLE CUT"
+    },
+    "smsPermanent": "No",
+    "marketStreet": {
+        "cookingInstructions": null,
+        "shelfLife": null,
+        "dayAdditional": null,
+        "sourceAndMethod": null
+    },
+    "packedMins": false,
+    "temperatureCheckRequired": "No",
+    "gda": [],
+    "stockAccountingMethod": {
+        "value": 1,
+        "description": "RMS - Standard"
+    },
+    "nutritionalHeading": "Per 100g Frozen,Per 100g Microwaved,Per 93g Microwaved",
+    "sellingUnitOfMeasure": "EA",
+    "legacyItemNumbers": [
+        "0065870",
+        "0065939"
+    ],
+    "packs": [
+        {
+            "packNumber": "100003048",
+            "packQuantity": 12,
+            "additionalProperties": {}
+        }
+    ],
+    "storeLiveDate": "06-JAN-97",
+    "sellBy": "BB",
+    "pharmacyOnly": "N",
+    "clothing": null,
+    "tillDescription": "MCCAIN MICROCHIPS",
+    "catchWeightType": null,
+    "status": "A",
+    "foodTechnical": false,
+    "supplySource": "X",
+    "components": null,
+    "saleType": null,
+    "storage": [
+        "Keep Frozen"
+    ],
+    "productFlags": {
+        "packInd": false,
+        "perishableInd": true,
+        "constDimenInd": true,
+        "packType": null,
+        "simplePackInd": false,
+        "catchWeightUom": null,
+        "orderableInd": true,
+        "inventoryInd": true,
+        "merchandiseInd": true,
+        "sellableInd": true
+    },
+    "uepItem": true,
+    "ctcTrialFlag": "1",
+    "productPurpose": "Selling",
+    "unitEquivalentPrice": {
+        "unitOfMeasureCode": "G",
+        "netContent": 400.0
+    },
+    "imageUrl": [
+        {
+            "url": "https://s3-eu-west-1.amazonaws.com/mprod.xxwmm.retail.brandbank.zzzzzzzzzz/images/brandbank/5010228012506_0.jpg",
+            "shotType": "ID Shot",
+            "height": 1500,
+            "width": 1500,
+            "additionalProperties": {}
+        }
+    ],
+    "productUOM": {
+        "uomConversionFactor": null
+    },
+    "ingredients": [
+        "Potatoes (96%)",
+        "Vegetable Oils (Rapeseed, Sunflower) - in varying proportions"
+    ],
+    "magazines": {
+        "dayIssued": null,
+        "frequency": null
+    },
+    "seo": null,
+    "productType": "ITEM",
+    "productRestrictions": {
+        "fuelCardRestrictions": "Goods Zero Rate VAT",
+        "allowQuantityMultiplier": "Yes",
+        "refundable": "Yes",
+        "wetStock": "No",
+        "operatorAgeCheck": "No"
+    },
+    "nutritionalInfo": [
+        {
+            "name": "Energy kJ",
+            "perComp": "662,710,661",
+            "perServing": null,
+            "additionalProperties": {}
+        },
+        {
+            "name": "Energy kcal",
+            "perComp": "157,169,157",
+            "perServing": null,
+            "additionalProperties": {}
+        },
+        {
+            "name": "Fat g",
+            "perComp": "4.5,4.7,4.4",
+            "perServing": null,
+            "additionalProperties": {}
+        },
+        {
+            "name": "of which saturates g",
+            "perComp": "0.6,0.6,0.5",
+            "perServing": null,
+            "additionalProperties": {}
+        },
+        {
+            "name": "Carbohydrate g",
+            "perComp": "26,28,26",
+            "perServing": null,
+            "additionalProperties": {}
+        },
+        {
+            "name": "of which sugars g",
+            "perComp": "<0.5,0.5,<0.5",
+            "perServing": null,
+            "additionalProperties": {}
+        },
+        {
+            "name": "Fibre g",
+            "perComp": "1.9,2.8,2.6",
+            "perServing": null,
+            "additionalProperties": {}
+        },
+        {
+            "name": "Protein g",
+            "perComp": "2.4,2.2,2.0",
+            "perServing": null,
+            "additionalProperties": {}
+        },
+        {
+            "name": "Salt g",
+            "perComp": "0.13,0.14,0.13",
+            "perServing": null,
+            "additionalProperties": {}
+        },
+        {
+            "name": "This pack contains 4 microwaved servings",
+            "perComp": ",,",
+            "perServing": null,
+            "additionalProperties": {}
+        }
+    ],
+    "storeToBarcode": "No",
+    "reportingHierarchy": {
+        "departmentName": "Frozen Chips",
+        "divisionName": "Ambient",
+        "class_": "6-100",
+        "className": "Frozen Chips",
+        "categoryName": "Frozen Food",
+        "division": "2",
+        "groupName": "Frozen",
+        "subclass": "6-100-300",
+        "subclassName": "Frozen Micro Chips",
+        "additionalProperties": {},
+        "category": "2",
+        "department": "6",
+        "group": "1"
+    },
+    "productMarketing": null,
+    "allergenInfo": [
+        {
+            "name": "Gluten",
+            "value": "Free From",
+            "additionalProperties": {}
+        }
+    ],
+    "priceType": "Regular Item",
+    "parentItemNumber": "100001354",
+    "commodityProduceOnly": "No",
+    "customerFriendlyDescription": "McCain Crinkle Cut Micro Chips 4x100g",
+    "brandType": "B",
+    "productComplianceInfo": {
+        "proteinContentPer100g": 2.4,
+        "saturatedfatContentPer100g": 0.6,
+        "asSoldorAsConsumed": "As Sold",
+        "sodiumContentPer100g": 52.0,
+        "fibreContentPer100g": 1.9,
+        "foodDrink": "Food",
+        "vegan": true,
+        "nutrientProfilingScore": -2,
+        "saltContentPer100g": 0.13,
+        "hfssLessHealthy": false,
+        "vegetarian": true,
+        "vegetableFruitNutPercentage": 0.0,
+        "sugarContentPer100g": 0.5,
+        "hfssInScope": 1,
+        "energyPer100g": 662,
+        "hfssCategory": 12
+    },
+    "priceMarked": false,
+    "countryOfOrigin": null,
+    "beersWinesSpirits": {
+        "strengthNumberAndWord": null,
+        "alcoholByVolume": null,
+        "tastingNotes": null,
+        "additionalTastingNote": null,
+        "volumeInLitres": null
+    },
+    "dimensions": {
+        "length": 0.0,
+        "height": 0.0,
+        "width": 0.0,
+        "weight": 0.0,
+        "additionalProperties": {}
+    }
+}

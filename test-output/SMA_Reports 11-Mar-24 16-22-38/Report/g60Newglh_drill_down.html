@@ -1,0 +1,4320 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title></title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa bdd-report standard">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary"></span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Mar 11, 2024 04:22:38 PM</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('exception-view')">
+<a id="nav-exception" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bug"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('category-view')">
+<a id="nav-category" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-tag"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-tag"></i></a>
+<ul id="tag-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" href="#">@VerfCountScreen</a><a class="dropdown-item" href="#">@Verifydrilldown</a><a class="dropdown-item" href="#">@timeChange</a><a class="dropdown-item" href="#">@nonmarketstreetdept</a><a class="dropdown-item" href="#">@VerfGapScreen</a><a class="dropdown-item" href="#">@VerifyAllcountsatDept</a><a class="dropdown-item" href="#">@scanProductsGLHDept</a><a class="dropdown-item" href="#">@sma</a><a class="dropdown-item" href="#">@ms</a><a class="dropdown-item" href="#">@g60Newglh_drill_down</a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="fail" test-id="1"
+          author=""
+          tag="@g60Newglh_drill_down"
+          device="">
+          <div class="test-detail">
+            <p class="name">Verify Glh Drilldown scenario functionality</p>
+            <p class="text-sm">
+              <span>4:22:43 PM</span> / <span>00:54:42:924</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Verify Glh Drilldown scenario functionality</h5>
+<span class='badge badge-success'>03.11.2024 4:22:43 PM</span>
+<span class='badge badge-danger'>03.11.2024 5:17:26 PM</span>
+<span class='badge badge-default'>00:54:42:924</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">@g60Newglh_drill_down</span></div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="2"><span class="badge log pass-bg mr-2">Pass</span>TO CHANGE THE DEVICE TIMINGS AS REQUIRED</div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="3"><span class="badge log pass-bg mr-2">Pass</span>TO CHANGE THE DEVICE TIMINGS AS REQUIRED</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given I send the time "07" and mins "00" and meridiem "am" and current date in list</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I Change time</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I Change date</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="14"><span class="badge log pass-bg mr-2">Pass</span>Delete GLH Storewalk from Service</div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="15"><span class="badge log pass-bg mr-2">Pass</span>Delete GLH Storewalk from Service</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given request is made to capture access token and post endpoint for user v2 for "<reqdata>"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I Verify the Response Code for the following "<Item>" is 200</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I get the field value for the field "access_token"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Get the generated Access Tocken for SMA app Login Service</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given Get request is made to Get storewalks service for current date</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Get Operation perform on service request</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Verify Get storewalks service response for current date</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Delete request is made to Delete GLH storewalk for store id "8"</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="36"><span class="badge log pass-bg mr-2">Pass</span>Delete MS GLH Storewalk from Service</div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="37"><span class="badge log pass-bg mr-2">Pass</span>Delete MS GLH Storewalk from Service</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>And Get the generated Access Tocken for SMA app Login Service</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given Get request is made to Get storewalks service for current date</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Get Operation perform on service request</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Verify Get storewalks service response for current date</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Delete request is made to Delete MarketStreet storewalk for store id "8"</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="52"><span class="badge log pass-bg mr-2">Pass</span>Get department list from GLH Summari API response</div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="53"><span class="badge log pass-bg mr-2">Pass</span>Get department list from GLH Summari API response</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>And Get the generated Access Tocken for SMA app Login Service</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given Post request is made to Create storewalk service for store id "8" and type "MarketStreetGapsHighsLows"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Post Operation perform on service request</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Verify Create storewalk service response</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Get request is made to GlhSummary api for Store id "8" and Walktype "MarketStreetGapsHighsLows"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Get Operation perform on Glh Summary service request</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Get Department list from Glh Summary service response for Store id "8"</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="72"><span class="badge log pass-bg mr-2">Pass</span>Verify that sections for non market street departments which have 0 counts are sorted in alphabetical order</div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="73"><span class="badge log pass-bg mr-2">Pass</span>Verify that sections for non market street departments which have 0 counts are sorted in alphabetical order</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>When I enter Username and Password for SMA Collegue user</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I click on login button for SMA</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on 'stockMngmtText' on page 'HomePagePO_New'</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on "Shop Floor - Gap Scan"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on Summary</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I verify Gaps, Count tabs are displayed on summary page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on Gaps tab on summary page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I verify department list is displayed on summary page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given Capture type is "Gaps" and count "0"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I verify all "Grocery" Department sections count is Zero</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I verify department sections which have 0 counts are sorted in alphabetical order</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="100"><span class="badge log pass-bg mr-2">Pass</span>Verify that sections for market street department will display specified list of market street departments which are mapped to MarketStrreetGapsHighsLows walktype</div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="101"><span class="badge log pass-bg mr-2">Pass</span>Verify that sections for market street department will display specified list of market street departments which are mapped to MarketStrreetGapsHighsLows walktype</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>When I enter Username and Password for SMA Collegue user</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I click on login button for SMA</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on 'stockMngmtText' on page 'HomePagePO_New'</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on "Shop Floor - Gap Scan"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Get the generated Access Tocken for SMA app Login Service</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given Get request is made to Get storewalks service for current date</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Get Operation perform on service request</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Verify Get storewalks service response for current date</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Delete request is made to Delete MarketStreet storewalk for store id "8"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on Summary</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I verify Gaps, Count tabs are displayed on summary page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I verify department list is displayed on summary page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I verify Gaps tab, SR, SF and IC columns are displayed on summary page Header</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given Capture type is "Gaps" and count "0"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I get all "Market Street" Department sections in list</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Get the generated Access Tocken for SMA app Login Service</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given Post request is made to Create storewalk service for store id "8" and type "MarketStreetGapsHighsLows"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Post Operation perform on service request</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Verify Create storewalk service response</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Get request is made to GlhSummary api for Store id "8" and Walktype "MarketStreetGapsHighsLows"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Get Operation perform on Glh Summary service request</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Get Department list from Glh Summary service response for Store id "8"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I Verify all department sections which are mapped to Market Street department on UI and Service matches</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="152"><span class="badge log pass-bg mr-2">Pass</span>Verify that sections for market street department will be displayed as per specified static sort order</div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="153"><span class="badge log pass-bg mr-2">Pass</span>Verify that sections for market street department will be displayed as per specified static sort order</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>When I enter Username and Password for SMA Collegue user</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I click on login button for SMA</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on 'stockMngmtText' on page 'HomePagePO_New'</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on "Shop Floor - Gap Scan"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Get the generated Access Tocken for SMA app Login Service</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given Get request is made to Get storewalks service for current date</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Get Operation perform on service request</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Verify Get storewalks service response for current date</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Delete request is made to Delete MarketStreet storewalk for store id "8"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on Summary</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I verify Gaps, Count tabs are displayed on summary page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I verify department list is displayed on summary page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I verify Gaps tab, SR, SF and IC columns are displayed on summary page Header</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given Capture type is "Gaps" and count "0"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I get all "Market Street" Department sections in list</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Get the generated Access Tocken for SMA app Login Service</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given Post request is made to Create storewalk service for store id "8" and type "MarketStreetGapsHighsLows"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Post Operation perform on service request</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Verify Create storewalk service response</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Get request is made to GlhSummary api for Store id "8" and Walktype "MarketStreetGapsHighsLows"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Get Operation perform on Glh Summary service request</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Get Department list from Glh Summary service response for Store id "8"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I Verify all department sections which are mapped to Market Street department on UI and Service matches</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="204"><span class="badge log pass-bg mr-2">Pass</span>Verify that the GLH Summary screen will display all specified departments which are mapped to GapsHighsLows walktype along with Market Street department.</div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="205"><span class="badge log pass-bg mr-2">Pass</span>Verify that the GLH Summary screen will display all specified departments which are mapped to GapsHighsLows walktype along with Market Street department.</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>When I enter Username and Password for SMA Collegue user</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I click on login button for SMA</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on 'stockMngmtText' on page 'HomePagePO_New'</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on "Shop Floor - Gap Scan"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on Fixture Scan</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I click on Back Button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on Summary</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I verify Gaps, Count tabs are displayed on summary page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I verify department list is displayed on summary page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I verify Gaps tab, SR, SF and IC columns are displayed on summary page Header</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I get Department list for Gaps tab on summary page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Get the generated Access Tocken for SMA app Login Service</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given Post request is made to Create storewalk service for store id "8" and type "GapsHighsLows"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Post Operation perform on service request</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Verify Create storewalk service response</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given Post request is made to Create storewalk service for store id "8" and type "MarketStreetGapsHighsLows"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Post Operation perform on service request</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Verify Create storewalk service response</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Get request is made to GlhSummary api for Store id "8" and Walktype GLH & Marketstreet GLH</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Get Operation perform on Glh Summary service request</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Get Department list from Glh Summary service response for Store id "8"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I Verify all departments which are mapped to GapsHighsLows walktype along with Market Street department on UI and Service matches</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="254"><span class="badge log pass-bg mr-2">Pass</span>Verify that the GLH Summary screen will display all departments in the specified static order in all 3 tabs for Gaps,High and Low.</div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="255"><span class="badge log pass-bg mr-2">Pass</span>Verify that the GLH Summary screen will display all departments in the specified static order in all 3 tabs for Gaps,High and Low.</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>When I enter Username and Password for SMA Collegue user</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I click on login button for SMA</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on 'stockMngmtText' on page 'HomePagePO_New'</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on "Shop Floor - Gap Scan"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on Fixture Scan</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I click on Back Button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on Summary</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I verify Gaps, Count tabs are displayed on summary page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on Gaps tab on summary page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I verify department list is displayed on summary page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I get Department list for Gaps tab on summary page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I click on COUNT tab in summary screen</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I verify department list is displayed on summary page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I get Department list for Count tab on summary page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Get the generated Access Tocken for SMA app Login Service</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given Post request is made to Create storewalk service for store id "8" and type "GapsHighsLows"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Post Operation perform on service request</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Verify Create storewalk service response</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given Post request is made to Create storewalk service for store id "8" and type "MarketStreetGapsHighsLows"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Post Operation perform on service request</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Verify Create storewalk service response</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Get request is made to GlhSummary api for Store id "8" and Walktype GLH & Marketstreet GLH</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Get Operation perform on Glh Summary service request</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Get Department list from Glh Summary service response for Store id "8"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I verify all departments are displayed in the specified static order in all 3 tabs for Gaps,High and Low</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I logout of the system</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="312"><span class="badge log pass-bg mr-2">Pass</span>Verify that the GLH Summary screen will display all departments with right arrow indicator in all 3 tabs</div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="313"><span class="badge log pass-bg mr-2">Pass</span>Verify that the GLH Summary screen will display all departments with right arrow indicator in all 3 tabs</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>When I enter Username and Password for SMA Collegue user</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I click on login button for SMA</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on 'stockMngmtText' on page 'HomePagePO_New'</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on "Shop Floor - Gap Scan"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on Summary</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I verify Gaps, Count tabs are displayed on summary page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on Gaps tab on summary page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I verify all departments with right arrow indicator is displayed on summary page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I click on COUNT tab in summary screen</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I verify all departments with right arrow indicator is displayed on summary page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I logout of the system</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="340"><span class="badge log fail-bg mr-2">Fail</span>Verify that sections for non market street departments are sorted based on counts low to high for Gaps.</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
+      </div>
+    </div>
+        <div class="scenario_outline ">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="341"><span class="badge log fail-bg mr-2">Fail</span>Verify that sections for non market street departments are sorted based on counts low to high for Gaps.</div>
+                    <div class="status-avatar float-right">
+                      <i class="fa fa-paperclip"></i>
+                    </div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step pass-bg">
+                    <span>When I enter Username and Password for SMA Collegue user</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I click on login button for SMA</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on 'stockMngmtText' on page 'HomePagePO_New'</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on "Shop Floor - Gap Scan"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Get the generated Access Tocken for SMA app Login Service</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given Get request is made to Get storewalks service for current date</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Get Operation perform on service request</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Verify Get storewalks service response for current date</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Delete request is made to Delete GLH storewalk for store id "8"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on Summary</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I verify Gaps, Count tabs are displayed on summary page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on Gaps tab on summary page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I verify department list is displayed on summary page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given Capture type is "Gaps" and count "0"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I get Section list for "Grocery" Dept and Count for sections "Air Care, Matches & Cleaners" and "Biscuits, Crispbreads, Crackers" department on summary page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I get Sections "Air Care, Matches & Cleaners" and "Biscuits, Crispbreads, Crackers" index before scanning the products</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I click on Back Button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on Fixture Scan</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I click on barcode entry Button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Enter "106454481" number</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I click on GAP button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I will capture the product name from view list</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I click on barcode entry Button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Enter "102466936" number</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step fail-bg">
+                    <span>And I click on GAP button</span>
+      <div>
+        <textarea disabled class="code-block">org.openqa.selenium.UnsupportedCommandException: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IN-MH1LPW113919', ip: '192.168.29.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_352-352'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {AUTOMATION_NAME: uiautomator2, BROWSER_NAME: Android, VERSION: 9.0, acceptSslCerts: true, appActivity: com.morrisons.instore.modul..., appPackage: com.morrisons.instore.sit, autoGrantPermissions: true, automationName: UIAutomator2, databaseEnabled: false, desired: {AUTOMATION_NAME: uiautomator2, BROWSER_NAME: Android, VERSION: 9.0, acceptSslCerts: true, appActivity: com.morrisons.instore.modul..., appPackage: com.morrisons.instore.sit, autoGrantPermissions: true, automationName: UIAutomator2, deviceName: Pixel2API19, noReset: false, platformName: android, –session-override: true}, deviceApiLevel: 28, deviceManufacturer: Google, deviceModel: AOSP on IA Emulator, deviceName: emulator-5554, deviceScreenDensity: 560, deviceScreenSize: 1440x2560, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: false, pixelRatio: 3.5, platform: LINUX, platformName: Android, platformVersion: 9, statBarHeight: 84, takesScreenshot: true, viewportRect: {height: 2308, left: 0, top: 84, width: 1440}, warnings: {}, webStorageEnabled: false, –session-override: true}
+Session ID: 7d021da2-25b4-40e3-8944-dad78685bbe2
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:231)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:46)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.refresh(RemoteWebDriver.java:865)
+	at com.morrisons.sma.page_objects.mobile.old.GLHPageObject.clickGapButton(GLHPageObject.java:149)
+	at com.morrisons.sma.step_definitions.mobile.old.GLHStepDef.i_click_on_GAP_button(GLHStepDef.java:82)
+	at ✽.I click on GAP button(classpath:sma_features_new/GapsLowsHighs/GLH_CO/GlhDrilldownScenarioNew.feature:267)
+</textarea>
+      
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.morrisons.common.action.Hook.afterScenario(io.cucumber.java.Scenario)</span>
+      <div>
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded1.png' src="../Screenshots/embedded1.png">
+    
+    </div></div>
+</div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And I will capture the product name from view list</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And I click on Back Button</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then I click on Summary</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And I verify Gaps, Count tabs are displayed on summary page</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then I click on Gaps tab on summary page</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And I verify department list is displayed on summary page</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Given Capture type is "Gaps" and count "1"</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then I get Section list for "Grocery" Dept and Count for sections "Air Care, Matches & Cleaners" and "Biscuits, Crispbreads, Crackers" department on summary page</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And I get Sections "Air Care, Matches & Cleaners" and "Biscuits, Crispbreads, Crackers" index after scanning the products</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then I verify after scanning product Sections "Air Care, Matches & Cleaners" and "Biscuits, Crispbreads, Crackers" are moved to bottom of list</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And I verify Count on summary page for Dept "Grocery" and sections "Air Care, Matches & Cleaners" and "Biscuits, Crispbreads, Crackers"</span>
+      <div>Step skipped
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="418"><span class="badge log fail-bg mr-2">Fail</span>Verify that sections for non market street departments are sorted based on counts low to high for Lows.</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
+      </div>
+    </div>
+        <div class="scenario_outline ">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="419"><span class="badge log fail-bg mr-2">Fail</span>Verify that sections for non market street departments are sorted based on counts low to high for Lows.</div>
+                    <div class="status-avatar float-right">
+                      <i class="fa fa-paperclip"></i>
+                    </div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step pass-bg">
+                    <span>When I enter Username and Password for SMA Collegue user</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I click on login button for SMA</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on 'stockMngmtText' on page 'HomePagePO_New'</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on "Shop Floor - Gap Scan"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on Summary</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I verify Gaps, Count tabs are displayed on summary page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I click on COUNT tab in summary screen</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I verify department list is displayed on summary page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given Capture type is "Lows" and count "0"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I get Section list for "Grocery" Dept and Count for sections "Air Care, Matches & Cleaners" and "Biscuits, Crispbreads, Crackers" department on summary page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I get Sections "Air Care, Matches & Cleaners" and "Biscuits, Crispbreads, Crackers" index before scanning the products</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I click on Back Button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on Fixture Scan</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I click on barcode entry Button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Enter "106454481" number</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I click on COUNT button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I enter quantity "4" for fixture and warehouse</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I choose the plan from popup if multiple records present</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I will capture the product name from view list</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I click on barcode entry Button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Enter "102466936" number</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step fail-bg">
+                    <span>And I click on COUNT button</span>
+      <div>
+        <textarea disabled class="code-block">org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IN-MH1LPW113919', ip: '192.168.29.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_352-352'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {AUTOMATION_NAME: uiautomator2, BROWSER_NAME: Android, VERSION: 9.0, acceptSslCerts: true, appActivity: com.morrisons.instore.modul..., appPackage: com.morrisons.instore.sit, autoGrantPermissions: true, automationName: UIAutomator2, databaseEnabled: false, desired: {AUTOMATION_NAME: uiautomator2, BROWSER_NAME: Android, VERSION: 9.0, acceptSslCerts: true, appActivity: com.morrisons.instore.modul..., appPackage: com.morrisons.instore.sit, autoGrantPermissions: true, automationName: UIAutomator2, deviceName: Pixel2API19, noReset: false, platformName: android, –session-override: true}, deviceApiLevel: 28, deviceManufacturer: Google, deviceModel: AOSP on IA Emulator, deviceName: emulator-5554, deviceScreenDensity: 560, deviceScreenSize: 1440x2560, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: false, pixelRatio: 3.5, platform: LINUX, platformName: Android, platformVersion: 9, statBarHeight: 84, takesScreenshot: true, viewportRect: {height: 2308, left: 0, top: 84, width: 1440}, warnings: {}, webStorageEnabled: false, –session-override: true}
+Session ID: 7fdbfa9f-36f4-41df-8137-8e669fa0d0df
+*** Element info: {Using=xpath, value=//android.widget.Button[@text='COUNT']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:231)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:152)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at com.morrisons.sma.page_objects.mobile.old.GLHPageObject.clickCountButton(GLHPageObject.java:173)
+	at com.morrisons.sma.step_definitions.mobile.old.GLHStepDef.iClickOnCOUNTButton(GLHStepDef.java:99)
+	at ✽.I click on COUNT button(classpath:sma_features_new/GapsLowsHighs/GLH_CO/GlhDrilldownScenarioNew.feature:310)
+</textarea>
+      
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.morrisons.common.action.Hook.afterScenario(io.cucumber.java.Scenario)</span>
+      <div>
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded2.png' src="../Screenshots/embedded2.png">
+    
+    </div></div>
+</div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And I enter quantity "4" for fixture and warehouse</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And I choose the plan from popup if multiple records present</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And I will capture the product name from view list</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And I click on Back Button</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then I click on Summary</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And I verify Gaps, Count tabs are displayed on summary page</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And I click on COUNT tab in summary screen</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And I verify department list is displayed on summary page</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Given Capture type is "Lows" and count "1"</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then I get Section list for "Grocery" Dept and Count for sections "Air Care, Matches & Cleaners" and "Biscuits, Crispbreads, Crackers" department on summary page</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And I get Sections "Air Care, Matches & Cleaners" and "Biscuits, Crispbreads, Crackers" index after scanning the products</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then I verify after scanning product Sections "Air Care, Matches & Cleaners" and "Biscuits, Crispbreads, Crackers" are moved to bottom of list</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And I verify Count on summary page for Dept "Grocery" and sections "Air Care, Matches & Cleaners" and "Biscuits, Crispbreads, Crackers"</span>
+      <div>Step skipped
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="494"><span class="badge log fail-bg mr-2">Fail</span>Verify that sections for non market street departments are sorted based on counts high to low for Highs.</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
+      </div>
+    </div>
+        <div class="scenario_outline ">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="495"><span class="badge log fail-bg mr-2">Fail</span>Verify that sections for non market street departments are sorted based on counts high to low for Highs.</div>
+                    <div class="status-avatar float-right">
+                      <i class="fa fa-paperclip"></i>
+                    </div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step pass-bg">
+                    <span>When I enter Username and Password for SMA Collegue user</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I click on login button for SMA</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on 'stockMngmtText' on page 'HomePagePO_New'</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on "Shop Floor - Gap Scan"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on Summary</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I verify Gaps, Count tabs are displayed on summary page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I click on COUNT tab in summary screen</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I verify department list is displayed on summary page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given Capture type is "Highs" and count "0"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I get Section list for "Grocery" Dept and Count for sections "Air Care, Matches & Cleaners" and "Biscuits, Crispbreads, Crackers" department on summary page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I get Sections "Air Care, Matches & Cleaners" and "Biscuits, Crispbreads, Crackers" index before scanning the products</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I click on Back Button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on Fixture Scan</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I click on barcode entry Button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Enter "106454481" number</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I click on COUNT button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I enter quantity "4" for fixture and warehouse</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I choose the plan from popup if multiple records present</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I will capture the product name from view list</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I click on barcode entry Button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Enter "102466936" number</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step fail-bg">
+                    <span>And I click on COUNT button</span>
+      <div>
+        <textarea disabled class="code-block">org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IN-MH1LPW113919', ip: '192.168.29.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_352-352'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {AUTOMATION_NAME: uiautomator2, BROWSER_NAME: Android, VERSION: 9.0, acceptSslCerts: true, appActivity: com.morrisons.instore.modul..., appPackage: com.morrisons.instore.sit, autoGrantPermissions: true, automationName: UIAutomator2, databaseEnabled: false, desired: {AUTOMATION_NAME: uiautomator2, BROWSER_NAME: Android, VERSION: 9.0, acceptSslCerts: true, appActivity: com.morrisons.instore.modul..., appPackage: com.morrisons.instore.sit, autoGrantPermissions: true, automationName: UIAutomator2, deviceName: Pixel2API19, noReset: false, platformName: android, –session-override: true}, deviceApiLevel: 28, deviceManufacturer: Google, deviceModel: AOSP on IA Emulator, deviceName: emulator-5554, deviceScreenDensity: 560, deviceScreenSize: 1440x2560, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: false, pixelRatio: 3.5, platform: LINUX, platformName: Android, platformVersion: 9, statBarHeight: 84, takesScreenshot: true, viewportRect: {height: 2308, left: 0, top: 84, width: 1440}, warnings: {}, webStorageEnabled: false, –session-override: true}
+Session ID: 0588fc5a-34f3-4ab3-b964-cd64cbd2df17
+*** Element info: {Using=xpath, value=//android.widget.Button[@text='COUNT']}
+	at sun.reflect.GeneratedConstructorAccessor68.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:231)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:152)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at com.morrisons.sma.page_objects.mobile.old.GLHPageObject.clickCountButton(GLHPageObject.java:173)
+	at com.morrisons.sma.step_definitions.mobile.old.GLHStepDef.iClickOnCOUNTButton(GLHStepDef.java:99)
+	at ✽.I click on COUNT button(classpath:sma_features_new/GapsLowsHighs/GLH_CO/GlhDrilldownScenarioNew.feature:357)
+</textarea>
+      
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.morrisons.common.action.Hook.afterScenario(io.cucumber.java.Scenario)</span>
+      <div>
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded3.png' src="../Screenshots/embedded3.png">
+    
+    </div></div>
+</div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And I enter quantity "4" for fixture and warehouse</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And I choose the plan from popup if multiple records present</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And I will capture the product name from view list</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And I click on Back Button</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then I click on Summary</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And I verify Gaps, Count tabs are displayed on summary page</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And I click on COUNT tab in summary screen</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And I verify department list is displayed on summary page</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Given Capture type is "Highs" and count "1"</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then I get Section list for "Grocery" Dept and Count for sections "Air Care, Matches & Cleaners" and "Biscuits, Crispbreads, Crackers" department on summary page</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And I get Sections "Air Care, Matches & Cleaners" and "Biscuits, Crispbreads, Crackers" index after scanning the products</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then I verify after scanning product Sections "Air Care, Matches & Cleaners" and "Biscuits, Crispbreads, Crackers" are at the same position in the list</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And I verify Count on summary page for Dept "Grocery" and sections "Air Care, Matches & Cleaners" and "Biscuits, Crispbreads, Crackers"</span>
+      <div>Step skipped
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="570"><span class="badge log pass-bg mr-2">Pass</span>Verify that the drill down department will appear in green with down arrow indicator</div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="571"><span class="badge log pass-bg mr-2">Pass</span>Verify that the drill down department will appear in green with down arrow indicator</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>When I enter Username and Password for SMA Collegue user</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I click on login button for SMA</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on 'stockMngmtText' on page 'HomePagePO_New'</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on "Shop Floor - Gap Scan"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on Summary</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I verify Gaps, Count tabs are displayed on summary page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on Gaps tab on summary page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I Selct "Grocery" department</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I verify all departments with right arrow indicator is displayed on summary page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I click on COUNT tab in summary screen</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I Selct "Grocery" department</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I verify all departments with right arrow indicator is displayed on summary page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I logout of the system</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="602"><span class="badge log pass-bg mr-2">Pass</span>Verify that the all counts at section level add up to the department level for all departments (for non marketstreet dept) in all 3 tabs</div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="603"><span class="badge log pass-bg mr-2">Pass</span>Verify that the all counts at section level add up to the department level for all departments (for non marketstreet dept) in all 3 tabs</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>When I enter Username and Password for SMA Collegue user</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I click on login button for SMA</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on 'stockMngmtText' on page 'HomePagePO_New'</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on "Shop Floor - Gap Scan"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on Fixture Scan</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I click on Back Button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on Summary</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I verify Gaps, Count tabs are displayed on summary page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given Capture type is "<CaptureType>" and count "1"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on Gaps tab on summary page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I get Section list for "Grocery" Dept and Count for sections "Air Care, Matches & Cleaners" and "Biscuits, Crispbreads, Crackers" department on summary page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I verify that the all counts at section level add up to the department level for "Grocery" Department</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given Capture type is "<CaptureType>" and count "1"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I click on COUNT tab in summary screen</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I get Section list for "Grocery" Dept and Count for sections "Air Care, Matches & Cleaners" and "Biscuits, Crispbreads, Crackers" department on summary page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I verify that the all counts at section level add up to the department level for "Grocery" Department</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given Capture type is "<CaptureType>" and count "1"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I click on COUNT tab in summary screen</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I get Section list for "Grocery" Dept and Count for sections "Air Care, Matches & Cleaners" and "Biscuits, Crispbreads, Crackers" department on summary page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I verify that the all counts at section level add up to the department level for "Grocery" Department</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I logout of the system</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="650"><span class="badge log pass-bg mr-2">Pass</span>Scan products in fixture and marked as HIGH, GAP and LOW for GLH dept.</div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="651"><span class="badge log pass-bg mr-2">Pass</span>Scan products in fixture and marked as HIGH, GAP and LOW for GLH dept.</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>When I enter Username and Password for SMA Collegue user</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I click on login button for SMA</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on 'stockMngmtText' on page 'HomePagePO_New'</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on "Shop Floor - Gap Scan"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on Fixture Scan</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I click on barcode entry Button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Enter "100688560" number</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I click on GAP button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I choose the plan from popup if multiple records present</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I will capture the product name from view list</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I click on barcode entry Button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Enter "103268851" number</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I click on COUNT button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I enter quantity "2" for fixture and warehouse</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I choose the plan from popup if multiple records present</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I will capture the product name from view list</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I click on barcode entry Button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Enter "103268851" number</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I click on COUNT button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I enter quantity "2" for fixture and warehouse</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I choose the plan from popup if multiple records present</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I will capture the product name from view list</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I click on Back Button</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="702"><span class="badge log fail-bg mr-2">Fail</span>Verify that the all counts at department level add up to the Totals (For Non Market Street dept)in all 3 tabs</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
+      </div>
+    </div>
+        <div class="scenario_outline ">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="703"><span class="badge log fail-bg mr-2">Fail</span>Verify that the all counts at department level add up to the Totals (For Non Market Street dept)in all 3 tabs</div>
+                    <div class="status-avatar float-right">
+                      <i class="fa fa-paperclip"></i>
+                    </div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step pass-bg">
+                    <span>When I enter Username and Password for SMA Collegue user</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I click on login button for SMA</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on 'stockMngmtText' on page 'HomePagePO_New'</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on "Shop Floor - Gap Scan"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on Fixture Scan</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I click on Back Button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on Summary</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I verify Gaps, Count tabs are displayed on summary page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given Capture type is "Gaps" and count ""</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on Gaps tab on summary page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I Get department count for "Grocery" and "Fresh" departments</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step fail-bg">
+                    <span>And I verify that the all counts at department level add up to the Totals for "Gaps"</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.AssertionError: Total count is mismatched expected [2] but found [1]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:389)
+	at com.morrisons.sma.page_objects.mobile.old.GlhDrillDownPO.verifyDeptCountAtTotal(GlhDrillDownPO.java:481)
+	at com.morrisons.sma.step_definitions.mobile.old.GlDrilldownStepDef.verifyDeptCountAtTotal(GlDrilldownStepDef.java:319)
+	at ✽.I verify that the all counts at department level add up to the Totals for "Gaps"(classpath:sma_features_new/GapsLowsHighs/GLH_CO/GlhDrilldownScenarioNew.feature:481)
+</textarea>
+      
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.morrisons.common.action.Hook.afterScenario(io.cucumber.java.Scenario)</span>
+      <div>
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded4.png' src="../Screenshots/embedded4.png">
+    
+    </div></div>
+</div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Given Capture type is "Count" and count ""</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then I click on COUNT tab in summary screen</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And I Get department count for "Grocery" and "Fresh" departments</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And I verify that the all counts at department level add up to the Totals for "Count"</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And I logout of the system</span>
+      <div>Step skipped
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="742"><span class="badge log fail-bg mr-2">Fail</span>Scan products in fixture and marked as HIGH, GAP and LOW for Marketstreet GLH dept.</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
+      </div>
+    </div>
+        <div class="scenario_outline ">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="743"><span class="badge log fail-bg mr-2">Fail</span>Scan products in fixture and marked as HIGH, GAP and LOW for Marketstreet GLH dept.</div>
+                    <div class="status-avatar float-right">
+                      <i class="fa fa-paperclip"></i>
+                    </div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step pass-bg">
+                    <span>When I enter Username and Password for SMA Collegue user</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I click on login button for SMA</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on 'stockMngmtText' on page 'HomePagePO_New'</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on "Market Street - Gap Scan"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I click Counter & Fixture location</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I click on barcode entry Button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Enter "104229467" number</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I click on GAP button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I click View List</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I capture MIN for product in Counter</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I click on Back Button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I click on barcode entry Button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Enter "104738042" number</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I click on COUNT button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I enter quantity "4" for fixture and warehouse</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step fail-bg">
+                    <span>Then I click on the Confirm Button</span>
+      <div>
+        <textarea disabled class="code-block">org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IN-MH1LPW113919', ip: '192.168.29.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_352-352'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {AUTOMATION_NAME: uiautomator2, BROWSER_NAME: Android, VERSION: 9.0, acceptSslCerts: true, appActivity: com.morrisons.instore.modul..., appPackage: com.morrisons.instore.sit, autoGrantPermissions: true, automationName: UIAutomator2, databaseEnabled: false, desired: {AUTOMATION_NAME: uiautomator2, BROWSER_NAME: Android, VERSION: 9.0, acceptSslCerts: true, appActivity: com.morrisons.instore.modul..., appPackage: com.morrisons.instore.sit, autoGrantPermissions: true, automationName: UIAutomator2, deviceName: Pixel2API19, noReset: false, platformName: android, –session-override: true}, deviceApiLevel: 28, deviceManufacturer: Google, deviceModel: AOSP on IA Emulator, deviceName: emulator-5554, deviceScreenDensity: 560, deviceScreenSize: 1440x2560, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: false, pixelRatio: 3.5, platform: LINUX, platformName: Android, platformVersion: 9, statBarHeight: 84, takesScreenshot: true, viewportRect: {height: 2308, left: 0, top: 84, width: 1440}, warnings: {}, webStorageEnabled: false, –session-override: true}
+Session ID: f000281b-ceb9-48a8-b124-1b8034980394
+*** Element info: {Using=xpath, value=//android.widget.Button[@text='Confirm' or @text='CONFIRM']}
+	at sun.reflect.GeneratedConstructorAccessor68.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:231)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:152)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at com.morrisons.sma.page_objects.mobile.old.GLHPageObject.confirm(GLHPageObject.java:1107)
+	at com.morrisons.sma.step_definitions.mobile.old.GLHStepDef.i_click_on_the_Confirm_Button(GLHStepDef.java:338)
+	at ✽.I click on the Confirm Button(classpath:sma_features_new/GapsLowsHighs/GLH_CO/GlhDrilldownScenarioNew.feature:518)
+</textarea>
+      
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.morrisons.common.action.Hook.afterScenario(io.cucumber.java.Scenario)</span>
+      <div>
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded5.png' src="../Screenshots/embedded5.png">
+    
+    </div></div>
+</div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And I click View List</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then I capture MIN for product in Counter</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And I click on Back Button</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And I click on barcode entry Button</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then Enter "105780269" number</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And I click on COUNT button</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And I enter quantity "4" for fixture and warehouse</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And I click View List</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then I capture MIN for product in Counter</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And I logout of the system</span>
+      <div>Step skipped
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="800"><span class="badge log fail-bg mr-2">Fail</span>Verify that the all counts at section level add up to the department level for all departments (Market Street) in all 3 tabs</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
+      </div>
+    </div>
+        <div class="scenario_outline ">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="801"><span class="badge log fail-bg mr-2">Fail</span>Verify that the all counts at section level add up to the department level for all departments (Market Street) in all 3 tabs</div>
+                    <div class="status-avatar float-right">
+                      <i class="fa fa-paperclip"></i>
+                    </div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step pass-bg">
+                    <span>When I enter Username and Password for SMA Collegue user</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I click on login button for SMA</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on 'stockMngmtText' on page 'HomePagePO_New'</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on "Shop Floor - Gap Scan"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on Summary</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I verify Gaps, Count tabs are displayed on summary page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given Capture type is "Gaps" and count "1"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on Gaps tab on summary page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step fail-bg">
+                    <span>And I get Section list for "Market Street" Dept and Count for sections "Bakery" and "Fresh Prep" department on summary page</span>
+      <div>
+        <textarea disabled class="code-block">org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IN-MH1LPW113919', ip: '192.168.29.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_352-352'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {AUTOMATION_NAME: uiautomator2, BROWSER_NAME: Android, VERSION: 9.0, acceptSslCerts: true, appActivity: com.morrisons.instore.modul..., appPackage: com.morrisons.instore.sit, autoGrantPermissions: true, automationName: UIAutomator2, databaseEnabled: false, desired: {AUTOMATION_NAME: uiautomator2, BROWSER_NAME: Android, VERSION: 9.0, acceptSslCerts: true, appActivity: com.morrisons.instore.modul..., appPackage: com.morrisons.instore.sit, autoGrantPermissions: true, automationName: UIAutomator2, deviceName: Pixel2API19, noReset: false, platformName: android, –session-override: true}, deviceApiLevel: 28, deviceManufacturer: Google, deviceModel: AOSP on IA Emulator, deviceName: emulator-5554, deviceScreenDensity: 560, deviceScreenSize: 1440x2560, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: false, pixelRatio: 3.5, platform: LINUX, platformName: Android, platformVersion: 9, statBarHeight: 84, takesScreenshot: true, viewportRect: {height: 2308, left: 0, top: 84, width: 1440}, warnings: {}, webStorageEnabled: false, –session-override: true}
+Session ID: 59e48856-1ed8-4fae-a029-b1f47e8bd72f
+*** Element info: {Using=-android uiautomator, value=new UiScrollable(new UiSelector()).scrollIntoView(text("Market Street"));}
+	at sun.reflect.GeneratedConstructorAccessor68.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:231)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at io.appium.java_client.FindsByAndroidUIAutomator.findElementByAndroidUIAutomator(FindsByAndroidUIAutomator.java:38)
+	at io.appium.java_client.MobileBy$ByAndroidUIAutomator.findElement(MobileBy.java:236)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at com.morrisons.common.helper.MobileHelper.ScrolltoElementWithText(MobileHelper.java:46)
+	at com.morrisons.sma.page_objects.mobile.old.GlhDrillDownPO.getSectionList_7(GlhDrillDownPO.java:429)
+	at com.morrisons.sma.step_definitions.mobile.old.GlDrilldownStepDef.getSectionList(GlDrilldownStepDef.java:131)
+	at ✽.I get Section list for "Market Street" Dept and Count for sections "Bakery" and "Fresh Prep" department on summary page(classpath:sma_features_new/GapsLowsHighs/GLH_CO/GlhDrilldownScenarioNew.feature:546)
+</textarea>
+      
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.morrisons.common.action.Hook.afterScenario(io.cucumber.java.Scenario)</span>
+      <div>
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded6.png' src="../Screenshots/embedded6.png">
+    
+    </div></div>
+</div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And I verify that the all counts at section level add up to the department level for "Market Street" Department</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Given Capture type is "Count" and count "1"</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then I click on COUNT tab in summary screen</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And I get Section list for "Market Street" Dept and Count for sections "Bakery" and "Fresh Prep" department on summary page</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And I verify that the all counts at section level add up to the department level for "Market Street" Department</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And I logout of the system</span>
+      <div>Step skipped
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="836"><span class="badge log pass-bg mr-2">Pass</span>Verify that the Gaps,+SR,SF,IC counts are correctly displayed at department and section level in the Gaps screen</div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="837"><span class="badge log pass-bg mr-2">Pass</span>Verify that the Gaps,+SR,SF,IC counts are correctly displayed at department and section level in the Gaps screen</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>When I enter Username and Password for SMA Collegue user</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I click on login button for SMA</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on 'stockMngmtText' on page 'HomePagePO_New'</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on "Shop Floor - Gap Scan"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on Summary</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I verify Gaps, Count tabs are displayed on summary page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on Gaps tab on summary page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I verify department list is displayed on summary page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I verify Gaps tab, SR, SF and IC columns are displayed on summary page Header</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I verify Total count for Gaps , SR, SF and IC columns are displayed on summary page Footer</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I logout of the system</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="864"><span class="badge log pass-bg mr-2">Pass</span>Verify that the Lows,SF,IC counts are correctly displayed at department and section level in the Count screen</div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="865"><span class="badge log pass-bg mr-2">Pass</span>Verify that the Lows,SF,IC counts are correctly displayed at department and section level in the Count screen</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>When I enter Username and Password for SMA Collegue user</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I click on login button for SMA</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on 'stockMngmtText' on page 'HomePagePO_New'</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on "Shop Floor - Gap Scan"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on Summary</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I verify Gaps, Count tabs are displayed on summary page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on COUNT tab in summary screen</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I verify department list is displayed on summary page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I verify Count tab, Count and IC columns are displayed on summary page Header</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I verify Total count for Count, and IC columns are displayed on summary page Footer</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I logout of the system</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="892"><span class="badge log fail-bg mr-2">Fail</span>Verify that the High,IC counts are correctly displayed at department and section level in the High screen</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
+      </div>
+    </div>
+        <div class="scenario_outline ">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="893"><span class="badge log fail-bg mr-2">Fail</span>Verify that the High,IC counts are correctly displayed at department and section level in the High screen</div>
+                    <div class="status-avatar float-right">
+                      <i class="fa fa-paperclip"></i>
+                    </div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step pass-bg">
+                    <span>When I enter Username and Password for SMA Collegue user</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I click on login button for SMA</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on 'stockMngmtText' on page 'HomePagePO_New'</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on "Shop Floor - Gap Scan"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on Summary</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I verify Gaps, Count tabs are displayed on summary page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on COUNT tab in summary screen</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I verify department list is displayed on summary page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I verify Counts tab and IC columns are displayed on summary page Header</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I verify Total count for Highs and IC columns are displayed on summary page Footer</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step fail-bg">
+                    <span>And I logout of the system</span>
+      <div>
+        <textarea disabled class="code-block">org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IN-MH1LPW113919', ip: '192.168.29.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_352-352'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {AUTOMATION_NAME: uiautomator2, BROWSER_NAME: Android, VERSION: 9.0, acceptSslCerts: true, appActivity: com.morrisons.instore.modul..., appPackage: com.morrisons.instore.sit, autoGrantPermissions: true, automationName: UIAutomator2, databaseEnabled: false, desired: {AUTOMATION_NAME: uiautomator2, BROWSER_NAME: Android, VERSION: 9.0, acceptSslCerts: true, appActivity: com.morrisons.instore.modul..., appPackage: com.morrisons.instore.sit, autoGrantPermissions: true, automationName: UIAutomator2, deviceName: Pixel2API19, noReset: false, platformName: android, –session-override: true}, deviceApiLevel: 28, deviceManufacturer: Google, deviceModel: AOSP on IA Emulator, deviceName: emulator-5554, deviceScreenDensity: 560, deviceScreenSize: 1440x2560, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: false, pixelRatio: 3.5, platform: LINUX, platformName: Android, platformVersion: 9, statBarHeight: 84, takesScreenshot: true, viewportRect: {height: 2308, left: 0, top: 84, width: 1440}, warnings: {}, webStorageEnabled: false, –session-override: true}
+Session ID: fdefde0a-d243-49bd-8a87-228d466bb7aa
+*** Element info: {Using=class name, value=android.widget.ImageButton}
+	at sun.reflect.GeneratedConstructorAccessor68.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:231)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:412)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByClassName(DefaultGenericMobileDriver.java:126)
+	at io.appium.java_client.AppiumDriver.findElementByClassName(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByClassName(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByClassName.findElement(By.java:389)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at com.morrisons.sma.page_objects.mobile.old.MarkDownPO.selectHotKey(MarkDownPO.java:749)
+	at com.morrisons.sma.step_definitions.mobile.LogoutStepDef.i_logout_of_the_system(LogoutStepDef.java:13)
+	at ✽.I logout of the system(classpath:sma_features_new/GapsLowsHighs/GLH_CO/GlhDrilldownScenarioNew.feature:613)
+</textarea>
+      
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.morrisons.common.action.Hook.afterScenario(io.cucumber.java.Scenario)</span>
+      <div>
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded7.png' src="../Screenshots/embedded7.png">
+    
+    </div></div>
+</div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="test-wrapper row view exception-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Exception</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">3</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">org.openqa.selenium.UnsupportedCommandException</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>org.openqa.selenium.UnsupportedCommandException</h4>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>16:42:22 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='393'>And I click on GAP button</a>
+<div class="">
+<span class="badge badge-default">Verify Glh Drilldown scenario functionality.Verify that sections for non market street departments are sorted based on counts low to high for Gaps..And I click on GAP button</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>5</span>
+</span>
+<p class="name">org.openqa.selenium.NoSuchElementException</p>
+<p class="duration text-sm">5 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>org.openqa.selenium.NoSuchElementException</h4>
+<span status="fail" class='badge log badge-danger'>5 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>16:49:11 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='465'>And I click on COUNT button</a>
+<div class="">
+<span class="badge badge-default">Verify Glh Drilldown scenario functionality.Verify that sections for non market street departments are sorted based on counts low to high for Lows..And I click on COUNT button</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>16:54:22 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='541'>And I click on COUNT button</a>
+<div class="">
+<span class="badge badge-default">Verify Glh Drilldown scenario functionality.Verify that sections for non market street departments are sorted based on counts high to low for Highs..And I click on COUNT button</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>17:12:01 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='777'>Then I click on the Confirm Button</a>
+<div class="">
+<span class="badge badge-default">Verify Glh Drilldown scenario functionality.Scan products in fixture and marked as HIGH, GAP and LOW for Marketstreet GLH dept..Then I click on the Confirm Button</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>17:13:16 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='821'>And I get Section list for "Market Street" Dept and Count for sections "Bakery" and "Fresh Prep" department on summary page</a>
+<div class="">
+<span class="badge badge-default">Verify Glh Drilldown scenario functionality.Verify that the all counts at section level add up to the department level for all departments (Market Street) in all 3 tabs.And I get Section list for "Market Street" Dept and Count for sections "Bakery" and "Fresh Prep" department on summary page</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>17:16:56 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='917'>And I logout of the system</a>
+<div class="">
+<span class="badge badge-default">Verify Glh Drilldown scenario functionality.Verify that the High,IC counts are correctly displayed at department and section level in the High screen.And I logout of the system</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">java.lang.AssertionError</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>java.lang.AssertionError</h4>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>17:09:17 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='729'>And I verify that the all counts at department level add up to the Totals for "Gaps"</a>
+<div class="">
+<span class="badge badge-default">Verify Glh Drilldown scenario functionality.Verify that the all counts at department level add up to the Totals (For Non Market Street dept)in all 3 tabs.And I verify that the all counts at department level add up to the Totals for "Gaps"</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="test-wrapper row view category-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Category</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">10</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>2</span>
+</span>
+<p class="name">@VerfCountScreen</p>
+<p class="duration text-sm">2 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@VerfCountScreen</h4>
+<span status="pass" class='badge log pass-bg'>2 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>17:15:02 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='864'>Verify that the Lows,SF,IC counts are correctly displayed at department and section level in the Count screen</a>
+<div class="">
+<span class="badge badge-default">Verify Glh Drilldown scenario functionality.Verify that the Lows,SF,IC counts are correctly displayed at department and section level in the Count screen</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>17:15:02 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='865'>Verify that the Lows,SF,IC counts are correctly displayed at department and section level in the Count screen</a>
+<div class="">
+<span class="badge badge-default">Verify Glh Drilldown scenario functionality.Verify that the Lows,SF,IC counts are correctly displayed at department and section level in the Count screen</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>2</span>
+</span>
+<p class="name">@Verifydrilldown</p>
+<p class="duration text-sm">2 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@Verifydrilldown</h4>
+<span status="pass" class='badge log pass-bg'>2 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:54:48 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='570'>Verify that the drill down department will appear in green with down arrow indicator</a>
+<div class="">
+<span class="badge badge-default">Verify Glh Drilldown scenario functionality.Verify that the drill down department will appear in green with down arrow indicator</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:54:48 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='571'>Verify that the drill down department will appear in green with down arrow indicator</a>
+<div class="">
+<span class="badge badge-default">Verify Glh Drilldown scenario functionality.Verify that the drill down department will appear in green with down arrow indicator</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>2</span>
+</span>
+<p class="name">@timeChange</p>
+<p class="duration text-sm">2 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@timeChange</h4>
+<span status="pass" class='badge log pass-bg'>2 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:22:43 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='2'>TO CHANGE THE DEVICE TIMINGS AS REQUIRED</a>
+<div class="">
+<span class="badge badge-default">Verify Glh Drilldown scenario functionality.TO CHANGE THE DEVICE TIMINGS AS REQUIRED</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:22:43 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='3'>TO CHANGE THE DEVICE TIMINGS AS REQUIRED</a>
+<div class="">
+<span class="badge badge-default">Verify Glh Drilldown scenario functionality.TO CHANGE THE DEVICE TIMINGS AS REQUIRED</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>2</span>
+<span class='badge log badge-danger'>2</span>
+</span>
+<p class="name">@nonmarketstreetdept</p>
+<p class="duration text-sm">4 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@nonmarketstreetdept</h4>
+<span status="pass" class='badge log pass-bg'>2 passed</span>
+<span status="fail" class='badge log badge-danger'>2 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:24:52 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='14'>Delete GLH Storewalk from Service</a>
+<div class="">
+<span class="badge badge-default">Verify Glh Drilldown scenario functionality.Delete GLH Storewalk from Service</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:24:52 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='15'>Delete GLH Storewalk from Service</a>
+<div class="">
+<span class="badge badge-default">Verify Glh Drilldown scenario functionality.Delete GLH Storewalk from Service</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>16:37:41 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='340'>Verify that sections for non market street departments are sorted based on counts low to high for Gaps.</a>
+<div class="">
+<span class="badge badge-default">Verify Glh Drilldown scenario functionality.Verify that sections for non market street departments are sorted based on counts low to high for Gaps.</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>16:37:41 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='341'>Verify that sections for non market street departments are sorted based on counts low to high for Gaps.</a>
+<div class="">
+<span class="badge badge-default">Verify Glh Drilldown scenario functionality.Verify that sections for non market street departments are sorted based on counts low to high for Gaps.</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>2</span>
+</span>
+<p class="name">@VerfGapScreen</p>
+<p class="duration text-sm">2 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@VerfGapScreen</h4>
+<span status="pass" class='badge log pass-bg'>2 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>17:13:59 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='836'>Verify that the Gaps,+SR,SF,IC counts are correctly displayed at department and section level in the Gaps screen</a>
+<div class="">
+<span class="badge badge-default">Verify Glh Drilldown scenario functionality.Verify that the Gaps,+SR,SF,IC counts are correctly displayed at department and section level in the Gaps screen</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>17:13:59 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='837'>Verify that the Gaps,+SR,SF,IC counts are correctly displayed at department and section level in the Gaps screen</a>
+<div class="">
+<span class="badge badge-default">Verify Glh Drilldown scenario functionality.Verify that the Gaps,+SR,SF,IC counts are correctly displayed at department and section level in the Gaps screen</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>2</span>
+</span>
+<p class="name">@VerifyAllcountsatDept</p>
+<p class="duration text-sm">2 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@VerifyAllcountsatDept</h4>
+<span status="fail" class='badge log badge-danger'>2 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>17:08:20 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='702'>Verify that the all counts at department level add up to the Totals (For Non Market Street dept)in all 3 tabs</a>
+<div class="">
+<span class="badge badge-default">Verify Glh Drilldown scenario functionality.Verify that the all counts at department level add up to the Totals (For Non Market Street dept)in all 3 tabs</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>17:08:20 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='703'>Verify that the all counts at department level add up to the Totals (For Non Market Street dept)in all 3 tabs</a>
+<div class="">
+<span class="badge badge-default">Verify Glh Drilldown scenario functionality.Verify that the all counts at department level add up to the Totals (For Non Market Street dept)in all 3 tabs</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>2</span>
+</span>
+<p class="name">@scanProductsGLHDept</p>
+<p class="duration text-sm">2 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@scanProductsGLHDept</h4>
+<span status="fail" class='badge log badge-danger'>2 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>17:09:19 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='742'>Scan products in fixture and marked as HIGH, GAP and LOW for Marketstreet GLH dept.</a>
+<div class="">
+<span class="badge badge-default">Verify Glh Drilldown scenario functionality.Scan products in fixture and marked as HIGH, GAP and LOW for Marketstreet GLH dept.</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>17:09:19 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='743'>Scan products in fixture and marked as HIGH, GAP and LOW for Marketstreet GLH dept.</a>
+<div class="">
+<span class="badge badge-default">Verify Glh Drilldown scenario functionality.Scan products in fixture and marked as HIGH, GAP and LOW for Marketstreet GLH dept.</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>28</span>
+<span class='badge log badge-danger'>14</span>
+</span>
+<p class="name">@sma</p>
+<p class="duration text-sm">42 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@sma</h4>
+<span status="pass" class='badge log pass-bg'>28 passed</span>
+<span status="fail" class='badge log badge-danger'>14 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:24:52 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='14'>Delete GLH Storewalk from Service</a>
+<div class="">
+<span class="badge badge-default">Verify Glh Drilldown scenario functionality.Delete GLH Storewalk from Service</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:24:52 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='15'>Delete GLH Storewalk from Service</a>
+<div class="">
+<span class="badge badge-default">Verify Glh Drilldown scenario functionality.Delete GLH Storewalk from Service</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:25:46 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='36'>Delete MS GLH Storewalk from Service</a>
+<div class="">
+<span class="badge badge-default">Verify Glh Drilldown scenario functionality.Delete MS GLH Storewalk from Service</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:25:46 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='37'>Delete MS GLH Storewalk from Service</a>
+<div class="">
+<span class="badge badge-default">Verify Glh Drilldown scenario functionality.Delete MS GLH Storewalk from Service</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:26:02 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='52'>Get department list from GLH Summari API response</a>
+<div class="">
+<span class="badge badge-default">Verify Glh Drilldown scenario functionality.Get department list from GLH Summari API response</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:26:02 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='53'>Get department list from GLH Summari API response</a>
+<div class="">
+<span class="badge badge-default">Verify Glh Drilldown scenario functionality.Get department list from GLH Summari API response</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:26:19 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='72'>Verify that sections for non market street departments which have 0 counts are sorted in alphabetical order</a>
+<div class="">
+<span class="badge badge-default">Verify Glh Drilldown scenario functionality.Verify that sections for non market street departments which have 0 counts are sorted in alphabetical order</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:26:19 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='73'>Verify that sections for non market street departments which have 0 counts are sorted in alphabetical order</a>
+<div class="">
+<span class="badge badge-default">Verify Glh Drilldown scenario functionality.Verify that sections for non market street departments which have 0 counts are sorted in alphabetical order</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:29:15 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='100'>Verify that sections for market street department will display specified list of market street departments which are mapped to MarketStrreetGapsHighsLows walktype</a>
+<div class="">
+<span class="badge badge-default">Verify Glh Drilldown scenario functionality.Verify that sections for market street department will display specified list of market street departments which are mapped to MarketStrreetGapsHighsLows walktype</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:29:15 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='101'>Verify that sections for market street department will display specified list of market street departments which are mapped to MarketStrreetGapsHighsLows walktype</a>
+<div class="">
+<span class="badge badge-default">Verify Glh Drilldown scenario functionality.Verify that sections for market street department will display specified list of market street departments which are mapped to MarketStrreetGapsHighsLows walktype</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:30:44 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='152'>Verify that sections for market street department will be displayed as per specified static sort order</a>
+<div class="">
+<span class="badge badge-default">Verify Glh Drilldown scenario functionality.Verify that sections for market street department will be displayed as per specified static sort order</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:30:44 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='153'>Verify that sections for market street department will be displayed as per specified static sort order</a>
+<div class="">
+<span class="badge badge-default">Verify Glh Drilldown scenario functionality.Verify that sections for market street department will be displayed as per specified static sort order</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:32:15 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='204'>Verify that the GLH Summary screen will display all specified departments which are mapped to GapsHighsLows walktype along with Market Street department.</a>
+<div class="">
+<span class="badge badge-default">Verify Glh Drilldown scenario functionality.Verify that the GLH Summary screen will display all specified departments which are mapped to GapsHighsLows walktype along with Market Street department.</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:32:15 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='205'>Verify that the GLH Summary screen will display all specified departments which are mapped to GapsHighsLows walktype along with Market Street department.</a>
+<div class="">
+<span class="badge badge-default">Verify Glh Drilldown scenario functionality.Verify that the GLH Summary screen will display all specified departments which are mapped to GapsHighsLows walktype along with Market Street department.</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:33:38 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='254'>Verify that the GLH Summary screen will display all departments in the specified static order in all 3 tabs for Gaps,High and Low.</a>
+<div class="">
+<span class="badge badge-default">Verify Glh Drilldown scenario functionality.Verify that the GLH Summary screen will display all departments in the specified static order in all 3 tabs for Gaps,High and Low.</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:33:38 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='255'>Verify that the GLH Summary screen will display all departments in the specified static order in all 3 tabs for Gaps,High and Low.</a>
+<div class="">
+<span class="badge badge-default">Verify Glh Drilldown scenario functionality.Verify that the GLH Summary screen will display all departments in the specified static order in all 3 tabs for Gaps,High and Low.</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:36:16 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='312'>Verify that the GLH Summary screen will display all departments with right arrow indicator in all 3 tabs</a>
+<div class="">
+<span class="badge badge-default">Verify Glh Drilldown scenario functionality.Verify that the GLH Summary screen will display all departments with right arrow indicator in all 3 tabs</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:36:16 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='313'>Verify that the GLH Summary screen will display all departments with right arrow indicator in all 3 tabs</a>
+<div class="">
+<span class="badge badge-default">Verify Glh Drilldown scenario functionality.Verify that the GLH Summary screen will display all departments with right arrow indicator in all 3 tabs</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>16:37:41 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='340'>Verify that sections for non market street departments are sorted based on counts low to high for Gaps.</a>
+<div class="">
+<span class="badge badge-default">Verify Glh Drilldown scenario functionality.Verify that sections for non market street departments are sorted based on counts low to high for Gaps.</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>16:37:41 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='341'>Verify that sections for non market street departments are sorted based on counts low to high for Gaps.</a>
+<div class="">
+<span class="badge badge-default">Verify Glh Drilldown scenario functionality.Verify that sections for non market street departments are sorted based on counts low to high for Gaps.</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>16:42:45 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='418'>Verify that sections for non market street departments are sorted based on counts low to high for Lows.</a>
+<div class="">
+<span class="badge badge-default">Verify Glh Drilldown scenario functionality.Verify that sections for non market street departments are sorted based on counts low to high for Lows.</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>16:42:45 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='419'>Verify that sections for non market street departments are sorted based on counts low to high for Lows.</a>
+<div class="">
+<span class="badge badge-default">Verify Glh Drilldown scenario functionality.Verify that sections for non market street departments are sorted based on counts low to high for Lows.</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>16:49:38 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='494'>Verify that sections for non market street departments are sorted based on counts high to low for Highs.</a>
+<div class="">
+<span class="badge badge-default">Verify Glh Drilldown scenario functionality.Verify that sections for non market street departments are sorted based on counts high to low for Highs.</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>16:49:38 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='495'>Verify that sections for non market street departments are sorted based on counts high to low for Highs.</a>
+<div class="">
+<span class="badge badge-default">Verify Glh Drilldown scenario functionality.Verify that sections for non market street departments are sorted based on counts high to low for Highs.</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:54:48 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='570'>Verify that the drill down department will appear in green with down arrow indicator</a>
+<div class="">
+<span class="badge badge-default">Verify Glh Drilldown scenario functionality.Verify that the drill down department will appear in green with down arrow indicator</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:54:48 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='571'>Verify that the drill down department will appear in green with down arrow indicator</a>
+<div class="">
+<span class="badge badge-default">Verify Glh Drilldown scenario functionality.Verify that the drill down department will appear in green with down arrow indicator</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:56:52 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='602'>Verify that the all counts at section level add up to the department level for all departments (for non marketstreet dept) in all 3 tabs</a>
+<div class="">
+<span class="badge badge-default">Verify Glh Drilldown scenario functionality.Verify that the all counts at section level add up to the department level for all departments (for non marketstreet dept) in all 3 tabs</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:56:52 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='603'>Verify that the all counts at section level add up to the department level for all departments (for non marketstreet dept) in all 3 tabs</a>
+<div class="">
+<span class="badge badge-default">Verify Glh Drilldown scenario functionality.Verify that the all counts at section level add up to the department level for all departments (for non marketstreet dept) in all 3 tabs</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>17:03:39 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='650'>Scan products in fixture and marked as HIGH, GAP and LOW for GLH dept.</a>
+<div class="">
+<span class="badge badge-default">Verify Glh Drilldown scenario functionality.Scan products in fixture and marked as HIGH, GAP and LOW for GLH dept.</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>17:03:39 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='651'>Scan products in fixture and marked as HIGH, GAP and LOW for GLH dept.</a>
+<div class="">
+<span class="badge badge-default">Verify Glh Drilldown scenario functionality.Scan products in fixture and marked as HIGH, GAP and LOW for GLH dept.</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>17:08:20 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='702'>Verify that the all counts at department level add up to the Totals (For Non Market Street dept)in all 3 tabs</a>
+<div class="">
+<span class="badge badge-default">Verify Glh Drilldown scenario functionality.Verify that the all counts at department level add up to the Totals (For Non Market Street dept)in all 3 tabs</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>17:08:20 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='703'>Verify that the all counts at department level add up to the Totals (For Non Market Street dept)in all 3 tabs</a>
+<div class="">
+<span class="badge badge-default">Verify Glh Drilldown scenario functionality.Verify that the all counts at department level add up to the Totals (For Non Market Street dept)in all 3 tabs</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>17:09:19 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='742'>Scan products in fixture and marked as HIGH, GAP and LOW for Marketstreet GLH dept.</a>
+<div class="">
+<span class="badge badge-default">Verify Glh Drilldown scenario functionality.Scan products in fixture and marked as HIGH, GAP and LOW for Marketstreet GLH dept.</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>17:09:19 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='743'>Scan products in fixture and marked as HIGH, GAP and LOW for Marketstreet GLH dept.</a>
+<div class="">
+<span class="badge badge-default">Verify Glh Drilldown scenario functionality.Scan products in fixture and marked as HIGH, GAP and LOW for Marketstreet GLH dept.</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>17:12:23 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='800'>Verify that the all counts at section level add up to the department level for all departments (Market Street) in all 3 tabs</a>
+<div class="">
+<span class="badge badge-default">Verify Glh Drilldown scenario functionality.Verify that the all counts at section level add up to the department level for all departments (Market Street) in all 3 tabs</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>17:12:23 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='801'>Verify that the all counts at section level add up to the department level for all departments (Market Street) in all 3 tabs</a>
+<div class="">
+<span class="badge badge-default">Verify Glh Drilldown scenario functionality.Verify that the all counts at section level add up to the department level for all departments (Market Street) in all 3 tabs</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>17:13:59 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='836'>Verify that the Gaps,+SR,SF,IC counts are correctly displayed at department and section level in the Gaps screen</a>
+<div class="">
+<span class="badge badge-default">Verify Glh Drilldown scenario functionality.Verify that the Gaps,+SR,SF,IC counts are correctly displayed at department and section level in the Gaps screen</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>17:13:59 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='837'>Verify that the Gaps,+SR,SF,IC counts are correctly displayed at department and section level in the Gaps screen</a>
+<div class="">
+<span class="badge badge-default">Verify Glh Drilldown scenario functionality.Verify that the Gaps,+SR,SF,IC counts are correctly displayed at department and section level in the Gaps screen</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>17:15:02 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='864'>Verify that the Lows,SF,IC counts are correctly displayed at department and section level in the Count screen</a>
+<div class="">
+<span class="badge badge-default">Verify Glh Drilldown scenario functionality.Verify that the Lows,SF,IC counts are correctly displayed at department and section level in the Count screen</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>17:15:02 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='865'>Verify that the Lows,SF,IC counts are correctly displayed at department and section level in the Count screen</a>
+<div class="">
+<span class="badge badge-default">Verify Glh Drilldown scenario functionality.Verify that the Lows,SF,IC counts are correctly displayed at department and section level in the Count screen</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>17:16:07 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='892'>Verify that the High,IC counts are correctly displayed at department and section level in the High screen</a>
+<div class="">
+<span class="badge badge-default">Verify Glh Drilldown scenario functionality.Verify that the High,IC counts are correctly displayed at department and section level in the High screen</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>17:16:07 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='893'>Verify that the High,IC counts are correctly displayed at department and section level in the High screen</a>
+<div class="">
+<span class="badge badge-default">Verify Glh Drilldown scenario functionality.Verify that the High,IC counts are correctly displayed at department and section level in the High screen</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>2</span>
+</span>
+<p class="name">@ms</p>
+<p class="duration text-sm">2 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@ms</h4>
+<span status="pass" class='badge log pass-bg'>2 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:29:15 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='100'>Verify that sections for market street department will display specified list of market street departments which are mapped to MarketStrreetGapsHighsLows walktype</a>
+<div class="">
+<span class="badge badge-default">Verify Glh Drilldown scenario functionality.Verify that sections for market street department will display specified list of market street departments which are mapped to MarketStrreetGapsHighsLows walktype</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:29:15 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='101'>Verify that sections for market street department will display specified list of market street departments which are mapped to MarketStrreetGapsHighsLows walktype</a>
+<div class="">
+<span class="badge badge-default">Verify Glh Drilldown scenario functionality.Verify that sections for market street department will display specified list of market street departments which are mapped to MarketStrreetGapsHighsLows walktype</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>15</span>
+<span class='badge log badge-danger'>8</span>
+</span>
+<p class="name">@g60Newglh_drill_down</p>
+<p class="duration text-sm">23 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@g60Newglh_drill_down</h4>
+<span status="pass" class='badge log pass-bg'>15 passed</span>
+<span status="fail" class='badge log badge-danger'>8 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>16:22:43 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='1'>Verify Glh Drilldown scenario functionality</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:22:43 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='3'>TO CHANGE THE DEVICE TIMINGS AS REQUIRED</a>
+<div class="">
+<span class="badge badge-default">Verify Glh Drilldown scenario functionality.TO CHANGE THE DEVICE TIMINGS AS REQUIRED</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:24:52 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='15'>Delete GLH Storewalk from Service</a>
+<div class="">
+<span class="badge badge-default">Verify Glh Drilldown scenario functionality.Delete GLH Storewalk from Service</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:25:46 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='37'>Delete MS GLH Storewalk from Service</a>
+<div class="">
+<span class="badge badge-default">Verify Glh Drilldown scenario functionality.Delete MS GLH Storewalk from Service</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:26:02 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='53'>Get department list from GLH Summari API response</a>
+<div class="">
+<span class="badge badge-default">Verify Glh Drilldown scenario functionality.Get department list from GLH Summari API response</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:26:19 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='73'>Verify that sections for non market street departments which have 0 counts are sorted in alphabetical order</a>
+<div class="">
+<span class="badge badge-default">Verify Glh Drilldown scenario functionality.Verify that sections for non market street departments which have 0 counts are sorted in alphabetical order</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:29:15 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='101'>Verify that sections for market street department will display specified list of market street departments which are mapped to MarketStrreetGapsHighsLows walktype</a>
+<div class="">
+<span class="badge badge-default">Verify Glh Drilldown scenario functionality.Verify that sections for market street department will display specified list of market street departments which are mapped to MarketStrreetGapsHighsLows walktype</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:30:44 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='153'>Verify that sections for market street department will be displayed as per specified static sort order</a>
+<div class="">
+<span class="badge badge-default">Verify Glh Drilldown scenario functionality.Verify that sections for market street department will be displayed as per specified static sort order</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:32:15 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='205'>Verify that the GLH Summary screen will display all specified departments which are mapped to GapsHighsLows walktype along with Market Street department.</a>
+<div class="">
+<span class="badge badge-default">Verify Glh Drilldown scenario functionality.Verify that the GLH Summary screen will display all specified departments which are mapped to GapsHighsLows walktype along with Market Street department.</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:33:38 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='255'>Verify that the GLH Summary screen will display all departments in the specified static order in all 3 tabs for Gaps,High and Low.</a>
+<div class="">
+<span class="badge badge-default">Verify Glh Drilldown scenario functionality.Verify that the GLH Summary screen will display all departments in the specified static order in all 3 tabs for Gaps,High and Low.</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:36:16 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='313'>Verify that the GLH Summary screen will display all departments with right arrow indicator in all 3 tabs</a>
+<div class="">
+<span class="badge badge-default">Verify Glh Drilldown scenario functionality.Verify that the GLH Summary screen will display all departments with right arrow indicator in all 3 tabs</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>16:37:41 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='341'>Verify that sections for non market street departments are sorted based on counts low to high for Gaps.</a>
+<div class="">
+<span class="badge badge-default">Verify Glh Drilldown scenario functionality.Verify that sections for non market street departments are sorted based on counts low to high for Gaps.</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>16:42:45 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='419'>Verify that sections for non market street departments are sorted based on counts low to high for Lows.</a>
+<div class="">
+<span class="badge badge-default">Verify Glh Drilldown scenario functionality.Verify that sections for non market street departments are sorted based on counts low to high for Lows.</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>16:49:38 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='495'>Verify that sections for non market street departments are sorted based on counts high to low for Highs.</a>
+<div class="">
+<span class="badge badge-default">Verify Glh Drilldown scenario functionality.Verify that sections for non market street departments are sorted based on counts high to low for Highs.</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:54:48 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='571'>Verify that the drill down department will appear in green with down arrow indicator</a>
+<div class="">
+<span class="badge badge-default">Verify Glh Drilldown scenario functionality.Verify that the drill down department will appear in green with down arrow indicator</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:56:52 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='603'>Verify that the all counts at section level add up to the department level for all departments (for non marketstreet dept) in all 3 tabs</a>
+<div class="">
+<span class="badge badge-default">Verify Glh Drilldown scenario functionality.Verify that the all counts at section level add up to the department level for all departments (for non marketstreet dept) in all 3 tabs</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>17:03:39 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='651'>Scan products in fixture and marked as HIGH, GAP and LOW for GLH dept.</a>
+<div class="">
+<span class="badge badge-default">Verify Glh Drilldown scenario functionality.Scan products in fixture and marked as HIGH, GAP and LOW for GLH dept.</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>17:08:20 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='703'>Verify that the all counts at department level add up to the Totals (For Non Market Street dept)in all 3 tabs</a>
+<div class="">
+<span class="badge badge-default">Verify Glh Drilldown scenario functionality.Verify that the all counts at department level add up to the Totals (For Non Market Street dept)in all 3 tabs</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>17:09:19 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='743'>Scan products in fixture and marked as HIGH, GAP and LOW for Marketstreet GLH dept.</a>
+<div class="">
+<span class="badge badge-default">Verify Glh Drilldown scenario functionality.Scan products in fixture and marked as HIGH, GAP and LOW for Marketstreet GLH dept.</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>17:12:23 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='801'>Verify that the all counts at section level add up to the department level for all departments (Market Street) in all 3 tabs</a>
+<div class="">
+<span class="badge badge-default">Verify Glh Drilldown scenario functionality.Verify that the all counts at section level add up to the department level for all departments (Market Street) in all 3 tabs</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>17:13:59 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='837'>Verify that the Gaps,+SR,SF,IC counts are correctly displayed at department and section level in the Gaps screen</a>
+<div class="">
+<span class="badge badge-default">Verify Glh Drilldown scenario functionality.Verify that the Gaps,+SR,SF,IC counts are correctly displayed at department and section level in the Gaps screen</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>17:15:02 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='865'>Verify that the Lows,SF,IC counts are correctly displayed at department and section level in the Count screen</a>
+<div class="">
+<span class="badge badge-default">Verify Glh Drilldown scenario functionality.Verify that the Lows,SF,IC counts are correctly displayed at department and section level in the Count screen</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>17:16:07 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='893'>Verify that the High,IC counts are correctly displayed at department and section level in the High screen</a>
+<div class="">
+<span class="badge badge-default">Verify Glh Drilldown scenario functionality.Verify that the High,IC counts are correctly displayed at department and section level in the High screen</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>Mar 11, 2024 04:22:38 PM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>Mar 11, 2024 05:17:26 PM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Features Passed</p>
+<h3>0</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Features Failed</p>
+<h3>1</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Features</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='0%'>
+<b>0</b> features passed
+</small>
+</div>
+<div>
+<small data-tooltip='100%'><b>1</b> features failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Scenarios</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='child-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='68%'><b>15</b> scenarios passed</small></div>
+<div>
+<small data-tooltip='31%'><b>7</b> scenarios failed,
+<b>0</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Steps</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='grandchild-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='83%'><b>335</b> steps passed</small></div>
+<div>
+<small data-tooltip='1%'><b>7</b> steps failed,
+<b>58</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"Verify Glh Drilldown scenario functionality":3282.924
+};
+</script>
+<div class="row">
+<div class="col-lg-6 col-md-12 category-container">
+<div class="card">
+<div class="card-header"><p>Tags</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead><tbody>
+<tr>
+<td>@VerfCountScreen</td>
+<td>2</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@Verifydrilldown</td>
+<td>2</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@timeChange</td>
+<td>2</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@nonmarketstreetdept</td>
+<td>2</td>
+<td>2</td>
+<td>0</td>
+<td>0</td>
+<td>50%</td>
+</tr>
+<tr>
+<td>@VerfGapScreen</td>
+<td>2</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@VerifyAllcountsatDept</td>
+<td>0</td>
+<td>2</td>
+<td>0</td>
+<td>0</td>
+<td>0%</td>
+</tr>
+<tr>
+<td>@scanProductsGLHDept</td>
+<td>0</td>
+<td>2</td>
+<td>0</td>
+<td>0</td>
+<td>0%</td>
+</tr>
+<tr>
+<td>@sma</td>
+<td>28</td>
+<td>14</td>
+<td>0</td>
+<td>0</td>
+<td>66.667%</td>
+</tr>
+<tr>
+<td>@ms</td>
+<td>2</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@g60Newglh_drill_down</td>
+<td>15</td>
+<td>8</td>
+<td>0</td>
+<td>0</td>
+<td>65.217%</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 0,
+failParent: 1,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 15,
+failChild: 7,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 335,
+failGrandChild: 7,
+warningGrandChild: 0,
+skipGrandChild: 58,
+infoGrandChild: 0,
+eventsCount: 5,
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>

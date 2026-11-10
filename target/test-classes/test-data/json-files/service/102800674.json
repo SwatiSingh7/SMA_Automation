@@ -1,0 +1,175 @@
+{
+    "gtins": [
+        {
+            "id": "0285320000000",
+            "additionalProperties": {
+                "isPrimaryBarcode": false
+            },
+            "type": "VPLUBC"
+        },
+        {
+            "id": "8532",
+            "additionalProperties": {
+                "isPrimaryBarcode": true
+            },
+            "type": "VPLU"
+        }
+    ],
+    "itemNumber": "102800674",
+    "orderType": "V",
+    "isCatchWeight": true,
+    "vatRate": 0,
+    "certifiedForExport": "Yes",
+    "nonAlcoholLinesInBws": "No",
+    "cafeSelfServe": {
+        "modifierFlag": null,
+        "kitchenPrinterFlag": null
+    },
+    "standardUnitOfMeasure": "EA",
+    "forceEnterPrice": false,
+    "commercialHierarchy": {
+        "division": 9,
+        "departmentName": "Pre packed (Butchery)",
+        "groupName": "Pre Packed Butchery",
+        "divisionName": "Fresh",
+        "class_": 108,
+        "subclass": 34,
+        "className": "Beef (Prepacked)",
+        "subclassName": "Beef Offal (Prepacked)",
+        "additionalProperties": {},
+        "department": 296,
+        "group": 56
+    },
+    "packComponents": [],
+    "productLife": {
+        "productLifeAtTimeOfManufacture": "8",
+        "minimumAcceptableProductLifedays": "8"
+    },
+    "netContent": null,
+    "itemDescription": "DICED OX HEART       PREPACKED",
+    "brand": "M MARKET STREET",
+    "vatCode": "Z",
+    "productDescription": {
+        "shelfEdgeLabelLine1": "MORRISON",
+        "shelfEdgeLabelLine2": "DICED OX HEART"
+    },
+    "smsPermanent": "No",
+    "marketStreet": {
+        "sourceAndMethod": "Produced in the UK from British Beef",
+        "cookingInstructions": null,
+        "dayAdditional": null,
+        "shelfLife": "03"
+    },
+    "packedMins": false,
+    "gda": [],
+    "stockAccountingMethod": {
+        "description": "RMS - Standard",
+        "value": 1
+    },
+    "nutritionalHeading": null,
+    "posItemMessage": " Not Applicable",
+    "metricFlag": "Equiv to Pound (Z Flag)",
+    "sellingUnitOfMeasure": "EA",
+    "legacyItemNumbers": [
+        "4791060"
+    ],
+    "packs": [
+        {
+            "packQuantity": 6,
+            "additionalProperties": {},
+            "packNumber": "109189311"
+        }
+    ],
+    "storeLiveDate": "12-FEB-96",
+    "sellBy": "",
+    "pharmacyOnly": "N",
+    "salesUnit": "PER KILO   B",
+    "clothing": null,
+    "tillDescription": "M DICED OX HEART",
+    "catchWeightType": "4",
+    "status": "A",
+    "foodTechnical": false,
+    "supplySource": "D",
+    "components": null,
+    "saleType": "V",
+    "storage": [],
+    "productFlags": {
+        "packInd": false,
+        "perishableInd": true,
+        "constDimenInd": false,
+        "packType": null,
+        "simplePackInd": false,
+        "catchWeightUom": "KG",
+        "orderableInd": true,
+        "inventoryInd": true,
+        "merchandiseInd": true,
+        "sellableInd": true
+    },
+    "uepItem": false,
+    "ctcTrialFlag": "1",
+    "productPurpose": "Selling",
+    "unitEquivalentPrice": {
+        "netContent": 0,
+        "unitOfMeasureCode": ""
+    },
+    "imageUrl": null,
+    "productUOM": {
+        "uomConversionFactor": null
+    },
+    "ingredients": [],
+    "magazines": {
+        "dayIssued": null,
+        "frequency": null
+    },
+    "seo": null,
+    "productType": "ITEM",
+    "productRestrictions": {
+        "deaGroup": " Not Applicable",
+        "fuelCardRestrictions": "Goods Zero Rate VAT",
+        "allowQuantityMultiplier": "Yes",
+        "refundable": "Yes",
+        "wetStock": "No",
+        "operatorAgeCheck": "No"
+    },
+    "nutritionalInfo": [],
+    "storeToBarcode": "No",
+    "reportingHierarchy": {
+        "subclass": "296-108-34",
+        "subclassName": "Beef Offal (Prepacked)",
+        "className": "Beef (Prepacked)",
+        "department": "102",
+        "departmentName": "Beef",
+        "category": "102",
+        "categoryName": "Butchery",
+        "group": "8625",
+        "groupName": "Meat",
+        "division": "9",
+        "divisionName": "Fresh",
+        "class_": "296-108",
+        "additionalProperties": {}
+    },
+    "productMarketing": null,
+    "allergenInfo": [],
+    "scaleWeigh": "No",
+    "priceType": "Price Related Item",
+    "parentItemNumber": "102720834",
+    "commodityProduceOnly": "No",
+    "customerFriendlyDescription": "Diced Ox Heart ",
+    "brandType": "O",
+    "priceMarked": false,
+    "countryOfOrigin": "United Kingdom",
+    "beersWinesSpirits": {
+        "volumeInLitres": null,
+        "additionalTastingNote": null,
+        "strengthNumberAndWord": null,
+        "alcoholByVolume": null,
+        "tastingNotes": null
+    },
+    "dimensions": {
+        "length": 60,
+        "width": 40,
+        "weight": 2.34,
+        "additionalProperties": {},
+        "height": 18
+    }
+}

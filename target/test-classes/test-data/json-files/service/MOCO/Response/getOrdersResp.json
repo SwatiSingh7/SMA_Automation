@@ -1,0 +1,139 @@
+{
+  "orders": [
+    {
+      "orderId": "1092",
+      "storeId": 8,
+      "itemNumber": "100375580",
+      "itemDescription": "PRINCES BEEF PASTE         75G",
+      "imageUrl": "https://s3-eu-west-1.amazonaws.com/mprod.xxwmm.retail.brandbank.zzzzzzzzzz/images/brandbank/5000232825377_0.jpg",
+      "departmentId": 123,
+      "departmentName": "013 Spreads, Pastes & Pates",
+      "orderType": "managerorder",
+      "caseSize": 12,
+      "qty": 2,
+      "createdOn": "2024-07-02T07:39:15.537180",
+      "createdByName": "Lite Staging_User_1",
+      "createdById": "411052201",
+      "inStoreDate": null,
+      "startDate": "2024-07-09T00:00:00.000Z",
+      "endDate": "2024-07-16T00:00:00.000Z",
+      "updatedOn": "2024-07-02T07:48:13.481Z",
+      "updatedByName": null,
+      "updatedById": null,
+      "isDeleted": 0,
+      "hfssLessHealthy": true,
+      "hfssInScope": 0,
+      "temperatureRegime": "Ambient",
+      "managerOrderConfiguration": {
+        "minimumStartDuration": 7,
+        "minimumEndDuration": 7,
+        "maximumStartDuration": 28,
+        "maximumEndDuration": 60,
+        "maxOrderLimit": 200,
+        "maxQuantity": 500
+      },
+      "customerOrderConfiguration": null,
+      "EAN": [
+        {
+          "id": "5000232825377",
+          "additionalProperties": {
+            "isPrimaryBarcode": true
+          },
+          "type": "EAN13"
+        }
+      ]
+    },
+    {
+      "orderId": "666",
+      "storeId": 8,
+      "itemNumber": "107706880",
+      "itemDescription": "MORRISONS SWEET POTATO FRIES 500G",
+      "imageUrl": "https://s3-eu-west-1.amazonaws.com/mprod.xxwmm.retail.brandbank.zzzzzzzzzz/images/brandbank/5010251687832_0.jpg",
+      "departmentId": 6,
+      "departmentName": "006 Frozen Foods Potatoes, Chips & Vegetables",
+      "orderType": "managerorder",
+      "caseSize": 1,
+      "qty": 5,
+      "createdOn": "2024-06-20T14:17:33.886174",
+      "createdByName": "SMA015 StoreManagerSIT",
+      "createdById": "426102301",
+      "inStoreDate": null,
+      "startDate": "2024-08-31T00:00:00.000Z",
+      "endDate": "2024-09-05T00:00:00.000Z",
+      "updatedOn": "2024-06-20T14:32:19.863Z",
+      "updatedByName": null,
+      "updatedById": null,
+      "isDeleted": 0,
+      "hfssLessHealthy": false,
+      "hfssInScope": 1,
+      "temperatureRegime": "Frozen",
+      "managerOrderConfiguration": {
+        "minimumStartDuration": 7,
+        "minimumEndDuration": 7,
+        "maximumStartDuration": 28,
+        "maximumEndDuration": 60,
+        "maxOrderLimit": 200,
+        "maxQuantity": null
+      },
+      "customerOrderConfiguration": null,
+      "EAN": [
+        {
+          "id": "5010251687832",
+          "additionalProperties": {
+            "isPrimaryBarcode": true
+          },
+          "type": "EAN13"
+        }
+      ]
+    },
+    {
+      "orderId": "996",
+      "storeId": 8,
+      "itemNumber": "107706880",
+      "itemDescription": "MORRISONS SWEET POTATO FRIES 500G",
+      "imageUrl": "https://s3-eu-west-1.amazonaws.com/mprod.xxwmm.retail.brandbank.zzzzzzzzzz/images/brandbank/5010251687832_0.jpg",
+      "departmentId": 6,
+      "departmentName": "006 Frozen Foods Potatoes, Chips & Vegetables",
+      "orderType": "managerorder",
+      "caseSize": 1,
+      "qty": 5,
+      "createdOn": "2024-06-27T12:59:13.748534",
+      "createdByName": "SMA015 StoreManagerSIT",
+      "createdById": "426102301",
+      "inStoreDate": null,
+      "startDate": "2024-08-29T00:00:00.000Z",
+      "endDate": "2024-08-30T00:00:00.000Z",
+      "updatedOn": "2024-06-27T13:11:42.904Z",
+      "updatedByName": null,
+      "updatedById": null,
+      "isDeleted": 0,
+      "hfssLessHealthy": false,
+      "hfssInScope": 1,
+      "temperatureRegime": "Frozen",
+      "managerOrderConfiguration": {
+        "minimumStartDuration": 7,
+        "minimumEndDuration": 7,
+        "maximumStartDuration": 28,
+        "maximumEndDuration": 60,
+        "maxOrderLimit": 200,
+        "maxQuantity": null
+      },
+      "customerOrderConfiguration": null,
+      "EAN": [
+        {
+          "id": "5010251687832",
+          "additionalProperties": {
+            "isPrimaryBarcode": true
+          },
+          "type": "EAN13"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "limit": 100,
+    "offset": 0,
+    "count": 3,
+    "total": 3
+  }
+}

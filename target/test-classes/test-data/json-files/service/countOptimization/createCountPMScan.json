@@ -1,0 +1,12 @@
+{
+  "type": "Counts",
+  "name": "PM Scan -Count 2  2:00 TO 3:00",
+  "items": ["${items1}","${items2}"],
+  "departmentList":[{"department":2,"classNumber":null}],
+  "startTime": "${currentDate_strtTime_PM}",
+  "endTime": "${currentDate_endTime_PM}",
+  "date": "${currentDate_Time}",
+  "scheduleRef": "Count Schedule Reference",
+  "valproducts":"N",
+  "mode": "scan"
+}

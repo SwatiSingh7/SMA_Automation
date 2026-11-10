@@ -1,0 +1,5 @@
+{
+  "provider": "morrisons",
+  "userName": "${managerUserName}",
+  "password": "${managerPassword}"
+}

@@ -1,0 +1,3183 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title></title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa bdd-report standard">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary"></span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Oct 15, 2024 09:10:23 PM</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('exception-view')">
+<a id="nav-exception" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bug"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('category-view')">
+<a id="nav-category" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-tag"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-tag"></i></a>
+<ul id="tag-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" href="#">@sma</a><a class="dropdown-item" href="#">@BarCodeCreation</a><a class="dropdown-item" href="#">@WVproduct_service</a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="fail" test-id="1"
+          author=""
+          tag="@WVproduct_service"
+          device="">
+          <div class="test-detail">
+            <p class="name">Get a specific product</p>
+            <p class="text-sm">
+              <span>9:10:32 PM</span> / <span>00:23:23:838</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Get a specific product</h5>
+<span class='badge badge-success'>10.15.2024 9:10:32 PM</span>
+<span class='badge badge-danger'>10.15.2024 9:33:56 PM</span>
+<span class='badge badge-default'>00:23:23:838</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">@WVproduct_service</span></div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="2"><span class="badge log fail-bg mr-2">Fail</span>Get Product Details</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
+      </div>
+    </div>
+        <div class="scenario_outline ">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="3"><span class="badge log pass-bg mr-2">Pass</span>Get Product Details</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given I get the product details for the following item "105709930"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I verify the Response Code for the item "105709930"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I create new "105709930" based on Response code and "packId"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given I get the product price for following item "105709930"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I get the Stock Order details for the following "105709930"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I verify the Response Code for the item "105709930"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I create Stock Order for the "105709930" based on Response code for data "itemId=105709930,packId=getFromResponse,asnId=getUnique7Digit,trailerId=getUnique8Digit,orderedDate=getCurrentDate,receiptDate=getCurrentDate,receiptLocationId=GetLocation,shippedFromLocationId=GetLocation"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given I get the Space details for the following "105709930"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I verify the Response Code for the item "105709930"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I create Space for the "105709930" based on Response code for data "file=getFromResponse"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I create SOH for the Items based on Response code "xxwmm.retail.stockorder.eeeeeeeeee" "stockorders/relexnonmoorders/processed/" "Input" "RelexDiffFile_getRunTime110339.csv"</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="42"><span class="badge log pass-bg mr-2">Pass</span>Get Product Details</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given I get the product details for the following item "110307652"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I verify the Response Code for the item "110307652"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I create new "110307652" based on Response code and "packId"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given I get the product price for following item "110307652"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I get the Stock Order details for the following "110307652"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I verify the Response Code for the item "110307652"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I create Stock Order for the "110307652" based on Response code for data "itemId=110307652,packId=getFromResponse,asnId=getUnique7Digit,trailerId=getUnique8Digit,orderedDate=getCurrentDate,receiptDate=getCurrentDate,receiptLocationId=GetLocation,shippedFromLocationId=GetLocation"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given I get the Space details for the following "110307652"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I verify the Response Code for the item "110307652"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I create Space for the "110307652" based on Response code for data "file=getFromResponse"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I create SOH for the Items based on Response code "xxwmm.retail.stockorder.eeeeeeeeee" "stockorders/relexnonmoorders/processed/" "Input" "RelexDiffFile_getRunTime110339.csv"</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="81"><span class="badge log pass-bg mr-2">Pass</span>Get Product Details</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given I get the product details for the following item "108539622"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I verify the Response Code for the item "108539622"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I create new "108539622" based on Response code and "packId"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given I get the product price for following item "108539622"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I get the Stock Order details for the following "108539622"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I verify the Response Code for the item "108539622"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I create Stock Order for the "108539622" based on Response code for data "itemId=108539622,packId=getFromResponse,asnId=getUnique7Digit,trailerId=getUnique8Digit,orderedDate=getCurrentDate,receiptDate=getCurrentDate,receiptLocationId=GetLocation,shippedFromLocationId=GetLocation"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given I get the Space details for the following "108539622"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I verify the Response Code for the item "108539622"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I create Space for the "108539622" based on Response code for data "file=getFromResponse"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I create SOH for the Items based on Response code "xxwmm.retail.stockorder.eeeeeeeeee" "stockorders/relexnonmoorders/processed/" "Input" "RelexDiffFile_getRunTime110339.csv"</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="120"><span class="badge log pass-bg mr-2">Pass</span>Get Product Details</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given I get the product details for the following item "104935695"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I verify the Response Code for the item "104935695"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I create new "104935695" based on Response code and "packId"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given I get the product price for following item "104935695"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I get the Stock Order details for the following "104935695"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I verify the Response Code for the item "104935695"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I create Stock Order for the "104935695" based on Response code for data "itemId=104935695,packId=getFromResponse,asnId=getUnique7Digit,trailerId=getUnique8Digit,orderedDate=getCurrentDate,receiptDate=getCurrentDate,receiptLocationId=GetLocation,shippedFromLocationId=GetLocation"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given I get the Space details for the following "104935695"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I verify the Response Code for the item "104935695"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I create Space for the "104935695" based on Response code for data "file=getFromResponse"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I create SOH for the Items based on Response code "xxwmm.retail.stockorder.eeeeeeeeee" "stockorders/relexnonmoorders/processed/" "Input" "RelexDiffFile_getRunTime110339.csv"</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="159"><span class="badge log pass-bg mr-2">Pass</span>Get Product Details</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given I get the product details for the following item "108684782"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I verify the Response Code for the item "108684782"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I create new "108684782" based on Response code and "packId"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given I get the product price for following item "108684782"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I get the Stock Order details for the following "108684782"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I verify the Response Code for the item "108684782"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I create Stock Order for the "108684782" based on Response code for data "itemId=108684782,packId=getFromResponse,asnId=getUnique7Digit,trailerId=getUnique8Digit,orderedDate=getCurrentDate,receiptDate=getCurrentDate,receiptLocationId=GetLocation,shippedFromLocationId=GetLocation"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given I get the Space details for the following "108684782"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I verify the Response Code for the item "108684782"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I create Space for the "108684782" based on Response code for data "file=getFromResponse"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I create SOH for the Items based on Response code "xxwmm.retail.stockorder.eeeeeeeeee" "stockorders/relexnonmoorders/processed/" "Input" "RelexDiffFile_getRunTime110339.csv"</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="198"><span class="badge log pass-bg mr-2">Pass</span>Get Product Details</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given I get the product details for the following item "110202041"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I verify the Response Code for the item "110202041"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I create new "110202041" based on Response code and "packId"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given I get the product price for following item "110202041"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I get the Stock Order details for the following "110202041"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I verify the Response Code for the item "110202041"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I create Stock Order for the "110202041" based on Response code for data "itemId=110202041,packId=getFromResponse,asnId=getUnique7Digit,trailerId=getUnique8Digit,orderedDate=getCurrentDate,receiptDate=getCurrentDate,receiptLocationId=GetLocation,shippedFromLocationId=GetLocation"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given I get the Space details for the following "110202041"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I verify the Response Code for the item "110202041"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I create Space for the "110202041" based on Response code for data "file=getFromResponse"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I create SOH for the Items based on Response code "xxwmm.retail.stockorder.eeeeeeeeee" "stockorders/relexnonmoorders/processed/" "Input" "RelexDiffFile_getRunTime110339.csv"</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="237"><span class="badge log fail-bg mr-2">Fail</span>Get Product Details</div>
+                    <div class="status-avatar float-right">
+                      <i class="fa fa-paperclip"></i>
+                    </div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step pass-bg">
+                    <span>Given I get the product details for the following item "102797305"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I verify the Response Code for the item "102797305"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step fail-bg">
+                    <span>Then I create new "102797305" based on Response code and "packId"</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.NullPointerException
+	at com.morrisons.sma.page_objects.mobile.old.DynamicRequestMethods.CaptureResponseData(DynamicRequestMethods.java:401)
+	at com.morrisons.sma.step_definitions.service.Product.API_ServiceStepDef.iCreateTheProduct(API_ServiceStepDef.java:154)
+	at ✽.I create new "102797305" based on Response code and "packId"(classpath:sma_features_new/WasteValidation/DataCreation_WasteValidation.feature:9)
+</textarea>
+      
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.morrisons.common.action.Hook.afterScenario(io.cucumber.java.Scenario)</span>
+      <div>
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded1.png' src="../Screenshots/embedded1.png">
+    
+    </div></div>
+</div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Given I get the product price for following item "102797305"</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then I get the Stock Order details for the following "102797305"</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And I verify the Response Code for the item "102797305"</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then I create Stock Order for the "102797305" based on Response code for data "itemId=102797305,packId=getFromResponse,asnId=getUnique7Digit,trailerId=getUnique8Digit,orderedDate=getCurrentDate,receiptDate=getCurrentDate,receiptLocationId=GetLocation,shippedFromLocationId=GetLocation"</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Given I get the Space details for the following "102797305"</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And I verify the Response Code for the item "102797305"</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then I create Space for the "102797305" based on Response code for data "file=getFromResponse"</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then I create SOH for the Items based on Response code "xxwmm.retail.stockorder.eeeeeeeeee" "stockorders/relexnonmoorders/processed/" "Input" "RelexDiffFile_getRunTime110339.csv"</span>
+      <div>Step skipped
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="276"><span class="badge log fail-bg mr-2">Fail</span>Get Product Details</div>
+                    <div class="status-avatar float-right">
+                      <i class="fa fa-paperclip"></i>
+                    </div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step pass-bg">
+                    <span>Given I get the product details for the following item "102796353"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I verify the Response Code for the item "102796353"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step fail-bg">
+                    <span>Then I create new "102796353" based on Response code and "packId"</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.NullPointerException
+	at com.morrisons.sma.page_objects.mobile.old.DynamicRequestMethods.CaptureResponseData(DynamicRequestMethods.java:401)
+	at com.morrisons.sma.step_definitions.service.Product.API_ServiceStepDef.iCreateTheProduct(API_ServiceStepDef.java:154)
+	at ✽.I create new "102796353" based on Response code and "packId"(classpath:sma_features_new/WasteValidation/DataCreation_WasteValidation.feature:9)
+</textarea>
+      
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.morrisons.common.action.Hook.afterScenario(io.cucumber.java.Scenario)</span>
+      <div>
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded2.png' src="../Screenshots/embedded2.png">
+    
+    </div></div>
+</div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Given I get the product price for following item "102796353"</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then I get the Stock Order details for the following "102796353"</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And I verify the Response Code for the item "102796353"</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then I create Stock Order for the "102796353" based on Response code for data "itemId=102796353,packId=getFromResponse,asnId=getUnique7Digit,trailerId=getUnique8Digit,orderedDate=getCurrentDate,receiptDate=getCurrentDate,receiptLocationId=GetLocation,shippedFromLocationId=GetLocation"</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Given I get the Space details for the following "102796353"</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And I verify the Response Code for the item "102796353"</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then I create Space for the "102796353" based on Response code for data "file=getFromResponse"</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then I create SOH for the Items based on Response code "xxwmm.retail.stockorder.eeeeeeeeee" "stockorders/relexnonmoorders/processed/" "Input" "RelexDiffFile_getRunTime110339.csv"</span>
+      <div>Step skipped
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="315"><span class="badge log pass-bg mr-2">Pass</span>Get Product Details</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given I get the product details for the following item "102800877"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I verify the Response Code for the item "102800877"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I create new "102800877" based on Response code and "packId"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given I get the product price for following item "102800877"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I get the Stock Order details for the following "102800877"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I verify the Response Code for the item "102800877"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I create Stock Order for the "102800877" based on Response code for data "itemId=102800877,packId=getFromResponse,asnId=getUnique7Digit,trailerId=getUnique8Digit,orderedDate=getCurrentDate,receiptDate=getCurrentDate,receiptLocationId=GetLocation,shippedFromLocationId=GetLocation"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given I get the Space details for the following "102800877"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I verify the Response Code for the item "102800877"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I create Space for the "102800877" based on Response code for data "file=getFromResponse"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I create SOH for the Items based on Response code "xxwmm.retail.stockorder.eeeeeeeeee" "stockorders/relexnonmoorders/processed/" "Input" "RelexDiffFile_getRunTime110339.csv"</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="354"><span class="badge log pass-bg mr-2">Pass</span>Get Product Details</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given I get the product details for the following item "103043142"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I verify the Response Code for the item "103043142"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I create new "103043142" based on Response code and "packId"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given I get the product price for following item "103043142"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I get the Stock Order details for the following "103043142"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I verify the Response Code for the item "103043142"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I create Stock Order for the "103043142" based on Response code for data "itemId=103043142,packId=getFromResponse,asnId=getUnique7Digit,trailerId=getUnique8Digit,orderedDate=getCurrentDate,receiptDate=getCurrentDate,receiptLocationId=GetLocation,shippedFromLocationId=GetLocation"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given I get the Space details for the following "103043142"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I verify the Response Code for the item "103043142"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I create Space for the "103043142" based on Response code for data "file=getFromResponse"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I create SOH for the Items based on Response code "xxwmm.retail.stockorder.eeeeeeeeee" "stockorders/relexnonmoorders/processed/" "Input" "RelexDiffFile_getRunTime110339.csv"</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="393"><span class="badge log fail-bg mr-2">Fail</span>Get Product Details</div>
+                    <div class="status-avatar float-right">
+                      <i class="fa fa-paperclip"></i>
+                    </div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step pass-bg">
+                    <span>Given I get the product details for the following item "111189539"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I verify the Response Code for the item "111189539"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step fail-bg">
+                    <span>Then I create new "111189539" based on Response code and "packId"</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.NullPointerException
+	at com.morrisons.sma.page_objects.mobile.old.DynamicRequestMethods.CaptureResponseData(DynamicRequestMethods.java:401)
+	at com.morrisons.sma.step_definitions.service.Product.API_ServiceStepDef.iCreateTheProduct(API_ServiceStepDef.java:154)
+	at ✽.I create new "111189539" based on Response code and "packId"(classpath:sma_features_new/WasteValidation/DataCreation_WasteValidation.feature:9)
+</textarea>
+      
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.morrisons.common.action.Hook.afterScenario(io.cucumber.java.Scenario)</span>
+      <div>
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded3.png' src="../Screenshots/embedded3.png">
+    
+    </div></div>
+</div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Given I get the product price for following item "111189539"</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then I get the Stock Order details for the following "111189539"</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And I verify the Response Code for the item "111189539"</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then I create Stock Order for the "111189539" based on Response code for data "itemId=111189539,packId=getFromResponse,asnId=getUnique7Digit,trailerId=getUnique8Digit,orderedDate=getCurrentDate,receiptDate=getCurrentDate,receiptLocationId=GetLocation,shippedFromLocationId=GetLocation"</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Given I get the Space details for the following "111189539"</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And I verify the Response Code for the item "111189539"</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then I create Space for the "111189539" based on Response code for data "file=getFromResponse"</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then I create SOH for the Items based on Response code "xxwmm.retail.stockorder.eeeeeeeeee" "stockorders/relexnonmoorders/processed/" "Input" "RelexDiffFile_getRunTime110339.csv"</span>
+      <div>Step skipped
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="432"><span class="badge log pass-bg mr-2">Pass</span>Get Product Details</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given I get the product details for the following item "105236511"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I verify the Response Code for the item "105236511"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I create new "105236511" based on Response code and "packId"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given I get the product price for following item "105236511"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I get the Stock Order details for the following "105236511"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I verify the Response Code for the item "105236511"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I create Stock Order for the "105236511" based on Response code for data "itemId=105236511,packId=getFromResponse,asnId=getUnique7Digit,trailerId=getUnique8Digit,orderedDate=getCurrentDate,receiptDate=getCurrentDate,receiptLocationId=GetLocation,shippedFromLocationId=GetLocation"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given I get the Space details for the following "105236511"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I verify the Response Code for the item "105236511"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I create Space for the "105236511" based on Response code for data "file=getFromResponse"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I create SOH for the Items based on Response code "xxwmm.retail.stockorder.eeeeeeeeee" "stockorders/relexnonmoorders/processed/" "Input" "RelexDiffFile_getRunTime110339.csv"</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="471"><span class="badge log pass-bg mr-2">Pass</span>Get Product Details</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given I get the product details for the following item "100402904"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I verify the Response Code for the item "100402904"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I create new "100402904" based on Response code and "packId"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given I get the product price for following item "100402904"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I get the Stock Order details for the following "100402904"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I verify the Response Code for the item "100402904"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I create Stock Order for the "100402904" based on Response code for data "itemId=100402904,packId=getFromResponse,asnId=getUnique7Digit,trailerId=getUnique8Digit,orderedDate=getCurrentDate,receiptDate=getCurrentDate,receiptLocationId=GetLocation,shippedFromLocationId=GetLocation"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given I get the Space details for the following "100402904"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I verify the Response Code for the item "100402904"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I create Space for the "100402904" based on Response code for data "file=getFromResponse"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I create SOH for the Items based on Response code "xxwmm.retail.stockorder.eeeeeeeeee" "stockorders/relexnonmoorders/processed/" "Input" "RelexDiffFile_getRunTime110339.csv"</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="510"><span class="badge log pass-bg mr-2">Pass</span>Get Product Details</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given I get the product details for the following item "105201870"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I verify the Response Code for the item "105201870"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I create new "105201870" based on Response code and "packId"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given I get the product price for following item "105201870"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I get the Stock Order details for the following "105201870"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I verify the Response Code for the item "105201870"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I create Stock Order for the "105201870" based on Response code for data "itemId=105201870,packId=getFromResponse,asnId=getUnique7Digit,trailerId=getUnique8Digit,orderedDate=getCurrentDate,receiptDate=getCurrentDate,receiptLocationId=GetLocation,shippedFromLocationId=GetLocation"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given I get the Space details for the following "105201870"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I verify the Response Code for the item "105201870"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I create Space for the "105201870" based on Response code for data "file=getFromResponse"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I create SOH for the Items based on Response code "xxwmm.retail.stockorder.eeeeeeeeee" "stockorders/relexnonmoorders/processed/" "Input" "RelexDiffFile_getRunTime110339.csv"</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="549"><span class="badge log pass-bg mr-2">Pass</span>Get Product Details</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given I get the product details for the following item "102377108"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I verify the Response Code for the item "102377108"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I create new "102377108" based on Response code and "packId"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given I get the product price for following item "102377108"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I get the Stock Order details for the following "102377108"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I verify the Response Code for the item "102377108"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I create Stock Order for the "102377108" based on Response code for data "itemId=102377108,packId=getFromResponse,asnId=getUnique7Digit,trailerId=getUnique8Digit,orderedDate=getCurrentDate,receiptDate=getCurrentDate,receiptLocationId=GetLocation,shippedFromLocationId=GetLocation"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given I get the Space details for the following "102377108"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I verify the Response Code for the item "102377108"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I create Space for the "102377108" based on Response code for data "file=getFromResponse"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I create SOH for the Items based on Response code "xxwmm.retail.stockorder.eeeeeeeeee" "stockorders/relexnonmoorders/processed/" "Input" "RelexDiffFile_getRunTime110339.csv"</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="588"><span class="badge log pass-bg mr-2">Pass</span>Get Product Details</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given I get the product details for the following item "111508376"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I verify the Response Code for the item "111508376"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I create new "111508376" based on Response code and "packId"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given I get the product price for following item "111508376"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I get the Stock Order details for the following "111508376"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I verify the Response Code for the item "111508376"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I create Stock Order for the "111508376" based on Response code for data "itemId=111508376,packId=getFromResponse,asnId=getUnique7Digit,trailerId=getUnique8Digit,orderedDate=getCurrentDate,receiptDate=getCurrentDate,receiptLocationId=GetLocation,shippedFromLocationId=GetLocation"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given I get the Space details for the following "111508376"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I verify the Response Code for the item "111508376"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I create Space for the "111508376" based on Response code for data "file=getFromResponse"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I create SOH for the Items based on Response code "xxwmm.retail.stockorder.eeeeeeeeee" "stockorders/relexnonmoorders/processed/" "Input" "RelexDiffFile_getRunTime110339.csv"</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="627"><span class="badge log pass-bg mr-2">Pass</span>Get Product Details</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given I get the product details for the following item "102800789"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I verify the Response Code for the item "102800789"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I create new "102800789" based on Response code and "packId"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given I get the product price for following item "102800789"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I get the Stock Order details for the following "102800789"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I verify the Response Code for the item "102800789"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I create Stock Order for the "102800789" based on Response code for data "itemId=102800789,packId=getFromResponse,asnId=getUnique7Digit,trailerId=getUnique8Digit,orderedDate=getCurrentDate,receiptDate=getCurrentDate,receiptLocationId=GetLocation,shippedFromLocationId=GetLocation"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given I get the Space details for the following "102800789"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I verify the Response Code for the item "102800789"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I create Space for the "102800789" based on Response code for data "file=getFromResponse"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I create SOH for the Items based on Response code "xxwmm.retail.stockorder.eeeeeeeeee" "stockorders/relexnonmoorders/processed/" "Input" "RelexDiffFile_getRunTime110339.csv"</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="666"><span class="badge log pass-bg mr-2">Pass</span>Get Product Details</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given I get the product details for the following item "103090580"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I verify the Response Code for the item "103090580"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I create new "103090580" based on Response code and "packId"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given I get the product price for following item "103090580"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I get the Stock Order details for the following "103090580"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I verify the Response Code for the item "103090580"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I create Stock Order for the "103090580" based on Response code for data "itemId=103090580,packId=getFromResponse,asnId=getUnique7Digit,trailerId=getUnique8Digit,orderedDate=getCurrentDate,receiptDate=getCurrentDate,receiptLocationId=GetLocation,shippedFromLocationId=GetLocation"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given I get the Space details for the following "103090580"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I verify the Response Code for the item "103090580"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I create Space for the "103090580" based on Response code for data "file=getFromResponse"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I create SOH for the Items based on Response code "xxwmm.retail.stockorder.eeeeeeeeee" "stockorders/relexnonmoorders/processed/" "Input" "RelexDiffFile_getRunTime110339.csv"</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="705"><span class="badge log pass-bg mr-2">Pass</span>Get Product Details</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given I get the product details for the following item "100155368"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I verify the Response Code for the item "100155368"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I create new "100155368" based on Response code and "packId"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given I get the product price for following item "100155368"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I get the Stock Order details for the following "100155368"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I verify the Response Code for the item "100155368"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I create Stock Order for the "100155368" based on Response code for data "itemId=100155368,packId=getFromResponse,asnId=getUnique7Digit,trailerId=getUnique8Digit,orderedDate=getCurrentDate,receiptDate=getCurrentDate,receiptLocationId=GetLocation,shippedFromLocationId=GetLocation"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given I get the Space details for the following "100155368"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I verify the Response Code for the item "100155368"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I create Space for the "100155368" based on Response code for data "file=getFromResponse"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I create SOH for the Items based on Response code "xxwmm.retail.stockorder.eeeeeeeeee" "stockorders/relexnonmoorders/processed/" "Input" "RelexDiffFile_getRunTime110339.csv"</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="744"><span class="badge log pass-bg mr-2">Pass</span>Get Product Details</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given I get the product details for the following item "108304663"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I verify the Response Code for the item "108304663"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I create new "108304663" based on Response code and "packId"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given I get the product price for following item "108304663"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I get the Stock Order details for the following "108304663"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I verify the Response Code for the item "108304663"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I create Stock Order for the "108304663" based on Response code for data "itemId=108304663,packId=getFromResponse,asnId=getUnique7Digit,trailerId=getUnique8Digit,orderedDate=getCurrentDate,receiptDate=getCurrentDate,receiptLocationId=GetLocation,shippedFromLocationId=GetLocation"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given I get the Space details for the following "108304663"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I verify the Response Code for the item "108304663"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I create Space for the "108304663" based on Response code for data "file=getFromResponse"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I create SOH for the Items based on Response code "xxwmm.retail.stockorder.eeeeeeeeee" "stockorders/relexnonmoorders/processed/" "Input" "RelexDiffFile_getRunTime110339.csv"</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="783"><span class="badge log pass-bg mr-2">Pass</span>Get Product Details</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given I get the product details for the following item "107091248"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I verify the Response Code for the item "107091248"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I create new "107091248" based on Response code and "packId"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given I get the product price for following item "107091248"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I get the Stock Order details for the following "107091248"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I verify the Response Code for the item "107091248"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I create Stock Order for the "107091248" based on Response code for data "itemId=107091248,packId=getFromResponse,asnId=getUnique7Digit,trailerId=getUnique8Digit,orderedDate=getCurrentDate,receiptDate=getCurrentDate,receiptLocationId=GetLocation,shippedFromLocationId=GetLocation"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given I get the Space details for the following "107091248"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I verify the Response Code for the item "107091248"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I create Space for the "107091248" based on Response code for data "file=getFromResponse"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I create SOH for the Items based on Response code "xxwmm.retail.stockorder.eeeeeeeeee" "stockorders/relexnonmoorders/processed/" "Input" "RelexDiffFile_getRunTime110339.csv"</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="822"><span class="badge log pass-bg mr-2">Pass</span>Get Product Details</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given I get the product details for the following item "111449994"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I verify the Response Code for the item "111449994"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I create new "111449994" based on Response code and "packId"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given I get the product price for following item "111449994"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I get the Stock Order details for the following "111449994"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I verify the Response Code for the item "111449994"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I create Stock Order for the "111449994" based on Response code for data "itemId=111449994,packId=getFromResponse,asnId=getUnique7Digit,trailerId=getUnique8Digit,orderedDate=getCurrentDate,receiptDate=getCurrentDate,receiptLocationId=GetLocation,shippedFromLocationId=GetLocation"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given I get the Space details for the following "111449994"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I verify the Response Code for the item "111449994"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I create Space for the "111449994" based on Response code for data "file=getFromResponse"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I create SOH for the Items based on Response code "xxwmm.retail.stockorder.eeeeeeeeee" "stockorders/relexnonmoorders/processed/" "Input" "RelexDiffFile_getRunTime110339.csv"</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="861"><span class="badge log pass-bg mr-2">Pass</span>Get Product Details</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given I get the product details for the following item "111508317"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I verify the Response Code for the item "111508317"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I create new "111508317" based on Response code and "packId"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given I get the product price for following item "111508317"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I get the Stock Order details for the following "111508317"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I verify the Response Code for the item "111508317"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I create Stock Order for the "111508317" based on Response code for data "itemId=111508317,packId=getFromResponse,asnId=getUnique7Digit,trailerId=getUnique8Digit,orderedDate=getCurrentDate,receiptDate=getCurrentDate,receiptLocationId=GetLocation,shippedFromLocationId=GetLocation"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given I get the Space details for the following "111508317"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I verify the Response Code for the item "111508317"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I create Space for the "111508317" based on Response code for data "file=getFromResponse"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I create SOH for the Items based on Response code "xxwmm.retail.stockorder.eeeeeeeeee" "stockorders/relexnonmoorders/processed/" "Input" "RelexDiffFile_getRunTime110339.csv"</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="900"><span class="badge log pass-bg mr-2">Pass</span>Get Product Details</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given I get the product details for the following item "108803358"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I verify the Response Code for the item "108803358"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I create new "108803358" based on Response code and "packId"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given I get the product price for following item "108803358"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I get the Stock Order details for the following "108803358"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I verify the Response Code for the item "108803358"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I create Stock Order for the "108803358" based on Response code for data "itemId=108803358,packId=getFromResponse,asnId=getUnique7Digit,trailerId=getUnique8Digit,orderedDate=getCurrentDate,receiptDate=getCurrentDate,receiptLocationId=GetLocation,shippedFromLocationId=GetLocation"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given I get the Space details for the following "108803358"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I verify the Response Code for the item "108803358"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I create Space for the "108803358" based on Response code for data "file=getFromResponse"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I create SOH for the Items based on Response code "xxwmm.retail.stockorder.eeeeeeeeee" "stockorders/relexnonmoorders/processed/" "Input" "RelexDiffFile_getRunTime110339.csv"</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="939"><span class="badge log pass-bg mr-2">Pass</span>Get Product Details</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given I get the product details for the following item "102760916"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I verify the Response Code for the item "102760916"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I create new "102760916" based on Response code and "packId"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given I get the product price for following item "102760916"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I get the Stock Order details for the following "102760916"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I verify the Response Code for the item "102760916"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I create Stock Order for the "102760916" based on Response code for data "itemId=102760916,packId=getFromResponse,asnId=getUnique7Digit,trailerId=getUnique8Digit,orderedDate=getCurrentDate,receiptDate=getCurrentDate,receiptLocationId=GetLocation,shippedFromLocationId=GetLocation"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given I get the Space details for the following "102760916"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I verify the Response Code for the item "102760916"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I create Space for the "102760916" based on Response code for data "file=getFromResponse"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I create SOH for the Items based on Response code "xxwmm.retail.stockorder.eeeeeeeeee" "stockorders/relexnonmoorders/processed/" "Input" "RelexDiffFile_getRunTime110339.csv"</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="978"><span class="badge log pass-bg mr-2">Pass</span>Get Product Details</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given I get the product details for the following item "108064858"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I verify the Response Code for the item "108064858"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I create new "108064858" based on Response code and "packId"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given I get the product price for following item "108064858"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I get the Stock Order details for the following "108064858"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I verify the Response Code for the item "108064858"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I create Stock Order for the "108064858" based on Response code for data "itemId=108064858,packId=getFromResponse,asnId=getUnique7Digit,trailerId=getUnique8Digit,orderedDate=getCurrentDate,receiptDate=getCurrentDate,receiptLocationId=GetLocation,shippedFromLocationId=GetLocation"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given I get the Space details for the following "108064858"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I verify the Response Code for the item "108064858"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I create Space for the "108064858" based on Response code for data "file=getFromResponse"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I create SOH for the Items based on Response code "xxwmm.retail.stockorder.eeeeeeeeee" "stockorders/relexnonmoorders/processed/" "Input" "RelexDiffFile_getRunTime110339.csv"</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="1,017"><span class="badge log fail-bg mr-2">Fail</span>Get Product Details</div>
+                    <div class="status-avatar float-right">
+                      <i class="fa fa-paperclip"></i>
+                    </div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step pass-bg">
+                    <span>Given I get the product details for the following item "102459867"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I verify the Response Code for the item "102459867"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step fail-bg">
+                    <span>Then I create new "102459867" based on Response code and "packId"</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.NullPointerException
+	at com.morrisons.sma.page_objects.mobile.old.DynamicRequestMethods.CaptureResponseData(DynamicRequestMethods.java:401)
+	at com.morrisons.sma.step_definitions.service.Product.API_ServiceStepDef.iCreateTheProduct(API_ServiceStepDef.java:154)
+	at ✽.I create new "102459867" based on Response code and "packId"(classpath:sma_features_new/WasteValidation/DataCreation_WasteValidation.feature:9)
+</textarea>
+      
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.morrisons.common.action.Hook.afterScenario(io.cucumber.java.Scenario)</span>
+      <div>
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded4.png' src="../Screenshots/embedded4.png">
+    
+    </div></div>
+</div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Given I get the product price for following item "102459867"</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then I get the Stock Order details for the following "102459867"</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And I verify the Response Code for the item "102459867"</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then I create Stock Order for the "102459867" based on Response code for data "itemId=102459867,packId=getFromResponse,asnId=getUnique7Digit,trailerId=getUnique8Digit,orderedDate=getCurrentDate,receiptDate=getCurrentDate,receiptLocationId=GetLocation,shippedFromLocationId=GetLocation"</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Given I get the Space details for the following "102459867"</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And I verify the Response Code for the item "102459867"</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then I create Space for the "102459867" based on Response code for data "file=getFromResponse"</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then I create SOH for the Items based on Response code "xxwmm.retail.stockorder.eeeeeeeeee" "stockorders/relexnonmoorders/processed/" "Input" "RelexDiffFile_getRunTime110339.csv"</span>
+      <div>Step skipped
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="1,056"><span class="badge log fail-bg mr-2">Fail</span>Get Product Details</div>
+                    <div class="status-avatar float-right">
+                      <i class="fa fa-paperclip"></i>
+                    </div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step pass-bg">
+                    <span>Given I get the product details for the following item "109706998"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I verify the Response Code for the item "109706998"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step fail-bg">
+                    <span>Then I create new "109706998" based on Response code and "packId"</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.NullPointerException
+	at com.morrisons.sma.page_objects.mobile.old.DynamicRequestMethods.CaptureResponseData(DynamicRequestMethods.java:401)
+	at com.morrisons.sma.step_definitions.service.Product.API_ServiceStepDef.iCreateTheProduct(API_ServiceStepDef.java:154)
+	at ✽.I create new "109706998" based on Response code and "packId"(classpath:sma_features_new/WasteValidation/DataCreation_WasteValidation.feature:9)
+</textarea>
+      
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.morrisons.common.action.Hook.afterScenario(io.cucumber.java.Scenario)</span>
+      <div>
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded5.png' src="../Screenshots/embedded5.png">
+    
+    </div></div>
+</div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Given I get the product price for following item "109706998"</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then I get the Stock Order details for the following "109706998"</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And I verify the Response Code for the item "109706998"</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then I create Stock Order for the "109706998" based on Response code for data "itemId=109706998,packId=getFromResponse,asnId=getUnique7Digit,trailerId=getUnique8Digit,orderedDate=getCurrentDate,receiptDate=getCurrentDate,receiptLocationId=GetLocation,shippedFromLocationId=GetLocation"</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Given I get the Space details for the following "109706998"</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And I verify the Response Code for the item "109706998"</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then I create Space for the "109706998" based on Response code for data "file=getFromResponse"</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then I create SOH for the Items based on Response code "xxwmm.retail.stockorder.eeeeeeeeee" "stockorders/relexnonmoorders/processed/" "Input" "RelexDiffFile_getRunTime110339.csv"</span>
+      <div>Step skipped
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="1,095"><span class="badge log pass-bg mr-2">Pass</span>Get Product Details</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given I get the product details for the following item "103029762"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I verify the Response Code for the item "103029762"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I create new "103029762" based on Response code and "packId"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given I get the product price for following item "103029762"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I get the Stock Order details for the following "103029762"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I verify the Response Code for the item "103029762"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I create Stock Order for the "103029762" based on Response code for data "itemId=103029762,packId=getFromResponse,asnId=getUnique7Digit,trailerId=getUnique8Digit,orderedDate=getCurrentDate,receiptDate=getCurrentDate,receiptLocationId=GetLocation,shippedFromLocationId=GetLocation"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given I get the Space details for the following "103029762"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I verify the Response Code for the item "103029762"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I create Space for the "103029762" based on Response code for data "file=getFromResponse"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I create SOH for the Items based on Response code "xxwmm.retail.stockorder.eeeeeeeeee" "stockorders/relexnonmoorders/processed/" "Input" "RelexDiffFile_getRunTime110339.csv"</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="1,134"><span class="badge log pass-bg mr-2">Pass</span>Get Product Details</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given I get the product details for the following item "109514064"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I verify the Response Code for the item "109514064"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I create new "109514064" based on Response code and "packId"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given I get the product price for following item "109514064"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I get the Stock Order details for the following "109514064"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I verify the Response Code for the item "109514064"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I create Stock Order for the "109514064" based on Response code for data "itemId=109514064,packId=getFromResponse,asnId=getUnique7Digit,trailerId=getUnique8Digit,orderedDate=getCurrentDate,receiptDate=getCurrentDate,receiptLocationId=GetLocation,shippedFromLocationId=GetLocation"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given I get the Space details for the following "109514064"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I verify the Response Code for the item "109514064"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I create Space for the "109514064" based on Response code for data "file=getFromResponse"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I create SOH for the Items based on Response code "xxwmm.retail.stockorder.eeeeeeeeee" "stockorders/relexnonmoorders/processed/" "Input" "RelexDiffFile_getRunTime110339.csv"</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="1,173"><span class="badge log pass-bg mr-2">Pass</span>Get Product Details</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given I get the product details for the following item "0299000000000"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I verify the Response Code for the item "0299000000000"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I create new "0299000000000" based on Response code and "packId,itemNumber" for the given barcode</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="test-wrapper row view exception-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Exception</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">1</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>5</span>
+</span>
+<p class="name">java.lang.NullPointerException</p>
+<p class="duration text-sm">5 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>java.lang.NullPointerException</h4>
+<span status="fail" class='badge log badge-danger'>5 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>21:15:15 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='249'>Then I create new "102797305" based on Response code and "packId"</a>
+<div class="">
+<span class="badge badge-default">Get a specific product.Get Product Details.Then I create new "102797305" based on Response code and "packId"</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>21:15:48 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='288'>Then I create new "102796353" based on Response code and "packId"</a>
+<div class="">
+<span class="badge badge-default">Get a specific product.Get Product Details.Then I create new "102796353" based on Response code and "packId"</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>21:18:05 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='405'>Then I create new "111189539" based on Response code and "packId"</a>
+<div class="">
+<span class="badge badge-default">Get a specific product.Get Product Details.Then I create new "111189539" based on Response code and "packId"</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>21:30:30 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='1,029'>Then I create new "102459867" based on Response code and "packId"</a>
+<div class="">
+<span class="badge badge-default">Get a specific product.Get Product Details.Then I create new "102459867" based on Response code and "packId"</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>21:31:07 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='1,068'>Then I create new "109706998" based on Response code and "packId"</a>
+<div class="">
+<span class="badge badge-default">Get a specific product.Get Product Details.Then I create new "109706998" based on Response code and "packId"</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="test-wrapper row view category-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Category</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">3</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>26</span>
+<span class='badge log badge-danger'>6</span>
+</span>
+<p class="name">@sma</p>
+<p class="duration text-sm">32 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@sma</h4>
+<span status="pass" class='badge log pass-bg'>26 passed</span>
+<span status="fail" class='badge log badge-danger'>6 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>21:10:32 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='2'>Get Product Details</a>
+<div class="">
+<span class="badge badge-default">Get a specific product.Get Product Details</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:10:32 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='3'>Get Product Details</a>
+<div class="">
+<span class="badge badge-default">Get a specific product.Get Product Details</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:11:26 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='42'>Get Product Details</a>
+<div class="">
+<span class="badge badge-default">Get a specific product.Get Product Details</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:12:04 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='81'>Get Product Details</a>
+<div class="">
+<span class="badge badge-default">Get a specific product.Get Product Details</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:12:40 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='120'>Get Product Details</a>
+<div class="">
+<span class="badge badge-default">Get a specific product.Get Product Details</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:13:14 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='159'>Get Product Details</a>
+<div class="">
+<span class="badge badge-default">Get a specific product.Get Product Details</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:14:19 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='198'>Get Product Details</a>
+<div class="">
+<span class="badge badge-default">Get a specific product.Get Product Details</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>21:14:54 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='237'>Get Product Details</a>
+<div class="">
+<span class="badge badge-default">Get a specific product.Get Product Details</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>21:15:26 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='276'>Get Product Details</a>
+<div class="">
+<span class="badge badge-default">Get a specific product.Get Product Details</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:15:59 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='315'>Get Product Details</a>
+<div class="">
+<span class="badge badge-default">Get a specific product.Get Product Details</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:16:36 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='354'>Get Product Details</a>
+<div class="">
+<span class="badge badge-default">Get a specific product.Get Product Details</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>21:17:43 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='393'>Get Product Details</a>
+<div class="">
+<span class="badge badge-default">Get a specific product.Get Product Details</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:18:16 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='432'>Get Product Details</a>
+<div class="">
+<span class="badge badge-default">Get a specific product.Get Product Details</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:18:57 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='471'>Get Product Details</a>
+<div class="">
+<span class="badge badge-default">Get a specific product.Get Product Details</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:20:10 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='510'>Get Product Details</a>
+<div class="">
+<span class="badge badge-default">Get a specific product.Get Product Details</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:20:49 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='549'>Get Product Details</a>
+<div class="">
+<span class="badge badge-default">Get a specific product.Get Product Details</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:21:27 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='588'>Get Product Details</a>
+<div class="">
+<span class="badge badge-default">Get a specific product.Get Product Details</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:22:05 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='627'>Get Product Details</a>
+<div class="">
+<span class="badge badge-default">Get a specific product.Get Product Details</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:22:43 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='666'>Get Product Details</a>
+<div class="">
+<span class="badge badge-default">Get a specific product.Get Product Details</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:23:51 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='705'>Get Product Details</a>
+<div class="">
+<span class="badge badge-default">Get a specific product.Get Product Details</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:24:30 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='744'>Get Product Details</a>
+<div class="">
+<span class="badge badge-default">Get a specific product.Get Product Details</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:25:08 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='783'>Get Product Details</a>
+<div class="">
+<span class="badge badge-default">Get a specific product.Get Product Details</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:25:47 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='822'>Get Product Details</a>
+<div class="">
+<span class="badge badge-default">Get a specific product.Get Product Details</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:26:55 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='861'>Get Product Details</a>
+<div class="">
+<span class="badge badge-default">Get a specific product.Get Product Details</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:27:36 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='900'>Get Product Details</a>
+<div class="">
+<span class="badge badge-default">Get a specific product.Get Product Details</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:28:17 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='939'>Get Product Details</a>
+<div class="">
+<span class="badge badge-default">Get a specific product.Get Product Details</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:28:58 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='978'>Get Product Details</a>
+<div class="">
+<span class="badge badge-default">Get a specific product.Get Product Details</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>21:30:04 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='1,017'>Get Product Details</a>
+<div class="">
+<span class="badge badge-default">Get a specific product.Get Product Details</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>21:30:41 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='1,056'>Get Product Details</a>
+<div class="">
+<span class="badge badge-default">Get a specific product.Get Product Details</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:31:18 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='1,095'>Get Product Details</a>
+<div class="">
+<span class="badge badge-default">Get a specific product.Get Product Details</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:32:03 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='1,134'>Get Product Details</a>
+<div class="">
+<span class="badge badge-default">Get a specific product.Get Product Details</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:33:15 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='1,173'>Get Product Details</a>
+<div class="">
+<span class="badge badge-default">Get a specific product.Get Product Details</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@BarCodeCreation</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@BarCodeCreation</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:33:15 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='1,173'>Get Product Details</a>
+<div class="">
+<span class="badge badge-default">Get a specific product.Get Product Details</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>26</span>
+<span class='badge log badge-danger'>6</span>
+</span>
+<p class="name">@WVproduct_service</p>
+<p class="duration text-sm">32 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@WVproduct_service</h4>
+<span status="pass" class='badge log pass-bg'>26 passed</span>
+<span status="fail" class='badge log badge-danger'>6 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>21:10:32 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='1'>Get a specific product</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:10:32 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='3'>Get Product Details</a>
+<div class="">
+<span class="badge badge-default">Get a specific product.Get Product Details</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:11:26 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='42'>Get Product Details</a>
+<div class="">
+<span class="badge badge-default">Get a specific product.Get Product Details</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:12:04 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='81'>Get Product Details</a>
+<div class="">
+<span class="badge badge-default">Get a specific product.Get Product Details</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:12:40 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='120'>Get Product Details</a>
+<div class="">
+<span class="badge badge-default">Get a specific product.Get Product Details</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:13:14 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='159'>Get Product Details</a>
+<div class="">
+<span class="badge badge-default">Get a specific product.Get Product Details</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:14:19 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='198'>Get Product Details</a>
+<div class="">
+<span class="badge badge-default">Get a specific product.Get Product Details</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>21:14:54 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='237'>Get Product Details</a>
+<div class="">
+<span class="badge badge-default">Get a specific product.Get Product Details</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>21:15:26 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='276'>Get Product Details</a>
+<div class="">
+<span class="badge badge-default">Get a specific product.Get Product Details</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:15:59 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='315'>Get Product Details</a>
+<div class="">
+<span class="badge badge-default">Get a specific product.Get Product Details</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:16:36 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='354'>Get Product Details</a>
+<div class="">
+<span class="badge badge-default">Get a specific product.Get Product Details</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>21:17:43 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='393'>Get Product Details</a>
+<div class="">
+<span class="badge badge-default">Get a specific product.Get Product Details</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:18:16 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='432'>Get Product Details</a>
+<div class="">
+<span class="badge badge-default">Get a specific product.Get Product Details</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:18:57 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='471'>Get Product Details</a>
+<div class="">
+<span class="badge badge-default">Get a specific product.Get Product Details</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:20:10 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='510'>Get Product Details</a>
+<div class="">
+<span class="badge badge-default">Get a specific product.Get Product Details</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:20:49 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='549'>Get Product Details</a>
+<div class="">
+<span class="badge badge-default">Get a specific product.Get Product Details</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:21:27 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='588'>Get Product Details</a>
+<div class="">
+<span class="badge badge-default">Get a specific product.Get Product Details</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:22:05 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='627'>Get Product Details</a>
+<div class="">
+<span class="badge badge-default">Get a specific product.Get Product Details</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:22:43 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='666'>Get Product Details</a>
+<div class="">
+<span class="badge badge-default">Get a specific product.Get Product Details</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:23:51 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='705'>Get Product Details</a>
+<div class="">
+<span class="badge badge-default">Get a specific product.Get Product Details</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:24:30 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='744'>Get Product Details</a>
+<div class="">
+<span class="badge badge-default">Get a specific product.Get Product Details</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:25:08 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='783'>Get Product Details</a>
+<div class="">
+<span class="badge badge-default">Get a specific product.Get Product Details</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:25:47 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='822'>Get Product Details</a>
+<div class="">
+<span class="badge badge-default">Get a specific product.Get Product Details</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:26:55 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='861'>Get Product Details</a>
+<div class="">
+<span class="badge badge-default">Get a specific product.Get Product Details</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:27:36 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='900'>Get Product Details</a>
+<div class="">
+<span class="badge badge-default">Get a specific product.Get Product Details</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:28:17 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='939'>Get Product Details</a>
+<div class="">
+<span class="badge badge-default">Get a specific product.Get Product Details</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:28:58 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='978'>Get Product Details</a>
+<div class="">
+<span class="badge badge-default">Get a specific product.Get Product Details</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>21:30:04 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='1,017'>Get Product Details</a>
+<div class="">
+<span class="badge badge-default">Get a specific product.Get Product Details</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>21:30:41 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='1,056'>Get Product Details</a>
+<div class="">
+<span class="badge badge-default">Get a specific product.Get Product Details</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:31:18 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='1,095'>Get Product Details</a>
+<div class="">
+<span class="badge badge-default">Get a specific product.Get Product Details</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:32:03 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='1,134'>Get Product Details</a>
+<div class="">
+<span class="badge badge-default">Get a specific product.Get Product Details</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:33:15 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='1,173'>Get Product Details</a>
+<div class="">
+<span class="badge badge-default">Get a specific product.Get Product Details</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>Oct 15, 2024 09:10:23 PM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>Oct 15, 2024 09:34:07 PM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Features Passed</p>
+<h3>0</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Features Failed</p>
+<h3>1</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Features</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='0%'>
+<b>0</b> features passed
+</small>
+</div>
+<div>
+<small data-tooltip='100%'><b>1</b> features failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Scenarios</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='child-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='83%'><b>26</b> scenarios passed</small></div>
+<div>
+<small data-tooltip='16%'><b>5</b> scenarios failed,
+<b>0</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Steps</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='grandchild-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='86%'><b>293</b> steps passed</small></div>
+<div>
+<small data-tooltip='1%'><b>5</b> steps failed,
+<b>40</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"Get a specific product":1403.838
+};
+</script>
+<div class="row">
+<div class="col-lg-6 col-md-12 category-container">
+<div class="card">
+<div class="card-header"><p>Tags</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead><tbody>
+<tr>
+<td>@sma</td>
+<td>26</td>
+<td>6</td>
+<td>0</td>
+<td>0</td>
+<td>81.25%</td>
+</tr>
+<tr>
+<td>@BarCodeCreation</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@WVproduct_service</td>
+<td>26</td>
+<td>6</td>
+<td>0</td>
+<td>0</td>
+<td>81.25%</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 0,
+failParent: 1,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 26,
+failChild: 5,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 293,
+failGrandChild: 5,
+warningGrandChild: 0,
+skipGrandChild: 40,
+infoGrandChild: 0,
+eventsCount: 5,
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>

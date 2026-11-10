@@ -1,0 +1,12 @@
+{
+  "type": "Counts",
+  "name": "AM Scan Dept 270 290 2 542 361 409 06:30 TO 09:30",
+  "items": ["102370141","102370230","102370248","106993881","108853363","108853451","108831447","102334466","102371793","102372761" ,"102372841", "106403617","108453538","107945127"],
+  "departmentList":[{"department": 270, "classNumber": null},{"department": 290, "classNumber": null}, {"department": 2, "classNumber": null}, {"department": 542, "classNumber": 500}, {"department": 361, "classNumber": null}],
+  "startTime": "${currentDate_strtTime}",
+  "endTime": "${currentDate_endTime}",
+  "date": "${currentDate_Time}",
+  "scheduleRef": "Count Schedule Reference",
+  "isIgnoreRange": "yes",
+  "mode": "scan"
+}

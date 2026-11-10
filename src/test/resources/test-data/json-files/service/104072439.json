@@ -1,0 +1,270 @@
+{
+    "gtins": [
+        {
+            "id": "5010251800546",
+            "type": "EAN13",
+            "additionalProperties": {
+                "isPrimaryBarcode": true
+            }
+        }
+    ],
+    "itemNumber": "104072439",
+    "orderType": "F",
+    "isCatchWeight": false,
+    "vatRate": 0,
+    "catchWeight": false,
+    "cafeSelfServe": {
+        "kitchenPrinterFlag": null,
+        "modifierFlag": null
+    },
+    "standardUnitOfMeasure": "EA",
+    "forceEnterPrice": false,
+    "commercialHierarchy": {
+        "division": 2,
+        "divisionName": "Ambient & Dairy",
+        "group": 15,
+        "groupName": "Core Grocery (Canned & Packet Goods)",
+        "department": 111,
+        "departmentName": "017 Sauces, Mustards & Dressings",
+        "className": "Dressings",
+        "subclass": 990,
+        "subclassName": "Premium",
+        "additionalProperties": {},
+        "class_": 501
+    },
+    "packComponents": [],
+    "productLife": {
+        "productLifeAtTimeOfManufacture": "365",
+        "minimumAcceptableProductLifedays": "273"
+    },
+    "netContent": null,
+    "itemDescription": "MORRISONS THE BEST BLUE CHEESE DRESSING 250ML",
+    "brand": "Morrisons",
+    "vatCode": "Z",
+    "productDescription": {
+        "shelfEdgeLabelLine3": "250ML",
+        "shelfEdgeLabelLine1": "MORRISONS THE BEST",
+        "shelfEdgeLabelLine2": "BLUE CHEESE DRESSING"
+    },
+    "smsPermanent": "No",
+    "marketStreet": {
+        "cookingInstructions": null,
+        "shelfLife": null,
+        "dayAdditional": null,
+        "sourceAndMethod": null
+    },
+    "gda": [],
+    "stockAccountingMethod": {
+        "value": 1,
+        "description": "RMS - Standard"
+    },
+    "nutritionalHeading": "per 100ml,per 15ml portion,per 15ml portion %RI,your RI*",
+    "sellingUnitOfMeasure": "EA",
+    "legacyItemNumbers": [],
+    "packs": [
+        {
+            "packNumber": "108898449",
+            "packQuantity": 6,
+            "additionalProperties": {}
+        }
+    ],
+    "storeLiveDate": "13-FEB-17",
+    "sellBy": "BB",
+    "commerciallyActive": "No",
+    "clothing": null,
+    "tillDescription": "M B/CHEESE DRESSING",
+    "catchWeightType": null,
+    "status": "A",
+    "foodTechnical": true,
+    "supplySource": null,
+    "components": null,
+    "saleType": null,
+    "storage": [],
+    "productFlags": {
+        "packInd": false,
+        "perishableInd": true,
+        "constDimenInd": true,
+        "packType": null,
+        "simplePackInd": false,
+        "catchWeightUom": null,
+        "orderableInd": true,
+        "inventoryInd": true,
+        "merchandiseInd": true,
+        "sellableInd": true
+    },
+    "uepItem": true,
+    "ctcTrialFlag": "1",
+    "productPurpose": "Selling",
+    "unitEquivalentPrice": {
+        "unitOfMeasureCode": "J",
+        "netContent": 250.0
+    },
+    "imageUrl": [
+        {
+            "url": "https://s3-eu-west-1.amazonaws.com/mprod.xxwmm.retail.brandbank.zzzzzzzzzz/images/brandbank/5010251800545_0.jpg",
+            "shotType": "ID Shot",
+            "height": 1500,
+            "width": 1500,
+            "additionalProperties": {}
+        }
+    ],
+    "productUOM": {
+        "uomConversionFactor": null
+    },
+    "ingredients": [
+        "Rapeseed Oil",
+        "Water",
+        "White Wine Vinegar",
+        "Sugar",
+        "Long Clawson British Blue Stilton® Cheese (Milk) (6%)",
+        "Pasteurised Liquid Egg Yolk",
+        "Concentrated Lemon Juice",
+        "Salt",
+        "Modified Maize Starch",
+        "Garlic Purée",
+        "Preservative (Potassium Sorbate)",
+        "Black Pepper",
+        "Onion Powder",
+        "Garlic Powder",
+        "Stabiliser (Xanthan Gum)"
+    ],
+    "magazines": {
+        "dayIssued": null,
+        "frequency": null
+    },
+    "seo": null,
+    "productType": "ITEM",
+    "productRestrictions": {
+        "fuelCardRestrictions": "Goods Zero Rate VAT",
+        "allowQuantityMultiplier": "Yes",
+        "refundable": "Yes",
+        "operatorAgeCheck": "No"
+    },
+    "nutritionalInfo": [
+        {
+            "name": "Energy ",
+            "perComp": "1703kJ/413kcal,255kJ/62kcal,3%,8400kJ/2000kcal",
+            "perServing": null,
+            "additionalProperties": {}
+        },
+        {
+            "name": "Fat ",
+            "perComp": "40.5g,6.1g,9%,70g",
+            "perServing": null,
+            "additionalProperties": {}
+        },
+        {
+            "name": "of which saturates ",
+            "perComp": "7.5g,1.1g,6%,20g",
+            "perServing": null,
+            "additionalProperties": {}
+        },
+        {
+            "name": "Carbohydrate ",
+            "perComp": "9.7g,1.5g,,",
+            "perServing": null,
+            "additionalProperties": {}
+        },
+        {
+            "name": "of which sugars ",
+            "perComp": "7.9g,1.2g,1%,90g",
+            "perServing": null,
+            "additionalProperties": {}
+        },
+        {
+            "name": "Fibre ",
+            "perComp": "0.7g,0.1g,,",
+            "perServing": null,
+            "additionalProperties": {}
+        },
+        {
+            "name": "Protein ",
+            "perComp": "2g,0.3g,,",
+            "perServing": null,
+            "additionalProperties": {}
+        },
+        {
+            "name": "Salt ",
+            "perComp": "1.5g,0.23g,4%,6g",
+            "perServing": null,
+            "additionalProperties": {}
+        },
+        {
+            "name": "*Reference intake of an average adult (8400kJ/2000kcal) (RI)",
+            "perComp": ",,,",
+            "perServing": null,
+            "additionalProperties": {}
+        },
+        {
+            "name": "Contains 16 portions",
+            "perComp": ",,,",
+            "perServing": null,
+            "additionalProperties": {}
+        }
+    ],
+    "storeToBarcode": "No",
+    "reportingHierarchy": {
+        "departmentName": "Sauces, Mustards And Dressings",
+        "divisionName": "Ambient",
+        "class_": "111-501",
+        "className": "Dressings",
+        "categoryName": "Canned & Packet",
+        "division": "2",
+        "groupName": "Core Grocery",
+        "subclass": "111-501-990",
+        "subclassName": "Dressings - Premium",
+        "additionalProperties": {},
+        "category": "81",
+        "department": "111",
+        "group": "7011"
+    },
+    "productMarketing": null,
+    "allergenInfo": [
+        {
+            "name": "Eggs",
+            "value": "Contains",
+            "additionalProperties": {}
+        },
+        {
+            "name": "Milk",
+            "value": "Contains",
+            "additionalProperties": {}
+        }
+    ],
+    "priceType": "Regular Item",
+    "parentItemNumber": "108898422",
+    "commodityProduceOnly": "No",
+    "customerFriendlyDescription": "Morrisons The Best Blue Cheese Dressing 250ml",
+    "brandType": "O",
+    "productComplianceInfo": {
+        "proteinContentPer100g": 2.0,
+        "saturatedfatContentPer100g": 7.5,
+        "asSoldorAsConsumed": "As Consumed",
+        "sodiumContentPer100g": 600.0,
+        "fibreContentPer100g": 0.7,
+        "foodDrink": "Food",
+        "vegan": false,
+        "saltContentPer100g": 1.5,
+        "hfssLessHealthy": true,
+        "vegetarian": true,
+        "sugarContentPer100g": 7.9,
+        "hfssInScope": 0,
+        "energyPer100g": 1728
+    },
+    "priceMarked": false,
+    "countryOfOrigin": "United Kingdom",
+    "beersWinesSpirits": {
+        "strengthNumberAndWord": null,
+        "alcoholByVolume": null,
+        "tastingNotes": null,
+        "additionalTastingNote": null,
+        "volumeInLitres": null
+    },
+    "dimensions": {
+        "length": 0.0,
+        "height": 0.0,
+        "width": 0.0,
+        "weight": 0.0,
+        "additionalProperties": {}
+    }
+}

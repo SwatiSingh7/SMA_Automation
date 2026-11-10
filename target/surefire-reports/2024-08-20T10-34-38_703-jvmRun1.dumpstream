@@ -1,0 +1,355 @@
+# Created at 2024-08-20T10:40:08.193
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.lang.Thread.run(Thread.java:750)
+
+
+# Created at 2024-08-20T10:40:13.768
+Unexpected IOException with stream: 2024-08-20 10:40:13 [INFO ] [StockAdjustmentPO_New] - [<init>] Inside : class com.morrisons.sma.page_objects.mobile.CountsPO
+
+
+# Created at 2024-08-20T10:40:20.799
+Unexpected IOException with stream: java.lang.NullPointerException 3
+
+
+# Created at 2024-08-20T10:40:25.809
+Unexpected IOException with stream:   When I enter Username and Password for SMA Manager user                                                                                                                 # com.morrisons.sma.step_definitions.mobile.LoginStepDef.iEnterManagerCredentials()
+
+
+# Created at 2024-08-20T10:40:25.819
+Unexpected IOException with stream:       java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.morrisons.sma.page_objects.mobile.old.LoginPagePO.enterManagerCredentials(LoginPagePO.java:291)
+	at com.morrisons.sma.step_definitions.mobile.LoginStepDef.iEnterManagerCredentials(LoginStepDef.java:20)
+	at âœ½.I enter Username and Password for SMA Manager user(classpath:sma_features_new/CleanAndRotate/CleanAndRotate.feature:244)
+
+
+
+# Created at 2024-08-20T10:40:25.829
+Unexpected IOException with stream: 2024-08-20 10:40:25 [INFO ] [Hook] - [afterScenario] Capturing Screenshot...
+
+
+# Created at 2024-08-20T10:40:25.831
+Unexpected IOException with stream:       java.lang.NullPointerException
+	at com.morrisons.common.action.Hook.afterScenario(Hook.java:328)
+
+
+
+# Created at 2024-08-20T10:40:25.843
+Unexpected IOException with stream:   And I click on login button for SMA                                                                                                                                     # com.morrisons.sma.step_definitions.mobile.LoginStepDef.iClickOnLoginButtonForSma()
+
+
+# Created at 2024-08-20T10:40:25.850
+Unexpected IOException with stream:   And I Get Department Name for "Crisp" type dept                                                                                                                         # com.morrisons.sma.step_definitions.mobile.cleanAndRotate.GetDeptAndMin.getDepartmentName(java.lang.String)
+
+
+# Created at 2024-08-20T10:40:25.862
+Unexpected IOException with stream:   And I Get "First" Product Min for "Crisp" department                                                                                                                    # com.morrisons.sma.step_definitions.mobile.cleanAndRotate.GetDeptAndMin.getProductMin(java.lang.String,java.lang.String)
+
+
+# Created at 2024-08-20T10:40:25.869
+Unexpected IOException with stream:   Then I click on dynamic "sLocatorName" "Code Checking" on page 'BaseClass'                                                                                              # com.morrisons.sma.step_definitions.mobile.old.CountPostStepDefService.iClickOnDynamicCountedProductsViewOnPageCountsPO(java.lang.String,java.lang.String,java.lang.String)
+
+
+# Created at 2024-08-20T10:40:25.879
+Unexpected IOException with stream:   Then I click on dynamic "sLocatorName" "Ambient Clean & Rotate" on page 'BaseClass'                                                                                     # com.morrisons.sma.step_definitions.mobile.old.CountPostStepDefService.iClickOnDynamicCountedProductsViewOnPageCountsPO(java.lang.String,java.lang.String,java.lang.String)
+
+
+# Created at 2024-08-20T10:40:25.882
+Unexpected IOException with stream:   Then I click on "Weekly Schedules" on Clean and Rotate Page                                                                                                             # com.morrisons.sma.step_definitions.mobile.cleanAndRotate.CnRHomePageStepDefs.clickOnCnRHomePageOption(java.lang.String)
+
+
+# Created at 2024-08-20T10:40:25.892
+Unexpected IOException with stream:   Then I Scroll down on Weekly schedule page                                                                                                                              # com.morrisons.sma.step_definitions.mobile.cleanAndRotate.WeeklyScheduleStepDefs.scrollDown()
+
+
+# Created at 2024-08-20T10:40:25.900
+Unexpected IOException with stream:   And I Select Weekly schedule for "Overdue Week"                                                                                                                         # com.morrisons.sma.step_definitions.mobile.cleanAndRotate.WeeklyScheduleStepDefs.selectWeek(java.lang.String)
+
+
+# Created at 2024-08-20T10:40:25.913
+Unexpected IOException with stream:   And I Select Department                                                                                                                                                 # com.morrisons.sma.step_definitions.mobile.cleanAndRotate.SelectDepartmentStepDefs.selectDepartment()
+
+
+# Created at 2024-08-20T10:40:25.921
+Unexpected IOException with stream:   And I Enter Product Min and click on search                                                                                                                             # com.morrisons.sma.step_definitions.mobile.cleanAndRotate.EnterMinStepDefs.enterProductMin()
+
+
+# Created at 2024-08-20T10:40:25.931
+Unexpected IOException with stream:   Then I select "Rotate To Front" Action on Action log page                                                                                                               # com.morrisons.sma.step_definitions.mobile.cleanAndRotate.ActionLogStepDefs.clickOnActionOption(java.lang.String)
+
+
+# Created at 2024-08-20T10:40:25.940
+Unexpected IOException with stream:   And I Select Current Date plus 14 date in Calendar                                                                                                                      # com.morrisons.sma.step_definitions.mobile.cleanAndRotate.ActionLogStepDefs.selectDate(int)
+
+
+# Created at 2024-08-20T10:40:25.949
+Unexpected IOException with stream:   And I enter the quantity as "10" in Quantity textbox                                                                                                                    # com.morrisons.sma.step_definitions.mobile.items.EnterQuantityStepDefs_New.enterCnRQuantity(java.lang.String)
+
+
+# Created at 2024-08-20T10:40:25.959
+Unexpected IOException with stream:   Then I click on Log Product button on Action log page                                                                                                                   # com.morrisons.sma.step_definitions.mobile.cleanAndRotate.ActionLogStepDefs.iClickOnOnActionWastePage()
+
+
+# Created at 2024-08-20T10:40:25.969
+Unexpected IOException with stream:   And I verify 1st Markdown alert pop-up is not displayed                                                                                                                 # com.morrisons.sma.step_definitions.mobile.old.CleanNRotateStepDefUI.firstMarkdownPopupNotDisplayed()
+
+
+# Created at 2024-08-20T10:40:25.976
+Unexpected IOException with stream:   Then I Verify product is logged with "Rotated" action                                                                                                                   # com.morrisons.sma.step_definitions.mobile.cleanAndRotate.ActionLogStepDefs.verifyLoggedProductDetail(java.lang.String)
+
+
+# Created at 2024-08-20T10:40:25.979
+Unexpected IOException with stream:   And I Enter Product Min and click on search                                                                                                                             # com.morrisons.sma.step_definitions.mobile.cleanAndRotate.EnterMinStepDefs.enterProductMin()
+
+
+# Created at 2024-08-20T10:40:25.991
+Unexpected IOException with stream:   Then I select "Rotate To Front" Action on Action log page                                                                                                               # com.morrisons.sma.step_definitions.mobile.cleanAndRotate.ActionLogStepDefs.clickOnActionOption(java.lang.String)
+
+
+# Created at 2024-08-20T10:40:25.998
+Unexpected IOException with stream:   And I Select Current Date plus 21 date in Calendar                                                                                                                      # com.morrisons.sma.step_definitions.mobile.cleanAndRotate.ActionLogStepDefs.selectDate(int)
+
+
+# Created at 2024-08-20T10:40:26.009
+Unexpected IOException with stream:   And I enter the quantity as "10" in Quantity textbox                                                                                                                    # com.morrisons.sma.step_definitions.mobile.items.EnterQuantityStepDefs_New.enterCnRQuantity(java.lang.String)
+
+
+# Created at 2024-08-20T10:40:26.019
+Unexpected IOException with stream:   Then I click on Log Product button on Action log page                                                                                                                   # com.morrisons.sma.step_definitions.mobile.cleanAndRotate.ActionLogStepDefs.iClickOnOnActionWastePage()
+
+
+# Created at 2024-08-20T10:40:26.029
+Unexpected IOException with stream:   And I verify 1st Markdown alert pop-up is not displayed                                                                                                                 # com.morrisons.sma.step_definitions.mobile.old.CleanNRotateStepDefUI.firstMarkdownPopupNotDisplayed()
+
+
+# Created at 2024-08-20T10:40:26.039
+Unexpected IOException with stream:   Then I Verify product is logged with "Rotated" action                                                                                                                   # com.morrisons.sma.step_definitions.mobile.cleanAndRotate.ActionLogStepDefs.verifyLoggedProductDetail(java.lang.String)
+
+
+# Created at 2024-08-20T10:40:26.049
+Unexpected IOException with stream:   And I Enter Product Min and click on search                                                                                                                             # com.morrisons.sma.step_definitions.mobile.cleanAndRotate.EnterMinStepDefs.enterProductMin()
+
+
+# Created at 2024-08-20T10:40:26.058
+Unexpected IOException with stream:   Then I select "Rotate To Front" Action on Action log page                                                                                                               # com.morrisons.sma.step_definitions.mobile.cleanAndRotate.ActionLogStepDefs.clickOnActionOption(java.lang.String)
+
+
+# Created at 2024-08-20T10:40:26.062
+Unexpected IOException with stream:   And I Select Current Date plus 2 date in Calendar                                                                                                                       # com.morrisons.sma.step_definitions.mobile.cleanAndRotate.ActionLogStepDefs.selectDate(int)
+
+
+# Created at 2024-08-20T10:40:26.072
+Unexpected IOException with stream:   And I enter the quantity as "10" in Quantity textbox                                                                                                                    # com.morrisons.sma.step_definitions.mobile.items.EnterQuantityStepDefs_New.enterCnRQuantity(java.lang.String)
+
+
+# Created at 2024-08-20T10:40:26.079
+Unexpected IOException with stream:   Then I click on Log Product button on Action log page                                                                                                                   # com.morrisons.sma.step_definitions.mobile.cleanAndRotate.ActionLogStepDefs.iClickOnOnActionWastePage()
+
+
+# Created at 2024-08-20T10:40:26.088
+Unexpected IOException with stream:   And I verify Clearance Markdown alert popup with "This product is due to expire, Please complete a clearance markdown. And move product to clearance bay." is displayed # com.morrisons.sma.step_definitions.mobile.cleanAndRotate.ActionLogStepDefs.isClearanceAlertDisplayed(java.lang.String)
+
+
+# Created at 2024-08-20T10:40:26.099
+Unexpected IOException with stream:   Then I click on "Back" button                                                                                                                                           # com.morrisons.sma.step_definitions.mobile.common.ActionHelperStepDef.iClickOnButton(java.lang.String)
+
+
+# Created at 2024-08-20T10:40:26.110
+Unexpected IOException with stream:   And I Enter Product Min and click on search                                                                                                                             # com.morrisons.sma.step_definitions.mobile.cleanAndRotate.EnterMinStepDefs.enterProductMin()
+
+
+# Created at 2024-08-20T10:40:26.118
+Unexpected IOException with stream:   Then I select "Rotate To Front" Action on Action log page                                                                                                               # com.morrisons.sma.step_definitions.mobile.cleanAndRotate.ActionLogStepDefs.clickOnActionOption(java.lang.String)
+
+
+# Created at 2024-08-20T10:40:26.128
+Unexpected IOException with stream:   And I Select Current Date plus 12 date in Calendar                                                                                                                      # com.morrisons.sma.step_definitions.mobile.cleanAndRotate.ActionLogStepDefs.selectDate(int)
+
+
+# Created at 2024-08-20T10:40:26.132
+Unexpected IOException with stream:   And I enter the quantity as "10" in Quantity textbox                                                                                                                    # com.morrisons.sma.step_definitions.mobile.items.EnterQuantityStepDefs_New.enterCnRQuantity(java.lang.String)
+
+
+# Created at 2024-08-20T10:40:26.144
+Unexpected IOException with stream:   Then I click on Log Product button on Action log page                                                                                                                   # com.morrisons.sma.step_definitions.mobile.cleanAndRotate.ActionLogStepDefs.iClickOnOnActionWastePage()
+
+
+# Created at 2024-08-20T10:40:26.152
+Unexpected IOException with stream:   And I verify Clearance Markdown alert popup with "This product is due to expire, Please complete a clearance markdown. And move product to clearance bay." is displayed # com.morrisons.sma.step_definitions.mobile.cleanAndRotate.ActionLogStepDefs.isClearanceAlertDisplayed(java.lang.String)
+
+
+# Created at 2024-08-20T10:40:26.160
+Unexpected IOException with stream:   Then I click on "Back" button                                                                                                                                           # com.morrisons.sma.step_definitions.mobile.common.ActionHelperStepDef.iClickOnButton(java.lang.String)
+
+
+# Created at 2024-08-20T10:40:26.169
+Unexpected IOException with stream:   Then I click on "Back" button                                                                                                                                           # com.morrisons.sma.step_definitions.mobile.common.ActionHelperStepDef.iClickOnButton(java.lang.String)
+
+
+# Created at 2024-08-20T10:40:26.180
+Unexpected IOException with stream:   Then I click on "Back" button                                                                                                                                           # com.morrisons.sma.step_definitions.mobile.common.ActionHelperStepDef.iClickOnButton(java.lang.String)
+
+
+# Created at 2024-08-20T10:40:26.190
+Unexpected IOException with stream:   Then I Scroll down on Weekly schedule page                                                                                                                              # com.morrisons.sma.step_definitions.mobile.cleanAndRotate.WeeklyScheduleStepDefs.scrollDown()
+
+
+# Created at 2024-08-20T10:40:26.204
+Unexpected IOException with stream:   And I Select Weekly schedule for "Current Week"                                                                                                                         # com.morrisons.sma.step_definitions.mobile.cleanAndRotate.WeeklyScheduleStepDefs.selectWeek(java.lang.String)
+
+
+# Created at 2024-08-20T10:40:26.213
+Unexpected IOException with stream:   And I Select Department                                                                                                                                                 # com.morrisons.sma.step_definitions.mobile.cleanAndRotate.SelectDepartmentStepDefs.selectDepartment()
+
+
+# Created at 2024-08-20T10:40:26.221
+Unexpected IOException with stream:   And I Enter Product Min and click on search                                                                                                                             # com.morrisons.sma.step_definitions.mobile.cleanAndRotate.EnterMinStepDefs.enterProductMin()
+
+
+# Created at 2024-08-20T10:40:26.230
+Unexpected IOException with stream:   Then I select "Rotate To Front" Action on Action log page                                                                                                               # com.morrisons.sma.step_definitions.mobile.cleanAndRotate.ActionLogStepDefs.clickOnActionOption(java.lang.String)
+
+
+# Created at 2024-08-20T10:40:26.246
+Unexpected IOException with stream:   And I Select Current Date plus 14 date in Calendar                                                                                                                      # com.morrisons.sma.step_definitions.mobile.cleanAndRotate.ActionLogStepDefs.selectDate(int)
+
+
+# Created at 2024-08-20T10:40:26.249
+Unexpected IOException with stream:   And I enter the quantity as "10" in Quantity textbox                                                                                                                    # com.morrisons.sma.step_definitions.mobile.items.EnterQuantityStepDefs_New.enterCnRQuantity(java.lang.String)
+
+
+# Created at 2024-08-20T10:40:26.269
+Unexpected IOException with stream:   Then I click on Log Product button on Action log page                                                                                                                   # com.morrisons.sma.step_definitions.mobile.cleanAndRotate.ActionLogStepDefs.iClickOnOnActionWastePage()
+
+
+# Created at 2024-08-20T10:40:26.279
+Unexpected IOException with stream:   And I verify 1st Markdown alert pop-up is not displayed                                                                                                                 # com.morrisons.sma.step_definitions.mobile.old.CleanNRotateStepDefUI.firstMarkdownPopupNotDisplayed()
+
+
+# Created at 2024-08-20T10:40:26.288
+Unexpected IOException with stream:   Then I Verify product is logged with "Rotated" action                                                                                                                   # com.morrisons.sma.step_definitions.mobile.cleanAndRotate.ActionLogStepDefs.verifyLoggedProductDetail(java.lang.String)
+
+
+# Created at 2024-08-20T10:40:26.303
+Unexpected IOException with stream:   And I Enter Product Min and click on search                                                                                                                             # com.morrisons.sma.step_definitions.mobile.cleanAndRotate.EnterMinStepDefs.enterProductMin()
+
+
+# Created at 2024-08-20T10:40:26.314
+Unexpected IOException with stream:   Then I select "Rotate To Front" Action on Action log page                                                                                                               # com.morrisons.sma.step_definitions.mobile.cleanAndRotate.ActionLogStepDefs.clickOnActionOption(java.lang.String)
+
+
+# Created at 2024-08-20T10:40:26.329
+Unexpected IOException with stream:   And I Select Current Date plus 21 date in Calendar                                                                                                                      # com.morrisons.sma.step_definitions.mobile.cleanAndRotate.ActionLogStepDefs.selectDate(int)
+
+
+# Created at 2024-08-20T10:40:26.339
+Unexpected IOException with stream:   And I enter the quantity as "10" in Quantity textbox                                                                                                                    # com.morrisons.sma.step_definitions.mobile.items.EnterQuantityStepDefs_New.enterCnRQuantity(java.lang.String)
+
+
+# Created at 2024-08-20T10:40:26.352
+Unexpected IOException with stream:   Then I click on Log Product button on Action log page                                                                                                                   # com.morrisons.sma.step_definitions.mobile.cleanAndRotate.ActionLogStepDefs.iClickOnOnActionWastePage()
+
+
+# Created at 2024-08-20T10:40:26.362
+Unexpected IOException with stream:   And I verify 1st Markdown alert pop-up is not displayed                                                                                                                 # com.morrisons.sma.step_definitions.mobile.old.CleanNRotateStepDefUI.firstMarkdownPopupNotDisplayed()
+
+
+# Created at 2024-08-20T10:40:26.372
+Unexpected IOException with stream:   Then I Verify product is logged with "Rotated" action                                                                                                                   # com.morrisons.sma.step_definitions.mobile.cleanAndRotate.ActionLogStepDefs.verifyLoggedProductDetail(java.lang.String)
+
+
+# Created at 2024-08-20T10:40:26.379
+Unexpected IOException with stream:   And I Enter Product Min and click on search                                                                                                                             # com.morrisons.sma.step_definitions.mobile.cleanAndRotate.EnterMinStepDefs.enterProductMin()
+
+
+# Created at 2024-08-20T10:40:26.389
+Unexpected IOException with stream:   Then I select "Rotate To Front" Action on Action log page                                                                                                               # com.morrisons.sma.step_definitions.mobile.cleanAndRotate.ActionLogStepDefs.clickOnActionOption(java.lang.String)
+
+
+# Created at 2024-08-20T10:40:26.399
+Unexpected IOException with stream:   And I Select Current Date plus 2 date in Calendar                                                                                                                       # com.morrisons.sma.step_definitions.mobile.cleanAndRotate.ActionLogStepDefs.selectDate(int)
+
+
+# Created at 2024-08-20T10:40:26.413
+Unexpected IOException with stream:   And I enter the quantity as "10" in Quantity textbox                                                                                                                    # com.morrisons.sma.step_definitions.mobile.items.EnterQuantityStepDefs_New.enterCnRQuantity(java.lang.String)
+
+
+# Created at 2024-08-20T10:40:26.422
+Unexpected IOException with stream:   Then I click on Log Product button on Action log page                                                                                                                   # com.morrisons.sma.step_definitions.mobile.cleanAndRotate.ActionLogStepDefs.iClickOnOnActionWastePage()
+
+
+# Created at 2024-08-20T10:40:26.439
+Unexpected IOException with stream:   And I verify Clearance Markdown alert popup with "This product is due to expire, Please complete a clearance markdown. And move product to clearance bay." is displayed # com.morrisons.sma.step_definitions.mobile.cleanAndRotate.ActionLogStepDefs.isClearanceAlertDisplayed(java.lang.String)
+
+
+# Created at 2024-08-20T10:40:26.449
+Unexpected IOException with stream:   Then I click on "Back" button                                                                                                                                           # com.morrisons.sma.step_definitions.mobile.common.ActionHelperStepDef.iClickOnButton(java.lang.String)
+
+
+# Created at 2024-08-20T10:40:26.460
+Unexpected IOException with stream:   And I Enter Product Min and click on search                                                                                                                             # com.morrisons.sma.step_definitions.mobile.cleanAndRotate.EnterMinStepDefs.enterProductMin()
+
+
+# Created at 2024-08-20T10:40:26.476
+Unexpected IOException with stream:   Then I select "Rotate To Front" Action on Action log page                                                                                                               # com.morrisons.sma.step_definitions.mobile.cleanAndRotate.ActionLogStepDefs.clickOnActionOption(java.lang.String)
+
+
+# Created at 2024-08-20T10:40:26.489
+Unexpected IOException with stream:   And I Select Current Date plus 12 date in Calendar                                                                                                                      # com.morrisons.sma.step_definitions.mobile.cleanAndRotate.ActionLogStepDefs.selectDate(int)
+
+
+# Created at 2024-08-20T10:40:26.498
+Unexpected IOException with stream:   And I enter the quantity as "10" in Quantity textbox                                                                                                                    # com.morrisons.sma.step_definitions.mobile.items.EnterQuantityStepDefs_New.enterCnRQuantity(java.lang.String)
+
+
+# Created at 2024-08-20T10:40:26.513
+Unexpected IOException with stream:   Then I click on Log Product button on Action log page                                                                                                                   # com.morrisons.sma.step_definitions.mobile.cleanAndRotate.ActionLogStepDefs.iClickOnOnActionWastePage()
+
+
+# Created at 2024-08-20T10:40:26.526
+Unexpected IOException with stream:   And I verify Clearance Markdown alert popup with "This product is due to expire, Please complete a clearance markdown. And move product to clearance bay." is displayed # com.morrisons.sma.step_definitions.mobile.cleanAndRotate.ActionLogStepDefs.isClearanceAlertDisplayed(java.lang.String)
+
+
+# Created at 2024-08-20T10:40:26.542
+Unexpected IOException with stream:   Then I click on "Back" button                                                                                                                                           # com.morrisons.sma.step_definitions.mobile.common.ActionHelperStepDef.iClickOnButton(java.lang.String)
+
+
+# Created at 2024-08-20T10:40:26.549
+Unexpected IOException with stream: 2024-08-20 10:40:26 [INFO ] [StockAdjustmentPO_New] - [<init>] Inside : class com.morrisons.sma.page_objects.mobile.MOCO.ManagerOrderPage
+
+
+# Created at 2024-08-20T10:40:26.569
+Unexpected IOException with stream: java.lang.NullPointerException
+
+# Created at 2024-08-20T10:40:26.581
+Unexpected IOException with stream: 
+
+
+# Created at 2024-08-20T10:40:26.599
+Unexpected IOException with stream: 2024-08-20 10:40:26 [INFO ] [StockAdjustmentPO_New] - [<init>] Inside : class com.morrisons.sma.page_objects.mobile.CountsPO
+
+
+# Created at 2024-08-20T10:40:26.615
+Unexpected IOException: 8,1,com.morrisons.sma.runners.mobile.Runner,runScenario(com.morrisons.sma.runners.mobile.Runner),null,null,null,null,Runner.runScenario null,java.lang.AssertionError: null\000A
+
+
+# Created at 2024-08-20T10:40:26.623
+Unexpected IOException: 5,1,com.morrisons.sma.runners.mobile.Runner,runScenario(com.morrisons.sma.runners.mobile.Runner),cucumber,null,null
+
+
+# Created at 2024-08-20T10:40:26.809
+Unexpected IOException with stream: 
+
+
+# Created at 2024-08-20T10:40:26.821
+Unexpected IOException with stream: @CleanAndRotate @sma @NonCrispMandCAlert
+
+
+# Created at 2024-08-20T10:40:26.837
+Unexpected IOException with stream: Scenario Outline: For Non-Crisp Department, verify Markdown and Clearance alert functionality.                                                                            # sma_features_new/CleanAndRotate/CleanAndRotate.feature:401
+
+

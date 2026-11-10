@@ -1,0 +1,301 @@
+{
+	"gtins": [
+		{
+			"id": "5010238296927",
+			"type": "EAN13",
+			"additionalProperties": {
+				"isPrimaryBarcode": true
+			}
+		}
+	],
+	"itemNumber": "100001863",
+	"orderType": null,
+	"isCatchWeight": false,
+	"vatRate": 20.0,
+	"certifiedForExport": "Yes",
+	"catchWeight": false,
+	"nonAlcoholLinesInBws": "No",
+	"cafeSelfServe": {
+		"kitchenPrinterFlag": null,
+		"modifierFlag": null
+	},
+	"standardUnitOfMeasure": "EA",
+	"forceEnterPrice": false,
+	"commercialHierarchy": {
+		"division": 2,
+		"departmentName": "008 Ice Cream & Desserts",
+		"groupName": "Frozen",
+		"divisionName": "Ambient & Dairy",
+		"class_": 200,
+		"subclass": 100,
+		"className": "Ice Cream",
+		"subclassName": "Hand Held Ice Cream",
+		"additionalProperties": {},
+		"department": 8,
+		"group": 1
+	},
+	"packComponents": [],
+	"productLife": {
+		"productLifeAtTimeOfManufacture": "998",
+		"minimumAcceptableProductLifedays": "360",
+		"productExpirationDays": "1"
+	},
+	"netContent": null,
+	"itemDescription": "Test_1104",
+	"brand": "Nobbly Bobbly",
+	"vatCode": "A",
+	"productDescription": {
+		"shelfEdgeLabelLine3": "LOLLIES £4X70ML",
+		"shelfEdgeLabelLine1": "NESTLE",
+		"shelfEdgeLabelLine2": "NOBBLY BOBBLY"
+	},
+	"smsPermanent": "No",
+	"marketStreet": {
+		"cookingInstructions": null,
+		"shelfLife": null,
+		"dayAdditional": null,
+		"sourceAndMethod": null
+	},
+	"packedMins": false,
+	"temperatureCheckRequired": "No",
+	"gda": [],
+	"stockAccountingMethod": {
+		"value": 1,
+		"description": "RMS - Standard"
+	},
+	"nutritionalHeading": "Per 100g,Per 100ml,Per Serving**,Reference Intake*,% RI*",
+	"multipackIndicator": "Yes",
+	"sellingUnitOfMeasure": "EA",
+	"legacyItemNumbers": [
+		"0081660"
+	],
+	"packs": [
+		{
+			"packNumber": "100003410",
+			"packQuantity": 12,
+			"additionalProperties": {}
+		}
+	],
+	"storeLiveDate": "22-MAR-04",
+	"drsComplianceInfo": {
+		"scottishDepositLinkedItem": 105030353,
+		"variantsInMultipack": 1,
+		"drsItemIfSoldInScotland": "Yes",
+		"scottishDrsSaleCategory": "UK Wide",
+		"containersCountInMultipack": 1,
+		"mixedVarietyMultipackIndicator": "Yes"
+	},
+	"sellBy": "BB",
+	"pharmacyOnly": "N",
+	"clothing": null,
+	"tillDescription": "NESTLE ICE LOLLIES",
+	"catchWeightType": null,
+	"status": "A",
+	"foodTechnical": false,
+	"supplySource": "X",
+	"components": null,
+	"saleType": null,
+	"storage": [
+		"Keep Frozen"
+	],
+	"productFlags": {
+		"packInd": false,
+		"perishableInd": true,
+		"constDimenInd": true,
+		"packType": null,
+		"simplePackInd": false,
+		"catchWeightUom": null,
+		"orderableInd": true,
+		"inventoryInd": true,
+		"merchandiseInd": true,
+		"sellableInd": true
+	},
+	"uepItem": true,
+	"ctcTrialFlag": "1",
+	"productPurpose": "Selling",
+	"unitEquivalentPrice": {
+		"netContent": 280,
+		"unitOfMeasureCode": "J"
+	},
+	"imageUrl": [
+		{
+			"url": "https://s3-eu-west-1.amazonaws.com/mprod.xxwmm.retail.brandbank.zzzzzzzzzz/images/brandbank/5010238296927_0.jpg",
+			"shotType": "ID Shot",
+			"height": 1500,
+			"width": 1500,
+			"additionalProperties": {}
+		}
+	],
+	"productUOM": {
+		"uomConversionFactor": null
+	},
+	"ingredients": [
+		"Strawberry Flavoured Ice Cream (49%) [Partially Reconstituted Skimmed Milk Concentrate, Sugar, Coconut Oil, Glucose Syrup, Strawberry Puree (5%),Whey Powder (from Milk), Emulsifier (Mono- and Diglycerides of Fatty Acids), Flavouring, Stabilisers (Guar Gum, Sodium Alginate), Colour (Beetroot Red), Acid (Citric acid)]",
+		"Chocolate Flavour Ice Cream (20%) [Reconstituted Skimmed Milk Concentrate, Sugar, Coconut Oil, Glucose Syrup, Fat-Reduced Cocoa Powder, Whey Powder (from Milk), Emulsifier (Mono- and Diglycerides of Fatty Acids), Stabilisers (Guar Gum, Sodium Alginate)]",
+		"Sugar Balls (16%) [Sugar, Wheat Starch, Glucose Syrup, Colours (Curcumin, Chlorophyllins), Beetroot Juice Concentrate, Coconut Oil, Glazing Agent (Beeswax)]",
+		"Chocolate Flavour Coating (13%) [Vegetable Oils (Coconut, Rapeseed, in varying proportions), Sugar, Bulking Agent (Calcium Carbonate), Whey Powder (from Milk), Fat-Reduced Cocoa Powder, Emulsifier (Soya Lecithin)]"
+	],
+	"magazines": {
+		"dayIssued": null,
+		"frequency": null
+	},
+	"seo": null,
+	"productType": "ITEM",
+	"productRestrictions": {
+		"fuelCardRestrictions": "Goods Standard Rate VAT",
+		"allowQuantityMultiplier": "Yes",
+		"refundable": "Yes",
+		"wetStock": "No",
+		"operatorAgeCheck": "No"
+	},
+	"nutritionalInfo": [
+		{
+			"name": "Energy",
+			"perComp": "1191kJ,1206kJ,868kJ,8400kJ,",
+			"perServing": null,
+			"additionalProperties": {}
+		},
+		{
+			"name": "",
+			"perComp": "285kcal,288kcal,207kcal,2000kcal,10%",
+			"perServing": null,
+			"additionalProperties": {}
+		},
+		{
+			"name": "Fat",
+			"perComp": "14.2g,14.4g,10.4g,70g,15%",
+			"perServing": null,
+			"additionalProperties": {}
+		},
+		{
+			"name": "of which: saturates",
+			"perComp": "7.5g,7.6g,5.5g,20g,27%",
+			"perServing": null,
+			"additionalProperties": {}
+		},
+		{
+			"name": "Carbohydrate",
+			"perComp": "36.2g,36.7g,26.4g,260g,10%",
+			"perServing": null,
+			"additionalProperties": {}
+		},
+		{
+			"name": "of which: sugars",
+			"perComp": "27.8g,28.2g,20.3g,90g,23%",
+			"perServing": null,
+			"additionalProperties": {}
+		},
+		{
+			"name": "Fibre",
+			"perComp": "0.8g,0.8g,0.6g,-,-",
+			"perServing": null,
+			"additionalProperties": {}
+		},
+		{
+			"name": "Protein",
+			"perComp": "2.2g,2.2g,1.6g,50g,3%",
+			"perServing": null,
+			"additionalProperties": {}
+		},
+		{
+			"name": "Salt",
+			"perComp": "0.16g,0.17g,0.12g,6g,2%",
+			"perServing": null,
+			"additionalProperties": {}
+		},
+		{
+			"name": "*Reference Intake of an average adult (8400kJ/2000kcal)",
+			"perComp": ",,,,",
+			"perServing": null,
+			"additionalProperties": {}
+		},
+		{
+			"name": "**One Lolly (70ml/72.9g)",
+			"perComp": ",,,,",
+			"perServing": null,
+			"additionalProperties": {}
+		},
+		{
+			"name": "Pack contains 4 servings",
+			"perComp": ",,,,",
+			"perServing": null,
+			"additionalProperties": {}
+		},
+		{
+			"name": "Portions should be adjusted for children of different ages",
+			"perComp": ",,,,",
+			"perServing": null,
+			"additionalProperties": {}
+		}
+	],
+	"storeToBarcode": "No",
+	"reportingHierarchy": {
+		"departmentName": "Ice Cream",
+		"divisionName": "Ambient",
+		"class_": "8-200",
+		"className": "Ice Cream",
+		"categoryName": "Frozen Desserts (c)",
+		"division": "2",
+		"groupName": "Frozen",
+		"subclass": "8-200-100",
+		"subclassName": "Hand Held Ice Cream",
+		"additionalProperties": {},
+		"category": "1",
+		"department": "8",
+		"group": "1"
+	},
+	"productMarketing": null,
+	"allergenInfo": [
+		{
+			"name": "Milk",
+			"value": "Contains",
+			"additionalProperties": {}
+		},
+		{
+			"name": "Nuts",
+			"value": "May Contain",
+			"additionalProperties": {}
+		},
+		{
+			"name": "Peanuts",
+			"value": "May Contain",
+			"additionalProperties": {}
+		},
+		{
+			"name": "Soya",
+			"value": "Contains",
+			"additionalProperties": {}
+		},
+		{
+			"name": "Wheat",
+			"value": "Contains",
+			"additionalProperties": {}
+		}
+	],
+	"priceType": "Regular Item",
+	"parentItemNumber": "100000404",
+	"commodityProduceOnly": "No",
+	"customerFriendlyDescription": "Nestle Nobbly Bobbly Lollies 4x70ml",
+	"brandType": "B",
+	"productComplianceInfo": {
+		"nutrientProfilingScore": 16,
+		"hfssInScope": 1,
+		"hfssCategory": 5
+	},
+	"priceMarked": false,
+	"countryOfOrigin": null,
+	"beersWinesSpirits": {
+		"strengthNumberAndWord": null,
+		"alcoholByVolume": null,
+		"tastingNotes": null,
+		"additionalTastingNote": null,
+		"volumeInLitres": null
+	},
+	"dimensions": {
+		"length": 0.0,
+		"height": 0.0,
+		"width": 0.0,
+		"weight": 0.0,
+		"additionalProperties": {}
+	}
+}

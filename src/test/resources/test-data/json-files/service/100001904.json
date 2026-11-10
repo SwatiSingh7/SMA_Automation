@@ -1,0 +1,279 @@
+{
+	"gtins": [
+		{
+			"id": "5010084102793",
+			"type": "EAN13",
+			"additionalProperties": {
+				"isPrimaryBarcode": true
+			}
+		}
+	],
+	"itemNumber": "100001904",
+	"orderType": null,
+	"temperatureRegime": "Frozen",
+	"isCatchWeight": false,
+	"vatRate": 0,
+	"certifiedForExport": "No",
+	"catchWeight": false,
+	"nonAlcoholLinesInBws": "No",
+	"cafeSelfServe": {
+		"kitchenPrinterFlag": null,
+		"modifierFlag": null
+	},
+	"seaFreightIndicator": "Yes",
+	"standardUnitOfMeasure": "EA",
+	"forceEnterPrice": false,
+	"commercialHierarchy": {
+		"division": 2,
+		"departmentName": "008 Ice Cream & Desserts",
+		"groupName": "Frozen",
+		"divisionName": "Ambient & Dairy",
+		"class_": 100,
+		"subclass": 400,
+		"className": "Desserts",
+		"subclassName": "Frozen Pastry",
+		"additionalProperties": {},
+		"department": 8,
+		"group": 1
+	},
+	"packComponents": [],
+	"productLife": {
+		"minimumCPCAcceptanceLife": 90,
+		"productLifeAtTimeOfManufacture": "0",
+		"minimumAcceptableProductLifedays": "120",
+		"productExpirationDays": "1"
+	},
+	"netContent": null,
+	"itemDescription": "JUS-ROL PUFF PASTRY BLOCKS 2 X 500G (1KG)",
+	"brand": "Jus-Rol",
+	"vatCode": "Z",
+	"productDescription": {
+		"shelfEdgeLabelLine3": "£1KG",
+		"shelfEdgeLabelLine1": "JUS ROL",
+		"shelfEdgeLabelLine2": "PUFF PASTRY"
+	},
+	"smsPermanent": "No",
+	"marketStreet": {
+		"cookingInstructions": null,
+		"shelfLife": null,
+		"dayAdditional": null,
+		"sourceAndMethod": null
+	},
+	"packedMins": false,
+	"gda": [],
+	"stockAccountingMethod": {
+		"value": 1,
+		"description": "RMS - Standard"
+	},
+	"nutritionalHeading": "(uncooked) Per 100g,(uncooked) Per Portion (50g),%* (50g)",
+	"sellingUnitOfMeasure": "EA",
+	"legacyItemNumbers": [
+		"0080087"
+	],
+	"packs": [
+		{
+			"packNumber": "100003452",
+			"packQuantity": 12,
+			"additionalProperties": {}
+		},
+		{
+			"packNumber": "111251099",
+			"packQuantity": 6,
+			"additionalProperties": {}
+		}
+	],
+	"storeLiveDate": "06-SEP-04",
+	"sellBy": "BB",
+	"pharmacyOnly": "N",
+	"clothing": null,
+	"tillDescription": "PUFF PASTRY",
+	"catchWeightType": null,
+	"status": "A",
+	"foodTechnical": false,
+	"supplySource": "X",
+	"components": null,
+	"saleType": null,
+	"storage": [
+		"Keep Frozen"
+	],
+	"productFlags": {
+		"packInd": false,
+		"perishableInd": true,
+		"constDimenInd": true,
+		"packType": null,
+		"simplePackInd": false,
+		"catchWeightUom": null,
+		"orderableInd": true,
+		"inventoryInd": true,
+		"merchandiseInd": true,
+		"sellableInd": true
+	},
+	"uepItem": true,
+	"ctcTrialFlag": "1",
+	"productPurpose": "Selling",
+	"unitEquivalentPrice": {
+		"netContent": 1,
+		"unitOfMeasureCode": "K"
+	},
+	"imageUrl": [
+		{
+			"url": "https://s3-eu-west-1.amazonaws.com/mprod.xxwmm.retail.brandbank.zzzzzzzzzz/images/brandbank/5010084102793_0.jpg",
+			"shotType": "ID Shot",
+			"height": 1500,
+			"width": 1500,
+			"additionalProperties": {}
+		}
+	],
+	"productUOM": {
+		"uomConversionFactor": null
+	},
+	"itemTradingArea": "Ambient",
+	"ingredients": [
+		"Wheat Flour",
+		"Water",
+		"Vegetable Oils and Fats (Palm, Rapeseed)",
+		"Salt",
+		"Emulsifier (Mono- and Diglycerides of Fatty Acids)",
+		"Flour Treatment Agent (Ascorbic Acid)"
+	],
+	"magazines": {
+		"dayIssued": null,
+		"frequency": null
+	},
+	"seo": null,
+	"productType": "ITEM",
+	"productRestrictions": {
+		"fuelCardRestrictions": "Goods Standard Rate VAT",
+		"allowQuantityMultiplier": "Yes",
+		"refundable": "Yes",
+		"wetStock": "No",
+		"operatorAgeCheck": "No"
+	},
+	"nutritionalInfo": [
+		{
+			"name": "Energy ",
+			"perComp": "1564kJ,782kJ,9%",
+			"perServing": null,
+			"additionalProperties": {}
+		},
+		{
+			"name": "Energy ",
+			"perComp": "375kcal,188kcal,9%",
+			"perServing": null,
+			"additionalProperties": {}
+		},
+		{
+			"name": "Fat ",
+			"perComp": "23.5g,11.8g,17%",
+			"perServing": null,
+			"additionalProperties": {}
+		},
+		{
+			"name": " of which saturates ",
+			"perComp": "12.4g,6.2g,31%",
+			"perServing": null,
+			"additionalProperties": {}
+		},
+		{
+			"name": "Carbohydrate ",
+			"perComp": "35.4g,17.7g,7%",
+			"perServing": null,
+			"additionalProperties": {}
+		},
+		{
+			"name": " of which sugars ",
+			"perComp": "0.4g,0.2g,<1%",
+			"perServing": null,
+			"additionalProperties": {}
+		},
+		{
+			"name": "Fibre ",
+			"perComp": "1.1g,0.6g,-",
+			"perServing": null,
+			"additionalProperties": {}
+		},
+		{
+			"name": "Protein ",
+			"perComp": "4.9g,2.4g,5%",
+			"perServing": null,
+			"additionalProperties": {}
+		},
+		{
+			"name": "Salt ",
+			"perComp": "0.91g,0.45g,8%",
+			"perServing": null,
+			"additionalProperties": {}
+		},
+		{
+			"name": "*Reference intake of an average adult (8 400 kJ/ 2 000 kcal)",
+			"perComp": ",,",
+			"perServing": null,
+			"additionalProperties": {}
+		}
+	],
+	"storeToBarcode": "No",
+	"reportingHierarchy": {
+		"departmentName": "Frozen Desserts",
+		"divisionName": "Ambient",
+		"class_": "8-100",
+		"className": "Frozen Desserts",
+		"categoryName": "Frozen Desserts (c)",
+		"division": "2",
+		"groupName": "Frozen",
+		"subclass": "8-100-400",
+		"subclassName": "Frozen Pastry",
+		"additionalProperties": {},
+		"category": "1",
+		"department": "75",
+		"group": "1"
+	},
+	"productMarketing": "Jus-Rol Frozen pastry sheets and blocks make it easy for you to bake.\n\nShortcrust, puff, vol au vent: all the frozen pastry types you need to create sausage rolls, mince pies or party food.\n\nJus-Rol frozen pastry sheets are also available in the chilled aisle",
+	"allergenInfo": [
+		{
+			"name": "Wheat",
+			"value": "Contains",
+			"additionalProperties": {}
+		}
+	],
+	"priceType": "Regular Item",
+	"parentItemNumber": "100000297",
+	"commodityProduceOnly": "No",
+	"customerFriendlyDescription": "Jus-Rol Puff Pastry Blocks 2 x 500g (1kg)",
+	"brandType": "B",
+	"productComplianceInfo": {
+		"proteinContentPer100g": 4.9,
+		"saturatedfatContentPer100g": 12.4,
+		"asSoldorAsConsumed": "As Sold",
+		"sodiumContentPer100g": 364.0,
+		"fibreContentPer100g": 1.1,
+		"foodDrink": "Food",
+		"vegan": true,
+		"vegPercentage": 0.0,
+		"nutrientProfilingScore": 17,
+		"saltContentPer100g": 0.91,
+		"hfssLessHealthy": true,
+		"vegetarian": true,
+		"vegetableFruitNutPercentage": 0.0,
+		"sugarContentPer100g": 0.4,
+		"hfssInScope": 1,
+		"energyPer100g": 1568,
+		"hfssCategory": 9
+	},
+	"manuallyStoreOrderedItem": "Yes",
+	"priceMarked": false,
+	"countryOfOrigin": null,
+	"beersWinesSpirits": {
+		"strengthNumberAndWord": null,
+		"alcoholByVolume": null,
+		"tastingNotes": null,
+		"additionalTastingNote": null,
+		"volumeInLitres": null
+	},
+	"dimensions": {
+		"length": 0.0,
+		"height": 0.0,
+		"width": 0.0,
+		"weight": 0.0,
+		"additionalProperties": {}
+	}
+}

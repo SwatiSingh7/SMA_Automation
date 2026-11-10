@@ -1,0 +1,27 @@
+{
+  "itemNumber": "107697944",
+  "itemDescription": "BRANSTON BEANS IN TOMATO SAUCE 6X410G",
+  "imageUrl": "https://s3-eu-west-1.amazonaws.com/mprod.xxwmm.retail.brandbank.zzzzzzzzzz/images/brandbank/5000232882035_0.jpg",
+  "departmentId": 117,
+  "departmentName": "002 Beans & Pasta",
+  "caseSize": 4,
+  "EAN" :  [
+        {
+            "id": "5000232882035",
+            "additionalProperties": {
+                "isPrimaryBarcode": true
+            },
+            "type": "EAN13"
+        }
+],
+  "qty": 10,
+  "createdByName": "SMA015 StoreManagerSIT",
+  "createdById": "426102301",
+  "inStoreDate": "2024-11-05T00:00:00.000Z",
+  "startDate": "",
+  "endDate": "",
+  "orderType": "customerorder",
+  "temperatureRegime" :"Frozen",
+    "ishfssLessHealthy": false,
+    "hfssInScope": 0 
+}

@@ -1,0 +1,5 @@
+{
+  "provider": "morrisons",
+  "userName": "${collegueUserName}",
+  "password": "${colleguePassword}"
+}

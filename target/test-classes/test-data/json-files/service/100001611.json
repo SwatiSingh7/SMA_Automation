@@ -1,0 +1,290 @@
+{
+    "gtins": [
+        {
+            "id": "5000116031498",
+            "type": "EAN13",
+            "additionalProperties": {
+                "isPrimaryBarcode": true
+            }
+        }
+    ],
+    "itemNumber": "100001611",
+    "orderType": null,
+    "isCatchWeight": false,
+    "vatRate": 0,
+    "certifiedForExport": "Yes",
+    "catchWeight": false,
+    "nonAlcoholLinesInBws": "No",
+    "cafeSelfServe": {
+        "kitchenPrinterFlag": null,
+        "modifierFlag": null
+    },
+    "standardUnitOfMeasure": "EA",
+    "forceEnterPrice": false,
+    "commercialHierarchy": {
+        "division": 2,
+        "departmentName": "006 Frozen Fish",
+        "groupName": "Frozen",
+        "divisionName": "Ambient & Dairy",
+        "class_": 3,
+        "subclass": 10,
+        "className": "Frozen Kids Fish",
+        "subclassName": "Frozen Kids Fish Cakes",
+        "additionalProperties": {},
+        "department": 1,
+        "group": 1
+    },
+    "packComponents": [],
+    "productLife": {
+        "productLifeAtTimeOfManufacture": "998",
+        "minimumAcceptableProductLifedays": "180",
+        "productExpirationDays": "1"
+    },
+    "netContent": null,
+    "itemDescription": "BIRD'S EYE 4 COD FISHCAKES 198G",
+    "brand": "Birds Eye",
+    "vatCode": "Z",
+    "productDescription": {
+        "shelfEdgeLabelLine3": "4'S   £198G",
+        "shelfEdgeLabelLine1": "BIRDS EYE",
+        "shelfEdgeLabelLine2": "COD FISHCAKES"
+    },
+    "smsPermanent": "No",
+    "marketStreet": {
+        "cookingInstructions": null,
+        "shelfLife": null,
+        "dayAdditional": null,
+        "sourceAndMethod": null
+    },
+    "packedMins": false,
+    "gda": [],
+    "stockAccountingMethod": {
+        "value": 1,
+        "description": "RMS - Standard"
+    },
+    "nutritionalHeading": "As Sold 100g Provides:,Per 2 Cod Cakes Grilled Provides:",
+    "multipackIndicator": "Yes",
+    "sellingUnitOfMeasure": "EA",
+    "legacyItemNumbers": [
+        "0067284"
+    ],
+    "packs": [
+        {
+            "packNumber": "100003810",
+            "packQuantity": 8,
+            "additionalProperties": {}
+        }
+    ],
+    "storeLiveDate": "13-SEP-99",
+    "drsComplianceInfo": {
+        "scottishDepositLinkedItem": 108547500,
+        "drsItemIfSoldInScotland": "Yes",
+        "containersCountInMultipack": 1,
+        "mixedVarietyMultipackIndicator": "No"
+    },
+    "sellBy": "BB",
+    "pharmacyOnly": "N",
+    "clothing": null,
+    "tillDescription": "COD FISHCAKES",
+    "catchWeightType": null,
+    "status": "A",
+    "foodTechnical": false,
+    "supplySource": "X",
+    "components": null,
+    "saleType": null,
+    "storage": [
+        "Keep Frozen"
+    ],
+    "productFlags": {
+        "packInd": false,
+        "perishableInd": true,
+        "constDimenInd": true,
+        "packType": null,
+        "simplePackInd": false,
+        "catchWeightUom": null,
+        "orderableInd": true,
+        "inventoryInd": true,
+        "merchandiseInd": true,
+        "sellableInd": true
+    },
+    "uepItem": true,
+    "ctcTrialFlag": "1",
+    "productPurpose": "Selling",
+    "unitEquivalentPrice": {
+        "netContent": 198,
+        "unitOfMeasureCode": "G"
+    },
+    "imageUrl": [
+        {
+            "url": "https://s3-eu-west-1.amazonaws.com/mprod.xxwmm.retail.brandbank.zzzzzzzzzz/images/brandbank/5000116031498_0.jpg",
+            "shotType": "ID Shot",
+            "height": 1500,
+            "width": 1500,
+            "additionalProperties": {}
+        }
+    ],
+    "productUOM": {
+        "uomConversionFactor": null
+    },
+    "ingredients": [
+        "Minced Cod (Fish) (45%)",
+        "Water",
+        "Potato",
+        "Wheat Flour",
+        "Rapeseed Oil",
+        "Dried Potato",
+        "Salt",
+        "Parsley",
+        "Yeast",
+        "Sugar",
+        "Dextrose",
+        "White Pepper",
+        "Wheat Gluten",
+        "Paprika",
+        "Calcium Carbonate",
+        "Iron",
+        "Niacin",
+        "Thiamin"
+    ],
+    "magazines": {
+        "dayIssued": null,
+        "frequency": null
+    },
+    "seo": null,
+    "productType": "ITEM",
+    "productRestrictions": {
+        "fuelCardRestrictions": "Goods Zero Rate VAT",
+        "allowQuantityMultiplier": "Yes",
+        "refundable": "Yes",
+        "wetStock": "No",
+        "operatorAgeCheck": "No"
+    },
+    "nutritionalInfo": [
+        {
+            "name": "Energy - kJ",
+            "perComp": "760kJ,755kJ",
+            "perServing": null,
+            "additionalProperties": {}
+        },
+        {
+            "name": "- kcal",
+            "perComp": "181kcal,180kcal",
+            "perServing": null,
+            "additionalProperties": {}
+        },
+        {
+            "name": "Fat ",
+            "perComp": "8.5g,8.4g",
+            "perServing": null,
+            "additionalProperties": {}
+        },
+        {
+            "name": "- of which Saturates ",
+            "perComp": "0.6g,0.6g",
+            "perServing": null,
+            "additionalProperties": {}
+        },
+        {
+            "name": "Carbohydrate ",
+            "perComp": "16g,16g",
+            "perServing": null,
+            "additionalProperties": {}
+        },
+        {
+            "name": "- of which Sugars ",
+            "perComp": "0.6g,0.6g",
+            "perServing": null,
+            "additionalProperties": {}
+        },
+        {
+            "name": "Fibre ",
+            "perComp": "0.8g,0.8g",
+            "perServing": null,
+            "additionalProperties": {}
+        },
+        {
+            "name": "Protein ",
+            "perComp": "9.8g,9.7g",
+            "perServing": null,
+            "additionalProperties": {}
+        },
+        {
+            "name": "Salt ",
+            "perComp": "0.83g,0.82g",
+            "perServing": null,
+            "additionalProperties": {}
+        },
+        {
+            "name": "This pack contains 2 portions",
+            "perComp": ",",
+            "perServing": null,
+            "additionalProperties": {}
+        }
+    ],
+    "storeToBarcode": "No",
+    "reportingHierarchy": {
+        "departmentName": "Frozen Fish",
+        "divisionName": "Ambient",
+        "class_": "1-3",
+        "className": "Frozen Kids Fish",
+        "categoryName": "Frozen Food",
+        "division": "2",
+        "groupName": "Frozen",
+        "subclass": "1-3-10",
+        "subclassName": "Frozen Kids Fish Cakes",
+        "additionalProperties": {},
+        "category": "2",
+        "department": "1",
+        "group": "1"
+    },
+    "productMarketing": "A message from your captain\nAah, happy faces around the dinner table. That's what I like to see. So when you're looking for something simple & tasty, why not serve delicious Cod fish cakes covered in golden breadcrumbs. Tasty any day of the week, try them with a light green salad. No artificial colours, flavours or preservatives for the Captain's table.",
+    "allergenInfo": [
+        {
+            "name": "Fish",
+            "value": "Contains",
+            "additionalProperties": {}
+        },
+        {
+            "name": "Milk",
+            "value": "May Contain",
+            "additionalProperties": {}
+        },
+        {
+            "name": "Mustard",
+            "value": "May Contain",
+            "additionalProperties": {}
+        },
+        {
+            "name": "Wheat",
+            "value": "Contains",
+            "additionalProperties": {}
+        }
+    ],
+    "priceType": "Regular Item",
+    "parentItemNumber": "100000044",
+    "commodityProduceOnly": "No",
+    "customerFriendlyDescription": "Birds Eye 4 Cod Fishcakes 198g",
+    "brandType": "B",
+    "productComplianceInfo": {
+        "hfssLessHealthy": false,
+        "nutrientProfilingScore": 0,
+        "hfssInScope": 1,
+        "hfssCategory": 13
+    },
+    "priceMarked": false,
+    "countryOfOrigin": null,
+    "beersWinesSpirits": {
+        "strengthNumberAndWord": null,
+        "alcoholByVolume": null,
+        "tastingNotes": null,
+        "additionalTastingNote": null,
+        "volumeInLitres": null
+    },
+    "dimensions": {
+        "length": 0.0,
+        "height": 0.0,
+        "width": 0.0,
+        "weight": 0.0,
+        "additionalProperties": {}
+    }
+}

@@ -1,0 +1,3296 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title></title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa bdd-report standard">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary"></span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">May 7, 2024 09:33:26 PM</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('exception-view')">
+<a id="nav-exception" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bug"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('category-view')">
+<a id="nav-category" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-tag"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-tag"></i></a>
+<ul id="tag-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" href="#">@store_walk</a><a class="dropdown-item" href="#">@ds1</a><a class="dropdown-item" href="#">@g61Newpm_glh</a><a class="dropdown-item" href="#">@VerfOffShelfSection</a><a class="dropdown-item" href="#">@sma</a><a class="dropdown-item" href="#">@ScanAProdinOnShelfMarkedGAP</a><a class="dropdown-item" href="#">@timeChange</a><a class="dropdown-item" href="#">@VerfScndBarcdAvlWarehouse</a><a class="dropdown-item" href="#">@regression</a><a class="dropdown-item" href="#">@VerfScreenElements</a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="fail" test-id="1"
+          author=""
+          tag="@g61Newpm_glh @store_walk @regression"
+          device="">
+          <div class="test-detail">
+            <p class="name">Verify PM Gap Scenarios</p>
+            <p class="text-sm">
+              <span>9:33:29 PM</span> / <span>00:45:14:151</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Verify PM Gap Scenarios</h5>
+<span class='badge badge-success'>05.07.2024 9:33:29 PM</span>
+<span class='badge badge-danger'>05.07.2024 10:18:44 PM</span>
+<span class='badge badge-default'>00:45:14:151</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">@g61Newpm_glh</span>
+<span class="badge badge-pill badge-default">@store_walk</span>
+<span class="badge badge-pill badge-default">@regression</span></div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="2"><span class="badge log pass-bg mr-2">Pass</span>TO CHANGE THE DEVICE TIMINGS AS REQUIRED</div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="3"><span class="badge log pass-bg mr-2">Pass</span>TO CHANGE THE DEVICE TIMINGS AS REQUIRED</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given I send the time "03" and mins "30" and meridiem "pm" and current date in list</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I Change time</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I Change date</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="14"><span class="badge log pass-bg mr-2">Pass</span>Generate Google Access Token. This is a Pre-requisite for all Counts modules</div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="15"><span class="badge log pass-bg mr-2">Pass</span>Generate Google Access Token. This is a Pre-requisite for all Counts modules</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given request is made to capture access token and post endpoint for user v2 for "8"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I Verify the Response Code for the following "432435" is 200</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I get the field value for the field "access_token"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And Get the generated Access Tocken for SMA app Login Service</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="28"><span class="badge log pass-bg mr-2">Pass</span>Verify Screen elements on PM GAP Screen</div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="29"><span class="badge log pass-bg mr-2">Pass</span>Verify Screen elements on PM GAP Screen</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>When I enter Username and Password for SMA Collegue user</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I click on login button for SMA</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on 'stockMngmtText' on page 'HomePagePO_New'</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on "PM Gaps"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on Fixture Scan</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I click on Back Button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on OffShelf</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I click on Back Button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on Petrol</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I click on Back Button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on WareHouse</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I click on Back Button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on Summary</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I click on Back Button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I logout of the system</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="64"><span class="badge log fail-bg mr-2">Fail</span>Verify user is abel to scan a product in onshelf location and it is marked as GAP by default</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
+      </div>
+    </div>
+        <div class="scenario_outline ">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="65"><span class="badge log fail-bg mr-2">Fail</span>Verify user is abel to scan a product in onshelf location and it is marked as GAP by default</div>
+                    <div class="status-avatar float-right">
+                      <i class="fa fa-paperclip"></i>
+                    </div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step pass-bg">
+                    <span>When I enter Username and Password for SMA Collegue user</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I click on login button for SMA</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on 'stockMngmtText' on page 'HomePagePO_New'</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on "PM Gaps"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on Fixture Scan</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I click on barcode entry Button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Enter "103853612" number</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I choose the plan from popup if multiple records present</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step fail-bg">
+                    <span>And I verify Product is marked as GAP</span>
+      <div>
+        <textarea disabled class="code-block">org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IN-MH1LPW113919', ip: '192.168.29.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_352-352'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {AUTOMATION_NAME: uiautomator2, BROWSER_NAME: Android, VERSION: 9.0, acceptSslCerts: true, appActivity: com.morrisons.instore.modul..., appPackage: com.morrisons.instore.sit, autoGrantPermissions: true, automationName: UIAutomator2, databaseEnabled: false, desired: {AUTOMATION_NAME: uiautomator2, BROWSER_NAME: Android, VERSION: 9.0, acceptSslCerts: true, appActivity: com.morrisons.instore.modul..., appPackage: com.morrisons.instore.sit, autoGrantPermissions: true, automationName: UIAutomator2, deviceName: Pixel2API19, noReset: false, platformName: android, –session-override: true}, deviceApiLevel: 28, deviceManufacturer: Google, deviceModel: AOSP on IA Emulator, deviceName: emulator-5554, deviceScreenDensity: 560, deviceScreenSize: 1440x2560, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: false, pixelRatio: 3.5, platform: LINUX, platformName: Android, platformVersion: 9, statBarHeight: 84, takesScreenshot: true, viewportRect: {height: 2308, left: 0, top: 84, width: 1440}, warnings: {}, webStorageEnabled: false, –session-override: true}
+Session ID: 7725af24-5ff1-4443-ba8f-e0499cfb5314
+*** Element info: {Using=xpath, value=//android.widget.LinearLayout[@resource-id='com.morrisons.instore.sit:id/singleItemHeader']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:231)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:152)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at com.morrisons.sma.page_objects.mobile.old.PMGapsPO.clickViewList(PMGapsPO.java:92)
+	at com.morrisons.sma.step_definitions.mobile.old.PmGapsStepDef.i_verify_Product_is_marked_as_GAP(PmGapsStepDef.java:21)
+	at ✽.I verify Product is marked as GAP(classpath:sma_features_new/GapsLowsHighs/GLH_CO/PMGapNew.feature:60)
+</textarea>
+      
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.morrisons.common.action.Hook.afterScenario(io.cucumber.java.Scenario)</span>
+      <div>
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded1.png' src="../Screenshots/embedded1.png">
+    
+    </div></div>
+</div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And I click on Back Button</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And I click on Back Button</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then I click on Summary</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then I verify text "Fruit & Veg" is under IC is "1" in summary</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And Get the generated Access Tocken for SMA app Login Service</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Given Get request is made to Get storewalks service for current date</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And Get Operation perform on service request</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then I verify Product id "103853612" for Store id "8" and Walk type "Gaps" is present in Get storewalk service</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then I verify Section status is "Available" in Get storewalk service</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Given Get request is made to Get storewalks service for current date</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And Get Operation perform on service request</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then Verify Get storewalks service response for current date</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then Delete request is made to Delete GLH storewalk for store id "8"</span>
+      <div>Step skipped
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="114"><span class="badge log fail-bg mr-2">Fail</span>Verify user is abel to scan a product in onshelf location and it is marked as GAP by default</div>
+                    <div class="status-avatar float-right">
+                      <i class="fa fa-paperclip"></i>
+                    </div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step pass-bg">
+                    <span>When I enter Username and Password for SMA Collegue user</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I click on login button for SMA</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on 'stockMngmtText' on page 'HomePagePO_New'</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on "PM Gaps"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on Fixture Scan</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I click on barcode entry Button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Enter "105398043" number</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I choose the plan from popup if multiple records present</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step fail-bg">
+                    <span>And I verify Product is marked as GAP</span>
+      <div>
+        <textarea disabled class="code-block">org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IN-MH1LPW113919', ip: '192.168.29.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_352-352'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {AUTOMATION_NAME: uiautomator2, BROWSER_NAME: Android, VERSION: 9.0, acceptSslCerts: true, appActivity: com.morrisons.instore.modul..., appPackage: com.morrisons.instore.sit, autoGrantPermissions: true, automationName: UIAutomator2, databaseEnabled: false, desired: {AUTOMATION_NAME: uiautomator2, BROWSER_NAME: Android, VERSION: 9.0, acceptSslCerts: true, appActivity: com.morrisons.instore.modul..., appPackage: com.morrisons.instore.sit, autoGrantPermissions: true, automationName: UIAutomator2, deviceName: Pixel2API19, noReset: false, platformName: android, –session-override: true}, deviceApiLevel: 28, deviceManufacturer: Google, deviceModel: AOSP on IA Emulator, deviceName: emulator-5554, deviceScreenDensity: 560, deviceScreenSize: 1440x2560, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: false, pixelRatio: 3.5, platform: LINUX, platformName: Android, platformVersion: 9, statBarHeight: 84, takesScreenshot: true, viewportRect: {height: 2308, left: 0, top: 84, width: 1440}, warnings: {}, webStorageEnabled: false, –session-override: true}
+Session ID: 7646fcfb-1ff2-4a0b-9fe5-90efd96d6d00
+*** Element info: {Using=xpath, value=//android.widget.LinearLayout[@resource-id='com.morrisons.instore.sit:id/singleItemHeader']}
+	at sun.reflect.GeneratedConstructorAccessor48.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:231)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:152)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at com.morrisons.sma.page_objects.mobile.old.PMGapsPO.clickViewList(PMGapsPO.java:92)
+	at com.morrisons.sma.step_definitions.mobile.old.PmGapsStepDef.i_verify_Product_is_marked_as_GAP(PmGapsStepDef.java:21)
+	at ✽.I verify Product is marked as GAP(classpath:sma_features_new/GapsLowsHighs/GLH_CO/PMGapNew.feature:60)
+</textarea>
+      
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.morrisons.common.action.Hook.afterScenario(io.cucumber.java.Scenario)</span>
+      <div>
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded2.png' src="../Screenshots/embedded2.png">
+    
+    </div></div>
+</div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And I click on Back Button</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And I click on Back Button</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then I click on Summary</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then I verify text "Fruit & Veg" is under IC is "1" in summary</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And Get the generated Access Tocken for SMA app Login Service</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Given Get request is made to Get storewalks service for current date</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And Get Operation perform on service request</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then I verify Product id "105398043" for Store id "8" and Walk type "Gaps" is present in Get storewalk service</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then I verify Section status is "Available" in Get storewalk service</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Given Get request is made to Get storewalks service for current date</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And Get Operation perform on service request</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then Verify Get storewalks service response for current date</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then Delete request is made to Delete GLH storewalk for store id "8"</span>
+      <div>Step skipped
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="163"><span class="badge log fail-bg mr-2">Fail</span>Verify scanned barcode is availabel in Warehouse Location</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
+      </div>
+    </div>
+        <div class="scenario_outline ">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="164"><span class="badge log fail-bg mr-2">Fail</span>Verify scanned barcode is availabel in Warehouse Location</div>
+                    <div class="status-avatar float-right">
+                      <i class="fa fa-paperclip"></i>
+                    </div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step pass-bg">
+                    <span>When I enter Username and Password for SMA Collegue user</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I click on login button for SMA</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on 'stockMngmtText' on page 'HomePagePO_New'</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on "PM Gaps"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on Fixture Scan</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I click on barcode entry Button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Enter "103853612" number</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I choose the plan from popup if multiple records present</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step fail-bg">
+                    <span>And I verify Product is marked as GAP</span>
+      <div>
+        <textarea disabled class="code-block">org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IN-MH1LPW113919', ip: '192.168.29.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_352-352'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {AUTOMATION_NAME: uiautomator2, BROWSER_NAME: Android, VERSION: 9.0, acceptSslCerts: true, appActivity: com.morrisons.instore.modul..., appPackage: com.morrisons.instore.sit, autoGrantPermissions: true, automationName: UIAutomator2, databaseEnabled: false, desired: {AUTOMATION_NAME: uiautomator2, BROWSER_NAME: Android, VERSION: 9.0, acceptSslCerts: true, appActivity: com.morrisons.instore.modul..., appPackage: com.morrisons.instore.sit, autoGrantPermissions: true, automationName: UIAutomator2, deviceName: Pixel2API19, noReset: false, platformName: android, –session-override: true}, deviceApiLevel: 28, deviceManufacturer: Google, deviceModel: AOSP on IA Emulator, deviceName: emulator-5554, deviceScreenDensity: 560, deviceScreenSize: 1440x2560, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: false, pixelRatio: 3.5, platform: LINUX, platformName: Android, platformVersion: 9, statBarHeight: 84, takesScreenshot: true, viewportRect: {height: 2308, left: 0, top: 84, width: 1440}, warnings: {}, webStorageEnabled: false, –session-override: true}
+Session ID: 625ce013-427e-468d-a1dc-2e3417f6b8ff
+*** Element info: {Using=xpath, value=//android.widget.LinearLayout[@resource-id='com.morrisons.instore.sit:id/singleItemHeader']}
+	at sun.reflect.GeneratedConstructorAccessor48.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:231)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:152)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at com.morrisons.sma.page_objects.mobile.old.PMGapsPO.clickViewList(PMGapsPO.java:92)
+	at com.morrisons.sma.step_definitions.mobile.old.PmGapsStepDef.i_verify_Product_is_marked_as_GAP(PmGapsStepDef.java:21)
+	at ✽.I verify Product is marked as GAP(classpath:sma_features_new/GapsLowsHighs/GLH_CO/PMGapNew.feature:95)
+</textarea>
+      
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.morrisons.common.action.Hook.afterScenario(io.cucumber.java.Scenario)</span>
+      <div>
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded3.png' src="../Screenshots/embedded3.png">
+    
+    </div></div>
+</div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And I click on Back Button</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And I click on Back Button</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then I click on WareHouse</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And I click on the "Fruit & Veg" available</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then I select one of the "Fruit"</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And I verify Product marked as gap in Warehouse</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And Get the generated Access Tocken for SMA app Login Service</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Given Get request is made to Get storewalks service for current date</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And Get Operation perform on service request</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then Verify Get storewalks service response for current date</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then Delete request is made to Delete GLH storewalk for store id "8"</span>
+      <div>Step skipped
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="209"><span class="badge log fail-bg mr-2">Fail</span>To verify Last capture section in Stock information displaying correct information when the last capture has been taken in PM GLH and scanned as GAP.</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
+      </div>
+    </div>
+        <div class="scenario_outline ">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="210"><span class="badge log fail-bg mr-2">Fail</span>To verify Last capture section in Stock information displaying correct information when the last capture has been taken in PM GLH and scanned as GAP.</div>
+                    <div class="status-avatar float-right">
+                      <i class="fa fa-paperclip"></i>
+                    </div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step fail-bg">
+                    <span>When I enter Username and Password for SMA Collegue user</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.AssertionError: A session is either terminated or not started
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IN-MH1LPW113919', ip: '192.168.29.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_352-352'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {AUTOMATION_NAME: uiautomator2, BROWSER_NAME: Android, VERSION: 9.0, acceptSslCerts: true, appActivity: com.morrisons.instore.modul..., appPackage: com.morrisons.instore.sit, autoGrantPermissions: true, automationName: UIAutomator2, databaseEnabled: false, desired: {AUTOMATION_NAME: uiautomator2, BROWSER_NAME: Android, VERSION: 9.0, acceptSslCerts: true, appActivity: com.morrisons.instore.modul..., appPackage: com.morrisons.instore.sit, autoGrantPermissions: true, automationName: UIAutomator2, deviceName: Pixel2API19, noReset: false, platformName: android, –session-override: true}, deviceApiLevel: 28, deviceManufacturer: Google, deviceModel: AOSP on IA Emulator, deviceName: emulator-5554, deviceScreenDensity: 560, deviceScreenSize: 1440x2560, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: false, pixelRatio: 3.5, platform: LINUX, platformName: Android, platformVersion: 9, statBarHeight: 84, takesScreenshot: true, viewportRect: {height: 2308, left: 0, top: 84, width: 1440}, warnings: {}, webStorageEnabled: false, –session-override: true}
+Session ID: 39deef8c-dee6-43b2-be9d-2fba6958b3a1
+*** Element info: {Using=xpath, value=//android.widget.Button[@text = 'Sign in with Google']}
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.morrisons.sma.page_objects.mobile.old.LoginPagePO.enterCollegueCredentials(LoginPagePO.java:87)
+	at com.morrisons.sma.step_definitions.mobile.LoginStepDef.iEnterCollegueCredentials(LoginStepDef.java:15)
+	at ✽.I enter Username and Password for SMA Collegue user(classpath:sma_features_new/GapsLowsHighs/GLH_CO/PMGapNew.feature:116)
+</textarea>
+      
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.morrisons.common.action.Hook.afterScenario(io.cucumber.java.Scenario)</span>
+      <div>
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded4.png' src="../Screenshots/embedded4.png">
+    
+    </div></div>
+</div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And I click on login button for SMA</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then I click on 'stockMngmtText' on page 'HomePagePO_New'</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then I click on "PM Gaps"</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then I click on Fixture Scan</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And I click on barcode entry Button</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then Enter "103853612" number</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And I choose the plan from popup if multiple records present</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And I verify Product is marked as GAP</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then I click on hotKey</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And I select StockInformation from the Hotkey Menu</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And I click on barcode entry Button</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then Enter "103853612" number</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And I verify Last Capture Type is "PM Gap"</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And I verify Date and User details for Last capture</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And I verify Counted column and counted quantity "0" for last capture are present</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And Get the generated Access Tocken for SMA app Login Service</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Given Get request is made to Get storewalks service for current date</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And Get Operation perform on service request</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then Verify Get storewalks service response for current date</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then Delete request is made to Delete GLH storewalk for store id "8"</span>
+      <div>Step skipped
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="257"><span class="badge log fail-bg mr-2">Fail</span>To verify Last capture section in Stock information displaying correct information when the last capture has been taken in PM GLH and scanned as GAP.</div>
+                    <div class="status-avatar float-right">
+                      <i class="fa fa-paperclip"></i>
+                    </div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step pass-bg">
+                    <span>When I enter Username and Password for SMA Collegue user</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I click on login button for SMA</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on 'stockMngmtText' on page 'HomePagePO_New'</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on "PM Gaps"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on Fixture Scan</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I click on barcode entry Button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Enter "105398043" number</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I choose the plan from popup if multiple records present</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step fail-bg">
+                    <span>And I verify Product is marked as GAP</span>
+      <div>
+        <textarea disabled class="code-block">org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IN-MH1LPW113919', ip: '192.168.29.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_352-352'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {AUTOMATION_NAME: uiautomator2, BROWSER_NAME: Android, VERSION: 9.0, acceptSslCerts: true, appActivity: com.morrisons.instore.modul..., appPackage: com.morrisons.instore.sit, autoGrantPermissions: true, automationName: UIAutomator2, databaseEnabled: false, desired: {AUTOMATION_NAME: uiautomator2, BROWSER_NAME: Android, VERSION: 9.0, acceptSslCerts: true, appActivity: com.morrisons.instore.modul..., appPackage: com.morrisons.instore.sit, autoGrantPermissions: true, automationName: UIAutomator2, deviceName: Pixel2API19, noReset: false, platformName: android, –session-override: true}, deviceApiLevel: 28, deviceManufacturer: Google, deviceModel: AOSP on IA Emulator, deviceName: emulator-5554, deviceScreenDensity: 560, deviceScreenSize: 1440x2560, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: false, pixelRatio: 3.5, platform: LINUX, platformName: Android, platformVersion: 9, statBarHeight: 84, takesScreenshot: true, viewportRect: {height: 2308, left: 0, top: 84, width: 1440}, warnings: {}, webStorageEnabled: false, –session-override: true}
+Session ID: 5e616def-85dd-4ef3-869d-540fc5059d94
+*** Element info: {Using=xpath, value=//android.widget.LinearLayout[@resource-id='com.morrisons.instore.sit:id/singleItemHeader']}
+	at sun.reflect.GeneratedConstructorAccessor48.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:231)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:152)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at com.morrisons.sma.page_objects.mobile.old.PMGapsPO.clickViewList(PMGapsPO.java:92)
+	at com.morrisons.sma.step_definitions.mobile.old.PmGapsStepDef.i_verify_Product_is_marked_as_GAP(PmGapsStepDef.java:21)
+	at ✽.I verify Product is marked as GAP(classpath:sma_features_new/GapsLowsHighs/GLH_CO/PMGapNew.feature:124)
+</textarea>
+      
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.morrisons.common.action.Hook.afterScenario(io.cucumber.java.Scenario)</span>
+      <div>
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded5.png' src="../Screenshots/embedded5.png">
+    
+    </div></div>
+</div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then I click on hotKey</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And I select StockInformation from the Hotkey Menu</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And I click on barcode entry Button</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then Enter "105398043" number</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And I verify Last Capture Type is "PM Gap"</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And I verify Date and User details for Last capture</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And I verify Counted column and counted quantity "0" for last capture are present</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And Get the generated Access Tocken for SMA app Login Service</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Given Get request is made to Get storewalks service for current date</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And Get Operation perform on service request</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then Verify Get storewalks service response for current date</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then Delete request is made to Delete GLH storewalk for store id "8"</span>
+      <div>Step skipped
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="304"><span class="badge log fail-bg mr-2">Fail</span>Verify user is able to mark product as gap, end to end</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
+      </div>
+    </div>
+        <div class="scenario_outline ">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="305"><span class="badge log fail-bg mr-2">Fail</span>Verify user is able to mark product as gap, end to end</div>
+                    <div class="status-avatar float-right">
+                      <i class="fa fa-paperclip"></i>
+                    </div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step pass-bg">
+                    <span>When I enter Username and Password for SMA Collegue user</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I click on login button for SMA</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on 'stockMngmtText' on page 'HomePagePO_New'</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on "PM Gaps"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on Fixture Scan</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I click on barcode entry Button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Enter "105398043" number</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I choose the plan from popup if multiple records present</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I click on OK</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step fail-bg">
+                    <span>And I verify Product is marked as GAP</span>
+      <div>
+        <textarea disabled class="code-block">org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IN-MH1LPW113919', ip: '192.168.29.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_352-352'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {AUTOMATION_NAME: uiautomator2, BROWSER_NAME: Android, VERSION: 9.0, acceptSslCerts: true, appActivity: com.morrisons.instore.modul..., appPackage: com.morrisons.instore.sit, autoGrantPermissions: true, automationName: UIAutomator2, databaseEnabled: false, desired: {AUTOMATION_NAME: uiautomator2, BROWSER_NAME: Android, VERSION: 9.0, acceptSslCerts: true, appActivity: com.morrisons.instore.modul..., appPackage: com.morrisons.instore.sit, autoGrantPermissions: true, automationName: UIAutomator2, deviceName: Pixel2API19, noReset: false, platformName: android, –session-override: true}, deviceApiLevel: 28, deviceManufacturer: Google, deviceModel: AOSP on IA Emulator, deviceName: emulator-5554, deviceScreenDensity: 560, deviceScreenSize: 1440x2560, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: false, pixelRatio: 3.5, platform: LINUX, platformName: Android, platformVersion: 9, statBarHeight: 84, takesScreenshot: true, viewportRect: {height: 2308, left: 0, top: 84, width: 1440}, warnings: {}, webStorageEnabled: false, –session-override: true}
+Session ID: 42d7a694-5ff7-477a-97de-767ed8895031
+*** Element info: {Using=xpath, value=//android.widget.LinearLayout[@resource-id='com.morrisons.instore.sit:id/singleItemHeader']}
+	at sun.reflect.GeneratedConstructorAccessor48.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:231)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:152)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at com.morrisons.sma.page_objects.mobile.old.PMGapsPO.clickViewList(PMGapsPO.java:92)
+	at com.morrisons.sma.step_definitions.mobile.old.PmGapsStepDef.i_verify_Product_is_marked_as_GAP(PmGapsStepDef.java:21)
+	at ✽.I verify Product is marked as GAP(classpath:sma_features_new/GapsLowsHighs/GLH_CO/PMGapNew.feature:157)
+</textarea>
+      
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.morrisons.common.action.Hook.afterScenario(io.cucumber.java.Scenario)</span>
+      <div>
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded6.png' src="../Screenshots/embedded6.png">
+    
+    </div></div>
+</div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And I click on Back Button</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And I click on Back Button</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then I click on WareHouse</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And I click on the "Fruit & Veg" available</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then I select one of the "Nuts"</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then I verify product is displayed as gap in Warehouse</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And I click on product in warehouse "105398043"</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then I verify Popup is displayed for confirm stock found</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And I click on Confirm option</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then I verify Stock Found is Displayed</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And I click on product in warehouse "105398043"</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And I click on Confirm option</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then I verify product is displayed as gap in Warehouse</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then I click on confirm count area button</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And I click on confirm count popup</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And I verify Section completed status is displayed</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And I click on Back Button</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then I click on Summary</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And I verify "Fruit & Veg" is displayed under summary</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then I verify text is under Low is "1" in summary</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And Get the generated Access Tocken for SMA app Login Service</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Given Get request is made to Get storewalks service for current date</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And Get Operation perform on service request</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then Verify Get storewalks service response for current date</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then Delete request is made to Delete GLH storewalk for store id "8"</span>
+      <div>Step skipped
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="380"><span class="badge log fail-bg mr-2">Fail</span>Verify Stock Found End to End Scenario</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
+      </div>
+    </div>
+        <div class="scenario_outline ">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="381"><span class="badge log fail-bg mr-2">Fail</span>Verify Stock Found End to End Scenario</div>
+                    <div class="status-avatar float-right">
+                      <i class="fa fa-paperclip"></i>
+                    </div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step pass-bg">
+                    <span>When I enter Username and Password for SMA Collegue user</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I click on login button for SMA</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on 'stockMngmtText' on page 'HomePagePO_New'</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on "PM Gaps"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on Fixture Scan</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I click on barcode entry Button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Enter "105398043" number</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I choose the plan from popup if multiple records present</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I click on OK</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step fail-bg">
+                    <span>And I verify Product is marked as GAP</span>
+      <div>
+        <textarea disabled class="code-block">org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IN-MH1LPW113919', ip: '192.168.29.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_352-352'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {AUTOMATION_NAME: uiautomator2, BROWSER_NAME: Android, VERSION: 9.0, acceptSslCerts: true, appActivity: com.morrisons.instore.modul..., appPackage: com.morrisons.instore.sit, autoGrantPermissions: true, automationName: UIAutomator2, databaseEnabled: false, desired: {AUTOMATION_NAME: uiautomator2, BROWSER_NAME: Android, VERSION: 9.0, acceptSslCerts: true, appActivity: com.morrisons.instore.modul..., appPackage: com.morrisons.instore.sit, autoGrantPermissions: true, automationName: UIAutomator2, deviceName: Pixel2API19, noReset: false, platformName: android, –session-override: true}, deviceApiLevel: 28, deviceManufacturer: Google, deviceModel: AOSP on IA Emulator, deviceName: emulator-5554, deviceScreenDensity: 560, deviceScreenSize: 1440x2560, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: false, pixelRatio: 3.5, platform: LINUX, platformName: Android, platformVersion: 9, statBarHeight: 84, takesScreenshot: true, viewportRect: {height: 2308, left: 0, top: 84, width: 1440}, warnings: {}, webStorageEnabled: false, –session-override: true}
+Session ID: e774d5f2-a4cf-475f-bffd-5c05230d133f
+*** Element info: {Using=xpath, value=//android.widget.LinearLayout[@resource-id='com.morrisons.instore.sit:id/singleItemHeader']}
+	at sun.reflect.GeneratedConstructorAccessor48.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:231)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:152)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at com.morrisons.sma.page_objects.mobile.old.PMGapsPO.clickViewList(PMGapsPO.java:92)
+	at com.morrisons.sma.step_definitions.mobile.old.PmGapsStepDef.i_verify_Product_is_marked_as_GAP(PmGapsStepDef.java:21)
+	at ✽.I verify Product is marked as GAP(classpath:sma_features_new/GapsLowsHighs/GLH_CO/PMGapNew.feature:203)
+</textarea>
+      
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.morrisons.common.action.Hook.afterScenario(io.cucumber.java.Scenario)</span>
+      <div>
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded7.png' src="../Screenshots/embedded7.png">
+    
+    </div></div>
+</div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And I click on Back Button</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And I click on Back Button</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then I click on WareHouse</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And I click on the "Fruit & Veg" available</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then I select one of the "Nuts"</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then I verify product is displayed as gap in Warehouse</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And I click on product in warehouse "105398043"</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then I verify Popup is displayed for confirm stock found</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And I click on Confirm option</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then I verify Stock Found is Displayed</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then I click on confirm count area button</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And I click on confirm count popup</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And I click on Back Button</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then I click on Summary</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And I verify "Fruit & Veg" is displayed under summary</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And I click on the "Fruit & Veg" available</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then I verify text "Fruit & Veg" is under stockfound is "1" in summary</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And Get the generated Access Tocken for SMA app Login Service</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Given Get request is made to Get storewalks service for current date</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And Get Operation perform on service request</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then Verify Get storewalks service response for current date</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then Delete request is made to Delete GLH storewalk for store id "8"</span>
+      <div>Step skipped
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="450"><span class="badge log fail-bg mr-2">Fail</span>Verify Offshelf section</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
+      </div>
+    </div>
+        <div class="scenario_outline ">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="451"><span class="badge log fail-bg mr-2">Fail</span>Verify Offshelf section</div>
+                    <div class="status-avatar float-right">
+                      <i class="fa fa-paperclip"></i>
+                    </div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step pass-bg">
+                    <span>When I enter Username and Password for SMA Collegue user</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I click on login button for SMA</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on 'stockMngmtText' on page 'HomePagePO_New'</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on "PM Gaps"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on Fixture Scan</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I click on barcode entry Button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Enter "105398043" number</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I choose the plan from popup if multiple records present</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I click on OK</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step fail-bg">
+                    <span>And I verify Product is marked as GAP</span>
+      <div>
+        <textarea disabled class="code-block">org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IN-MH1LPW113919', ip: '192.168.29.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_352-352'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {AUTOMATION_NAME: uiautomator2, BROWSER_NAME: Android, VERSION: 9.0, acceptSslCerts: true, appActivity: com.morrisons.instore.modul..., appPackage: com.morrisons.instore.sit, autoGrantPermissions: true, automationName: UIAutomator2, databaseEnabled: false, desired: {AUTOMATION_NAME: uiautomator2, BROWSER_NAME: Android, VERSION: 9.0, acceptSslCerts: true, appActivity: com.morrisons.instore.modul..., appPackage: com.morrisons.instore.sit, autoGrantPermissions: true, automationName: UIAutomator2, deviceName: Pixel2API19, noReset: false, platformName: android, –session-override: true}, deviceApiLevel: 28, deviceManufacturer: Google, deviceModel: AOSP on IA Emulator, deviceName: emulator-5554, deviceScreenDensity: 560, deviceScreenSize: 1440x2560, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: false, pixelRatio: 3.5, platform: LINUX, platformName: Android, platformVersion: 9, statBarHeight: 84, takesScreenshot: true, viewportRect: {height: 2308, left: 0, top: 84, width: 1440}, warnings: {}, webStorageEnabled: false, –session-override: true}
+Session ID: 25af6c4c-92ce-4c65-a5c4-84131667a6be
+*** Element info: {Using=xpath, value=//android.widget.LinearLayout[@resource-id='com.morrisons.instore.sit:id/singleItemHeader']}
+	at sun.reflect.GeneratedConstructorAccessor48.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:231)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:152)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at com.morrisons.sma.page_objects.mobile.old.PMGapsPO.clickViewList(PMGapsPO.java:92)
+	at com.morrisons.sma.step_definitions.mobile.old.PmGapsStepDef.i_verify_Product_is_marked_as_GAP(PmGapsStepDef.java:21)
+	at ✽.I verify Product is marked as GAP(classpath:sma_features_new/GapsLowsHighs/GLH_CO/PMGapNew.feature:245)
+</textarea>
+      
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.morrisons.common.action.Hook.afterScenario(io.cucumber.java.Scenario)</span>
+      <div>
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded8.png' src="../Screenshots/embedded8.png">
+    
+    </div></div>
+</div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And I click on Back Button</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And I click on Back Button</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then I click on OffShelf</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And I click on the "Sharing Crisps & Snacks Grocery Nuts (997)" available</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then I verify "105398043" from the list</span>
+      <div>Step skipped
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="486"><span class="badge log fail-bg mr-2">Fail</span>Verify Petrol Section</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
+      </div>
+    </div>
+        <div class="scenario_outline ">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="487"><span class="badge log fail-bg mr-2">Fail</span>Verify Petrol Section</div>
+                    <div class="status-avatar float-right">
+                      <i class="fa fa-paperclip"></i>
+                    </div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step pass-bg">
+                    <span>When I enter Username and Password for SMA Collegue user</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I click on login button for SMA</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on 'stockMngmtText' on page 'HomePagePO_New'</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on "PM Gaps"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on Fixture Scan</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I click on barcode entry Button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Enter "112085150" number</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I choose the plan from popup if multiple records present</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I click on OK</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I click on Back Button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step fail-bg">
+                    <span>Then I click on Petrol</span>
+      <div>
+        <textarea disabled class="code-block">org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IN-MH1LPW113919', ip: '192.168.29.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_352-352'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {AUTOMATION_NAME: uiautomator2, BROWSER_NAME: Android, VERSION: 9.0, acceptSslCerts: true, appActivity: com.morrisons.instore.modul..., appPackage: com.morrisons.instore.sit, autoGrantPermissions: true, automationName: UIAutomator2, databaseEnabled: false, desired: {AUTOMATION_NAME: uiautomator2, BROWSER_NAME: Android, VERSION: 9.0, acceptSslCerts: true, appActivity: com.morrisons.instore.modul..., appPackage: com.morrisons.instore.sit, autoGrantPermissions: true, automationName: UIAutomator2, deviceName: Pixel2API19, noReset: false, platformName: android, –session-override: true}, deviceApiLevel: 28, deviceManufacturer: Google, deviceModel: AOSP on IA Emulator, deviceName: emulator-5554, deviceScreenDensity: 560, deviceScreenSize: 1440x2560, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: false, pixelRatio: 3.5, platform: LINUX, platformName: Android, platformVersion: 9, statBarHeight: 84, takesScreenshot: true, viewportRect: {height: 2308, left: 0, top: 84, width: 1440}, warnings: {}, webStorageEnabled: false, –session-override: true}
+Session ID: 287e71b2-b45f-4ec2-90e1-79ac2441b2c2
+*** Element info: {Using=xpath, value=//android.widget.TextView[@text='Petrol' or @text='PETROL']}
+	at sun.reflect.GeneratedConstructorAccessor48.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:231)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:152)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at com.morrisons.sma.page_objects.mobile.old.GLHPageObject.navigateToPetrol(GLHPageObject.java:99)
+	at com.morrisons.sma.step_definitions.mobile.old.GLHStepDef.i_click_on_Petrol(GLHStepDef.java:57)
+	at ✽.I click on Petrol(classpath:sma_features_new/GapsLowsHighs/GLH_CO/PMGapNew.feature:268)
+</textarea>
+      
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.morrisons.common.action.Hook.afterScenario(io.cucumber.java.Scenario)</span>
+      <div>
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded9.png' src="../Screenshots/embedded9.png">
+    
+    </div></div>
+</div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And I click on the "Petrol Chilled Fresh (860)" available</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then I verify "112085150" from the list</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And Get the generated Access Tocken for SMA app Login Service</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Given Get request is made to Get storewalks service for current date</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And Get Operation perform on service request</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then Verify Get storewalks service response for current date</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then Delete request is made to Delete GLH storewalk for store id "8"</span>
+      <div>Step skipped
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="test-wrapper row view exception-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Exception</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">2</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>8</span>
+</span>
+<p class="name">org.openqa.selenium.NoSuchElementException</p>
+<p class="duration text-sm">8 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>org.openqa.selenium.NoSuchElementException</h4>
+<span status="fail" class='badge log badge-danger'>8 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>21:45:20 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='85'>And I verify Product is marked as GAP</a>
+<div class="">
+<span class="badge badge-default">Verify PM Gap Scenarios.Verify user is abel to scan a product in onshelf location and it is marked as GAP by default.And I verify Product is marked as GAP</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>21:49:23 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='134'>And I verify Product is marked as GAP</a>
+<div class="">
+<span class="badge badge-default">Verify PM Gap Scenarios.Verify user is abel to scan a product in onshelf location and it is marked as GAP by default.And I verify Product is marked as GAP</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>21:55:03 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='184'>And I verify Product is marked as GAP</a>
+<div class="">
+<span class="badge badge-default">Verify PM Gap Scenarios.Verify scanned barcode is availabel in Warehouse Location.And I verify Product is marked as GAP</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>22:01:57 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='277'>And I verify Product is marked as GAP</a>
+<div class="">
+<span class="badge badge-default">Verify PM Gap Scenarios.To verify Last capture section in Stock information displaying correct information when the last capture has been taken in PM GLH and scanned as GAP..And I verify Product is marked as GAP</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>22:06:02 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='327'>And I verify Product is marked as GAP</a>
+<div class="">
+<span class="badge badge-default">Verify PM Gap Scenarios.Verify user is able to mark product as gap, end to end.And I verify Product is marked as GAP</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>22:10:09 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='403'>And I verify Product is marked as GAP</a>
+<div class="">
+<span class="badge badge-default">Verify PM Gap Scenarios.Verify Stock Found End to End Scenario.And I verify Product is marked as GAP</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>22:14:11 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='473'>And I verify Product is marked as GAP</a>
+<div class="">
+<span class="badge badge-default">Verify PM Gap Scenarios.Verify Offshelf section.And I verify Product is marked as GAP</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>22:18:23 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='511'>Then I click on Petrol</a>
+<div class="">
+<span class="badge badge-default">Verify PM Gap Scenarios.Verify Petrol Section.Then I click on Petrol</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">java.lang.AssertionError</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>java.lang.AssertionError</h4>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>21:58:00 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='214'>When I enter Username and Password for SMA Collegue user</a>
+<div class="">
+<span class="badge badge-default">Verify PM Gap Scenarios.To verify Last capture section in Stock information displaying correct information when the last capture has been taken in PM GLH and scanned as GAP..When I enter Username and Password for SMA Collegue user</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="test-wrapper row view category-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Category</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">10</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>3</span>
+<span class='badge log badge-danger'>10</span>
+</span>
+<p class="name">@store_walk</p>
+<p class="duration text-sm">13 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@store_walk</h4>
+<span status="pass" class='badge log pass-bg'>3 passed</span>
+<span status="fail" class='badge log badge-danger'>10 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>21:33:29 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='1'>Verify PM Gap Scenarios</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:33:29 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='3'>TO CHANGE THE DEVICE TIMINGS AS REQUIRED</a>
+<div class="">
+<span class="badge badge-default">Verify PM Gap Scenarios.TO CHANGE THE DEVICE TIMINGS AS REQUIRED</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:36:20 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='15'>Generate Google Access Token. This is a Pre-requisite for all Counts modules</a>
+<div class="">
+<span class="badge badge-default">Verify PM Gap Scenarios.Generate Google Access Token. This is a Pre-requisite for all Counts modules</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:38:15 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='29'>Verify Screen elements on PM GAP Screen</a>
+<div class="">
+<span class="badge badge-default">Verify PM Gap Scenarios.Verify Screen elements on PM GAP Screen</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>21:40:49 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='65'>Verify user is abel to scan a product in onshelf location and it is marked as GAP by default</a>
+<div class="">
+<span class="badge badge-default">Verify PM Gap Scenarios.Verify user is abel to scan a product in onshelf location and it is marked as GAP by default</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>21:46:05 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='114'>Verify user is abel to scan a product in onshelf location and it is marked as GAP by default</a>
+<div class="">
+<span class="badge badge-default">Verify PM Gap Scenarios.Verify user is abel to scan a product in onshelf location and it is marked as GAP by default</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>21:50:06 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='164'>Verify scanned barcode is availabel in Warehouse Location</a>
+<div class="">
+<span class="badge badge-default">Verify PM Gap Scenarios.Verify scanned barcode is availabel in Warehouse Location</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>21:55:46 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='210'>To verify Last capture section in Stock information displaying correct information when the last capture has been taken in PM GLH and scanned as GAP.</a>
+<div class="">
+<span class="badge badge-default">Verify PM Gap Scenarios.To verify Last capture section in Stock information displaying correct information when the last capture has been taken in PM GLH and scanned as GAP.</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>21:59:04 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='257'>To verify Last capture section in Stock information displaying correct information when the last capture has been taken in PM GLH and scanned as GAP.</a>
+<div class="">
+<span class="badge badge-default">Verify PM Gap Scenarios.To verify Last capture section in Stock information displaying correct information when the last capture has been taken in PM GLH and scanned as GAP.</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>22:02:39 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='305'>Verify user is able to mark product as gap, end to end</a>
+<div class="">
+<span class="badge badge-default">Verify PM Gap Scenarios.Verify user is able to mark product as gap, end to end</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>22:06:46 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='381'>Verify Stock Found End to End Scenario</a>
+<div class="">
+<span class="badge badge-default">Verify PM Gap Scenarios.Verify Stock Found End to End Scenario</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>22:10:52 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='451'>Verify Offshelf section</a>
+<div class="">
+<span class="badge badge-default">Verify PM Gap Scenarios.Verify Offshelf section</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>22:14:55 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='487'>Verify Petrol Section</a>
+<div class="">
+<span class="badge badge-default">Verify PM Gap Scenarios.Verify Petrol Section</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>2</span>
+</span>
+<p class="name">@ds1</p>
+<p class="duration text-sm">2 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@ds1</h4>
+<span status="pass" class='badge log pass-bg'>2 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:36:20 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='14'>Generate Google Access Token. This is a Pre-requisite for all Counts modules</a>
+<div class="">
+<span class="badge badge-default">Verify PM Gap Scenarios.Generate Google Access Token. This is a Pre-requisite for all Counts modules</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:36:20 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='15'>Generate Google Access Token. This is a Pre-requisite for all Counts modules</a>
+<div class="">
+<span class="badge badge-default">Verify PM Gap Scenarios.Generate Google Access Token. This is a Pre-requisite for all Counts modules</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>3</span>
+<span class='badge log badge-danger'>10</span>
+</span>
+<p class="name">@g61Newpm_glh</p>
+<p class="duration text-sm">13 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@g61Newpm_glh</h4>
+<span status="pass" class='badge log pass-bg'>3 passed</span>
+<span status="fail" class='badge log badge-danger'>10 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>21:33:29 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='1'>Verify PM Gap Scenarios</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:33:29 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='3'>TO CHANGE THE DEVICE TIMINGS AS REQUIRED</a>
+<div class="">
+<span class="badge badge-default">Verify PM Gap Scenarios.TO CHANGE THE DEVICE TIMINGS AS REQUIRED</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:36:20 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='15'>Generate Google Access Token. This is a Pre-requisite for all Counts modules</a>
+<div class="">
+<span class="badge badge-default">Verify PM Gap Scenarios.Generate Google Access Token. This is a Pre-requisite for all Counts modules</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:38:15 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='29'>Verify Screen elements on PM GAP Screen</a>
+<div class="">
+<span class="badge badge-default">Verify PM Gap Scenarios.Verify Screen elements on PM GAP Screen</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>21:40:49 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='65'>Verify user is abel to scan a product in onshelf location and it is marked as GAP by default</a>
+<div class="">
+<span class="badge badge-default">Verify PM Gap Scenarios.Verify user is abel to scan a product in onshelf location and it is marked as GAP by default</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>21:46:05 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='114'>Verify user is abel to scan a product in onshelf location and it is marked as GAP by default</a>
+<div class="">
+<span class="badge badge-default">Verify PM Gap Scenarios.Verify user is abel to scan a product in onshelf location and it is marked as GAP by default</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>21:50:06 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='164'>Verify scanned barcode is availabel in Warehouse Location</a>
+<div class="">
+<span class="badge badge-default">Verify PM Gap Scenarios.Verify scanned barcode is availabel in Warehouse Location</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>21:55:46 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='210'>To verify Last capture section in Stock information displaying correct information when the last capture has been taken in PM GLH and scanned as GAP.</a>
+<div class="">
+<span class="badge badge-default">Verify PM Gap Scenarios.To verify Last capture section in Stock information displaying correct information when the last capture has been taken in PM GLH and scanned as GAP.</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>21:59:04 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='257'>To verify Last capture section in Stock information displaying correct information when the last capture has been taken in PM GLH and scanned as GAP.</a>
+<div class="">
+<span class="badge badge-default">Verify PM Gap Scenarios.To verify Last capture section in Stock information displaying correct information when the last capture has been taken in PM GLH and scanned as GAP.</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>22:02:39 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='305'>Verify user is able to mark product as gap, end to end</a>
+<div class="">
+<span class="badge badge-default">Verify PM Gap Scenarios.Verify user is able to mark product as gap, end to end</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>22:06:46 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='381'>Verify Stock Found End to End Scenario</a>
+<div class="">
+<span class="badge badge-default">Verify PM Gap Scenarios.Verify Stock Found End to End Scenario</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>22:10:52 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='451'>Verify Offshelf section</a>
+<div class="">
+<span class="badge badge-default">Verify PM Gap Scenarios.Verify Offshelf section</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>22:14:55 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='487'>Verify Petrol Section</a>
+<div class="">
+<span class="badge badge-default">Verify PM Gap Scenarios.Verify Petrol Section</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>2</span>
+</span>
+<p class="name">@VerfOffShelfSection</p>
+<p class="duration text-sm">2 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@VerfOffShelfSection</h4>
+<span status="fail" class='badge log badge-danger'>2 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>22:10:52 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='450'>Verify Offshelf section</a>
+<div class="">
+<span class="badge badge-default">Verify PM Gap Scenarios.Verify Offshelf section</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>22:10:52 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='451'>Verify Offshelf section</a>
+<div class="">
+<span class="badge badge-default">Verify PM Gap Scenarios.Verify Offshelf section</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>4</span>
+<span class='badge log badge-danger'>16</span>
+</span>
+<p class="name">@sma</p>
+<p class="duration text-sm">20 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@sma</h4>
+<span status="pass" class='badge log pass-bg'>4 passed</span>
+<span status="fail" class='badge log badge-danger'>16 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:36:20 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='14'>Generate Google Access Token. This is a Pre-requisite for all Counts modules</a>
+<div class="">
+<span class="badge badge-default">Verify PM Gap Scenarios.Generate Google Access Token. This is a Pre-requisite for all Counts modules</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:36:20 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='15'>Generate Google Access Token. This is a Pre-requisite for all Counts modules</a>
+<div class="">
+<span class="badge badge-default">Verify PM Gap Scenarios.Generate Google Access Token. This is a Pre-requisite for all Counts modules</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:38:15 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='28'>Verify Screen elements on PM GAP Screen</a>
+<div class="">
+<span class="badge badge-default">Verify PM Gap Scenarios.Verify Screen elements on PM GAP Screen</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:38:15 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='29'>Verify Screen elements on PM GAP Screen</a>
+<div class="">
+<span class="badge badge-default">Verify PM Gap Scenarios.Verify Screen elements on PM GAP Screen</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>21:40:49 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='64'>Verify user is abel to scan a product in onshelf location and it is marked as GAP by default</a>
+<div class="">
+<span class="badge badge-default">Verify PM Gap Scenarios.Verify user is abel to scan a product in onshelf location and it is marked as GAP by default</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>21:40:49 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='65'>Verify user is abel to scan a product in onshelf location and it is marked as GAP by default</a>
+<div class="">
+<span class="badge badge-default">Verify PM Gap Scenarios.Verify user is abel to scan a product in onshelf location and it is marked as GAP by default</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>21:46:05 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='114'>Verify user is abel to scan a product in onshelf location and it is marked as GAP by default</a>
+<div class="">
+<span class="badge badge-default">Verify PM Gap Scenarios.Verify user is abel to scan a product in onshelf location and it is marked as GAP by default</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>21:50:06 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='163'>Verify scanned barcode is availabel in Warehouse Location</a>
+<div class="">
+<span class="badge badge-default">Verify PM Gap Scenarios.Verify scanned barcode is availabel in Warehouse Location</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>21:50:06 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='164'>Verify scanned barcode is availabel in Warehouse Location</a>
+<div class="">
+<span class="badge badge-default">Verify PM Gap Scenarios.Verify scanned barcode is availabel in Warehouse Location</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>21:55:46 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='209'>To verify Last capture section in Stock information displaying correct information when the last capture has been taken in PM GLH and scanned as GAP.</a>
+<div class="">
+<span class="badge badge-default">Verify PM Gap Scenarios.To verify Last capture section in Stock information displaying correct information when the last capture has been taken in PM GLH and scanned as GAP.</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>21:55:46 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='210'>To verify Last capture section in Stock information displaying correct information when the last capture has been taken in PM GLH and scanned as GAP.</a>
+<div class="">
+<span class="badge badge-default">Verify PM Gap Scenarios.To verify Last capture section in Stock information displaying correct information when the last capture has been taken in PM GLH and scanned as GAP.</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>21:59:04 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='257'>To verify Last capture section in Stock information displaying correct information when the last capture has been taken in PM GLH and scanned as GAP.</a>
+<div class="">
+<span class="badge badge-default">Verify PM Gap Scenarios.To verify Last capture section in Stock information displaying correct information when the last capture has been taken in PM GLH and scanned as GAP.</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>22:02:39 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='304'>Verify user is able to mark product as gap, end to end</a>
+<div class="">
+<span class="badge badge-default">Verify PM Gap Scenarios.Verify user is able to mark product as gap, end to end</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>22:02:39 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='305'>Verify user is able to mark product as gap, end to end</a>
+<div class="">
+<span class="badge badge-default">Verify PM Gap Scenarios.Verify user is able to mark product as gap, end to end</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>22:06:46 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='380'>Verify Stock Found End to End Scenario</a>
+<div class="">
+<span class="badge badge-default">Verify PM Gap Scenarios.Verify Stock Found End to End Scenario</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>22:06:46 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='381'>Verify Stock Found End to End Scenario</a>
+<div class="">
+<span class="badge badge-default">Verify PM Gap Scenarios.Verify Stock Found End to End Scenario</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>22:10:52 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='450'>Verify Offshelf section</a>
+<div class="">
+<span class="badge badge-default">Verify PM Gap Scenarios.Verify Offshelf section</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>22:10:52 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='451'>Verify Offshelf section</a>
+<div class="">
+<span class="badge badge-default">Verify PM Gap Scenarios.Verify Offshelf section</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>22:14:55 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='486'>Verify Petrol Section</a>
+<div class="">
+<span class="badge badge-default">Verify PM Gap Scenarios.Verify Petrol Section</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>22:14:55 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='487'>Verify Petrol Section</a>
+<div class="">
+<span class="badge badge-default">Verify PM Gap Scenarios.Verify Petrol Section</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>3</span>
+</span>
+<p class="name">@ScanAProdinOnShelfMarkedGAP</p>
+<p class="duration text-sm">3 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@ScanAProdinOnShelfMarkedGAP</h4>
+<span status="fail" class='badge log badge-danger'>3 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>21:40:49 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='64'>Verify user is abel to scan a product in onshelf location and it is marked as GAP by default</a>
+<div class="">
+<span class="badge badge-default">Verify PM Gap Scenarios.Verify user is abel to scan a product in onshelf location and it is marked as GAP by default</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>21:40:49 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='65'>Verify user is abel to scan a product in onshelf location and it is marked as GAP by default</a>
+<div class="">
+<span class="badge badge-default">Verify PM Gap Scenarios.Verify user is abel to scan a product in onshelf location and it is marked as GAP by default</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>21:46:05 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='114'>Verify user is abel to scan a product in onshelf location and it is marked as GAP by default</a>
+<div class="">
+<span class="badge badge-default">Verify PM Gap Scenarios.Verify user is abel to scan a product in onshelf location and it is marked as GAP by default</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>2</span>
+</span>
+<p class="name">@timeChange</p>
+<p class="duration text-sm">2 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@timeChange</h4>
+<span status="pass" class='badge log pass-bg'>2 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:33:29 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='2'>TO CHANGE THE DEVICE TIMINGS AS REQUIRED</a>
+<div class="">
+<span class="badge badge-default">Verify PM Gap Scenarios.TO CHANGE THE DEVICE TIMINGS AS REQUIRED</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:33:29 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='3'>TO CHANGE THE DEVICE TIMINGS AS REQUIRED</a>
+<div class="">
+<span class="badge badge-default">Verify PM Gap Scenarios.TO CHANGE THE DEVICE TIMINGS AS REQUIRED</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>2</span>
+</span>
+<p class="name">@VerfScndBarcdAvlWarehouse</p>
+<p class="duration text-sm">2 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@VerfScndBarcdAvlWarehouse</h4>
+<span status="fail" class='badge log badge-danger'>2 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>21:50:06 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='163'>Verify scanned barcode is availabel in Warehouse Location</a>
+<div class="">
+<span class="badge badge-default">Verify PM Gap Scenarios.Verify scanned barcode is availabel in Warehouse Location</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>21:50:06 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='164'>Verify scanned barcode is availabel in Warehouse Location</a>
+<div class="">
+<span class="badge badge-default">Verify PM Gap Scenarios.Verify scanned barcode is availabel in Warehouse Location</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>3</span>
+<span class='badge log badge-danger'>10</span>
+</span>
+<p class="name">@regression</p>
+<p class="duration text-sm">13 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@regression</h4>
+<span status="pass" class='badge log pass-bg'>3 passed</span>
+<span status="fail" class='badge log badge-danger'>10 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>21:33:29 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='1'>Verify PM Gap Scenarios</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:33:29 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='3'>TO CHANGE THE DEVICE TIMINGS AS REQUIRED</a>
+<div class="">
+<span class="badge badge-default">Verify PM Gap Scenarios.TO CHANGE THE DEVICE TIMINGS AS REQUIRED</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:36:20 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='15'>Generate Google Access Token. This is a Pre-requisite for all Counts modules</a>
+<div class="">
+<span class="badge badge-default">Verify PM Gap Scenarios.Generate Google Access Token. This is a Pre-requisite for all Counts modules</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:38:15 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='29'>Verify Screen elements on PM GAP Screen</a>
+<div class="">
+<span class="badge badge-default">Verify PM Gap Scenarios.Verify Screen elements on PM GAP Screen</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>21:40:49 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='65'>Verify user is abel to scan a product in onshelf location and it is marked as GAP by default</a>
+<div class="">
+<span class="badge badge-default">Verify PM Gap Scenarios.Verify user is abel to scan a product in onshelf location and it is marked as GAP by default</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>21:46:05 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='114'>Verify user is abel to scan a product in onshelf location and it is marked as GAP by default</a>
+<div class="">
+<span class="badge badge-default">Verify PM Gap Scenarios.Verify user is abel to scan a product in onshelf location and it is marked as GAP by default</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>21:50:06 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='164'>Verify scanned barcode is availabel in Warehouse Location</a>
+<div class="">
+<span class="badge badge-default">Verify PM Gap Scenarios.Verify scanned barcode is availabel in Warehouse Location</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>21:55:46 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='210'>To verify Last capture section in Stock information displaying correct information when the last capture has been taken in PM GLH and scanned as GAP.</a>
+<div class="">
+<span class="badge badge-default">Verify PM Gap Scenarios.To verify Last capture section in Stock information displaying correct information when the last capture has been taken in PM GLH and scanned as GAP.</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>21:59:04 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='257'>To verify Last capture section in Stock information displaying correct information when the last capture has been taken in PM GLH and scanned as GAP.</a>
+<div class="">
+<span class="badge badge-default">Verify PM Gap Scenarios.To verify Last capture section in Stock information displaying correct information when the last capture has been taken in PM GLH and scanned as GAP.</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>22:02:39 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='305'>Verify user is able to mark product as gap, end to end</a>
+<div class="">
+<span class="badge badge-default">Verify PM Gap Scenarios.Verify user is able to mark product as gap, end to end</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>22:06:46 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='381'>Verify Stock Found End to End Scenario</a>
+<div class="">
+<span class="badge badge-default">Verify PM Gap Scenarios.Verify Stock Found End to End Scenario</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>22:10:52 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='451'>Verify Offshelf section</a>
+<div class="">
+<span class="badge badge-default">Verify PM Gap Scenarios.Verify Offshelf section</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>22:14:55 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='487'>Verify Petrol Section</a>
+<div class="">
+<span class="badge badge-default">Verify PM Gap Scenarios.Verify Petrol Section</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>2</span>
+</span>
+<p class="name">@VerfScreenElements</p>
+<p class="duration text-sm">2 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@VerfScreenElements</h4>
+<span status="pass" class='badge log pass-bg'>2 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:38:15 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='28'>Verify Screen elements on PM GAP Screen</a>
+<div class="">
+<span class="badge badge-default">Verify PM Gap Scenarios.Verify Screen elements on PM GAP Screen</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:38:15 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='29'>Verify Screen elements on PM GAP Screen</a>
+<div class="">
+<span class="badge badge-default">Verify PM Gap Scenarios.Verify Screen elements on PM GAP Screen</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>May 7, 2024 09:33:26 PM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>May 7, 2024 10:18:45 PM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Features Passed</p>
+<h3>0</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Features Failed</p>
+<h3>1</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Features</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='0%'>
+<b>0</b> features passed
+</small>
+</div>
+<div>
+<small data-tooltip='100%'><b>1</b> features failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Scenarios</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='child-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='25%'><b>3</b> scenarios passed</small></div>
+<div>
+<small data-tooltip='75%'><b>9</b> scenarios failed,
+<b>0</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Steps</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='grandchild-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='42%'><b>100</b> steps passed</small></div>
+<div>
+<small data-tooltip='3%'><b>9</b> steps failed,
+<b>128</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"Verify PM Gap Scenarios":2714.151
+};
+</script>
+<div class="row">
+<div class="col-lg-6 col-md-12 category-container">
+<div class="card">
+<div class="card-header"><p>Tags</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead><tbody>
+<tr>
+<td>@store_walk</td>
+<td>3</td>
+<td>10</td>
+<td>0</td>
+<td>0</td>
+<td>23.077%</td>
+</tr>
+<tr>
+<td>@ds1</td>
+<td>2</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@g61Newpm_glh</td>
+<td>3</td>
+<td>10</td>
+<td>0</td>
+<td>0</td>
+<td>23.077%</td>
+</tr>
+<tr>
+<td>@VerfOffShelfSection</td>
+<td>0</td>
+<td>2</td>
+<td>0</td>
+<td>0</td>
+<td>0%</td>
+</tr>
+<tr>
+<td>@sma</td>
+<td>4</td>
+<td>16</td>
+<td>0</td>
+<td>0</td>
+<td>20%</td>
+</tr>
+<tr>
+<td>@ScanAProdinOnShelfMarkedGAP</td>
+<td>0</td>
+<td>3</td>
+<td>0</td>
+<td>0</td>
+<td>0%</td>
+</tr>
+<tr>
+<td>@timeChange</td>
+<td>2</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@VerfScndBarcdAvlWarehouse</td>
+<td>0</td>
+<td>2</td>
+<td>0</td>
+<td>0</td>
+<td>0%</td>
+</tr>
+<tr>
+<td>@regression</td>
+<td>3</td>
+<td>10</td>
+<td>0</td>
+<td>0</td>
+<td>23.077%</td>
+</tr>
+<tr>
+<td>@VerfScreenElements</td>
+<td>2</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 0,
+failParent: 1,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 3,
+failChild: 9,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 100,
+failGrandChild: 9,
+warningGrandChild: 0,
+skipGrandChild: 128,
+infoGrandChild: 0,
+eventsCount: 5,
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>

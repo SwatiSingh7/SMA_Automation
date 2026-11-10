@@ -1,0 +1,261 @@
+{
+    "gtins": [
+        {
+            "id": "8000920461747",
+            "type": "EAN13",
+            "additionalProperties": {
+                "isPrimaryBarcode": true
+            }
+        }
+    ],
+    "itemNumber": "100001852",
+    "orderType": null,
+    "isCatchWeight": false,
+    "vatRate": 20.0,
+    "certifiedForExport": "Yes",
+    "catchWeight": false,
+    "nonAlcoholLinesInBws": "No",
+    "cafeSelfServe": {
+        "kitchenPrinterFlag": null,
+        "modifierFlag": null
+    },
+    "standardUnitOfMeasure": "EA",
+    "forceEnterPrice": false,
+    "commercialHierarchy": {
+        "division": 2,
+        "divisionName": "Ambient & Dairy",
+        "group": 1,
+        "groupName": "Frozen",
+        "department": 8,
+        "departmentName": "008 Ice Cream & Desserts",
+        "className": "Ice Cream",
+        "subclass": 100,
+        "subclassName": "Hand Held Ice Cream",
+        "additionalProperties": {},
+        "class_": 200
+    },
+    "packComponents": [],
+    "productLife": {
+        "productLifeAtTimeOfManufacture": "998",
+        "minimumAcceptableProductLifedays": "180",
+        "productExpirationDays": "1"
+    },
+    "netContent": null,
+    "itemDescription": "WALLS MINI MILK            12S",
+    "brand": "Wall's",
+    "vatCode": "A",
+    "productDescription": {
+        "shelfEdgeLabelLine3": "12'S £420ML",
+        "shelfEdgeLabelLine1": "WALL'S",
+        "shelfEdgeLabelLine2": "MINI MILK"
+    },
+    "smsPermanent": "No",
+    "marketStreet": {
+        "cookingInstructions": null,
+        "shelfLife": null,
+        "dayAdditional": null,
+        "sourceAndMethod": null
+    },
+    "packedMins": false,
+    "gda": [],
+    "stockAccountingMethod": {
+        "value": 1,
+        "description": "RMS - Standard"
+    },
+    "nutritionalHeading": "Per 100g Unprepared,Per 100ml Unprepared,Per Serving Unprepared,%* per portion**",
+    "sellingUnitOfMeasure": "EA",
+    "legacyItemNumbers": [
+        "0081550"
+    ],
+    "packs": [
+        {
+            "packNumber": "100003399",
+            "packQuantity": 6,
+            "additionalProperties": {}
+        }
+    ],
+    "storeLiveDate": "24-JUL-00",
+    "sellBy": "BB",
+    "pharmacyOnly": "N",
+    "clothing": null,
+    "tillDescription": "WALLS MINI MILK",
+    "catchWeightType": null,
+    "status": "A",
+    "foodTechnical": false,
+    "supplySource": "W",
+    "components": null,
+    "saleType": null,
+    "storage": [
+        "Keep Frozen"
+    ],
+    "productFlags": {
+        "packInd": false,
+        "perishableInd": true,
+        "constDimenInd": true,
+        "packType": null,
+        "simplePackInd": false,
+        "catchWeightUom": null,
+        "orderableInd": true,
+        "inventoryInd": true,
+        "merchandiseInd": true,
+        "sellableInd": true
+    },
+    "uepItem": true,
+    "ctcTrialFlag": "1",
+    "productPurpose": "Selling",
+    "unitEquivalentPrice": {
+        "unitOfMeasureCode": "J",
+        "netContent": 420.0
+    },
+    "imageUrl": [
+        {
+            "url": "https://s3-eu-west-1.amazonaws.com/mprod.xxwmm.retail.brandbank.zzzzzzzzzz/images/brandbank/8000920461747_0.jpg",
+            "shotType": "ID Shot",
+            "height": 1500,
+            "width": 1500,
+            "additionalProperties": {}
+        }
+    ],
+    "productUOM": {
+        "uomConversionFactor": null
+    },
+    "ingredients": [
+        "Fresh whole MILK (36%), reconstituted skimmed MILK (26%), strawberry puree (10%), sugar, glucose-fructose syrup, skimmed MILK powder, calcium carbonate, glucose syrup, fructose, butter fat (MILK) (1%), flavouring, stabilisers (locust bean gum, guar gum, carrageenan), emulsifier (mono- and diglycerides of fatty acids), beetroot juice concentrate.May contain: soy. Gluten free"
+    ],
+    "magazines": {
+        "dayIssued": null,
+        "frequency": null
+    },
+    "seo": null,
+    "productType": "ITEM",
+    "productRestrictions": {
+        "fuelCardRestrictions": "Goods Standard Rate VAT",
+        "allowQuantityMultiplier": "Yes",
+        "refundable": "Yes",
+        "wetStock": "No",
+        "operatorAgeCheck": "No"
+    },
+    "nutritionalInfo": [
+        {
+            "name": "Energy (kJ)",
+            "perComp": "583 kJ,383 kJ,134 kJ,2%",
+            "perServing": null,
+            "additionalProperties": {}
+        },
+        {
+            "name": "Energy (kcal)",
+            "perComp": "140 kcal,92 kcal,32 kcal,2%",
+            "perServing": null,
+            "additionalProperties": {}
+        },
+        {
+            "name": "Fat (g)",
+            "perComp": "3.3 g,2.1 g,0.8 g,1%",
+            "perServing": null,
+            "additionalProperties": {}
+        },
+        {
+            "name": "of which saturates (g)",
+            "perComp": "2.2 g,1.4 g,0.5 g,3%",
+            "perServing": null,
+            "additionalProperties": {}
+        },
+        {
+            "name": "Carbohydrate (g)",
+            "perComp": "23 g,15 g,5.2 g,2%",
+            "perServing": null,
+            "additionalProperties": {}
+        },
+        {
+            "name": "of which sugars (g)",
+            "perComp": "20 g,13 g,4.7 g,5%",
+            "perServing": null,
+            "additionalProperties": {}
+        },
+        {
+            "name": "Protein (g)",
+            "perComp": "4.3 g,2.9 g,1 g,2%",
+            "perServing": null,
+            "additionalProperties": {}
+        },
+        {
+            "name": "Salt (g)",
+            "perComp": "0.2 g,0.13 g,0.05 g,1%",
+            "perServing": null,
+            "additionalProperties": {}
+        },
+        {
+            "name": "Calcium (mg)",
+            "perComp": "1620 mg,1070 mg,373 mg,47%",
+            "perServing": null,
+            "additionalProperties": {}
+        },
+        {
+            "name": "*% of Reference intake of an average adult (8400 kJ / 2000 kcal)",
+            "perComp": ",,,",
+            "perServing": null,
+            "additionalProperties": {}
+        },
+        {
+            "name": "1 portion =  GRM. (Pack contains 12 portions)",
+            "perComp": ",,,",
+            "perServing": null,
+            "additionalProperties": {}
+        }
+    ],
+    "storeToBarcode": "No",
+    "reportingHierarchy": {
+        "departmentName": "Ice Cream",
+        "divisionName": "Ambient",
+        "class_": "8-200",
+        "className": "Ice Cream",
+        "categoryName": "Frozen Desserts (c)",
+        "division": "2",
+        "groupName": "Frozen",
+        "subclass": "8-200-100",
+        "subclassName": "Hand Held Ice Cream",
+        "additionalProperties": {},
+        "category": "1",
+        "department": "8",
+        "group": "1"
+    },
+    "productMarketing": "Small, but formed perfectly, our delicious Mini Milk Ice Cream multipack is a firm favourite for both young and old. In this pack of 12, you can choose from three tasty flavours that are always a hit with the kids: vanilla, strawberry, or chocolate. Each product is made with fresh milk and contains 36% of a child's recommended daily allowance of calcium. Best of all, they are gluten free, enriched with calcium and are made without any artificial colours or flavourings. The perfect frozen dessert for an after-school snack or during a hot summer's day. Mini Milk is part of the Wall's family along with Twister, Calippo, Cornetto, and Solero. Try Mini Milk ice lollies today. As part of our responsibly made for kids promise, our Mini Milk ice lollies are designed to be fun and tasty treats, whilst meeting our nutritional criteria for children’s ice cream. We have set strict nutrition criteria for all of our kids' ice creams to reassure parents that our entire kids' range will contain no more than 110 calories, a maximum of 12 grams of sugar and 3 grams of saturated fat per portion and we are continuously working to further improve this. If you want to find out more information on Wall's commitment to nutrition head over to our website.",
+    "allergenInfo": [
+        {
+            "name": "Milk",
+            "value": "Contains",
+            "additionalProperties": {}
+        },
+        {
+            "name": "Soya",
+            "value": "May Contain",
+            "additionalProperties": {}
+        }
+    ],
+    "priceType": "Regular Item",
+    "parentItemNumber": "100000288",
+    "commodityProduceOnly": "No",
+    "customerFriendlyDescription": "Walls Mini Milk 12 pack 420ml",
+    "brandType": "B",
+    "productComplianceInfo": {
+        "hfssLessHealthy": true,
+        "hfssInScope": 1,
+        "hfssCategory": 5
+    },
+    "priceMarked": false,
+    "countryOfOrigin": "Romania",
+    "beersWinesSpirits": {
+        "strengthNumberAndWord": null,
+        "alcoholByVolume": null,
+        "tastingNotes": null,
+        "additionalTastingNote": null,
+        "volumeInLitres": null
+    },
+    "dimensions": {
+        "length": 0.0,
+        "height": 0.0,
+        "width": 0.0,
+        "weight": 0.0,
+        "additionalProperties": {}
+    }
+}

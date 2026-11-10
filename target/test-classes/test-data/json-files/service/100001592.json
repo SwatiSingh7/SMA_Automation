@@ -1,0 +1,241 @@
+{
+    "gtins": [],
+    "itemNumber": "100001592",
+    "orderType": null,
+    "isCatchWeight": false,
+    "vatRate": 0,
+    "nonAlcoholLinesInBws": "No",
+    "cafeSelfServe": {
+        "modifierFlag": null,
+        "kitchenPrinterFlag": null
+    },
+    "standardUnitOfMeasure": "EA",
+    "forceEnterPrice": false,
+    "commercialHierarchy": {
+        "division": 2,
+        "departmentName": "006 Frozen Foods Potatoes, Chips & Vegetables",
+        "groupName": "Frozen",
+        "divisionName": "Ambient & Dairy",
+        "class_": 200,
+        "subclass": 600,
+        "className": "Frozen Potatoes",
+        "subclassName": "Frozen Potato Wedges",
+        "additionalProperties": {},
+        "department": 6,
+        "group": 1
+    },
+    "packComponents": [],
+    "productLife": {
+        "productLifeAtTimeOfManufacture": "998",
+        "minimumAcceptableProductLifedays": "180",
+        "productExpirationDays": "1"
+    },
+    "netContent": null,
+    "itemDescription": "MCCAIN SPICED WEDGES      750G",
+    "brand": "McCain",
+    "vatCode": "Z",
+    "productDescription": {
+        "shelfEdgeLabelLine3": "WEDGES 750G",
+        "shelfEdgeLabelLine1": "MCCAIN",
+        "shelfEdgeLabelLine2": "LIGHTLY SPICED"
+    },
+    "smsPermanent": "No",
+    "marketStreet": {
+        "sourceAndMethod": null,
+        "cookingInstructions": null,
+        "dayAdditional": null,
+        "shelfLife": null
+    },
+    "packedMins": false,
+    "gda": [],
+    "stockAccountingMethod": {
+        "description": "RMS - Standard",
+        "value": 1
+    },
+    "nutritionalHeading": "Per 100g Frozen,Per 100g Oven Baked",
+    "sellingUnitOfMeasure": "EA",
+    "legacyItemNumbers": [],
+    "packs": [
+        {
+            "packQuantity": 16,
+            "additionalProperties": {},
+            "packNumber": "100003791"
+        }
+    ],
+    "storeLiveDate": "02-OCT-06",
+    "sellBy": "BB",
+    "pharmacyOnly": "N",
+    "clothing": null,
+    "tillDescription": "MCCAIN WEDGES",
+    "catchWeightType": null,
+    "status": "Candidate for Deletion",
+    "foodTechnical": false,
+    "supplySource": "W",
+    "components": null,
+    "saleType": null,
+    "storage": [
+        "Keep Frozen"
+    ],
+    "productFlags": {
+        "packInd": false,
+        "perishableInd": true,
+        "constDimenInd": true,
+        "packType": null,
+        "simplePackInd": false,
+        "catchWeightUom": null,
+        "orderableInd": true,
+        "inventoryInd": true,
+        "merchandiseInd": true,
+        "sellableInd": true
+    },
+    "uepItem": true,
+    "ctcTrialFlag": "1",
+    "productPurpose": "Selling",
+    "unitEquivalentPrice": {
+        "netContent": 750,
+        "unitOfMeasureCode": "G"
+    },
+    "imageUrl": [
+        {
+            "url": "https://s3-eu-west-1.amazonaws.com/mprod.xxwmm.retail.brandbank.zzzzzzzzzz/images/brandbank/5010228078953_0.jpg",
+            "shotType": "ID Shot",
+            "height": 1500,
+            "width": 1500,
+            "additionalProperties": {}
+        }
+    ],
+    "productUOM": {
+        "uomConversionFactor": null
+    },
+    "ingredients": [
+        "Potatoes (89%)",
+        "Batter (Wheat Flour (with Calcium, Iron, Niacin, Thiamin), Wheat Starch, Salt, Garlic Powder, Spices, Onion Powder, Tomato Powder, Oregano, Flavouring, Natural Colour (Paprika Extract))",
+        "Sunflower Oil (5%)"
+    ],
+    "magazines": {
+        "dayIssued": null,
+        "frequency": null
+    },
+    "seo": null,
+    "productType": "ITEM",
+    "productRestrictions": {
+        "fuelCardRestrictions": "Goods Zero Rate VAT",
+        "allowQuantityMultiplier": "Yes",
+        "refundable": "Yes",
+        "wetStock": "No",
+        "operatorAgeCheck": "No"
+    },
+    "nutritionalInfo": [
+        {
+            "name": "Energy kJ",
+            "perComp": "633,744",
+            "perServing": null,
+            "additionalProperties": {}
+        },
+        {
+            "name": " kcal",
+            "perComp": "151,177",
+            "perServing": null,
+            "additionalProperties": {}
+        },
+        {
+            "name": "Fat g",
+            "perComp": "5.3,5.8",
+            "perServing": null,
+            "additionalProperties": {}
+        },
+        {
+            "name": " of which saturates g",
+            "perComp": "0.6,0.7",
+            "perServing": null,
+            "additionalProperties": {}
+        },
+        {
+            "name": "Carbohydrate g",
+            "perComp": "22.4,27.2",
+            "perServing": null,
+            "additionalProperties": {}
+        },
+        {
+            "name": " of which sugars g",
+            "perComp": "1.0,1.0",
+            "perServing": null,
+            "additionalProperties": {}
+        },
+        {
+            "name": "Fibre g",
+            "perComp": "2.7,3.2",
+            "perServing": null,
+            "additionalProperties": {}
+        },
+        {
+            "name": "Protein g",
+            "perComp": "2.0,2.4",
+            "perServing": null,
+            "additionalProperties": {}
+        },
+        {
+            "name": "Salt g",
+            "perComp": "0.6,0.7",
+            "perServing": null,
+            "additionalProperties": {}
+        },
+        {
+            "name": "This pack contains 4 ovened servings",
+            "perComp": ",",
+            "perServing": null,
+            "additionalProperties": {}
+        }
+    ],
+    "storeToBarcode": "No",
+    "reportingHierarchy": {
+        "departmentName": "Frozen Potatoes",
+        "divisionName": "Ambient",
+        "class_": "6-200",
+        "className": "Frozen Potatoes",
+        "categoryName": "Frozen Food",
+        "division": "2",
+        "groupName": "Frozen",
+        "subclass": "6-200-600",
+        "subclassName": "Frozen Potato Wedges",
+        "additionalProperties": {},
+        "category": "2",
+        "department": "76",
+        "group": "1"
+    },
+    "productMarketing": null,
+    "allergenInfo": [
+        {
+            "name": "Wheat",
+            "value": "Contains",
+            "additionalProperties": {}
+        }
+    ],
+    "priceType": "Regular Item",
+    "parentItemNumber": "100001419",
+    "commodityProduceOnly": "No",
+    "customerFriendlyDescription": "McCain Spiced Wedges 750g",
+    "brandType": "B",
+    "productComplianceInfo": {
+        "hfssLessHealthy": false,
+        "nutrientProfilingScore": 0,
+        "hfssInScope": 1,
+        "hfssCategory": 12
+    },
+    "priceMarked": false,
+    "countryOfOrigin": null,
+    "beersWinesSpirits": {
+        "volumeInLitres": null,
+        "additionalTastingNote": null,
+        "strengthNumberAndWord": null,
+        "alcoholByVolume": null,
+        "tastingNotes": null
+    },
+    "dimensions": {
+        "length": 0,
+        "width": 0,
+        "weight": 0,
+        "additionalProperties": {},
+        "height": 0
+    }
+}

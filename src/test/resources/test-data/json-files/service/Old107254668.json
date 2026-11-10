@@ -1,0 +1,273 @@
+{
+    "gtins": [
+        {
+            "id": "0268550000000",
+            "type": "VPLUBC",
+            "additionalProperties": {
+                "isPrimaryBarcode": false
+            }
+        },
+        {
+            "id": "2331150000000",
+            "type": "VPLUBC",
+            "additionalProperties": {
+                "isPrimaryBarcode": false
+            }
+        },
+        {
+            "id": "31150",
+            "type": "VPLU",
+            "additionalProperties": {
+                "isPrimaryBarcode": true
+            }
+        },
+        {
+            "id": "6855",
+            "type": "VPLU",
+            "additionalProperties": {
+                "isPrimaryBarcode": false
+            }
+        }
+    ],
+    "itemNumber": "107254668",
+    "orderType": "F",
+    "isCatchWeight": false,
+    "vatRate": 0,
+    "certifiedForExport": "Yes",
+    "catchWeight": false,
+    "cafeSelfServe": {
+        "kitchenPrinterFlag": null,
+        "modifierFlag": null
+    },
+    "standardUnitOfMeasure": "EA",
+    "forceEnterPrice": false,
+    "commercialHierarchy": {
+        "division": 10,
+        "departmentName": "Cheese (Deli)",
+        "groupName": "Dairy",
+        "divisionName": "Chilled",
+        "class_": 17,
+        "subclass": 224,
+        "className": "Regional Cheese",
+        "subclassName": "Additives",
+        "additionalProperties": {},
+        "department": 405,
+        "group": 70
+    },
+    "packComponents": [],
+    "productLife": {
+        "productLifeAtTimeOfManufacture": "31",
+        "minimumAcceptableProductLifedays": "31"
+    },
+    "netContent": null,
+    "itemDescription": "MORRISONS GARLIC & HERBS EXPRESS",
+    "brand": "M MARKET STREET",
+    "vatCode": "Z",
+    "productDescription": {
+        "shelfEdgeLabelLine3": "EXPRESS",
+        "shelfEdgeLabelLine1": "MORRISONS",
+        "shelfEdgeLabelLine2": "GARLIC & HERB"
+    },
+    "smsPermanent": "No",
+    "marketStreet": {
+        "cookingInstructions": null,
+        "shelfLife": null,
+        "dayAdditional": null,
+        "sourceAndMethod": null
+    },
+    "temperatureCheckRequired": "Yes",
+    "gda": [],
+    "stockAccountingMethod": {
+        "value": 1,
+        "description": "RMS - Standard"
+    },
+    "nutritionalHeading": "per 100g,per 30g portion",
+    "metricFlag": "Equiv to Pound (Z Flag)",
+    "sellingUnitOfMeasure": "EA",
+    "legacyItemNumbers": [
+        "4591565"
+    ],
+    "packs": [
+        {
+            "packNumber": "109064999",
+            "packQuantity": 12,
+            "additionalProperties": {}
+        }
+    ],
+    "storeLiveDate": "23-MAR-15",
+    "sellBy": "",
+    "commerciallyActive": "Yes",
+    "salesUnit": "EACH",
+    "clothing": null,
+    "tillDescription": "M GARLIC & HERB EXP",
+    "catchWeightType": null,
+    "status": "A",
+    "foodTechnical": true,
+    "supplySource": null,
+    "components": null,
+    "saleType": null,
+    "storage": [
+        "Keep Refrigerated"
+    ],
+    "productFlags": {
+        "packInd": false,
+        "perishableInd": true,
+        "constDimenInd": true,
+        "packType": null,
+        "simplePackInd": false,
+        "catchWeightUom": null,
+        "orderableInd": true,
+        "inventoryInd": true,
+        "merchandiseInd": true,
+        "sellableInd": true
+    },
+    "uepItem": false,
+    "ctcTrialFlag": "1",
+    "productPurpose": "Selling",
+    "unitEquivalentPrice": {
+        "netContent": 0,
+        "unitOfMeasureCode": ""
+    },
+    "imageUrl": [
+        {
+            "url": "https://s3-eu-west-1.amazonaws.com/mprod.xxwmm.retail.brandbank.zzzzzzzzzz/images/brandbank/2331150801758_0.jpg",
+            "shotType": "ID Shot",
+            "height": 1500,
+            "width": 1500,
+            "additionalProperties": {}
+        }
+    ],
+    "productUOM": {
+        "uomConversionFactor": null
+    },
+    "ingredients": [
+        "Full Fat Soft Cheese (Milk) (97%)",
+        "Maize Starch",
+        "Garlic",
+        "Parsley",
+        "Preservative (Sorbic Acid)",
+        "Acidity Regulator (Citric Acid)",
+        "Flavouring",
+        "Rosemary Extract"
+    ],
+    "magazines": {
+        "dayIssued": null,
+        "frequency": null
+    },
+    "seo": null,
+    "productType": "ITEM",
+    "productRestrictions": {
+        "allowQuantityMultiplier": "Yes",
+        "refundable": "Yes"
+    },
+    "nutritionalInfo": [
+        {
+            "name": "Energy ",
+            "perComp": "1282kJ,385kJ",
+            "perServing": null,
+            "additionalProperties": {}
+        },
+        {
+            "name": "",
+            "perComp": "310kcal,93kcal",
+            "perServing": null,
+            "additionalProperties": {}
+        },
+        {
+            "name": "Fat ",
+            "perComp": "28.9g,8.7g",
+            "perServing": null,
+            "additionalProperties": {}
+        },
+        {
+            "name": "of which saturates ",
+            "perComp": "19g,5.7g",
+            "perServing": null,
+            "additionalProperties": {}
+        },
+        {
+            "name": "Carbohydrate ",
+            "perComp": "5g,1.5g",
+            "perServing": null,
+            "additionalProperties": {}
+        },
+        {
+            "name": "of which sugars ",
+            "perComp": "2.7g,0.8g",
+            "perServing": null,
+            "additionalProperties": {}
+        },
+        {
+            "name": "Fibre ",
+            "perComp": "0.5g,0.2g",
+            "perServing": null,
+            "additionalProperties": {}
+        },
+        {
+            "name": "Protein ",
+            "perComp": "7.3g,2.2g",
+            "perServing": null,
+            "additionalProperties": {}
+        },
+        {
+            "name": "Salt ",
+            "perComp": "1.2g,0.36g",
+            "perServing": null,
+            "additionalProperties": {}
+        },
+        {
+            "name": "Contains approximately 4 portions",
+            "perComp": ",",
+            "perServing": null,
+            "additionalProperties": {}
+        }
+    ],
+    "storeToBarcode": "No",
+    "reportingHierarchy": {
+        "departmentName": "Cheese (Deli)",
+        "divisionName": "Fresh",
+        "class_": "405-17",
+        "className": "Regional Cheese",
+        "categoryName": "Deli",
+        "division": "9",
+        "groupName": "Deli & Cheese",
+        "subclass": "405-17-224",
+        "subclassName": "Additives",
+        "additionalProperties": {},
+        "category": "99",
+        "department": "405",
+        "group": "70"
+    },
+    "productMarketing": null,
+    "allergenInfo": [
+        {
+            "name": "Milk",
+            "value": "Contains",
+            "additionalProperties": {}
+        }
+    ],
+    "scaleWeigh": "No",
+    "priceType": "Regular Item",
+    "parentItemNumber": "107254570",
+    "commodityProduceOnly": "No",
+    "customerFriendlyDescription": "Garlic & Herbs Express",
+    "brandType": "O",
+    "priceMarked": false,
+    "countryOfOrigin": "France",
+    "beersWinesSpirits": {
+        "strengthNumberAndWord": null,
+        "alcoholByVolume": null,
+        "tastingNotes": null,
+        "additionalTastingNote": null,
+        "volumeInLitres": null
+    },
+    "giftCards": "No",
+    "dimensions": {
+        "length": 0.0,
+        "height": 0.0,
+        "width": 0.0,
+        "weight": 0.0,
+        "additionalProperties": {}
+    },
+    "reUsableTrays": "No"
+}

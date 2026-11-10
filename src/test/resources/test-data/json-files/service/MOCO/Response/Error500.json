@@ -1,0 +1,6 @@
+{
+  "httpResponseCode": "string",
+  "errorCode": "string",
+  "errorMessage": "string",
+  "errorMoreInfo": "string"
+}

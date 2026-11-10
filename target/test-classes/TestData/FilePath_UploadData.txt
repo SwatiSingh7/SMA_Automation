@@ -1,0 +1,60 @@
+1)Stock information -
+
+For SIT env - AWS nonprod-Commercial account S3 bucket path: msit.xxwmm.retail.promotionv2.batch.eeeeeeeeee/promotionv2/rpm/pending  
+For UAT env - AWS nonprod-m-ordering account S3 bucket path: muat.xxwmm.retail.promotion.eeeeeeeeee/promotionv2/pending
+
+
+2)GLH Negative prompt - 
+AWS nonprod-m-ordering account
+For SIT env - msit.xxwmm.supplychain.freshcounts.eeeeeeeeee/promptednegatives/pending/
+For UAT env - muat.xxwmm.supplychain.freshcounts.eeeeeeeeee/promptednegatives/pending/
+
+3)Price integrity -
+
+a)Price
+AWS nonprod-Commercial account
+For SIT env - S3 bucket path:s3://msit.xxwmm.retail.pricev2.batch.eeeeeeeeee/bulkupload/pending/
+For UAT env - S3 bucket path:s3://muat.xxwmm.retail.pricev2.batch.eeeeeeeeee/bulkupload/pending/
+
+
+b)Promotion
+AWS nonprod-m-ordering account
+For SIT env - S3 bucket path: msit.xxwmm.retail.promotion.eeeeeeeeee/promotionv2/pending
+For UAT env - S3 bucket path: muat.xxwmm.retail.promotion.eeeeeeeeee/promotionv2/pending
+
+c)More points
+AWS nonprod-m-ordering account
+For SIT env - S3 bucket path: msit.xxwmm.retail.promotion.eeeeeeeeee/promotionv2/pending
+For UAT env - S3 bucket path: muat.xxwmm.retail.promotion.eeeeeeeeee/promotionv2/pending
+
+4)Integrated Sales - 
+
+First change the file name (BlueYonder_Produce_Stocks_20210423_033104) and update currentDate.
+
+AWS ---------------->
+
+SOH update -->
+msit.xxwmm.stockv2.reader.eeeeeeeeee/Stockv2ReaderSOH
+lmb-euw1-sit-stockv2-reader-consumer-retry-001
+
+<----- After jobs run --->
+
+Ecs task --->
+Count Producer-ECS	stockv2stockcountstreamproducer-task-<env>
+
+GapsHighsLows,GLH,00:00:00,09:45:00
+GapsHighsLows,GLH,09:45:00,12:00:00
+
+Count event producer = supplychain-stockv2-reader-stockcount-stream-producer-task-sit
+
+Counts,AM,00:00:00,12:00:00
+Counts,PM,12:00:00,17:00:00,16:00:00,null,1
+Counts,PM,12:00:00,17:00:00,16:00:00,17:00:00,2
+Counts,PM,12:00:00,23:59:59,17:00:00,null,3
+
+Lambda job ---> 
+Adjustment Producer = lmb-euw1-<env>-stockv2-reader-stockadjustment-producer-001
+Transfer Producer = lmb-euw1-<env>-stockv2-reader-producer-stocktransfer-001
+
+
+

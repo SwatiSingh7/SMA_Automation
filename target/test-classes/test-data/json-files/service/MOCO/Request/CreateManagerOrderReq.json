@@ -1,0 +1,27 @@
+{
+  "itemNumber": "113836365",
+  "itemDescription": "HEINZ BEANZ JALFREZI 390G",
+  "imageUrl": "",
+  "departmentId": 117,
+  "departmentName": "Core Grocery (Canned & Packet Goods)",
+  "caseSize": 12,
+  "EAN" :  [
+    {
+      "id": "5000157154330",
+      "additionalProperties": {
+        "isPrimaryBarcode": true
+      },
+      "type": "EAN13"
+    }
+  ],
+  "qty": 5,
+  "createdByName": "SMA015 StoreManagerSIT",
+  "createdById": "426102301",
+  "inStoreDate": "",
+  "startDate": "2024-12-01T00:00:00.000Z",
+  "endDate": "2024-12-30T00:00:00.000Z",
+  "orderType": "managerorder",
+  "temperatureRegime" :"Frozen",
+  "ishfssLessHealthy": false,
+  "hfssInScope": 1
+}

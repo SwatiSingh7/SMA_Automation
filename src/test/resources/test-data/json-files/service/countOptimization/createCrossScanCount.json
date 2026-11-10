@@ -1,0 +1,20 @@
+{
+  "type": "Counts",
+  "name": "AM Scan Count 1 Cross scanning",
+  "items": ["106403617","104196036","102470783","104079569","104479757","102370141","102370230","102370248","106993881","108853363","108853451","108831447","102334466","102371793","102372761"],
+  "departmentList": [
+    {
+      "department": 270
+    },
+    {
+      "department": 290
+    }
+
+  ],
+  "startTime":"${currentDate_strtTime}",
+  "endTime": "${currentDate_endTime}",
+  "date": "${currentDate_Time}",
+  "scheduleRef": "Count Schedule Reference",
+  "valproducts": "N",
+  "mode": "scan"
+}

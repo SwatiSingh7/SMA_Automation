@@ -1,0 +1,93 @@
+{
+  "itemNumber": "109386277",
+  "legacyItemNumbers": [
+    "3429050",
+    "3429051"
+  ],
+  "gtins": [],
+  "parentItemNumber": "109386251",
+  "customerFriendlyDescription": null,
+  "itemDescription": "(B) MORRISONS INDIAN SPICED THIGH KEBABS 3.2KG",
+  "netContent": null,
+  "tillDescription": "M IND/THIGH KEBABS",
+  "productMarketing": null,
+  "countryOfOrigin": null,
+  "commercialHierarchy": {
+    "division": 10,
+    "divisionName": "Chilled",
+    "group": 100,
+    "groupName": "Farmers Boy",
+    "department": 400,
+    "departmentName": "Snacking (Oven Fresh)",
+    "className": "Snacking Chicken",
+    "subclass": 288,
+    "subclassName": "Coated Chicken Thighs",
+    "additionalProperties": {},
+    "class_": 102
+  },
+  "status": "A",
+  "brand": "M MARKET STREET",
+  "sellingUnitOfMeasure": "EA",
+  "imageUrl": [],
+  "productType": "ITEM",
+  "packComponents": [],
+  "dimensions": {
+    "length": 0,
+    "height": 0,
+    "width": 0,
+    "weight": 0,
+    "additionalProperties": {}
+  },
+  "ingredients": [],
+  "storage": [],
+  "gda": [],
+  "nutritionalHeading": null,
+  "nutritionalInfo": [],
+  "allergenInfo": [],
+  "components": null,
+  "vatCode": "Z",
+  "vatRate": 0,
+  "isCatchWeight": false,
+  "packs": [
+    {
+      "packNumber": "109386285",
+      "packQuantity": 28,
+      "additionalProperties": {}
+    }
+  ],
+  "sellBy": "",
+  "supplySource": null,
+  "marketStreet": {
+    "cookingInstructions": null,
+    "shelfLife": null,
+    "dayAdditional": null,
+    "sourceAndMethod": null
+  },
+  "magazines": {
+    "dayIssued": null,
+    "frequency": null
+  },
+  "forceEnterPrice": false,
+  "beersWinesSpirits": {
+    "strengthNumberAndWord": null,
+    "alcoholByVolume": null,
+    "tastingNotes": null,
+    "additionalTastingNote": null,
+    "volumeInLitres": null
+  },
+  "unitEquivalentPrice": {
+    "unitOfMeasureCode": "",
+    "netContent": 0
+  },
+  "priceMarked": false,
+  "cafeSelfServe": {
+    "kitchenPrinterFlag": null,
+    "modifierFlag": null
+  },
+  "stockAccountingMethod": {
+    "value": 4,
+    "description": "RMS Non Sellable Exception"
+  },
+  "seo": null,
+  "clothing": null
+}

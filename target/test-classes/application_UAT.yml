@@ -1,0 +1,328 @@
+priceDatabase:
+ databaseHostname: jdbc:postgresql://rds-euw1-uat-commercial-pg-pricev2-001.ca107skwgezh.eu-west-1.rds.amazonaws.com:5432/api_price_v2_db_uat
+ databaseUsername: api_price_v2_user
+ databasePassword: api_price_v2_user999
+testDatabase:
+ databaseHostname: jdbc:postgresql://hh-pgsql-public.ebi.ac.uk:5432/pfmegrnargs
+ databaseUsername: reader
+ databasePassword: NWDMCE5xdipIjRrp
+spaceDatabase:
+ databaseHostname: jdbc:postgresql://space-nonprod-space-rds-del.ca107skwgezh.eu-west-1.rds.amazonaws.com api_space_v1_db_uat
+ databaseUsername: api_space_v1_db_uat
+ databasePassword: 6ceb0b8669e6
+promotionDatabase:
+ databaseHostname: jdbc:postgresql://uat-loyalty-promotionv2.ca107skwgezh.eu-west-1.rds.amazonaws.com/promotionv2
+ databaseUsername: promotionservicev2user
+ databasePassword: 6ceb0b8669e6
+productDatabase:
+ databaseHostname: jdbc:postgresql://10.244.28.246:5432/api_product_v1_db_uat
+ databaseUsername: api_product_v1_owner_uat
+ databasePassword: api_product_v1_owner_uat999
+priceCheckDatabase:
+ databaseHostname: jdbc:postgresql://rds-euw1-uat-retail-pg-pricecheck-001.ca107skwgezh.eu-west-1.rds.amazonaws.com/pricecheckuat
+ databaseUsername: api_pricecheck_v1_user
+ databasePassword: hkKbDvrjgnaRiGRN
+pcaMfsDatabase:
+ databaseHostname: jdbc:sqlserver://10.4.56.127\\FrontOff:1433
+ databaseUsername: PI_AUTO_TEST
+ databasePassword: WtvbZLFnvhQd34vQ
+stockV2Databse:
+ databaseHostname: jdbc:postgresql://ocadosp-stocktransfer-uat-v00.ca107skwgezh.eu-west-1.rds.amazonaws.com/api_stock_v2_db_uat
+ databaseUsername: api_stock_v2_owner_uat
+ databasePassword: api_stock_v2_owner_uat999
+wasteValidationDatabase:
+ databaseHostname: jdbc:postgresql://rds-euw1-uat-supplychain-pgr-wv-rds-001.cv6olwlqhgqy.eu-west-1.rds.amazonaws.com:5432/wvuat001
+ databaseUsername: wvuat001_owner
+ databasePassword: wvuat001_owner999
+cleanAndRotate:
+ databaseHostname: jdbc:postgresql://rds-euw1-sit-pg-logistics-cleanrotate-001-v00.ca107skwgezh.eu-west-1.rds.amazonaws.com:5432/clrosit001
+ databaseUsername: clrosit001_owner
+ databasePassword: clrosit001_owner999
+unixUser:
+ unixHost: tgmus01x
+ unixUsername: extmas3e
+ unixPassword: zfK1iwZV42
+spaceUnixServer:
+ unixHost: tgmus01x
+ unixUsername: extmasvu
+ unixPassword: Hbst87Styywi4vm_7
+promoPriceUnixServer:
+ unixHost: tgmus02x
+ unixUsername: extmasvu
+ unixPassword: Hbst87Styywi4vm_7
+productUnixServer:
+ unixHost: tgmus02x
+ unixUsername: extmasvu
+ unixPassword: Hbst87Styywi4vm_7
+stockv2Unixserver1:
+ unixHost: tgmus11x
+ unixUsername: mwadmin
+ unixPassword: 2Bchanged
+stockv2Unixserver2:
+ unixHost: tgmus01x
+ unixUsername: extmasvu
+ unixPassword: Hbst87Styywi4vm_7
+jenkinsDetails:
+ url: https://morrisons.ci.morconnect.com/
+ username: EXTMASVP
+ password: extmasvp
+rackspaceDetails:
+ url: https://manage.rackspace.com
+ username: extmasy4
+ password: ja7!aBA_rU6H
+proxyConfiguration:
+ isBehindProxy: false
+ proxyHost:
+ proxyPort:
+ proxyUser:
+ proxyPass:
+actionConfiguration:
+ isStockAdjustment: false
+ isStockInformation: false
+ isforgotPassword: false
+ isMarketStreet: false
+ isAM_GLH: false
+ isPM_Gap: false
+ isGLHBurst: false
+ isGlhDrillDown: false
+ isNegativePromt: false
+ isEasyStore: false
+ isAM_Counts: false
+ isPM_Count: false
+ isMarkdown: false
+ isPriceIntegrity: false
+ isSalesOrder: false
+ isIntegratedSales: false
+ isFreshCodeCheck: false
+ isRFID: false
+ isPromptedCount: false
+ isWasteValidation: true
+ isDLDR: false
+ isTwilightManager: false
+ cleanAndRotate_Action:
+  isCnR_Functionality: false
+  isCnR_2_3: false
+  isCnR_CrispScenario: false
+  isCnR_SignOffScenario: false
+  isCnR_WeeklyAlert: false
+promoServiceHeaders:
+ Key: Authorization
+ Value: Basic QXJBYVpsdktWMDlEbFpzdDRhR3F4aWNPTnp2dEdicEk6d2txU0VjQWRHWllaRnc5Yg==
+bffServiceHeaders:
+ Key: Authorization
+ Value: Basic WndRR3NFTjBmNjVrT1JaOEVWUWxKV0EyYkdOYkhsczA6RnZCWUJZNTE4N0MzRm5tNg==
+productServiceHeaders:
+ Key: Authorization
+ Value: Basic QUd5UVpGVUdEMUNwWTAyOGVHR2FGV2FNcmQ0VkJqVmY6Vzl5Z1lmR0FwaWptUTdBbQ==
+productSearchServiceHeaders:
+ Key: Authorization
+ Value: Basic QUd5UVpGVUdEMUNwWTAyOGVHR2FGV2FNcmQ0VkJqVmY6Vzl5Z1lmR0FwaWptUTdBbQ==
+spaceServiceHearders:
+ Key: Authorization
+ Value: Basic QUd5UVpGVUdEMUNwWTAyOGVHR2FGV2FNcmQ0VkJqVmY6Vzl5Z1lmR0FwaWptUTdBbQ==
+adaptersConfigServiceHeader:
+ Key: Authorization
+ Value: Basic QUd5UVpGVUdEMUNwWTAyOGVHR2FGV2FNcmQ0VkJqVmY6Vzl5Z1lmR0FwaWptUTdBbQ==
+pcspcaServiceHeader:
+ Key: Authorization
+ Value: Basic U2lwOTMwSTI3eWJTZ2t6WlRkdHV2eEpXSlR2R0YxVXo6MzFxMk5RaEZlMk9XbDJtNg==
+signageServiceHeader:
+ Key: Authorization
+priceCheckServiceHeaders:
+ Key: Authorization
+ Value: Basic VU1FTFJkUmMyYjJFNU9rZzUwR2pINGJHdFQ0OXpabEs6SFhPTUhTZTk5V1hIMWtyWA==
+ Key1: Proxy-Authorization
+ Value1: Basic U1ZDX1hYQ0lVU0VSOkhvbGx5N3RpbWUyc29vbg==
+ Key2: X-Lock-Passphrase
+ Value2: 12345678901234567890
+#STOCKV2 DETAILS
+stockNasLocation:
+ rmsNASPath: /data/nas/uat/space_service/blueyonder-transfer/
+rmsInputExtract:
+ RMSExtract: /inputExtractsForNAS/StockV2/nb_blueyonder_item_soh_20191010.dat
+ SMSExtract: /inputExtractsForNAS/StockV2/BlueYonder_Produce_Stocks_20190926_033238.txt
+rmsStockextractforverification :
+ nb_blueyonder_item_soh: /inputExtractsForNAS/StockV2/nb_blueyonder_item_soh_20190919.csv
+stockV2ShellScripts:
+ MO_STKV2_RMSSTK_NAS_TO_NAS_CPY: /app/mus/StockV2-Split/scripts/copy_file_to_location.sh /data/nas/uat/space_service/blueyonder-transfer /data/nas/uat/space_service/transactions/stock/input nb_blueyonder_item_soh_*.dat
+ MO_STKV2_RMSSTK_SPLIT_NAS_CPY: /app/mus/StockV2-Split/scripts/split-file.sh /data/nas/uat/space_service/transactions/stock/input /data/nas/uat/space_service/transactions/stock/pending /data/nas/uat/space_service/transactions/stock/archive
+ MO_STKV2_RMSSTK_NAS_TO_S3_CPY: /app/mus/StockV2-Split/scripts/run_feature_job_scriptrunner.sh /data/nas/uat/space_service/transactions /app/scripts/aws-config-uat muat.xxwmm.supplychain.stockv2.eeeeeeeeee /data/nas/uat/space_service/transactions stock transactions/rmsstock /app/mus/StockV2-Split/scripts
+ MO_STKV2_DATA_DELETION_TASK: /app/mus/StockV2-Split/scripts/runStockV2DeletionTask_uat.sh
+ MO_STKV2_RMSSTK_UPLOAD_RDS: /app/mus/StockV2_EcsClient/runRMSSOHECSClientuat.sh
+ MO_STKV2_SMSSTK_NAS_TO_NAS_CPY: /app/mus/StockV2-Split/scripts/copy_file_to_location.sh /data/nas/uat/space_service/blueyonder-transfer /data/nas/uat/space_service/transactions/smsstock/input BlueYonder_Produce_Stocks_*.txt
+ MO_STKV2_SMSSTK_NAS_TO_S3_CPY:
+ MO_STKV2_SMSSTK_UPLOAD_RDS: /app/mus/StockV2_EcsClient/runSMSSOHECSClientuat.sh
+ MO_STKV2_FS_NAS_TO_S3_CP: /app/mus/space/scripts/run_feature_job_scriptrunner.sh
+ MO_STKV2_FS_UPLOAD_RDS: /app/mus/StockV2_EcsClient/runFreshStockECSClientuat.sh
+ MO_STKV2_ORD_UPLOAD_RDS: /app/mus/StockV2_EcsClient/runOrdersECSClientuat.sh
+stockAdjustmentServiceHeaders:
+ Key: Authorization
+ Value: Basic MXJRbE9BZTFQQVdhV0xIbFNoS2ZoaFVuOHJPREg4QUs6Y2ZVN29WQ3hYWUVIUW1WdQ==
+stockV2ServiceHeaders:
+ Key: Authorization
+ Value: Bearer ODI5MWJkYzQtMGFjYS00ZTAzLTkwY2EtNDhhODFmZjZmZDdmNmU5NjJkNTgtZDc4NC00NGYyLWFhYmYtMzI0ZjFlNjg0ODEw
+getstockv2details:
+ URI: https://uat-api.morrisons.com/stock/v2/locations/locationid/items/itemid?apikey=ZwQGsEN0f65kORZ8EVQlJWA2bGNbHls0
+getLogonService:
+ URI: https://uat-api.morrisons.com/user/v1/login?apikey=ZwQGsEN0f65kORZ8EVQlJWA2bGNbHls0
+loginServiceMarkdown:
+ baseURI: https://uat-api.morrisons.com/
+ resource: user/v1/login
+ queryParameter: apikey=ZwQGsEN0f65kORZ8EVQlJWA2bGNbHls0
+getMarkdownService:
+ baseURI: https://uat-api.morrisons.com/
+ resource: markdown/v2/locations/storeid/markdowns/itemid
+ queryParameter: apikey=ZwQGsEN0f65kORZ8EVQlJWA2bGNbHls0
+postMarkdownEvent:
+ baseURI: https://uat-api.morrisons.com/markdown/v2/locations/storeid/lists/@print?user=userid&apikey=ZwQGsEN0f65kORZ8EVQlJWA2bGNbHls0
+ resource: markdown/v2/locations/78/lists/@print?user=369258147
+ queryParameter: apikey=ZwQGsEN0f65kORZ8EVQlJWA2bGNbHls0
+getgapLowHigh:
+ baseURI: https://uat-api.morrisons.com/storewalk/v1/stores/storewalks?since=2019-11-14T00:00:00&until=2019-11-14T23:59:59&limit=400&offset=0&apikey=VgfPXEZxjMDudgJAAzWZw0CUomAuzJKB
+ resource: storewalk/v1/stores/storewalks?since=2019-11-14T00:00:00&until=2019-11-14T23:59:59&limit=400&offset=0
+ queryParameter: apikey=VgfPXEZxjMDudgJAAzWZw0CUomAuzJKB
+walkIdDetails:
+ baseURI: https://uat-api.morrisons.com/
+ resource: storewalk/v1/stores/storeid/storewalks/itemid/items
+ queryParameter: apikey=VgfPXEZxjMDudgJAAzWZw0CUomAuzJKB
+countDetails:
+ baseURI: https://uat-api.morrisons.com/
+ resource: storewalk/v1/stores/storeId/storewalks
+ queryParameter: apikey=ZwQGsEN0f65kORZ8EVQlJWA2bGNbHls0
+deleteCounts:
+ resource: storewalk/v1/stores/storeId/storewalks/walkId?apikey=VgfPXEZxjMDudgJAAzWZw0CUomAuzJKB
+postGLH:
+ baseURI: https://uat-api.morrisons.com/
+ resource: storewalk/v1/stores/storeid/storewalks
+ queryParameter: apikey=VgfPXEZxjMDudgJAAzWZw0CUomAuzJKB
+getProduct:
+ baseURI: https://uat-api.morrisons.com/
+ resource: product/v1/items/itemid?fields=itemdescription,sellingUnitOfMeasure,itemNumber,packs,productType,legacyItemNumbers,gtins,packComponents,commercialHierarchy
+ queryParameter: apikey=ZwQGsEN0f65kORZ8EVQlJWA2bGNbHls0
+getPrice:
+ baseURI: https://uat-api.morrisons.com/
+ resource: price/v2/locations/storeid/items/itemid?include=changedetails
+ queryParameter: apikey=AGyQZFUGD1CpY028eGGaFWaMrd4VBjVf
+getProductDetail:
+ baseURI: https://uat-api.morrisons.com/
+ resource: product/v1/items/itemid?
+ queryParameter: apikey=AGyQZFUGD1CpY028eGGaFWaMrd4VBjVf
+getDelivery:
+ baseURI: https://uat-api.morrisons.com/stockorder/v1/customers/morrisons/orders?location=storeid&item=itemid&type=StoreStandard&orders=last,next&apikey=ZwQGsEN0f65kORZ8EVQlJWA2bGNbHls0
+stockInfo:
+ baseURI: https://uat-api.morrisons.com/stock/v2/locations/storeid/items/itemid?apikey=GxpnvAuZJzq0hIZ4ZjnkNWUK51Axj3bY&include=openingstock
+getSchedules:
+ resource: cleanrotate/v1/locations/storeid/schedules?numberOfWeeks=4&apikey=ZwQGsEN0f65kORZ8EVQlJWA2bGNbHls0
+getDepartments:
+ resource: cleanrotate/v1/locations/storeid/departments?year=yeaR&week=weeK&apikey=ZwQGsEN0f65kORZ8EVQlJWA2bGNbHls0
+getListItems:
+ resource: cleanrotate/v1/locations/storeid/departments/departmentCheckId/items?apikey=ZwQGsEN0f65kORZ8EVQlJWA2bGNbHls0&offset=0&limit=10
+getCategoryDepartments:
+ resource: orderintervention/v1/locations/@all/categories?apikey=ZwQGsEN0f65kORZ8EVQlJWA2bGNbHls0&location[in]=storeid
+getForecastOrders:
+ resource: orderintervention/v1/locations/storeid/categories/categoryId/forecastorders?apikey=ZwQGsEN0f65kORZ8EVQlJWA2bGNbHls0&limit=20&offset=20
+getSOItemDetails:
+ resource: orderintervention/v1/locations/storeid/categories/categoryId/items?apikey=ZwQGsEN0f65kORZ8EVQlJWA2bGNbHls0&itemNumber%5Bin%5D=itemMinValue
+getAmendOrders:
+ resource: orderintervention/v1/locations/storeid/categories/categoryId/forecastorders?offset=0&limit=20&apikey=ZwQGsEN0f65kORZ8EVQlJWA2bGNbHls0&itemListType=AO
+getStoreWalkForAttributes:
+ resource: storewalk/v1/stores/storeid/storewalks/walkid?attributes=[item.productId,capture.qty,capture.location,capture.plan,item.plan,item.reason]&apikey=VgfPXEZxjMDudgJAAzWZw0CUomAuzJKB
+getStoreWalkCaptureType:
+ resource: storewalk/v1/stores/storeid/storewalks/walkid?attributes=[item.productId,capture.qty,capture.location,capture.plan,item.plan,item.reason]&apikey=VgfPXEZxjMDudgJAAzWZw0CUomAuzJKB&capturetype[ne]=['captureType']
+getSectionApiServices:
+ resource: storewalk/v1/stores/storeid/storewalks/walkid/departments/departmentId/groups/groupId/sections/sectionId?apikey=VgfPXEZxjMDudgJAAzWZw0CUomAuzJKB
+getSectionAttributesApiServices:
+ resource: storewalk/v1/stores/storeid/storewalks/walkid/departments/departmentId/groups/groupId/sections/sectionId?apikey=VgfPXEZxjMDudgJAAzWZw0CUomAuzJKB&capturetype[ne]=['captureType']
+getBffOndate:
+ URI: https://uat-api.morrisons.com/priceintegrity/v1/locations/storeid/items/itemid?ondate=inputDate&apikey=ZwQGsEN0f65kORZ8EVQlJWA2bGNbHls0
+createStorewalk:
+ resource: storewalk/v1/stores/storeId/storewalks?apikey=VgfPXEZxjMDudgJAAzWZw0CUomAuzJKB
+postStorewalk:
+ resource: storewalk/v1/stores/storeid/storewalks/walkid/items/@all/captures?userId=userid&apikey=VgfPXEZxjMDudgJAAzWZw0CUomAuzJKB
+createWalkitem:
+ resource: storewalk/v1/stores/storeId/storewalks/walkId/items?apikey=VgfPXEZxjMDudgJAAzWZw0CUomAuzJKB
+getallCapture:
+ resource: storewalk/v1/stores/storeid/storewalks/walkid/items/@all/captures?userId=userid&apikey=VgfPXEZxjMDudgJAAzWZw0CUomAuzJKB
+getStoreWalkitems:
+ resource: storewalk/v1/stores/storeid/storewalks/walkid/items?apikey=VgfPXEZxjMDudgJAAzWZw0CUomAuzJKB
+createCapture:
+ resource: storewalk/v1/stores/storeid/storewalks/walkid/items/itemid/captures?apikey=VgfPXEZxjMDudgJAAzWZw0CUomAuzJKB
+getStoreWalkForStore:
+ resource: storewalk/v1/stores/storeid/storewalks/walkid?&apikey=VgfPXEZxjMDudgJAAzWZw0CUomAuzJKB
+getStoreWalks:
+ resource: storewalk/v1/stores/storewalks?since=currentDate/T00:00:05Z&until=currentDate/T23:50:42Z5&limit=1000&offset=0&apikey=VgfPXEZxjMDudgJAAzWZw0CUomAuzJKB
+deleteStorewalk:
+ resource: storewalk/v1/stores/storeid/storewalks/walkid?apikey=VgfPXEZxjMDudgJAAzWZw0CUomAuzJKB
+getWalkitem:
+ resource: storewalk/v1/stores/storeid/storewalks/walkid/items/itemid?apikey=VgfPXEZxjMDudgJAAzWZw0CUomAuzJKB
+getCaptures:
+ resource: storewalk/v1/stores/storeid/storewalks/walkid/items/itemid/captures?apikey=VgfPXEZxjMDudgJAAzWZw0CUomAuzJKB
+getMarkdownDetails:
+ resource: markdown/v2/locations/storeid/markdowns/itemid?apikey=ZwQGsEN0f65kORZ8EVQlJWA2bGNbHls0
+getMarkdownDetailsBeforeScan:
+ resource: markdown/v2/locations/storeid/markdowns/itemid?apikey=ZwQGsEN0f65kORZ8EVQlJWA2bGNbHls0&quantity=3
+getBlueyonderService:
+ URI: https://api.blue-yonder.com/
+ resource: vae6sh/retrieval/RealtimePrices?TenantID=05f46c05-64d2-417f-98ac-90000baf3947&LocationID=storeid&ProductID=itemid&Inventory=3&ExpirationDate=expiryDate&Timestamp=datee
+getMarkdownList:
+ resource: markdown/v2/locations/storeid/lists?apikey=ZwQGsEN0f65kORZ8EVQlJWA2bGNbHls0
+deletePrintList:
+ resource: markdown/v2/locations/storeid/lists?apikey=ZwQGsEN0f65kORZ8EVQlJWA2bGNbHls0
+getGlhSummary:
+ resource: storewalk/v1/stores/storeid/storewalksummary?&apikey=VgfPXEZxjMDudgJAAzWZw0CUomAuzJKB&walkid[in]=
+postStockTranfer:
+ resource: stock/v2/transfers?
+ queryParameter: apikey=1rQlOAe1PAWaWLHlShKfhhUn8rODH8AK&isBatch=true
+postBasketV2:
+ resource: basket/v2/baskets/@finalise?
+ queryParameter: apikey=qQr8zsTRXt2AxUrd52vTodtQx7hNAHY5
+postStockMovement:
+ resource: stock/v2/stockmovementreceiptsevents?
+ queryParameter: apikey=yo0oC7XCG379Sb1nvWXDadnjfmzs0i5x
+stockMovementServiceHeader:
+ Key: Authorization
+ Value: Basic eW8wb0M3WENHMzc5U2IxbnZXWERhZG5qZm16czBpNXg6TEhBbWt4THlKZFRCZGZ0aQ==
+getSpace:
+ resource: space/v1/locations/storeId/items/itemId?ondate=currentDate&itemstatus=active,inactive
+ queryParameter: apikey=L7W2294UoOujnJHjkw1Cmlu9AiVMjog6
+getSpaceServiceHeader:
+ Key: Authorization
+ Value: Basic TDdXMjI5NFVvT3VqbkpIamt3MUNtbHU5QWlWTWpvZzY6cnFDM0lQVTdoUHZ0UzhsZA==
+userService:
+ username: Nzc3MTEx
+ password: MTQ3NzQx
+userLogin:
+ URI: https://uat-api.morrisons.com/user/v1/login?apikey=ZwQGsEN0f65kORZ8EVQlJWA2bGNbHls0
+cleanAndRotateTestData:
+ crispDepartment: Crisps and Snacks
+ crispItems: ['105590393','108272956','111181684']
+ nonCrispDepartment: Canned Fruit
+ nonCrispItems: ['107665601','102883094','111181684']
+webElementEnviroment:
+ env: com.morrisons.instore.uat
+ baseURI: https://uat-api.morrisons.com/
+userCredentials:
+ collegueUsername: sma348.peoplemanagersit@test.morrisonsplc.co.uk
+ colleguePassword: need gang fine nut
+ managerUsername: sma348.storemanagersit@test.morrisonsplc.co.uk
+ managerPassword: hair porch known leave
+ twilightManagerUsername: 987654110
+ twilightManagerPassword: 121212
+fccadminCredentials:
+ url: https://fccadminpanel.uat.testapps.mymorri.com/
+ username: mjoiner.5.broke@test.morrisonsplc.co.uk
+ password: NW7E=nMK
+postECSAssociateLabel:
+ URI: https://morrisonsuat.ecsglobalinc.com/ecs/esel-associate.sws
+ecsLogonService:
+ URI: https://morrisonsuat.ecsglobalinc.com/ecs/logon.sws
+postEselLabelDetails:
+ URI: https://morrisonsuat.ecsglobalinc.com/ecs/esel-details.sws
+getStockAdjustment:
+ URI: https://uat-api.morrisons.com/stock/v2/locations/storeId/items/itemId/adjustments?apikey=1rQlOAe1PAWaWLHlShKfhhUn8rODH8AK
+getRange:
+ resource: range/v1/locations/storeId/items/productId?
+ queryParameter: apikey=ZwQGsEN0f65kORZ8EVQlJWA2bGNbHls0
+postUserLogin:
+ resource: /user/v1/login?
+ queryParameter: apikey=ZwQGsEN0f65kORZ8EVQlJWA2bGNbHls0

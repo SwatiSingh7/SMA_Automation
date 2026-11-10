@@ -1,0 +1,29 @@
+{
+    "itemNumber": "113836365",
+    "itemDescription": "HEINZ BEANZ JALFREZI 390G",
+    "departmentId": 117,
+    "departmentName": "002 Beans & Pasta",
+    "caseSize": 12,
+    "isHfssLessHealthy": true,
+    "hfssInScope": 0,
+    "status": "A",
+    "temperatureRegime": "Ambient",
+    "orderType": "managerorder",
+    "managerOrderConfiguration": {
+        "minimumStartDuration": 7,
+        "minimumEndDuration": 7,
+        "maximumStartDuration": 28,
+        "maximumEndDuration": 60,
+        "maxOrderLimit": 200,
+        "maxQuantity": 500
+    },
+    "EAN": [
+        {
+            "id": "5000157154330",
+            "additionalProperties": {
+                "isPrimaryBarcode": true
+            },
+            "type": "EAN13"
+        }
+    ]
+}

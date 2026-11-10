@@ -1,0 +1,771 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="61790331-f805-4361-a3cd-3a266a53e803" name="Changes" comment="Resolved the Google 2-step verf handling and stock order data creation with capturing correct pack_id.">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/morrisons/common/utility/DB_ConnectCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/morrisons/common/utility/Stock_OrderTbl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/morrisons/common/utility/Stock_PositionTbl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/TestData/Input/Driver/chromedriver777.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/TestData/Input/Driver/chromedriver_NewOld.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/TestData/Input/Driver/chromedriver_newOlder.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/TestData/Input/Driver/chromedriver_old.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/sma_features_new/FreshCodeCheck/FCC_Database.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/morrisons/common/utility/DatabaseHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/morrisons/common/utility/DatabaseHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/TestData/Input/Driver/chromedriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/TestData/Input/Driver/chromedriver.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/TestData/Input/ExceptionItemStock_YYYYMMDD_052020.dat" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/TestData/Input/ExceptionItemStock_YYYYMMDD_052020.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/TestData/Output/ExceptionItemStock_20231205_052020.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/TestData/Output/ExceptionItemStock_20231206_052020.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/TestData/Output/ExceptionItemStock_20231208_052020.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/TestData/Output/ExceptionItemStock_20231213_052020.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/TestData/Output/ExceptionItemStock_20231218_052020.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/TestData/Output/ExceptionItemStock_20231221_052020.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/TestData/Output/ExceptionItemStock_20231226_052020.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/TestData/Output/ExceptionItemStock_20231227_052020.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/TestData/Output/ExceptionItemStock_20231228_052020.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/TestData/Output/RelexDiffFile_20231130110339.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/TestData/Output/RelexDiffFile_20231201110339.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/TestData/Output/RelexDiffFile_20231205110339.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/TestData/Output/RelexDiffFile_20231206110339.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/TestData/Output/RelexDiffFile_20231208110339.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/TestData/Output/nb_blueyonder_orders_20231128.dat.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/TestData/Output/nb_blueyonder_orders_20231129.dat.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/TestData/Output/nb_blueyonder_orders_20231130.dat.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/TestData/Output/nb_blueyonder_orders_20231204.dat.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/TestData/Output/nb_blueyonder_orders_20231205.dat.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/TestData/Output/nb_blueyonder_orders_20231207.dat.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/TestData/Output/nb_prompted_count_20231225" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/TestData/Output/nb_prompted_count_20231227" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/TestData/Output/nb_prompted_count_20240103063915.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/TestData/Output/nb_prompted_count_20240104063915.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/application_SIT.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/application_SIT.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/application_UAT.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/application_UAT.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/sma_features/FreshCodeCheck/FCCAfternoonCheck.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/sma_features/FreshCodeCheck/FCCAfternoonCheck.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/sma_features/FreshCodeCheck/FCC_CO/FCCAfternoonCheckNew.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/sma_features/FreshCodeCheck/FCC_CO/FCCAfternoonCheckNew.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/sma_features/FreshCodeCheck/FCC_CO/FccDailySchFirstCheckNew.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/sma_features/FreshCodeCheck/FCC_CO/FccDailySchFirstCheckNew.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/sma_features/FreshCodeCheck/FCC_CO/FccFreshFoodManagerNew.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/sma_features/FreshCodeCheck/FCC_CO/FccFreshFoodManagerNew.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/sma_features/FreshCodeCheck/FCC_CO/fccAlertNew.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/sma_features/FreshCodeCheck/FCC_CO/fccAlertNew.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/sma_features/FreshCodeCheck/FccDailySchFirstCheck.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/sma_features/FreshCodeCheck/FccDailySchFirstCheck.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/sma_features/FreshCodeCheck/FccFreshFoodManager.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/sma_features/FreshCodeCheck/FccFreshFoodManager.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/sma_features_new/FreshCodeCheck/FCCAfternoonCheckNew.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/sma_features_new/FreshCodeCheck/FCCAfternoonCheckNew.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/sma_features_new/FreshCodeCheck/FccDailySchFirstCheckNew.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/sma_features_new/FreshCodeCheck/FccDailySchFirstCheckNew.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/sma_features_new/FreshCodeCheck/FccFreshFoodManagerNew.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/sma_features_new/FreshCodeCheck/FccFreshFoodManagerNew.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/sma_features_new/GapsLowsHighs/GLH_CO/DataCreation_GLH.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/sma_features_new/GapsLowsHighs/GLH_CO/DataCreation_GLH.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/sma_features_new/OpticFocalStratergies/stock record adapter.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/sma_features_new/OpticFocalStratergies/stock record adapter.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/application_SIT.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/application_SIT.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/application_UAT.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/application_UAT.yml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$MAVEN_REPOSITORY$/io/appium/java-client/6.1.0/java-client-6.1.0.jar!/io/appium/java_client/remote/MobileCapabilityType.class" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/org/freemarker/freemarker/2.3.30/freemarker-2.3.30.jar!/freemarker/cache/TemplateCache.class" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/org/freemarker/freemarker/2.3.30/freemarker-2.3.30.jar!/freemarker/template/Configuration.class" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2j0hyy5zdqwkcMwKpjmgxfK1Ibn" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Maven.sma-automation [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.sma-automation [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.sma-automation [test].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;TestNG.SMA_App.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;devlop-CountOptimization&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/SMA_Automation/supplychain-storemobileapp-testsuite&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
+    &quot;settings.editor.splitter.proportion&quot;: &quot;0.24159022&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.morrisons.common.helper" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\SMA_Automation\supplychain-storemobileapp-testsuite\src\test\resources\sma_features_new\FreshCodeCheck" />
+      <recent name="D:\SMA_Automation\supplychain-storemobileapp-testsuite\src\test\resources\TestData\Input\Driver" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\SMA_Automation\supplychain-storemobileapp-testsuite\src\test\resources\sma_features_new\MOCO\MOCO_UI" />
+      <recent name="D:\SMA_Automation\supplychain-storemobileapp-testsuite\src\test\resources\sma_features_new\MOCO\MOCO_API" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean install -DskipTests" />
+      <command value="mvn clean" />
+      <command value="mvn install" />
+      <command value="mvn test" />
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="SMA_App" type="TestNG">
+      <shortenClasspath name="MANIFEST" />
+      <useClassPathOnly />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="C:\Program Files\OpenJDK\jdk-8.0.352.08-hotspot\jre" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng_new.xml" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="VM_PARAMETERS" value="-DtagName=@KTClusterVPC" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.23892.409" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="61790331-f805-4361-a3cd-3a266a53e803" name="Changes" comment="" />
+      <created>1720530166012</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1720530166012</updated>
+      <workItem from="1754906524033" duration="2183000" />
+      <workItem from="1754908802162" duration="11151000" />
+      <workItem from="1754993528148" duration="7065000" />
+      <workItem from="1755049603981" duration="9671000" />
+      <workItem from="1755146904084" duration="3168000" />
+      <workItem from="1755188985828" duration="912000" />
+      <workItem from="1755492943581" duration="1982000" />
+      <workItem from="1755792658198" duration="831000" />
+      <workItem from="1756104985660" duration="2405000" />
+      <workItem from="1756791016099" duration="345000" />
+      <workItem from="1757613369311" duration="20000" />
+    </task>
+    <task id="LOCAL-00001" summary="Corrected few API methods to validate response code as well as validating response fields.&#10;Improved on Capturing response methods for API. Implemented feature to capture text type response. Also improved on Validate response method.&#10;Changed some BaseURI for some API services. Improved on create dynamic objects.&#10;Implemented reusable methods to verify objects and elements. Modified click_Object method. Rectified errors for GLHNegativePrompt feature file. Handled exceptions while entering Barcode. Handled exceptions while launching the app. Included method to go back in MOCO ionic app. Handled exceptions while logging the app.&#10;Improved method to create walkitem for multiple products. Implemented Patch, delete response methods.">
+      <created>1722934274699</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1722934274699</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Refined creation of object dynamically.&#10;Refined the message validation messages.&#10;Implemented the method to handle Exceptions in Create_Object method, if webelement is not found then it should throw the exception and fail.&#10;Handled any open alert or dialog boxes, made the script to click on OK or CANCEl after the test execution.&#10;Handled the issues while login during 2-step verf, &#10;Refined the method of selection of Date in Datepicker, Traverse till the next or back month button is enabled to check for the given date.">
+      <option name="closed" value="true" />
+      <created>1724670555002</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1724670555002</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Modified the product scan method, click on search button and check if search worked.&#10;Modified the selection of item under a particular department, implemented the scroll down feature if item is below the visible screen.">
+      <option name="closed" value="true" />
+      <created>1726550475136</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1726550475136</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Corrected the issue of capturing wrong pack_id while data creation for stock_order.&#10;Corrected the Date time format issue while craeting data for stock_order.&#10;Resolved screen scroll down method while selecting specific section items under specific departments.&#10;Resolved the white screen issue which comes up after login to the app.&#10;Resolved the search of the item issue during item scan. clicking on search button didn't work sometimes.&#10;Added the feature to delete all items for MOCO before creating MOCO orders.&#10;Implemented the feature of getting previous or future dates at runtime.&#10;Implemented the RMS and GCP integration scenarios with MOCO.&#10;Handled the capturing access token using User V2, Googe intent exceptions.">
+      <option name="closed" value="true" />
+      <created>1728494396629</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1728494396629</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Resolved the Google 2-step verf handling and stock order data creation with capturing correct pack_id.">
+      <option name="closed" value="true" />
+      <created>1728925640481</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1728925640481</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Resolved the Google 2-step verf handling and stock order data creation with capturing correct pack_id.">
+      <option name="closed" value="true" />
+      <created>1729143383639</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1729143383639</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Resolved the Google 2-step verf handling and stock order data creation with capturing correct pack_id.">
+      <option name="closed" value="true" />
+      <created>1729844457923</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1729844457923</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Corrected few API methods to validate response code as well as validating response fields.&#10;Improved on Capturing response methods for API. Implemented feature to capture text type response. Also improved on Validate response method.&#10;Changed some BaseURI for some API services. Improved on create dynamic objects.&#10;Implemented reusable methods to verify objects and elements. Modified click_Object method. Rectified errors for GLHNegativePrompt feature file. Handled exceptions while entering Barcode. Handled exceptions while launching the app. Included method to go back in MOCO ionic app. Handled exceptions while logging the app.&#10;Improved method to create walkitem for multiple products. Implemented Patch, delete response methods." />
+    <MESSAGE value="Refined creation of object dynamically.&#10;Refined the message validation messages.&#10;Implemented the method to handle Exceptions in Create_Object method, if webelement is not found then it should throw the exception and fail.&#10;Handled any open alert or dialog boxes, made the script to click on OK or CANCEl after the test execution.&#10;Handled the issues while login during 2-step verf, &#10;Refined the method of selection of Date in Datepicker, Traverse till the next or back month button is enabled to check for the given date." />
+    <MESSAGE value="Modified the product scan method, click on search button and check if search worked.&#10;Modified the selection of item under a particular department, implemented the scroll down feature if item is below the visible screen." />
+    <MESSAGE value="Corrected the issue of capturing wrong pack_id while data creation for stock_order.&#10;Corrected the Date time format issue while craeting data for stock_order.&#10;Resolved screen scroll down method while selecting specific section items under specific departments.&#10;Resolved the white screen issue which comes up after login to the app.&#10;Resolved the search of the item issue during item scan. clicking on search button didn't work sometimes.&#10;Added the feature to delete all items for MOCO before creating MOCO orders.&#10;Implemented the feature of getting previous or future dates at runtime.&#10;Implemented the RMS and GCP integration scenarios with MOCO.&#10;Handled the capturing access token using User V2, Googe intent exceptions." />
+    <MESSAGE value="Resolved the Google 2-step verf handling and stock order data creation with capturing correct pack_id." />
+    <option name="LAST_COMMIT_MESSAGE" value="Resolved the Google 2-step verf handling and stock order data creation with capturing correct pack_id." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/morrisons/sma/step_definitions/mobile/LoginStepDef.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/morrisons/sma/step_definitions/mobile/MOCO/MOCO_API_Services.java</url>
+          <line>164</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/morrisons/sma/step_definitions/mobile/MOCO/MOCO_API_Services.java</url>
+          <line>331</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/morrisons/sma/step_definitions/mobile/MOCO/MOCO_StepDefs_UI.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/morrisons/sma/step_definitions/mobile/MOCO/MOCO_StepDefs_UI.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/morrisons/sma/step_definitions/mobile/old/StockAdjustmentStepDef.java</url>
+          <line>74</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/morrisons/common/helper/CommonHelperMethods.java</url>
+          <line>394</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/morrisons/sma/step_definitions/mobile/MOCO/MOCO_StepDefs_UI.java</url>
+          <line>90</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/morrisons/sma/step_definitions/mobile/MOCO/MOCO_StepDefs_UI.java</url>
+          <line>163</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/morrisons/sma/step_definitions/mobile/MOCO/MOCO_StepDefs_UI.java</url>
+          <line>62</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/morrisons/sma/step_definitions/mobile/MOCO/MOCO_StepDefs_UI.java</url>
+          <line>168</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/morrisons/sma/step_definitions/mobile/MOCO/MOCO_StepDefs_UI.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/morrisons/sma/step_definitions/mobile/MOCO/MOCO_StepDefs_UI.java</url>
+          <line>175</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/morrisons/sma/step_definitions/mobile/MOCO/MOCO_StepDefs_UI.java</url>
+          <line>180</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/morrisons/common/helper/MOCOHelperMethods.java</url>
+          <line>212</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/morrisons/sma/step_definitions/mobile/MOCO/MOCO_StepDefs_UI.java</url>
+          <line>147</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/morrisons/sma/step_definitions/mobile/MOCO/MOCO_StepDefs_UI.java</url>
+          <line>186</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/morrisons/common/helper/MOCOHelperMethods.java</url>
+          <line>225</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/morrisons/common/helper/MOCOHelperMethods.java</url>
+          <line>272</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/morrisons/sma/step_definitions/mobile/MOCO/MOCO_StepDefs_UI.java</url>
+          <line>193</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/morrisons/common/helper/MOCOHelperMethods.java</url>
+          <line>317</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/morrisons/sma/step_definitions/service/Product/API_ServiceStepDef.java</url>
+          <line>477</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/morrisons/sma/step_definitions/mobile/MOCO/MOCO_API_Services.java</url>
+          <line>361</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/morrisons/sma/step_definitions/mobile/MOCO/MOCO_API_Services.java</url>
+          <line>206</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/morrisons/sma/step_definitions/mobile/MOCO/MOCO_API_Services.java</url>
+          <line>198</line>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/morrisons/sma/step_definitions/mobile/MOCO/MOCO_API_Services.java</url>
+          <line>185</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/morrisons/sma/step_definitions/mobile/old/CountPostStepDefService.java</url>
+          <line>622</line>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/morrisons/sma/step_definitions/mobile/MOCO/MOCO_StepDefs_UI.java</url>
+          <line>217</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/morrisons/common/helper/MOCOHelperMethods.java</url>
+          <line>406</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/morrisons/common/helper/MOCOHelperMethods.java</url>
+          <line>368</line>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/morrisons/common/helper/SortData.java</url>
+          <line>245</line>
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/morrisons/sma/page_objects/mobile/old/GLHPageObject.java</url>
+          <line>137</line>
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/morrisons/common/helper/MOCOHelperMethods.java</url>
+          <line>475</line>
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/morrisons/common/helper/MOCOHelperMethods.java</url>
+          <line>494</line>
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/morrisons/sma/step_definitions/mobile/MOCO/MOCO_StepDefs_UI.java</url>
+          <line>229</line>
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/morrisons/sma/page_objects/mobile/old/StockAdjustmentPO.java</url>
+          <line>183</line>
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/morrisons/sma/step_definitions/mobile/MOCO/MOCO_StepDefs_UI.java</url>
+          <line>234</line>
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/morrisons/common/helper/MOCOHelperMethods.java</url>
+          <line>521</line>
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/morrisons/common/helper/MOCOHelperMethods.java</url>
+          <line>503</line>
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/morrisons/common/helper/MOCOHelperMethods.java</url>
+          <line>466</line>
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/morrisons/sma/step_definitions/mobile/MOCO/MOCO_StepDefs_UI.java</url>
+          <line>135</line>
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/morrisons/sma/step_definitions/mobile/MOCO/MOCO_StepDefs_UI.java</url>
+          <line>259</line>
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/morrisons/sma/step_definitions/mobile/MOCO/MOCO_StepDefs_UI.java</url>
+          <line>266</line>
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/morrisons/common/helper/MOCOHelperMethods.java</url>
+          <line>536</line>
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/morrisons/sma/step_definitions/mobile/MOCO/MOCO_StepDefs_UI.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="68" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/morrisons/sma/step_definitions/mobile/MOCO/MOCO_StepDefs_UI.java</url>
+          <line>272</line>
+          <option name="timeStamp" value="69" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/morrisons/common/helper/MOCOHelperMethods.java</url>
+          <line>574</line>
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/morrisons/common/helper/MOCOHelperMethods.java</url>
+          <line>133</line>
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/morrisons/sma/step_definitions/mobile/MOCO/MOCO_StepDefs_UI.java</url>
+          <line>278</line>
+          <option name="timeStamp" value="73" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/morrisons/sma/step_definitions/mobile/MOCO/MOCO_StepDefs_UI.java</url>
+          <line>96</line>
+          <option name="timeStamp" value="74" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/morrisons/common/helper/MOCOHelperMethods.java</url>
+          <line>579</line>
+          <option name="timeStamp" value="75" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/morrisons/sma/step_definitions/mobile/MOCO/MOCO_StepDefs_UI.java</url>
+          <line>283</line>
+          <option name="timeStamp" value="76" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/morrisons/common/helper/MOCOHelperMethods.java</url>
+          <line>593</line>
+          <option name="timeStamp" value="77" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/morrisons/common/helper/CommonHelperMethods.java</url>
+          <line>297</line>
+          <option name="timeStamp" value="85" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/morrisons/sma/step_definitions/mobile/TimeChangeStepDefUI.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="86" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/morrisons/sma/page_objects/service/StorewalkServicePage.java</url>
+          <line>475</line>
+          <option name="timeStamp" value="87" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/morrisons/sma/step_definitions/mobile/summary/PromptedCountsSummaryStepDefs_New.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="91" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/morrisons/sma/step_definitions/mobile/MOCO/MOCO_StepDefs_UI.java</url>
+          <line>199</line>
+          <option name="timeStamp" value="92" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/morrisons/sma/step_definitions/Web/OpticsFocalStepDef.java</url>
+          <line>402</line>
+          <option name="timeStamp" value="95" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/morrisons/sma/step_definitions/Web/OpticsFocalStepDef.java</url>
+          <line>353</line>
+          <option name="timeStamp" value="96" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/morrisons/sma/step_definitions/Web/OpticsFocalStepDef.java</url>
+          <line>318</line>
+          <option name="timeStamp" value="97" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/morrisons/sma/step_definitions/mobile/LoginStepDef.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="99" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/morrisons/sma/step_definitions/mobile/old/GlDrilldownStepDef.java</url>
+          <line>130</line>
+          <option name="timeStamp" value="101" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/morrisons/sma/page_objects/mobile/old/GlhDrillDownPO.java</url>
+          <line>418</line>
+          <option name="timeStamp" value="102" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/morrisons/sma/page_objects/mobile/old/GlhDrillDownPO.java</url>
+          <line>434</line>
+          <option name="timeStamp" value="103" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/morrisons/sma/page_objects/mobile/old/GlhDrillDownPO.java</url>
+          <line>378</line>
+          <option name="timeStamp" value="104" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/morrisons/sma/page_objects/mobile/old/GlhDrillDownPO.java</url>
+          <line>427</line>
+          <option name="timeStamp" value="108" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/morrisons/sma/step_definitions/mobile/cleanAndRotate/EnterMinStepDefs.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="110" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/morrisons/sma/step_definitions/mobile/cleanAndRotate/ActionLogStepDefs.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="111" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/morrisons/sma/page_objects/mobile/cleanAndRotate/EnterMin.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="112" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/morrisons/sma/page_objects/mobile/cleanAndRotate/EnterMin.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="113" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/morrisons/sma/step_definitions/mobile/MOCO/MOCO_API_Services.java</url>
+          <line>82</line>
+          <option name="timeStamp" value="114" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/morrisons/sma/step_definitions/mobile/MOCO/MOCO_API_Services.java</url>
+          <line>314</line>
+          <option name="timeStamp" value="115" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/morrisons/sma/step_definitions/mobile/MOCO/MOCO_API_Services.java</url>
+          <line>215</line>
+          <option name="timeStamp" value="116" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/morrisons/sma/step_definitions/mobile/MOCO/MOCO_API_Services.java</url>
+          <line>324</line>
+          <option name="timeStamp" value="118" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/morrisons/sma/page_objects/service/StorewalkServicePage.java</url>
+          <line>487</line>
+          <option name="timeStamp" value="121" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/morrisons/sma/step_definitions/service/Product/API_ServiceStepDef.java</url>
+          <line>145</line>
+          <option name="timeStamp" value="123" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/morrisons/sma/step_definitions/service/Product/API_ServiceStepDef.java</url>
+          <line>243</line>
+          <option name="timeStamp" value="124" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/morrisons/sma/step_definitions/service/Product/API_ServiceStepDef.java</url>
+          <line>280</line>
+          <option name="timeStamp" value="125" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/morrisons/sma/step_definitions/service/Product/API_ServiceStepDef.java</url>
+          <line>290</line>
+          <option name="timeStamp" value="126" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/morrisons/sma/step_definitions/service/Product/API_ServiceStepDef.java</url>
+          <line>310</line>
+          <option name="timeStamp" value="127" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/morrisons/sma/step_definitions/service/Product/API_ServiceStepDef.java</url>
+          <line>317</line>
+          <option name="timeStamp" value="128" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/morrisons/sma/step_definitions/service/Product/API_ServiceStepDef.java</url>
+          <line>303</line>
+          <option name="timeStamp" value="129" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/morrisons/sma/step_definitions/service/Product/API_ServiceStepDef.java</url>
+          <line>333</line>
+          <option name="timeStamp" value="131" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/morrisons/sma/step_definitions/mobile/old/GLHStepDef.java</url>
+          <line>138</line>
+          <option name="timeStamp" value="137" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/morrisons/sma/step_definitions/mobile/old/GLHStepDef.java</url>
+          <line>189</line>
+          <option name="timeStamp" value="138" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/morrisons/sma/page_objects/mobile/old/GLHPageObject.java</url>
+          <line>329</line>
+          <option name="timeStamp" value="139" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/morrisons/common/action/Hook.java</url>
+          <line>297</line>
+          <option name="timeStamp" value="140" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/morrisons/sma/step_definitions/service/Product/API_ServiceStepDef.java</url>
+          <line>262</line>
+          <option name="timeStamp" value="148" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/morrisons/sma/step_definitions/mobile/MOCO/MOCO_StepDefs.java</url>
+          <line>67</line>
+          <option name="timeStamp" value="151" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/morrisons/sma/page_objects/mobile/old/DynamicRequestMethods.java</url>
+          <line>70</line>
+          <option name="timeStamp" value="152" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/morrisons/sma/page_objects/mobile/old/DynamicRequestMethods.java</url>
+          <line>83</line>
+          <option name="timeStamp" value="153" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/morrisons/common/helper/SortData.java</url>
+          <line>109</line>
+          <option name="timeStamp" value="154" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/morrisons/sma/page_objects/mobile/old/DynamicRequestMethods.java</url>
+          <line>141</line>
+          <option name="timeStamp" value="156" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/src/test/java/com/morrisons/sma/step_definitions/service/LoginStepDef.java</url>
+          <line>14</line>
+          <properties field="restResponse" class="com.morrisons.sma.step_definitions.service.LoginStepDef" />
+          <option name="timeStamp" value="155" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="TestNG">
+        <watch expression="driveR.findElements(By.xpath(&quot;//android.view.View[contains(@text,'MIN:')]&quot;)).size()" />
+        <watch expression="currentDate1" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

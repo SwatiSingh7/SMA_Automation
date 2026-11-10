@@ -1,0 +1,28 @@
+{
+  "asnId": "2222203",
+  "trailerId": "2222203",
+  "containers": [
+    {
+      "orders": [
+        {
+          "items": [
+            {
+              "itemId": "104072439",
+              "packId": "108898449",
+              "lotNumber": "20211217",
+              "receiptedQuantity": "10",
+              "receiptedQuantityType": "Pack"
+            }
+          ],
+          "orderId": "Relex-9d41aaed-8ba3-4da6-82b1-383d38179382",
+          "orderType": "StoreStandard",
+          "orderedDate": "2023-04-01T00:00:00.000Z"
+        }
+      ],
+      "containerId": "2222203"
+    }
+  ],
+  "receiptDate": "2023-04-03T05:20:46Z",
+  "receiptLocationId": "8",
+  "shippedFromLocationId": "9008"
+}

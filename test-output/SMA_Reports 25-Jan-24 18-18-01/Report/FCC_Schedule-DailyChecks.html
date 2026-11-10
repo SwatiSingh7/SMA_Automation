@@ -1,0 +1,2129 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title></title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa bdd-report standard">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary"></span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Jan 25, 2024 06:18:01 PM</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('exception-view')">
+<a id="nav-exception" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bug"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('category-view')">
+<a id="nav-category" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-tag"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-tag"></i></a>
+<ul id="tag-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" href="#">@sma</a><a class="dropdown-item" href="#">@regression</a><a class="dropdown-item" href="#">@NewfccDailySchedule</a><a class="dropdown-item" href="#">@VerfUserScan</a><a class="dropdown-item" href="#">@timeChange</a><a class="dropdown-item" href="#">@VerfOnCurrentDayUser</a><a class="dropdown-item" href="#">@VerfCurrentUserViewLst</a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="fail" test-id="1"
+          author=""
+          tag="@NewfccDailySchedule @regression"
+          device="">
+          <div class="test-detail">
+            <p class="name">Verify Daily Schedule-Daily Checks in Fresh code check</p>
+            <p class="text-sm">
+              <span>6:18:05 PM</span> / <span>00:11:23:215</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Verify Daily Schedule-Daily Checks in Fresh code check</h5>
+<span class='badge badge-success'>01.25.2024 6:18:05 PM</span>
+<span class='badge badge-danger'>01.25.2024 6:29:28 PM</span>
+<span class='badge badge-default'>00:11:23:215</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">@NewfccDailySchedule</span>
+<span class="badge badge-pill badge-default">@regression</span></div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="2"><span class="badge log fail-bg mr-2">Fail</span>TO CHANGE THE DEVICE TIMINGS AS REQUIRED</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
+      </div>
+    </div>
+        <div class="scenario_outline ">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="3"><span class="badge log fail-bg mr-2">Fail</span>TO CHANGE THE DEVICE TIMINGS AS REQUIRED</div>
+                    <div class="status-avatar float-right">
+                      <i class="fa fa-paperclip"></i>
+                    </div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step pass-bg">
+                    <span>Given I send the time "07" and mins "00" and meridiem "pm" and current date in list</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step fail-bg">
+                    <span>Then I Change time</span>
+      <div>
+        <textarea disabled class="code-block">org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IN-MH1LPW113919', ip: '192.168.29.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_352-352'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {AUTOMATION_NAME: uiautomator2, BROWSER_NAME: Android, VERSION: 9.0, appActivity: com.android.settings.Settings, appPackage: com.android.settings, databaseEnabled: false, desired: {AUTOMATION_NAME: uiautomator2, BROWSER_NAME: Android, VERSION: 9.0, appActivity: com.android.settings.Settings, appPackage: com.android.settings, deviceName: Pixel2API19, platformName: android}, deviceApiLevel: 28, deviceManufacturer: Google, deviceModel: AOSP on IA Emulator, deviceName: emulator-5554, deviceScreenDensity: 560, deviceScreenSize: 1440x2560, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 3.5, platform: LINUX, platformName: Android, platformVersion: 9, statBarHeight: 84, takesScreenshot: true, viewportRect: {height: 2308, left: 0, top: 84, width: 1440}, warnings: {}, webStorageEnabled: false}
+Session ID: 3ea10883-c436-4e23-ae3a-2a6a3a1b279b
+*** Element info: {Using=xpath, value=//android.widget.TextView[@text='Date & time']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:231)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:152)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at com.morrisons.sma.page_objects.mobile.old.TimeChangePO.changeTime(TimeChangePO.java:252)
+	at com.morrisons.sma.step_definitions.mobile.TimeChangeStepDefUI.i_Change_time(TimeChangeStepDefUI.java:42)
+	at ✽.I Change time(classpath:sma_features_new/FreshCodeCheck/FccDailySchFirstCheckNew.feature:7)
+</textarea>
+      
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.morrisons.common.action.Hook.afterScenario(io.cucumber.java.Scenario)</span>
+      <div>
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded1.png' src="../Screenshots/embedded1.png">
+    
+    </div></div>
+</div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then I Change date</span>
+      <div>Step skipped
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="14"><span class="badge log pass-bg mr-2">Pass</span>UAT_27Verify Overdue schedule date User should be able to view in  Daily Schedule module with status as 'Overdue'</div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="15"><span class="badge log pass-bg mr-2">Pass</span>UAT_27Verify Overdue schedule date User should be able to view in  Daily Schedule module with status as 'Overdue'</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>When I enter Username and Password for SMA Collegue user</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I click on login button for SMA</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on the main menu "Code Checking"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on "Fresh Code Check"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on "Daily Schedule"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I verify status as "OVERDUE"</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="32"><span class="badge log fail-bg mr-2">Fail</span>UAT_28Verify On current day User should be able to view list of 9 scheduled days</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
+      </div>
+    </div>
+        <div class="scenario_outline ">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="33"><span class="badge log fail-bg mr-2">Fail</span>UAT_28Verify On current day User should be able to view list of 9 scheduled days</div>
+                    <div class="status-avatar float-right">
+                      <i class="fa fa-paperclip"></i>
+                    </div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step pass-bg">
+                    <span>When I enter Username and Password for SMA Collegue user</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I click on login button for SMA</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on the main menu "Code Checking"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on "Fresh Code Check"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on "Daily Schedule"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step fail-bg">
+                    <span>And I verify list of nine schedule days</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.AssertionError: Schedule displayed is less than 5 days expected [7] but found [5]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:389)
+	at com.morrisons.sma.page_objects.mobile.old.FreshCodeCheckPO.verifyScheduledays(FreshCodeCheckPO.java:244)
+	at com.morrisons.sma.step_definitions.mobile.old.FreshCodeCheckStepDefUI.i_verify_list_of_nine_schedule_days(FreshCodeCheckStepDefUI.java:137)
+	at ✽.I verify list of nine schedule days(classpath:sma_features_new/FreshCodeCheck/FccDailySchFirstCheckNew.feature:34)
+</textarea>
+      
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.morrisons.common.action.Hook.afterScenario(io.cucumber.java.Scenario)</span>
+      <div>
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded2.png' src="../Screenshots/embedded2.png">
+    
+    </div></div>
+</div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="50"><span class="badge log pass-bg mr-2">Pass</span>UAT_29Verify On current day User should be able to view Below list of checks</div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="51"><span class="badge log pass-bg mr-2">Pass</span>UAT_29Verify On current day User should be able to view Below list of checks</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>When I enter Username and Password for SMA Collegue user</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I click on login button for SMA</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on the main menu "Code Checking"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on "Fresh Code Check"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on "Daily Schedule"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I Scroll down on Daily schedule page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I Select Daily schedule for "Current Date"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I verify "Daily Checks" is displayed</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I verify "Fresh Food Manager Check" is displayed</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="74"><span class="badge log pass-bg mr-2">Pass</span>UAT_30Verify On current day User view list of menu for 'Daily Checks'</div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="75"><span class="badge log pass-bg mr-2">Pass</span>UAT_30Verify On current day User view list of menu for 'Daily Checks'</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>When I enter Username and Password for SMA Collegue user</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I click on login button for SMA</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on the main menu "Code Checking"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on "Fresh Code Check"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on "Daily Schedule"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I Select Daily schedule for "Current Date"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I verify status as "NOT CHECKED"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on "Daily Checks"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I verify "Critical Checks" is displayed</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I verify "Fixture" is displayed</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I verify "Promotions" is displayed</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I verify "Warehouse" is displayed</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="104"><span class="badge log fail-bg mr-2">Fail</span>UAT_33Verify when user scan item in 'Fixture' location from any scheduled department/class/Subclass and perform 'Markdown' action and select expiry date as future date.</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
+      </div>
+    </div>
+        <div class="scenario_outline ">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="105"><span class="badge log fail-bg mr-2">Fail</span>UAT_33Verify when user scan item in 'Fixture' location from any scheduled department/class/Subclass and perform 'Markdown' action and select expiry date as future date.</div>
+                    <div class="status-avatar float-right">
+                      <i class="fa fa-paperclip"></i>
+                    </div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step pass-bg">
+                    <span>When I enter Username and Password for SMA Collegue user</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I click on login button for SMA</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on the main menu "Code Checking"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on "Fresh Code Check"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on "Daily Schedule"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I Scroll down on Daily schedule page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I Select Daily schedule for "Current Date"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on "Daily Checks"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on "Fixture"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on "Aisle 0"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step fail-bg">
+                    <span>Then I select "Bought In Bread 800g"</span>
+      <div>
+        <textarea disabled class="code-block">org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IN-MH1LPW113919', ip: '192.168.29.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_352-352'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {AUTOMATION_NAME: uiautomator2, BROWSER_NAME: Android, VERSION: 9.0, appActivity: com.morrisons.instore.modul..., appPackage: com.morrisons.instore.sit, autoGrantPermissions: true, databaseEnabled: false, desired: {AUTOMATION_NAME: uiautomator2, BROWSER_NAME: Android, VERSION: 9.0, appActivity: com.morrisons.instore.modul..., appPackage: com.morrisons.instore.sit, autoGrantPermissions: true, deviceName: Pixel2API19, platformName: android}, deviceApiLevel: 28, deviceManufacturer: Google, deviceModel: AOSP on IA Emulator, deviceName: emulator-5554, deviceScreenDensity: 560, deviceScreenSize: 1440x2560, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 3.5, platform: LINUX, platformName: Android, platformVersion: 9, statBarHeight: 84, takesScreenshot: true, viewportRect: {height: 2308, left: 0, top: 84, width: 1440}, warnings: {}, webStorageEnabled: false}
+Session ID: 7511ac9a-9aec-4d71-b9a1-0fc71603e765
+*** Element info: {Using=-android uiautomator, value=new UiScrollable(new UiSelector()).scrollIntoView(new UiSelector().text("Bought In Bread 800g"));}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:231)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at io.appium.java_client.FindsByAndroidUIAutomator.findElementByAndroidUIAutomator(FindsByAndroidUIAutomator.java:38)
+	at io.appium.java_client.MobileBy$ByAndroidUIAutomator.findElement(MobileBy.java:236)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at com.morrisons.sma.page_objects.mobile.old.FreshCodeCheckPO.scrollToProductgroup(FreshCodeCheckPO.java:317)
+	at com.morrisons.sma.step_definitions.mobile.old.FreshCodeCheckStepDefUI.i_select(FreshCodeCheckStepDefUI.java:132)
+	at ✽.I select "Bought In Bread 800g"(classpath:sma_features_new/FreshCodeCheck/FccDailySchFirstCheckNew.feature:133)
+</textarea>
+      
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.morrisons.common.action.Hook.afterScenario(io.cucumber.java.Scenario)</span>
+      <div>
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded3.png' src="../Screenshots/embedded3.png">
+    
+    </div></div>
+</div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And I click on barcode entry Button</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then Enter "102369685" number</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And I click on spinner to select one of the action "Markdown"</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And I enter markdown "2" for the product</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And I click on Calendar</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then I select next 1 th date</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then I click on Done Button</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And I capture product details</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And I click Log Product</span>
+      <div>Step skipped
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="150"><span class="badge log fail-bg mr-2">Fail</span>UAT_10Verify and Scan 'Long life Department' for 'Fixture' location perform 'Wastage' action and select expiry date as 'Fututre expiry date'.</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
+      </div>
+    </div>
+        <div class="scenario_outline ">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="151"><span class="badge log fail-bg mr-2">Fail</span>UAT_10Verify and Scan 'Long life Department' for 'Fixture' location perform 'Wastage' action and select expiry date as 'Fututre expiry date'.</div>
+                    <div class="status-avatar float-right">
+                      <i class="fa fa-paperclip"></i>
+                    </div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step pass-bg">
+                    <span>When I enter Username and Password for SMA Collegue user</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I click on login button for SMA</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on the main menu "Code Checking"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on "Fresh Code Check"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on "Daily Schedule"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I Scroll down on Daily schedule page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I Select Daily schedule for "Current Date"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step fail-bg">
+                    <span>Then I click on "First Check"</span>
+      <div>
+        <textarea disabled class="code-block">org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IN-MH1LPW113919', ip: '192.168.29.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_352-352'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {AUTOMATION_NAME: uiautomator2, BROWSER_NAME: Android, VERSION: 9.0, appActivity: com.morrisons.instore.modul..., appPackage: com.morrisons.instore.sit, autoGrantPermissions: true, databaseEnabled: false, desired: {AUTOMATION_NAME: uiautomator2, BROWSER_NAME: Android, VERSION: 9.0, appActivity: com.morrisons.instore.modul..., appPackage: com.morrisons.instore.sit, autoGrantPermissions: true, deviceName: Pixel2API19, platformName: android}, deviceApiLevel: 28, deviceManufacturer: Google, deviceModel: AOSP on IA Emulator, deviceName: emulator-5554, deviceScreenDensity: 560, deviceScreenSize: 1440x2560, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 3.5, platform: LINUX, platformName: Android, platformVersion: 9, statBarHeight: 84, takesScreenshot: true, viewportRect: {height: 2308, left: 0, top: 84, width: 1440}, warnings: {}, webStorageEnabled: false}
+Session ID: d2b753f4-8173-4c7a-b94e-e697c759a38b
+*** Element info: {Using=xpath, value=//android.widget.TextView[@text='First Check']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:231)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:152)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at com.morrisons.sma.page_objects.mobile.old.StockAdjustmentPO.menuOption(StockAdjustmentPO.java:41)
+	at com.morrisons.sma.step_definitions.mobile.old.StockAdjustmentStepDef.i_click_on(StockAdjustmentStepDef.java:54)
+	at ✽.I click on "First Check"(classpath:sma_features_new/FreshCodeCheck/FccDailySchFirstCheckNew.feature:283)
+</textarea>
+      
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.morrisons.common.action.Hook.afterScenario(io.cucumber.java.Scenario)</span>
+      <div>
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded4.png' src="../Screenshots/embedded4.png">
+    
+    </div></div>
+</div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then I click on "Fixture"</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then I click on "Aisle 0"</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then I select "White Bought in Bread 400g"</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And I click on barcode entry Button</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then Enter "102376463" number</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And I click on spinner to select one of the action "Wastage"</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And I enter markdown "2" for the product</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And I click on Calendar</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then I select next 2 th date</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then I click on Done Button</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And I capture product details</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And I click Log Product</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And I select "Charity - Out of Date" and Confirm</span>
+      <div>Step skipped
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="198"><span class="badge log fail-bg mr-2">Fail</span>UAT_55 Verify 'Warehouse' screen when 'Wastage' action is performed for scanned product for future expiry date</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
+      </div>
+    </div>
+        <div class="scenario_outline ">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="199"><span class="badge log fail-bg mr-2">Fail</span>UAT_55 Verify 'Warehouse' screen when 'Wastage' action is performed for scanned product for future expiry date</div>
+                    <div class="status-avatar float-right">
+                      <i class="fa fa-paperclip"></i>
+                    </div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step pass-bg">
+                    <span>When I enter Username and Password for SMA Collegue user</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I click on login button for SMA</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on the main menu "Code Checking"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on "Fresh Code Check"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on "Daily Schedule"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I select current day date</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step fail-bg">
+                    <span>Then I click on "First Check"</span>
+      <div>
+        <textarea disabled class="code-block">org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IN-MH1LPW113919', ip: '192.168.29.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_352-352'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {AUTOMATION_NAME: uiautomator2, BROWSER_NAME: Android, VERSION: 9.0, appActivity: com.morrisons.instore.modul..., appPackage: com.morrisons.instore.sit, autoGrantPermissions: true, databaseEnabled: false, desired: {AUTOMATION_NAME: uiautomator2, BROWSER_NAME: Android, VERSION: 9.0, appActivity: com.morrisons.instore.modul..., appPackage: com.morrisons.instore.sit, autoGrantPermissions: true, deviceName: Pixel2API19, platformName: android}, deviceApiLevel: 28, deviceManufacturer: Google, deviceModel: AOSP on IA Emulator, deviceName: emulator-5554, deviceScreenDensity: 560, deviceScreenSize: 1440x2560, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 3.5, platform: LINUX, platformName: Android, platformVersion: 9, statBarHeight: 84, takesScreenshot: true, viewportRect: {height: 2308, left: 0, top: 84, width: 1440}, warnings: {}, webStorageEnabled: false}
+Session ID: bc2b1bd1-465f-44f0-8864-addf1893dd9f
+*** Element info: {Using=xpath, value=//android.widget.TextView[@text='First Check']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:231)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:152)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at com.morrisons.sma.page_objects.mobile.old.StockAdjustmentPO.menuOption(StockAdjustmentPO.java:41)
+	at com.morrisons.sma.step_definitions.mobile.old.StockAdjustmentStepDef.i_click_on(StockAdjustmentStepDef.java:54)
+	at ✽.I click on "First Check"(classpath:sma_features_new/FreshCodeCheck/FccDailySchFirstCheckNew.feature:798)
+</textarea>
+      
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.morrisons.common.action.Hook.afterScenario(io.cucumber.java.Scenario)</span>
+      <div>
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded5.png' src="../Screenshots/embedded5.png">
+    
+    </div></div>
+</div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then I click on "Warehouse"</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And I click on barcode entry Button</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then Enter "105521988" number</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And I click on spinner to select one of the action "Wastage"</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And I enter markdown "2" for the product</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And I click on Calendar</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then I select next 1 th date</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then I click on Done Button</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And I capture product details</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And I click Log Product</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And I select "Waste - Out of Date" and Confirm</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And I verify my product displayed in view list</span>
+      <div>Step skipped
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="242"><span class="badge log fail-bg mr-2">Fail</span>UAT_56 Verify 'Warehouse' screen when 'Wastage' action is performed for scanned product for past expiry date</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
+      </div>
+    </div>
+        <div class="scenario_outline ">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="243"><span class="badge log fail-bg mr-2">Fail</span>UAT_56 Verify 'Warehouse' screen when 'Wastage' action is performed for scanned product for past expiry date</div>
+                    <div class="status-avatar float-right">
+                      <i class="fa fa-paperclip"></i>
+                    </div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step pass-bg">
+                    <span>When I enter Username and Password for SMA Collegue user</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I click on login button for SMA</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on the main menu "Code Checking"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on "Fresh Code Check"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then I click on "Daily Schedule"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And I select current day date</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step fail-bg">
+                    <span>Then I click on "First Check"</span>
+      <div>
+        <textarea disabled class="code-block">org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IN-MH1LPW113919', ip: '192.168.29.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_352-352'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {AUTOMATION_NAME: uiautomator2, BROWSER_NAME: Android, VERSION: 9.0, appActivity: com.morrisons.instore.modul..., appPackage: com.morrisons.instore.sit, autoGrantPermissions: true, databaseEnabled: false, desired: {AUTOMATION_NAME: uiautomator2, BROWSER_NAME: Android, VERSION: 9.0, appActivity: com.morrisons.instore.modul..., appPackage: com.morrisons.instore.sit, autoGrantPermissions: true, deviceName: Pixel2API19, platformName: android}, deviceApiLevel: 28, deviceManufacturer: Google, deviceModel: AOSP on IA Emulator, deviceName: emulator-5554, deviceScreenDensity: 560, deviceScreenSize: 1440x2560, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 3.5, platform: LINUX, platformName: Android, platformVersion: 9, statBarHeight: 84, takesScreenshot: true, viewportRect: {height: 2308, left: 0, top: 84, width: 1440}, warnings: {}, webStorageEnabled: false}
+Session ID: b261feeb-f290-466c-9f61-7434d5b709b6
+*** Element info: {Using=xpath, value=//android.widget.TextView[@text='First Check']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:231)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:152)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at com.morrisons.sma.page_objects.mobile.old.StockAdjustmentPO.menuOption(StockAdjustmentPO.java:41)
+	at com.morrisons.sma.step_definitions.mobile.old.StockAdjustmentStepDef.i_click_on(StockAdjustmentStepDef.java:54)
+	at ✽.I click on "First Check"(classpath:sma_features_new/FreshCodeCheck/FccDailySchFirstCheckNew.feature:827)
+</textarea>
+      
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.morrisons.common.action.Hook.afterScenario(io.cucumber.java.Scenario)</span>
+      <div>
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded6.png' src="../Screenshots/embedded6.png">
+    
+    </div></div>
+</div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then I click on "Warehouse"</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And I click on barcode entry Button</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then Enter "105521988" number</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And I click on spinner to select one of the action "Wastage"</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And I enter markdown "2" for the product</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And I click on Calendar</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then I select next -2 th date</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then I click on Done Button</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And I capture product details</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And I click Log Product</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And I select "Waste - Out of Date" and Confirm</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And I verify my product displayed in view list</span>
+      <div>Step skipped
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="test-wrapper row view exception-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Exception</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">2</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>5</span>
+</span>
+<p class="name">org.openqa.selenium.NoSuchElementException</p>
+<p class="duration text-sm">5 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>org.openqa.selenium.NoSuchElementException</h4>
+<span status="fail" class='badge log badge-danger'>5 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>18:18:19 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='9'>Then I Change time</a>
+<div class="">
+<span class="badge badge-default">Verify Daily Schedule-Daily Checks in Fresh code check.TO CHANGE THE DEVICE TIMINGS AS REQUIRED.Then I Change time</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>18:24:05 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='129'>Then I select "Bought In Bread 800g"</a>
+<div class="">
+<span class="badge badge-default">Verify Daily Schedule-Daily Checks in Fresh code check.UAT_33Verify when user scan item in 'Fixture' location from any scheduled department/class/Subclass and perform 'Markdown' action and select expiry date as future date..Then I select "Bought In Bread 800g"</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>18:25:26 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='169'>Then I click on "First Check"</a>
+<div class="">
+<span class="badge badge-default">Verify Daily Schedule-Daily Checks in Fresh code check.UAT_10Verify and Scan 'Long life Department' for 'Fixture' location perform 'Wastage' action and select expiry date as 'Fututre expiry date'..Then I click on "First Check"</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>18:27:15 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='215'>Then I click on "First Check"</a>
+<div class="">
+<span class="badge badge-default">Verify Daily Schedule-Daily Checks in Fresh code check.UAT_55 Verify 'Warehouse' screen when 'Wastage' action is performed for scanned product for future expiry date.Then I click on "First Check"</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>18:28:47 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='259'>Then I click on "First Check"</a>
+<div class="">
+<span class="badge badge-default">Verify Daily Schedule-Daily Checks in Fresh code check.UAT_56 Verify 'Warehouse' screen when 'Wastage' action is performed for scanned product for past expiry date.Then I click on "First Check"</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">java.lang.AssertionError</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>java.lang.AssertionError</h4>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>18:21:13 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='47'>And I verify list of nine schedule days</a>
+<div class="">
+<span class="badge badge-default">Verify Daily Schedule-Daily Checks in Fresh code check.UAT_28Verify On current day User should be able to view list of 9 scheduled days.And I verify list of nine schedule days</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="test-wrapper row view category-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Category</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">7</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>6</span>
+<span class='badge log badge-danger'>10</span>
+</span>
+<p class="name">@sma</p>
+<p class="duration text-sm">16 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@sma</h4>
+<span status="pass" class='badge log pass-bg'>6 passed</span>
+<span status="fail" class='badge log badge-danger'>10 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>18:19:38 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='14'>UAT_27Verify Overdue schedule date User should be able to view in Daily Schedule module with status as 'Overdue'</a>
+<div class="">
+<span class="badge badge-default">Verify Daily Schedule-Daily Checks in Fresh code check.UAT_27Verify Overdue schedule date User should be able to view in Daily Schedule module with status as 'Overdue'</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>18:19:38 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='15'>UAT_27Verify Overdue schedule date User should be able to view in Daily Schedule module with status as 'Overdue'</a>
+<div class="">
+<span class="badge badge-default">Verify Daily Schedule-Daily Checks in Fresh code check.UAT_27Verify Overdue schedule date User should be able to view in Daily Schedule module with status as 'Overdue'</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>18:20:35 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='32'>UAT_28Verify On current day User should be able to view list of 9 scheduled days</a>
+<div class="">
+<span class="badge badge-default">Verify Daily Schedule-Daily Checks in Fresh code check.UAT_28Verify On current day User should be able to view list of 9 scheduled days</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>18:20:35 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='33'>UAT_28Verify On current day User should be able to view list of 9 scheduled days</a>
+<div class="">
+<span class="badge badge-default">Verify Daily Schedule-Daily Checks in Fresh code check.UAT_28Verify On current day User should be able to view list of 9 scheduled days</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>18:21:24 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='50'>UAT_29Verify On current day User should be able to view Below list of checks</a>
+<div class="">
+<span class="badge badge-default">Verify Daily Schedule-Daily Checks in Fresh code check.UAT_29Verify On current day User should be able to view Below list of checks</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>18:21:24 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='51'>UAT_29Verify On current day User should be able to view Below list of checks</a>
+<div class="">
+<span class="badge badge-default">Verify Daily Schedule-Daily Checks in Fresh code check.UAT_29Verify On current day User should be able to view Below list of checks</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>18:22:16 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='74'>UAT_30Verify On current day User view list of menu for 'Daily Checks'</a>
+<div class="">
+<span class="badge badge-default">Verify Daily Schedule-Daily Checks in Fresh code check.UAT_30Verify On current day User view list of menu for 'Daily Checks'</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>18:22:16 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='75'>UAT_30Verify On current day User view list of menu for 'Daily Checks'</a>
+<div class="">
+<span class="badge badge-default">Verify Daily Schedule-Daily Checks in Fresh code check.UAT_30Verify On current day User view list of menu for 'Daily Checks'</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>18:23:06 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='104'>UAT_33Verify when user scan item in 'Fixture' location from any scheduled department/class/Subclass and perform 'Markdown' action and select expiry date as future date.</a>
+<div class="">
+<span class="badge badge-default">Verify Daily Schedule-Daily Checks in Fresh code check.UAT_33Verify when user scan item in 'Fixture' location from any scheduled department/class/Subclass and perform 'Markdown' action and select expiry date as future date.</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>18:23:06 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='105'>UAT_33Verify when user scan item in 'Fixture' location from any scheduled department/class/Subclass and perform 'Markdown' action and select expiry date as future date.</a>
+<div class="">
+<span class="badge badge-default">Verify Daily Schedule-Daily Checks in Fresh code check.UAT_33Verify when user scan item in 'Fixture' location from any scheduled department/class/Subclass and perform 'Markdown' action and select expiry date as future date.</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>18:24:31 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='150'>UAT_10Verify and Scan 'Long life Department' for 'Fixture' location perform 'Wastage' action and select expiry date as 'Fututre expiry date'.</a>
+<div class="">
+<span class="badge badge-default">Verify Daily Schedule-Daily Checks in Fresh code check.UAT_10Verify and Scan 'Long life Department' for 'Fixture' location perform 'Wastage' action and select expiry date as 'Fututre expiry date'.</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>18:24:31 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='151'>UAT_10Verify and Scan 'Long life Department' for 'Fixture' location perform 'Wastage' action and select expiry date as 'Fututre expiry date'.</a>
+<div class="">
+<span class="badge badge-default">Verify Daily Schedule-Daily Checks in Fresh code check.UAT_10Verify and Scan 'Long life Department' for 'Fixture' location perform 'Wastage' action and select expiry date as 'Fututre expiry date'.</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>18:26:08 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='198'>UAT_55 Verify 'Warehouse' screen when 'Wastage' action is performed for scanned product for future expiry date</a>
+<div class="">
+<span class="badge badge-default">Verify Daily Schedule-Daily Checks in Fresh code check.UAT_55 Verify 'Warehouse' screen when 'Wastage' action is performed for scanned product for future expiry date</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>18:26:08 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='199'>UAT_55 Verify 'Warehouse' screen when 'Wastage' action is performed for scanned product for future expiry date</a>
+<div class="">
+<span class="badge badge-default">Verify Daily Schedule-Daily Checks in Fresh code check.UAT_55 Verify 'Warehouse' screen when 'Wastage' action is performed for scanned product for future expiry date</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>18:27:57 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='242'>UAT_56 Verify 'Warehouse' screen when 'Wastage' action is performed for scanned product for past expiry date</a>
+<div class="">
+<span class="badge badge-default">Verify Daily Schedule-Daily Checks in Fresh code check.UAT_56 Verify 'Warehouse' screen when 'Wastage' action is performed for scanned product for past expiry date</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>18:27:57 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='243'>UAT_56 Verify 'Warehouse' screen when 'Wastage' action is performed for scanned product for past expiry date</a>
+<div class="">
+<span class="badge badge-default">Verify Daily Schedule-Daily Checks in Fresh code check.UAT_56 Verify 'Warehouse' screen when 'Wastage' action is performed for scanned product for past expiry date</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>3</span>
+<span class='badge log badge-danger'>7</span>
+</span>
+<p class="name">@regression</p>
+<p class="duration text-sm">10 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@regression</h4>
+<span status="pass" class='badge log pass-bg'>3 passed</span>
+<span status="fail" class='badge log badge-danger'>7 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>18:18:05 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='1'>Verify Daily Schedule-Daily Checks in Fresh code check</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>18:18:05 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='3'>TO CHANGE THE DEVICE TIMINGS AS REQUIRED</a>
+<div class="">
+<span class="badge badge-default">Verify Daily Schedule-Daily Checks in Fresh code check.TO CHANGE THE DEVICE TIMINGS AS REQUIRED</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>18:19:38 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='15'>UAT_27Verify Overdue schedule date User should be able to view in Daily Schedule module with status as 'Overdue'</a>
+<div class="">
+<span class="badge badge-default">Verify Daily Schedule-Daily Checks in Fresh code check.UAT_27Verify Overdue schedule date User should be able to view in Daily Schedule module with status as 'Overdue'</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>18:20:35 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='33'>UAT_28Verify On current day User should be able to view list of 9 scheduled days</a>
+<div class="">
+<span class="badge badge-default">Verify Daily Schedule-Daily Checks in Fresh code check.UAT_28Verify On current day User should be able to view list of 9 scheduled days</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>18:21:24 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='51'>UAT_29Verify On current day User should be able to view Below list of checks</a>
+<div class="">
+<span class="badge badge-default">Verify Daily Schedule-Daily Checks in Fresh code check.UAT_29Verify On current day User should be able to view Below list of checks</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>18:22:16 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='75'>UAT_30Verify On current day User view list of menu for 'Daily Checks'</a>
+<div class="">
+<span class="badge badge-default">Verify Daily Schedule-Daily Checks in Fresh code check.UAT_30Verify On current day User view list of menu for 'Daily Checks'</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>18:23:06 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='105'>UAT_33Verify when user scan item in 'Fixture' location from any scheduled department/class/Subclass and perform 'Markdown' action and select expiry date as future date.</a>
+<div class="">
+<span class="badge badge-default">Verify Daily Schedule-Daily Checks in Fresh code check.UAT_33Verify when user scan item in 'Fixture' location from any scheduled department/class/Subclass and perform 'Markdown' action and select expiry date as future date.</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>18:24:31 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='151'>UAT_10Verify and Scan 'Long life Department' for 'Fixture' location perform 'Wastage' action and select expiry date as 'Fututre expiry date'.</a>
+<div class="">
+<span class="badge badge-default">Verify Daily Schedule-Daily Checks in Fresh code check.UAT_10Verify and Scan 'Long life Department' for 'Fixture' location perform 'Wastage' action and select expiry date as 'Fututre expiry date'.</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>18:26:08 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='199'>UAT_55 Verify 'Warehouse' screen when 'Wastage' action is performed for scanned product for future expiry date</a>
+<div class="">
+<span class="badge badge-default">Verify Daily Schedule-Daily Checks in Fresh code check.UAT_55 Verify 'Warehouse' screen when 'Wastage' action is performed for scanned product for future expiry date</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>18:27:57 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='243'>UAT_56 Verify 'Warehouse' screen when 'Wastage' action is performed for scanned product for past expiry date</a>
+<div class="">
+<span class="badge badge-default">Verify Daily Schedule-Daily Checks in Fresh code check.UAT_56 Verify 'Warehouse' screen when 'Wastage' action is performed for scanned product for past expiry date</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>3</span>
+<span class='badge log badge-danger'>7</span>
+</span>
+<p class="name">@NewfccDailySchedule</p>
+<p class="duration text-sm">10 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@NewfccDailySchedule</h4>
+<span status="pass" class='badge log pass-bg'>3 passed</span>
+<span status="fail" class='badge log badge-danger'>7 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>18:18:05 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='1'>Verify Daily Schedule-Daily Checks in Fresh code check</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>18:18:05 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='3'>TO CHANGE THE DEVICE TIMINGS AS REQUIRED</a>
+<div class="">
+<span class="badge badge-default">Verify Daily Schedule-Daily Checks in Fresh code check.TO CHANGE THE DEVICE TIMINGS AS REQUIRED</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>18:19:38 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='15'>UAT_27Verify Overdue schedule date User should be able to view in Daily Schedule module with status as 'Overdue'</a>
+<div class="">
+<span class="badge badge-default">Verify Daily Schedule-Daily Checks in Fresh code check.UAT_27Verify Overdue schedule date User should be able to view in Daily Schedule module with status as 'Overdue'</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>18:20:35 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='33'>UAT_28Verify On current day User should be able to view list of 9 scheduled days</a>
+<div class="">
+<span class="badge badge-default">Verify Daily Schedule-Daily Checks in Fresh code check.UAT_28Verify On current day User should be able to view list of 9 scheduled days</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>18:21:24 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='51'>UAT_29Verify On current day User should be able to view Below list of checks</a>
+<div class="">
+<span class="badge badge-default">Verify Daily Schedule-Daily Checks in Fresh code check.UAT_29Verify On current day User should be able to view Below list of checks</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>18:22:16 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='75'>UAT_30Verify On current day User view list of menu for 'Daily Checks'</a>
+<div class="">
+<span class="badge badge-default">Verify Daily Schedule-Daily Checks in Fresh code check.UAT_30Verify On current day User view list of menu for 'Daily Checks'</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>18:23:06 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='105'>UAT_33Verify when user scan item in 'Fixture' location from any scheduled department/class/Subclass and perform 'Markdown' action and select expiry date as future date.</a>
+<div class="">
+<span class="badge badge-default">Verify Daily Schedule-Daily Checks in Fresh code check.UAT_33Verify when user scan item in 'Fixture' location from any scheduled department/class/Subclass and perform 'Markdown' action and select expiry date as future date.</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>18:24:31 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='151'>UAT_10Verify and Scan 'Long life Department' for 'Fixture' location perform 'Wastage' action and select expiry date as 'Fututre expiry date'.</a>
+<div class="">
+<span class="badge badge-default">Verify Daily Schedule-Daily Checks in Fresh code check.UAT_10Verify and Scan 'Long life Department' for 'Fixture' location perform 'Wastage' action and select expiry date as 'Fututre expiry date'.</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>18:26:08 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='199'>UAT_55 Verify 'Warehouse' screen when 'Wastage' action is performed for scanned product for future expiry date</a>
+<div class="">
+<span class="badge badge-default">Verify Daily Schedule-Daily Checks in Fresh code check.UAT_55 Verify 'Warehouse' screen when 'Wastage' action is performed for scanned product for future expiry date</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>18:27:57 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='243'>UAT_56 Verify 'Warehouse' screen when 'Wastage' action is performed for scanned product for past expiry date</a>
+<div class="">
+<span class="badge badge-default">Verify Daily Schedule-Daily Checks in Fresh code check.UAT_56 Verify 'Warehouse' screen when 'Wastage' action is performed for scanned product for past expiry date</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>2</span>
+</span>
+<p class="name">@VerfUserScan</p>
+<p class="duration text-sm">2 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@VerfUserScan</h4>
+<span status="fail" class='badge log badge-danger'>2 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>18:23:06 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='104'>UAT_33Verify when user scan item in 'Fixture' location from any scheduled department/class/Subclass and perform 'Markdown' action and select expiry date as future date.</a>
+<div class="">
+<span class="badge badge-default">Verify Daily Schedule-Daily Checks in Fresh code check.UAT_33Verify when user scan item in 'Fixture' location from any scheduled department/class/Subclass and perform 'Markdown' action and select expiry date as future date.</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>18:23:06 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='105'>UAT_33Verify when user scan item in 'Fixture' location from any scheduled department/class/Subclass and perform 'Markdown' action and select expiry date as future date.</a>
+<div class="">
+<span class="badge badge-default">Verify Daily Schedule-Daily Checks in Fresh code check.UAT_33Verify when user scan item in 'Fixture' location from any scheduled department/class/Subclass and perform 'Markdown' action and select expiry date as future date.</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>2</span>
+</span>
+<p class="name">@timeChange</p>
+<p class="duration text-sm">2 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@timeChange</h4>
+<span status="fail" class='badge log badge-danger'>2 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>18:18:05 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='2'>TO CHANGE THE DEVICE TIMINGS AS REQUIRED</a>
+<div class="">
+<span class="badge badge-default">Verify Daily Schedule-Daily Checks in Fresh code check.TO CHANGE THE DEVICE TIMINGS AS REQUIRED</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>18:18:05 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='3'>TO CHANGE THE DEVICE TIMINGS AS REQUIRED</a>
+<div class="">
+<span class="badge badge-default">Verify Daily Schedule-Daily Checks in Fresh code check.TO CHANGE THE DEVICE TIMINGS AS REQUIRED</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>2</span>
+</span>
+<p class="name">@VerfOnCurrentDayUser</p>
+<p class="duration text-sm">2 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@VerfOnCurrentDayUser</h4>
+<span status="pass" class='badge log pass-bg'>2 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>18:21:24 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='50'>UAT_29Verify On current day User should be able to view Below list of checks</a>
+<div class="">
+<span class="badge badge-default">Verify Daily Schedule-Daily Checks in Fresh code check.UAT_29Verify On current day User should be able to view Below list of checks</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>18:21:24 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='51'>UAT_29Verify On current day User should be able to view Below list of checks</a>
+<div class="">
+<span class="badge badge-default">Verify Daily Schedule-Daily Checks in Fresh code check.UAT_29Verify On current day User should be able to view Below list of checks</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>2</span>
+</span>
+<p class="name">@VerfCurrentUserViewLst</p>
+<p class="duration text-sm">2 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@VerfCurrentUserViewLst</h4>
+<span status="pass" class='badge log pass-bg'>2 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>18:22:16 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='74'>UAT_30Verify On current day User view list of menu for 'Daily Checks'</a>
+<div class="">
+<span class="badge badge-default">Verify Daily Schedule-Daily Checks in Fresh code check.UAT_30Verify On current day User view list of menu for 'Daily Checks'</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>18:22:16 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='75'>UAT_30Verify On current day User view list of menu for 'Daily Checks'</a>
+<div class="">
+<span class="badge badge-default">Verify Daily Schedule-Daily Checks in Fresh code check.UAT_30Verify On current day User view list of menu for 'Daily Checks'</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>Jan 25, 2024 06:18:01 PM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>Jan 25, 2024 06:29:29 PM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Features Passed</p>
+<h3>0</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Features Failed</p>
+<h3>1</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Features</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='0%'>
+<b>0</b> features passed
+</small>
+</div>
+<div>
+<small data-tooltip='100%'><b>1</b> features failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Scenarios</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='child-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='33%'><b>3</b> scenarios passed</small></div>
+<div>
+<small data-tooltip='66%'><b>6</b> scenarios failed,
+<b>0</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Steps</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='grandchild-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='56%'><b>68</b> steps passed</small></div>
+<div>
+<small data-tooltip='4%'><b>6</b> steps failed,
+<b>47</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"Verify Daily Schedule-Daily Checks in Fresh code check":683.215
+};
+</script>
+<div class="row">
+<div class="col-lg-6 col-md-12 category-container">
+<div class="card">
+<div class="card-header"><p>Tags</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead><tbody>
+<tr>
+<td>@sma</td>
+<td>6</td>
+<td>10</td>
+<td>0</td>
+<td>0</td>
+<td>37.5%</td>
+</tr>
+<tr>
+<td>@regression</td>
+<td>3</td>
+<td>7</td>
+<td>0</td>
+<td>0</td>
+<td>30%</td>
+</tr>
+<tr>
+<td>@NewfccDailySchedule</td>
+<td>3</td>
+<td>7</td>
+<td>0</td>
+<td>0</td>
+<td>30%</td>
+</tr>
+<tr>
+<td>@VerfUserScan</td>
+<td>0</td>
+<td>2</td>
+<td>0</td>
+<td>0</td>
+<td>0%</td>
+</tr>
+<tr>
+<td>@timeChange</td>
+<td>0</td>
+<td>2</td>
+<td>0</td>
+<td>0</td>
+<td>0%</td>
+</tr>
+<tr>
+<td>@VerfOnCurrentDayUser</td>
+<td>2</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@VerfCurrentUserViewLst</td>
+<td>2</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 0,
+failParent: 1,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 3,
+failChild: 6,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 68,
+failGrandChild: 6,
+warningGrandChild: 0,
+skipGrandChild: 47,
+infoGrandChild: 0,
+eventsCount: 5,
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>

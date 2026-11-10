@@ -1,0 +1,12 @@
+{
+  "type": "Counts",
+  "name": "AM List Dept 265 06:00 TO 09:00",
+  "departmentList": [{"department": 265, "classNumber": null} ],
+  "items": ["106789530","107625852","105492401","105557403","105630113","105630156","105630324","105630543","105630658" ,"105596015","102334466"],
+  "startTime":"${currentDate_strtTime}",
+  "endTime": "${currentDate_endTime}",
+  "date": "${currentDate_Time}",
+  "scheduleRef": "Count Schedule Reference",
+  "isIgnoreRange": "yes",
+  "mode": "list"
+}

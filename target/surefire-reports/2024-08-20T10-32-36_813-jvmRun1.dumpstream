@@ -1,0 +1,113 @@
+# Created at 2024-08-20T10:33:22.463
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.lang.Thread.run(Thread.java:750)
+
+
+# Created at 2024-08-20T10:33:54.391
+Unexpected IOException with stream:   Given I update the service "stockV2Adjustment_srv_sit-ecs-stkordadptr-task-sit-001" making it down and up with ClusterName "nonprod-ECS-ECSCluster-W68V9ZHCS399" # com.morrisons.sma.step_definitions.service.old.JobsExecStepDef.iUpdateTheServiceMakingItDownAndUp(java.lang.String,java.lang.String)
+
+
+# Created at 2024-08-20T10:33:54.398
+Unexpected IOException with stream:       software.amazon.awssdk.services.ecs.model.EcsException: The security token included in the request is expired (Service: Ecs, Status Code: 400, Request ID: c1a2d9ce-f68a-4350-b984-12691e4b694d)
+	at software.amazon.awssdk.core.internal.http.CombinedResponseHandler.handleErrorResponse(CombinedResponseHandler.java:125)
+	at software.amazon.awssdk.core.internal.http.CombinedResponseHandler.handleResponse(CombinedResponseHandler.java:82)
+	at software.amazon.awssdk.core.internal.http.CombinedResponseHandler.handle(CombinedResponseHandler.java:60)
+	at software.amazon.awssdk.core.internal.http.CombinedResponseHandler.handle(CombinedResponseHandler.java:41)
+	at software.amazon.awssdk.core.internal.http.pipeline.stages.HandleResponseStage.execute(HandleResponseStage.java:40)
+	at software.amazon.awssdk.core.internal.http.pipeline.stages.HandleResponseStage.execute(HandleResponseStage.java:30)
+	at software.amazon.awssdk.core.internal.http.pipeline.RequestPipelineBuilder$ComposingRequestPipelineStage.execute(RequestPipelineBuilder.java:206)
+	at software.amazon.awssdk.core.internal.http.pipeline.stages.ApiCallAttemptTimeoutTrackingStage.execute(ApiCallAttemptTimeoutTrackingStage.java:73)
+	at software.amazon.awssdk.core.internal.http.pipeline.stages.ApiCallAttemptTimeoutTrackingStage.execute(ApiCallAttemptTimeoutTrackingStage.java:42)
+	at software.amazon.awssdk.core.internal.http.pipeline.stages.TimeoutExceptionHandlingStage.execute(TimeoutExceptionHandlingStage.java:78)
+	at software.amazon.awssdk.core.internal.http.pipeline.stages.TimeoutExceptionHandlingStage.execute(TimeoutExceptionHandlingStage.java:40)
+	at software.amazon.awssdk.core.internal.http.pipeline.stages.ApiCallAttemptMetricCollectionStage.execute(ApiCallAttemptMetricCollectionStage.java:50)
+	at software.amazon.awssdk.core.internal.http.pipeline.stages.ApiCallAttemptMetricCollectionStage.execute(ApiCallAttemptMetricCollectionStage.java:36)
+	at software.amazon.awssdk.core.internal.http.pipeline.stages.RetryableStage.execute(RetryableStage.java:81)
+	at software.amazon.awssdk.core.internal.http.pipeline.stages.RetryableStage.execute(RetryableStage.java:36)
+	at software.amazon.awssdk.core.internal.http.pipeline.RequestPipelineBuilder$ComposingRequestPipelineStage.execute(RequestPipelineBuilder.java:206)
+	at software.amazon.awssdk.core.internal.http.StreamManagingStage.execute(StreamManagingStage.java:56)
+	at software.amazon.awssdk.core.internal.http.StreamManagingStage.execute(StreamManagingStage.java:36)
+	at software.amazon.awssdk.core.internal.http.pipeline.stages.ApiCallTimeoutTrackingStage.executeWithTimer(ApiCallTimeoutTrackingStage.java:80)
+	at software.amazon.awssdk.core.internal.http.pipeline.stages.ApiCallTimeoutTrackingStage.execute(ApiCallTimeoutTrackingStage.java:60)
+	at software.amazon.awssdk.core.internal.http.pipeline.stages.ApiCallTimeoutTrackingStage.execute(ApiCallTimeoutTrackingStage.java:42)
+	at software.amazon.awssdk.core.internal.http.pipeline.stages.ApiCallMetricCollectionStage.execute(ApiCallMetricCollectionStage.java:48)
+	at software.amazon.awssdk.core.internal.http.pipeline.stages.ApiCallMetricCollectionStage.execute(ApiCallMetricCollectionStage.java:31)
+	at software.amazon.awssdk.core.internal.http.pipeline.RequestPipelineBuilder$ComposingRequestPipelineStage.execute(RequestPipelineBuilder.java:206)
+	at software.amazon.awssdk.core.internal.http.pipeline.RequestPipelineBuilder$ComposingRequestPipelineStage.execute(RequestPipelineBuilder.java:206)
+	at software.amazon.awssdk.core.internal.http.pipeline.stages.ExecutionFailureExceptionReportingStage.execute(ExecutionFailureExceptionReportingStage.java:37)
+	at software.amazon.awssdk.core.internal.http.pipeline.stages.ExecutionFailureExceptionReportingStage.execute(ExecutionFailureExceptionReportingStage.java:26)
+	at software.amazon.awssdk.core.internal.http.AmazonSyncHttpClient$RequestExecutionBuilderImpl.execute(AmazonSyncHttpClient.java:193)
+	at software.amazon.awssdk.core.internal.handler.BaseSyncClientHandler.invoke(BaseSyncClientHandler.java:103)
+	at software.amazon.awssdk.core.internal.handler.BaseSyncClientHandler.doExecute(BaseSyncClientHandler.java:167)
+	at software.amazon.awssdk.core.internal.handler.BaseSyncClientHandler.lambda$execute$1(BaseSyncClientHandler.java:82)
+	at software.amazon.awssdk.core.internal.handler.BaseSyncClientHandler.measureApiCallSuccess(BaseSyncClientHandler.java:175)
+	at software.amazon.awssdk.core.internal.handler.BaseSyncClientHandler.execute(BaseSyncClientHandler.java:76)
+	at software.amazon.awssdk.core.client.handler.SdkSyncClientHandler.execute(SdkSyncClientHandler.java:45)
+	at software.amazon.awssdk.awscore.client.handler.AwsSyncClientHandler.execute(AwsSyncClientHandler.java:56)
+	at software.amazon.awssdk.services.ecs.DefaultEcsClient.updateService(DefaultEcsClient.java:4625)
+	at com.morrisons.sma.step_definitions.service.old.JobsExecStepDef.iUpdateTheServiceMakingItDownAndUp(JobsExecStepDef.java:52)
+	at âœ½.I update the service "stockV2Adjustment_srv_sit-ecs-stkordadptr-task-sit-001" making it down and up with ClusterName "nonprod-ECS-ECSCluster-W68V9ZHCS399"(classpath:sma_features_new/CleanAndRotate/CleanAndRotate.feature:33)
+
+
+
+# Created at 2024-08-20T10:33:54.408
+Unexpected IOException with stream: 2024-08-20 10:33:54 [INFO ] [Hook] - [afterScenario] Capturing Screenshot...
+
+
+# Created at 2024-08-20T10:33:54.415
+Unexpected IOException with stream:       java.lang.NullPointerException
+	at com.morrisons.common.action.Hook.afterScenario(Hook.java:328)
+
+
+
+# Created at 2024-08-20T10:33:54.424
+Unexpected IOException with stream: 2024-08-20 10:33:54 [INFO ] [StockAdjustmentPO_New] - [<init>] Inside : class com.morrisons.sma.page_objects.mobile.MOCO.ManagerOrderPage
+
+
+# Created at 2024-08-20T10:33:54.432
+Unexpected IOException with stream: java.lang.NullPointerException
+
+# Created at 2024-08-20T10:33:54.440
+Unexpected IOException with stream: 
+
+
+# Created at 2024-08-20T10:33:54.448
+Unexpected IOException with stream: 2024-08-20 10:33:54 [INFO ] [StockAdjustmentPO_New] - [<init>] Inside : class com.morrisons.sma.page_objects.mobile.CountsPO
+
+
+# Created at 2024-08-20T10:33:54.458
+Unexpected IOException: 8,1,com.morrisons.sma.runners.mobile.Runner,runScenario(com.morrisons.sma.runners.mobile.Runner),null,The security token included in the request is expired (Service: Ecs\002C Status Code: 400\002C Request ID: c1a2d9ce-f68a-4350-b984-12691e4b694d),null,The security token included in the request is expired (Service: Ecs\002C Status Code: 400\002C Request ID: c1a2d9ce-f68a-4350-b984-12691e4b694d),Runner.runScenario \00BB Ecs The security token included in the request is expired...,software.amazon.awssdk.services.ecs.model.EcsException: The security token included in the request is expired (Service: Ecs\002C Status Code: 400\002C Request ID: c1a2d9ce-f68a-4350-b984-12691e4b694d)\000A
+
+
+# Created at 2024-08-20T10:33:54.464
+Unexpected IOException: 5,1,com.morrisons.sma.runners.mobile.Runner,runScenario(com.morrisons.sma.runners.mobile.Runner),cucumber,null,null
+
+
+# Created at 2024-08-20T10:33:54.630
+Unexpected IOException with stream: 
+
+
+# Created at 2024-08-20T10:33:54.638
+Unexpected IOException with stream: @CleanAndRotate @timeChange
+
+
+# Created at 2024-08-20T10:33:54.653
+Unexpected IOException with stream: Scenario Outline: TO CHANGE THE DEVICE TIMINGS AS REQUIRED                           # sma_features_new/CleanAndRotate/CleanAndRotate.feature:45
+
+
+# Created at 2024-08-20T10:34:00.818
+Unexpected IOException with stream: 2024-08-20 10:34:00 [INFO ] [TimeChangePO] - [getDetails] hrs = 6mins =45mer =am
+
+
+# Created at 2024-08-20T10:34:00.833
+Unexpected IOException with stream:   Given I send the time "6" and mins "45" and meridiem "am" and current date in list # com.morrisons.sma.step_definitions.mobile.TimeChangeStepDefUI.i_send_the_time_and_mins_and_meridiem_and_date_in_list(java.lang.String,java.lang.String,java.lang.String)
+
+
+# Created at 2024-08-20T10:34:06.851
+Unexpected IOException with stream: CT_60
+
+

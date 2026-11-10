@@ -1,0 +1,12 @@
+{
+  "type": "Counts",
+  "name": "AM Scan -Cross Scaning 2  6:45 TO 8:45",
+  "items": ["${items1}","${items2}"],
+  "departmentList":[{"department":2,"classNumber":null}],
+  "startTime": "${currentDate_strtTime}",
+  "endTime": "${currentDate_endTime}",
+  "date": "${currentDate_Time}",
+  "scheduleRef": "Count Schedule Reference",
+  "valproducts":"N",
+  "mode": "scan"
+}

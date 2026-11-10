@@ -1,0 +1,293 @@
+{
+    "gtins": [
+        {
+            "id": "5000205037400",
+            "type": "EAN13",
+            "additionalProperties": {
+                "isPrimaryBarcode": true
+            }
+        }
+    ],
+    "itemNumber": "100001667",
+    "orderType": null,
+    "isCatchWeight": false,
+    "vatRate": 0,
+    "certifiedForExport": "Yes",
+    "catchWeight": false,
+    "nonAlcoholLinesInBws": "No",
+    "cafeSelfServe": {
+        "kitchenPrinterFlag": null,
+        "modifierFlag": null
+    },
+    "standardUnitOfMeasure": "EA",
+    "forceEnterPrice": false,
+    "commercialHierarchy": {
+        "division": 2,
+        "departmentName": "006 Frozen Fish",
+        "groupName": "Frozen",
+        "divisionName": "Ambient & Dairy",
+        "class_": 1,
+        "subclass": 3,
+        "className": "Frozen Natural Fish",
+        "subclassName": "Frozen Natural Fish Fillets",
+        "additionalProperties": {},
+        "department": 1,
+        "group": 1
+    },
+    "packComponents": [],
+    "productLife": {
+        "productLifeAtTimeOfManufacture": "998",
+        "minimumAcceptableProductLifedays": "270",
+        "productExpirationDays": "1"
+    },
+    "netContent": null,
+    "itemDescription": "YOUNGS KIPPERS IN BUTTER 170G",
+    "brand": "Young's",
+    "vatCode": "Z",
+    "productDescription": {
+        "shelfEdgeLabelLine3": "£170G",
+        "shelfEdgeLabelLine1": "YOUNGS",
+        "shelfEdgeLabelLine2": "KIPPERS IN BUTTER"
+    },
+    "smsPermanent": "No",
+    "marketStreet": {
+        "cookingInstructions": null,
+        "shelfLife": null,
+        "dayAdditional": null,
+        "sourceAndMethod": null
+    },
+    "packedMins": false,
+    "gda": [],
+    "stockAccountingMethod": {
+        "value": 1,
+        "description": "RMS - Standard"
+    },
+    "nutritionalHeading": "100g microwaved contains,Each half pack microwaved contains,% RI*,RI* for an average adult ",
+    "multipackIndicator": "Yes",
+    "sellingUnitOfMeasure": "EA",
+    "legacyItemNumbers": [
+        "0067505"
+    ],
+    "packs": [
+        {
+            "packNumber": "100003106",
+            "packQuantity": 12,
+            "additionalProperties": {}
+        }
+    ],
+    "storeLiveDate": "15-FEB-10",
+    "drsComplianceInfo": {
+        "scottishDepositLinkedItem": 113158672,
+        "variantsInMultipack": 1,
+        "drsItemIfSoldInScotland": "Yes",
+        "scottishDrsSaleCategory": "UK Wide",
+        "containersCountInMultipack": 3,
+        "mixedVarietyMultipackIndicator": "No"
+    },
+    "sellBy": "BB",
+    "pharmacyOnly": "N",
+    "clothing": null,
+    "tillDescription": "YOUNGS KIPPERS",
+    "catchWeightType": null,
+    "status": "A",
+    "foodTechnical": false,
+    "supplySource": "W",
+    "components": null,
+    "saleType": null,
+    "storage": [
+        "Keep Frozen"
+    ],
+    "productFlags": {
+        "packInd": false,
+        "perishableInd": true,
+        "constDimenInd": true,
+        "packType": null,
+        "simplePackInd": false,
+        "catchWeightUom": null,
+        "orderableInd": true,
+        "inventoryInd": true,
+        "merchandiseInd": true,
+        "sellableInd": true
+    },
+    "uepItem": true,
+    "ctcTrialFlag": "1",
+    "productPurpose": "Selling",
+    "unitEquivalentPrice": {
+        "netContent": 170,
+        "unitOfMeasureCode": "G"
+    },
+    "imageUrl": [
+        {
+            "url": "https://s3-eu-west-1.amazonaws.com/mprod.xxwmm.retail.brandbank.zzzzzzzzzz/images/brandbank/5000205037400_0.jpg",
+            "shotType": "ID Shot",
+            "height": 1500,
+            "width": 1500,
+            "additionalProperties": {}
+        }
+    ],
+    "productUOM": {
+        "uomConversionFactor": null
+    },
+    "ingredients": [
+        "Herring (Clupea harengus) (95%) (Fish)",
+        "Unsalted Butter (3%) (Milk)",
+        "Salt",
+        "Colour: Annatto Norbixin"
+    ],
+    "magazines": {
+        "dayIssued": null,
+        "frequency": null
+    },
+    "seo": null,
+    "productType": "ITEM",
+    "productRestrictions": {
+        "fuelCardRestrictions": "Goods Zero Rate VAT",
+        "allowQuantityMultiplier": "Yes",
+        "refundable": "Yes",
+        "wetStock": "No",
+        "operatorAgeCheck": "No"
+    },
+    "nutritionalInfo": [
+        {
+            "name": "Energy",
+            "perComp": "940kJ,735kJ,,8400kJ",
+            "perServing": null,
+            "additionalProperties": {}
+        },
+        {
+            "name": "",
+            "perComp": "226kcal,177kcal,9%,2000kcal",
+            "perServing": null,
+            "additionalProperties": {}
+        },
+        {
+            "name": "Fat",
+            "perComp": "16.7g,13.1g,19%,70g",
+            "perServing": null,
+            "additionalProperties": {}
+        },
+        {
+            "name": "(of which saturates)",
+            "perComp": "4.3g,3.4g,17%,20g",
+            "perServing": null,
+            "additionalProperties": {}
+        },
+        {
+            "name": "Carbohydrate",
+            "perComp": "0.1g,0.0g,,",
+            "perServing": null,
+            "additionalProperties": {}
+        },
+        {
+            "name": "(of which sugars)",
+            "perComp": "0.1g,0.0g,<1%,90g",
+            "perServing": null,
+            "additionalProperties": {}
+        },
+        {
+            "name": "Fibre",
+            "perComp": "0.0g,0.0g,,",
+            "perServing": null,
+            "additionalProperties": {}
+        },
+        {
+            "name": "Protein",
+            "perComp": "18.9g,14.8g,,",
+            "perServing": null,
+            "additionalProperties": {}
+        },
+        {
+            "name": "Salt",
+            "perComp": "2.1g,1.6g,27%,6g",
+            "perServing": null,
+            "additionalProperties": {}
+        },
+        {
+            "name": "Omega 3 (EPA/DHA)",
+            "perComp": "3392mg,2650mg,,",
+            "perServing": null,
+            "additionalProperties": {}
+        },
+        {
+            "name": "Pack contains 2 servings",
+            "perComp": ",,,",
+            "perServing": null,
+            "additionalProperties": {}
+        },
+        {
+            "name": "*Reference intake of an average adult (8400kJ / 2000kcal)",
+            "perComp": ",,,",
+            "perServing": null,
+            "additionalProperties": {}
+        }
+    ],
+    "storeToBarcode": "No",
+    "reportingHierarchy": {
+        "departmentName": "Frozen Fish",
+        "divisionName": "Ambient",
+        "class_": "1-1",
+        "className": "Frozen Natural Fish",
+        "categoryName": "Frozen Food",
+        "division": "2",
+        "groupName": "Frozen",
+        "subclass": "1-1-3",
+        "subclassName": "Frozen Natural Fish Fillets",
+        "additionalProperties": {},
+        "category": "2",
+        "department": "1",
+        "group": "1"
+    },
+    "productMarketing": null,
+    "allergenInfo": [
+        {
+            "name": "Fish",
+            "value": "Contains",
+            "additionalProperties": {}
+        },
+        {
+            "name": "Milk",
+            "value": "Contains",
+            "additionalProperties": {}
+        }
+    ],
+    "priceType": "Regular Item",
+    "parentItemNumber": "100000076",
+    "commodityProduceOnly": "No",
+    "customerFriendlyDescription": "Youngs Kippers in Butter 170g",
+    "brandType": "B",
+    "productComplianceInfo": {
+        "proteinContentPer100g": 18.9,
+        "saturatedfatContentPer100g": 4.3,
+        "asSoldorAsConsumed": "As Consumed",
+        "sodiumContentPer100g": 840.0,
+        "fibreContentPer100g": 0.0,
+        "foodDrink": "Food",
+        "vegan": false,
+        "vegPercentage": 0.0,
+        "nutrientProfilingScore": 15,
+        "saltContentPer100g": 2.1,
+        "hfssLessHealthy": true,
+        "vegetarian": false,
+        "vegetableFruitNutPercentage": 0.0,
+        "sugarContentPer100g": 0.1,
+        "hfssInScope": 0,
+        "energyPer100g": 945,
+        "hfssCategory": 0
+    },
+    "priceMarked": false,
+    "countryOfOrigin": "United Kingdom",
+    "beersWinesSpirits": {
+        "strengthNumberAndWord": null,
+        "alcoholByVolume": null,
+        "tastingNotes": null,
+        "additionalTastingNote": null,
+        "volumeInLitres": null
+    },
+    "dimensions": {
+        "length": 0.0,
+        "height": 0.0,
+        "width": 0.0,
+        "weight": 0.0,
+        "additionalProperties": {}
+    }
+}
